@@ -153,4 +153,89 @@ F 3 "" H 8700 2950 50  0001 C CNN
 	1    8700 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Housing N1
+U 1 1 621F79DE
+P 7400 5800
+F 0 "N1" H 7553 5834 50  0000 L CNN
+F 1 "Housing" H 7553 5743 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 7450 5850 50  0001 C CNN
+F 3 "~" H 7450 5850 50  0001 C CNN
+	1    7400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroModularConnectorsJacksWithMagnetics:L834-1G1T-S7 J7
+U 1 1 6222DA3F
+P 10500 5050
+F 0 "J7" H 10830 5096 50  0000 L CNN
+F 1 "L834-1G1T-S7" H 10830 5005 50  0000 L CNN
+F 2 "antmicro-footprints:BEL_L834-1G1T-S7" H 10500 5050 50  0001 L BNN
+F 3 "" H 10500 5050 50  0001 L BNN
+F 4 "L834-1G1T-S7" H 10500 5050 50  0001 L BNN "MPN"
+F 5 "Bel Magnetic Solutions" H 10500 5050 50  0001 L BNN "Manufacturer"
+	1    10500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFCCConnectors:WE_68715014022 J8
+U 1 1 6229DA42
+P 8400 2500
+F 0 "J8" H 8480 1692 50  0000 L CNN
+F 1 "WE_68715014022" H 8480 1601 50  0000 L CNN
+F 2 "antmicro-footprints:WE_68715014022" H 8200 -1050 50  0001 C CNN
+F 3 "" H 8400 -1150 50  0001 C CNN
+F 4 "68715014022 " H 8800 1900 60  0001 L CNN "MPN"
+F 5 "Wurth Elektronik " H 9050 700 60  0001 L CNN "Manufacturer"
+	1    8400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroUSBDVIHDMIConnectors:48393-0001 J5
+U 1 1 6230448B
+P 10250 2900
+F 0 "J5" H 10250 2585 50  0000 C CNN
+F 1 "48393-0001" H 10250 2676 50  0000 C CNN
+F 2 "antmicro-footprints:48393-001" H 10250 1750 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0483930003_IO_CONNECTORS.pdf" H 10100 3000 50  0001 C CNN
+F 4 "Molex" H 10250 1650 50  0001 C CNN "Manufacturer"
+	1    10250 2900
+	1    0    0    1   
+$EndComp
+$Comp
+L antmicroUSBDVIHDMIConnectors:48393-0001 J4
+U 1 1 62306815
+P 10250 1900
+F 0 "J4" H 10250 1585 50  0000 C CNN
+F 1 "48393-0001" H 10250 1676 50  0000 C CNN
+F 2 "antmicro-footprints:48393-001" H 10250 750 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0483930003_IO_CONNECTORS.pdf" H 10100 2000 50  0001 C CNN
+F 4 "Molex" H 10250 650 50  0001 C CNN "Manufacturer"
+	1    10250 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L antmicroBarrelAudioConnectors:DC_SOCKET J3
+U 1 1 62315228
+P 7500 5050
+F 0 "J3" H 7433 5403 60  0000 C CNN
+F 1 "DC_SOCKET" H 7550 4775 60  0001 C CNN
+F 2 "antmicro-footprints:DC_SOCKET" H 7550 4700 60  0001 C CNN
+F 3 "" H 7500 5050 60  0001 C CNN
+F 4 "Multicomp" H 7525 4575 50  0001 C CNN "Manufacturer"
+F 5 "MJ-179PH" H 7433 5305 50  0000 C CNN "MPN"
+	1    7500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroUSBDVIHDMIConnectors:685119134923_ J6
+U 1 1 6232547D
+P 9150 4800
+F 0 "J6" H 9580 4846 50  0000 L CNN
+F 1 "685119134923_" H 9580 4755 50  0000 L CNN
+F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 9350 5000 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 9175 4800 50  0001 C CNN
+	1    9150 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
