@@ -1,4 +1,156 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L antmicroB2bConnectors:ADM6-60-01.5-L-4-2-A-TR J1
+U 1 1 621F6C93
+P 1550 3850
+F 0 "J1" H 1550 7017 50  0000 C CNN
+F 1 "ADM6-60-01.5-L-4-2-A-TR" H 1550 6926 50  0000 C CNN
+F 2 "antmicro-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 1550 3850 50  0001 L BNN
+F 3 "" H 1550 3850 50  0001 L BNN
+F 4 "Samtec" H 1550 3850 50  0001 L BNN "Manufacturer"
+F 5 "ADM6-60-01.5-L-4-2-A-TR" H 1550 3850 50  0001 C CNN "MPN"
+	1    1550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroB2bConnectors:ADM6-60-01.5-L-4-2-A-TR J1
+U 2 1 6220403E
+P 3000 3850
+F 0 "J1" H 3000 7017 50  0000 C CNN
+F 1 "ADM6-60-01.5-L-4-2-A-TR" H 3000 6926 50  0000 C CNN
+F 2 "antmicro-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 3000 3850 50  0001 L BNN
+F 3 "" H 3000 3850 50  0001 L BNN
+F 4 "Samtec" H 3000 3850 50  0001 L BNN "Manufacturer"
+F 5 "ADM6-60-01.5-L-4-2-A-TR" H 3000 3850 50  0001 C CNN "MPN"
+	2    3000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroB2bConnectors:ADM6-60-01.5-L-4-2-A-TR J2
+U 1 1 6220A72D
+P 4700 3900
+F 0 "J2" H 4700 7067 50  0000 C CNN
+F 1 "ADM6-60-01.5-L-4-2-A-TR" H 4700 6976 50  0000 C CNN
+F 2 "antmicro-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 4700 3900 50  0001 L BNN
+F 3 "" H 4700 3900 50  0001 L BNN
+F 4 "Samtec" H 4700 3900 50  0001 L BNN "Manufacturer"
+F 5 "ADM6-60-01.5-L-4-2-A-TR" H 4700 3900 50  0001 C CNN "MPN"
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroB2bConnectors:ADM6-60-01.5-L-4-2-A-TR J2
+U 2 1 62210DF8
+P 6150 3900
+F 0 "J2" H 6150 7067 50  0000 C CNN
+F 1 "ADM6-60-01.5-L-4-2-A-TR" H 6150 6976 50  0000 C CNN
+F 2 "antmicro-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 6150 3900 50  0001 L BNN
+F 3 "" H 6150 3900 50  0001 L BNN
+F 4 "Samtec" H 6150 3900 50  0001 L BNN "Manufacturer"
+F 5 "ADM6-60-01.5-L-4-2-A-TR" H 6150 3900 50  0001 C CNN "MPN"
+	2    6150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6227475C
+P 8700 1000
+F 0 "H1" H 8800 1049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad_Via" H 8700 1000 50  0001 C CNN
+F 3 "~" H 8700 1000 50  0001 C CNN
+	1    8700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 62274766
+P 8700 1100
+F 0 "#PWR0101" H 8700 850 50  0001 C CNN
+F 1 "GND" H 8705 927 50  0000 C CNN
+F 2 "" H 8700 1100 50  0001 C CNN
+F 3 "" H 8700 1100 50  0001 C CNN
+	1    8700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6229F4FE
+P 8700 1650
+F 0 "H2" H 8800 1699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 1608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad_Via" H 8700 1650 50  0001 C CNN
+F 3 "~" H 8700 1650 50  0001 C CNN
+	1    8700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6229FCCC
+P 8700 1750
+F 0 "#PWR0102" H 8700 1500 50  0001 C CNN
+F 1 "GND" H 8705 1577 50  0000 C CNN
+F 2 "" H 8700 1750 50  0001 C CNN
+F 3 "" H 8700 1750 50  0001 C CNN
+	1    8700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 622B4249
+P 8700 2200
+F 0 "H3" H 8800 2249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 2158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad_Via" H 8700 2200 50  0001 C CNN
+F 3 "~" H 8700 2200 50  0001 C CNN
+	1    8700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 622B4A49
+P 8700 2300
+F 0 "#PWR0103" H 8700 2050 50  0001 C CNN
+F 1 "GND" H 8705 2127 50  0000 C CNN
+F 2 "" H 8700 2300 50  0001 C CNN
+F 3 "" H 8700 2300 50  0001 C CNN
+	1    8700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 622B4A53
+P 8700 2850
+F 0 "H4" H 8800 2899 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 2808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad_Via" H 8700 2850 50  0001 C CNN
+F 3 "~" H 8700 2850 50  0001 C CNN
+	1    8700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 622B4A5D
+P 8700 2950
+F 0 "#PWR0104" H 8700 2700 50  0001 C CNN
+F 1 "GND" H 8705 2777 50  0000 C CNN
+F 2 "" H 8700 2950 50  0001 C CNN
+F 3 "" H 8700 2950 50  0001 C CNN
+	1    8700 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
