@@ -154,30 +154,6 @@ F 3 "" H 8700 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Housing N1
-U 1 1 621F79DE
-P 7400 5800
-F 0 "N1" H 7553 5834 50  0000 L CNN
-F 1 "Housing" H 7553 5743 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 7450 5850 50  0001 C CNN
-F 3 "~" H 7450 5850 50  0001 C CNN
-	1    7400 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroModularConnectorsJacksWithMagnetics:L834-1G1T-S7 J7
-U 1 1 6222DA3F
-P 10500 5050
-F 0 "J7" H 10830 5096 50  0000 L CNN
-F 1 "L834-1G1T-S7" H 10830 5005 50  0000 L CNN
-F 2 "antmicro-footprints:BEL_L834-1G1T-S7" H 10500 5050 50  0001 L BNN
-F 3 "" H 10500 5050 50  0001 L BNN
-F 4 "L834-1G1T-S7" H 10500 5050 50  0001 L BNN "MPN"
-F 5 "Bel Magnetic Solutions" H 10500 5050 50  0001 L BNN "Manufacturer"
-	1    10500 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroFCCConnectors:WE_68715014022 J8
 U 1 1 6229DA42
 P 8400 2500
@@ -236,6 +212,33 @@ F 1 "685119134923_" H 9580 4755 50  0000 L CNN
 F 2 "antmicro-footprints:HDMI_A_Female_685119134923" H 9350 5000 60  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/685119134923.pdf" H 9175 4800 50  0001 C CNN
 	1    9150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroModules:XILINX-KRIA-K26 M2
+U 1 1 6226D9B2
+P 7150 6300
+F 0 "M2" H 7578 6471 50  0000 L CNN
+F 1 "XILINX-KRIA-K26" H 7578 6380 50  0000 L CNN
+F 2 "antmicro-footprints:XILINX-KRIA-K26" H 7600 6150 50  0001 C CNN
+F 3 "" H 7150 6300 50  0001 C CNN
+F 4 "Xilinx" H 7000 6050 50  0001 C CNN "Manufacturer"
+F 5 "SM-K26-XCL2GC" H 7250 5950 50  0001 C CNN "MPN"
+F 6 "System-On-Modules - SOM K26C SOM" H 7700 5850 50  0001 C CNN "Description"
+	1    7150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroModularConnectorsJacksWithMagnetics:WE-RJ45_7499111121A J?1
+U 1 1 622A7CBD
+P 10400 5850
+F 0 "J?1" H 10500 6715 50  0000 C CNN
+F 1 "WE-RJ45_7499111121A" H 10500 6624 50  0000 C CNN
+F 2 "antmicro-footprints:7499111121A" H 10400 5850 50  0001 L BNN
+F 3 "" H 10400 5850 50  0001 L BNN
+F 4 "7499111121A" H 10400 5850 50  0001 L BNN "MPN"
+F 5 "WURTH ELEKTRONIK" H 10400 5850 50  0001 C CNN "Manufacturer"
+	1    10400 5850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
