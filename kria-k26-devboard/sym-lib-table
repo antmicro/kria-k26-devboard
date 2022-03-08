@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sa800u-baseboard-hw)(type Legacy)(uri /home/wjuszczak/git/sa800u-baseboard-hw/sa800u-baseboard-hw.lib)(options "")(descr ""))
+)
