@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 7
+Sheet 2 9
 Title "K26 SOM connnector"
 Date ""
 Rev ""
@@ -3603,10 +3603,10 @@ Standoffs
 Text Notes 6600 10150 0    50   ~ 0
 SOM 3D Model
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C?
+L antmicroCapacitorsmisc:C_47u_0805 C5
 U 1 1 6235AEE5
 P 3850 10550
-F 0 "C?" H 3965 10595 60  0000 L CNN
+F 0 "C5" H 3965 10595 60  0000 L CNN
 F 1 "C_47u_0805" H 3850 10400 60  0001 C CNN
 F 2 "antmicro-footprints:0805-cap" H 4050 10750 60  0001 L CNN
 F 3 "" H 3850 10550 50  0001 C CNN
@@ -3617,10 +3617,10 @@ F 6 "47u" H 3965 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C?
+L antmicroCapacitorsmisc:C_47u_0805 C6
 U 1 1 6235AEEE
 P 4250 10550
-F 0 "C?" H 4365 10595 60  0000 L CNN
+F 0 "C6" H 4365 10595 60  0000 L CNN
 F 1 "C_47u_0805" H 4250 10400 60  0001 C CNN
 F 2 "antmicro-footprints:0805-cap" H 4450 10750 60  0001 L CNN
 F 3 "" H 4250 10550 50  0001 C CNN
@@ -3631,10 +3631,10 @@ F 6 "47u" H 4365 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C7
 U 1 1 6235AEF7
 P 4650 10550
-F 0 "C?" H 4765 10595 60  0000 L CNN
+F 0 "C7" H 4765 10595 60  0000 L CNN
 F 1 "C_1u_0402" H 4650 10400 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4850 10750 60  0001 L CNN
 F 3 "" H 4650 10550 50  0001 C CNN
@@ -3645,10 +3645,10 @@ F 6 "1u" H 4765 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C8
 U 1 1 6235AF00
 P 5050 10550
-F 0 "C?" H 5165 10595 60  0000 L CNN
+F 0 "C8" H 5165 10595 60  0000 L CNN
 F 1 "C_100n_0402" H 5050 10400 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5250 10750 60  0001 L CNN
 F 3 "" H 5050 10550 50  0001 C CNN
@@ -3696,10 +3696,10 @@ Wire Wire Line
 	3750 10300 3850 10300
 Connection ~ 3850 10300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 6235AF1B
 P 4450 10900
-F 0 "#PWR?" H 4450 10650 50  0001 C CNN
+F 0 "#PWR0101" H 4450 10650 50  0001 C CNN
 F 1 "GND" H 4455 10727 50  0000 C CNN
 F 2 "" H 4450 10900 50  0001 C CNN
 F 3 "" H 4450 10900 50  0001 C CNN

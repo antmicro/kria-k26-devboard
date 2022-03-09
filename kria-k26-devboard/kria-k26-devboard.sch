@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -30,6 +30,7 @@ S 1950 2800 1600 900
 U 63C44BC2
 F0 "Power Supply" 50
 F1 "supply.sch" 50
+F2 "PD_CC[1..2]" I R 3550 3600 50 
 $EndSheet
 $Sheet
 S 4700 4250 1650 800 
@@ -49,4 +50,17 @@ U 63CB76CF
 F0 "Camera interfaces" 50
 F1 "camera.sch" 50
 $EndSheet
+$Sheet
+S 1950 4150 1600 800 
+U 625B0244
+F0 "Debug" 50
+F1 "debug.sch" 50
+F2 "PD_CC[1..2]" I R 3550 4250 50 
+$EndSheet
+Wire Bus Line
+	3550 3600 3750 3600
+Wire Bus Line
+	3750 3600 3750 4250
+Wire Bus Line
+	3750 4250 3550 4250
 $EndSCHEMATC
