@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title ""
-Date ""
-Rev ""
+Date "2022-03-10"
+Rev "1.0.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -461,11 +461,12 @@ Wire Wire Line
 Wire Wire Line
 	2750 6400 2600 6400
 $Comp
-L Diode:1N4448 D?
+L kria-k26-devboard-rescue:1N4448-Diode D?
 U 1 1 6253A6C2
 P 2350 6000
 AR Path="/63C44BC2/6253A6C2" Ref="D?"  Part="1" 
 AR Path="/63C44BC2/62525BE1/6253A6C2" Ref="D3"  Part="1" 
+AR Path="/6253A6C2" Ref="D3"  Part="1" 
 F 0 "D3" V 2396 5920 50  0000 R CNN
 F 1 "1N4448" V 2305 5920 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2350 5825 50  0001 C CNN

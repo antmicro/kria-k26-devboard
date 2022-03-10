@@ -5,11 +5,11 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 9
 Title "K26 SOM connnector"
-Date ""
-Rev ""
+Date "2022-03-10"
+Rev "1.0.0"
 Comp "Antmicro"
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
