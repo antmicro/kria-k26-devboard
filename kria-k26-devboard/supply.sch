@@ -31,7 +31,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3400 1650 3400
 Wire Wire Line
-	2600 3200 3050 3200
+	2900 3200 3000 3200
 $Comp
 L antmicroPMICVoltageRegulatorsDCDCSwitchingRegulators:TPSM84209 U2
 U 1 1 62347444
@@ -54,28 +54,23 @@ F1 "PoE.sch" 50
 F2 "POE_12V" I R 2050 4650 50 
 $EndSheet
 Wire Wire Line
-	1650 3950 1900 3950
-Connection ~ 1650 3950
+	1650 4000 1900 4000
+Connection ~ 1650 4000
 Wire Wire Line
-	1650 4000 1650 3950
+	1650 4050 1650 4000
 $Comp
 L power:GND #PWR0104
 U 1 1 626537AF
-P 1650 4000
-F 0 "#PWR0104" H 1650 3750 50  0001 C CNN
-F 1 "GND" H 1655 3827 50  0000 C CNN
-F 2 "" H 1650 4000 50  0001 C CNN
-F 3 "" H 1650 4000 50  0001 C CNN
-	1    1650 4000
+P 1650 4050
+F 0 "#PWR0104" H 1650 3800 50  0001 C CNN
+F 1 "GND" H 1655 3877 50  0000 C CNN
+F 2 "" H 1650 4050 50  0001 C CNN
+F 3 "" H 1650 4050 50  0001 C CNN
+	1    1650 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 3850 2400 3950
-Connection ~ 2400 3950
-Wire Wire Line
-	2400 3950 3000 3950
-Wire Wire Line
-	1650 3400 1650 3950
+	1650 3400 1650 4000
 $Comp
 L antmicroCapacitorsmisc:C_100n_0402_50V C19
 U 1 1 6268C9E8
@@ -94,12 +89,12 @@ Wire Wire Line
 	1900 3400 1900 3200
 Connection ~ 1900 3200
 Wire Wire Line
-	1900 3200 2200 3200
+	1900 3200 2250 3200
 Wire Wire Line
-	1900 3700 1900 3950
-Connection ~ 1900 3950
+	1900 3700 1900 4000
+Connection ~ 1900 4000
 Wire Wire Line
-	1900 3950 2400 3950
+	1900 4000 2250 4000
 Connection ~ 1900 2300
 Wire Wire Line
 	1900 2350 1900 2300
@@ -118,12 +113,8 @@ Wire Wire Line
 	1900 1700 1900 1750
 Connection ~ 1900 1700
 Wire Wire Line
-	1900 1700 2100 1700
-Wire Wire Line
 	1900 1450 1900 1500
 Connection ~ 1900 1450
-Wire Wire Line
-	1900 1450 2100 1450
 Wire Wire Line
 	1900 2300 1750 2300
 Wire Wire Line
@@ -143,21 +134,17 @@ Wire Wire Line
 Wire Wire Line
 	1750 1400 1900 1400
 Wire Wire Line
-	2700 1150 1750 1150
+	2750 1150 1750 1150
 Wire Wire Line
-	2700 1250 1750 1250
-Text Label 2300 1250 2    50   ~ 0
+	2750 1250 1750 1250
+Text Label 2250 1250 2    50   ~ 0
 PD_CC2
-Text Label 2300 1150 2    50   ~ 0
+Text Label 2250 1150 2    50   ~ 0
 PD_CC1
 Entry Bus Bus
-	2800 1250 2700 1150
+	2850 1050 2750 1150
 Entry Bus Bus
-	2800 1350 2700 1250
-Wire Bus Line
-	2950 1450 2800 1450
-Text HLabel 2950 1450 2    50   Input ~ 0
-PD_CC[1..2]
+	2850 1150 2750 1250
 $Comp
 L antmicroUSBDVIHDMIConnectors:USB4105-GF-A J3
 U 1 1 6263899A
@@ -1821,8 +1808,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 1400 7600 1400
 Connection ~ 7600 1400
-Wire Bus Line
-	2800 1250 2800 1450
 $Comp
 L antmicroPMICORControllersIdealDiodes:LM73100RPWR U?
 U 1 1 62344BB0
@@ -1836,4 +1821,193 @@ F 5 "LM73100RPWR" H 1600 6000 50  0001 C CNN "MPN"
 	1    1150 6900
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:STUSB4500QTR U?
+U 1 1 62372551
+P 1750 8800
+F 0 "U?" H 1750 7911 50  0000 C CNN
+F 1 "STUSB4500QTR" H 1750 7820 50  0000 C CNN
+F 2 "antmicro-footprints:QFN50P400X400X90-25N" H 1750 7200 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/389/dm00489312-1799262.pdf" H 1750 7600 50  0001 C CNN
+F 4 "STUSB4500QTR" H 1750 7450 50  0001 C CNN "MPN"
+F 5 "STMicroelectronics" H 1750 7300 50  0001 C CNN "Manufacturer"
+	1    1750 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTVSDiodes:ESD144B1W0201E6327XTSA1 D?
+U 1 1 62376002
+P 4400 1350
+F 0 "D?" V 4354 1428 50  0000 L CNN
+F 1 "ESD144B1W0201E6327XTSA1" V 4445 1428 50  0000 L CNN
+F 2 "antmicro-footprints:ESD144B1W0201E6327XTSA1" H 4400 1350 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-ESD144-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d462677d0f4601679886a2a8707c" H 4400 1350 50  0001 C CNN
+F 4 "ESD144B1W0201E6327XTSA1" H 4400 1350 50  0001 C CNN "MPN"
+F 5 "Infineon Technologies" H 4400 1350 50  0001 C CNN "Manufacturer"
+	1    4400 1350
+	0    1    1    0   
+$EndComp
+Text Label 1850 950  0    50   ~ 0
+VBUS
+Wire Wire Line
+	1750 950  1850 950 
+Text Label 4050 900  0    50   ~ 0
+VBUS
+$Comp
+L power:GND #PWR?
+U 1 1 623AF0AA
+P 4400 1850
+F 0 "#PWR?" H 4400 1600 50  0001 C CNN
+F 1 "GND" H 4405 1677 50  0000 C CNN
+F 2 "" H 4400 1850 50  0001 C CNN
+F 3 "" H 4400 1850 50  0001 C CNN
+	1    4400 1850
+	1    0    0    -1  
+$EndComp
+Text HLabel 3000 950  2    50   Input ~ 0
+PD_CC[1..2]
+Wire Bus Line
+	3000 950  2850 950 
+Text Label 1950 1450 0    50   ~ 0
+DBG_USB_P
+Text Label 1950 1700 0    50   ~ 0
+DBG_USB_N
+NoConn ~ 1750 2000
+NoConn ~ 1750 1900
+Wire Wire Line
+	1900 1450 2600 1450
+Wire Wire Line
+	1900 1700 2500 1700
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:PJA3441 Q?
+U 1 1 625F82C7
+P 2950 3250
+F 0 "Q?" V 3242 3500 50  0000 C CNN
+F 1 "PJA3441" V 3151 3500 50  0000 C CNN
+F 2 "antmicro-footprints:SOT-23-3" H 2950 3250 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/1057/PJA3441-1867252.pdf" H 2950 3250 50  0001 C CNN
+F 4 "Panjit" H 3250 3400 50  0001 C CNN "Manufacturer"
+F 5 "PJA3441_R1_00001" H 3500 3500 50  0001 C CNN "MPN"
+	1    2950 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 3500 2700 4000
+$Comp
+L antmicroCapacitorsmisc:C_100n_0402_50V C?
+U 1 1 6261FDDE
+P 4050 1350
+F 0 "C?" V 3900 1300 50  0000 L CNN
+F 1 "C_100n_0402_50V" H 4050 1350 50  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4050 1350 50  0001 C CNN
+F 3 "" H 4050 1350 50  0001 C CNN
+F 4 "GRM155R71H104KE14D" H 4050 1350 50  0001 C CNN "MPN"
+F 5 "MURATA" H 4050 1350 50  0001 C CNN "Manufacturer"
+F 6 "100n/50V" V 4200 1200 50  0000 L CNN "Val"
+	1    4050 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 900  4050 950 
+Wire Wire Line
+	4400 950  4050 950 
+Wire Wire Line
+	4050 950  4050 1200
+Wire Wire Line
+	4400 950  4400 1000
+Wire Wire Line
+	4400 1700 4400 1750
+Wire Wire Line
+	4050 1750 4400 1750
+Wire Wire Line
+	4050 1500 4050 1750
+Connection ~ 4400 1750
+Wire Wire Line
+	4400 1750 4400 1850
+Connection ~ 4050 950 
+$Comp
+L antmicroTVSDiodes:ESD144B1W0201E6327XTSA1 D?
+U 1 1 626D4B8D
+P 2250 3600
+F 0 "D?" H 2200 3500 50  0000 L CNN
+F 1 "ESD144B1W0201E6327XTSA1" H 1750 3750 50  0000 L CNN
+F 2 "antmicro-footprints:ESD144B1W0201E6327XTSA1" H 2250 3600 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-ESD144-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d462677d0f4601679886a2a8707c" H 2250 3600 50  0001 C CNN
+F 4 "ESD144B1W0201E6327XTSA1" H 2250 3600 50  0001 C CNN "MPN"
+F 5 "Infineon Technologies" H 2250 3600 50  0001 C CNN "Manufacturer"
+	1    2250 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 3250 2250 3200
+Connection ~ 2250 3200
+Wire Wire Line
+	2250 3200 2500 3200
+Wire Wire Line
+	2250 3950 2250 4000
+Connection ~ 2250 4000
+Wire Wire Line
+	2250 4000 2700 4000
+Wire Wire Line
+	3000 3200 3000 3100
+Text Label 3000 3100 0    50   ~ 0
+DC_IN
+Wire Wire Line
+	2050 4650 2200 4650
+Text Label 2200 4650 0    50   ~ 0
+POE_12V
+$Comp
+L antmicroTVSDiodes:PESD2USB5UV-TR D?
+U 1 1 627B9D68
+P 2850 2100
+F 0 "D?" H 3280 2053 60  0000 L CNN
+F 1 "PESD2USB5UV-TR" H 3280 1947 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23s" H 2900 2300 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 2850 2100 60  0001 C CNN
+F 4 "PESD2USB5UV-TR " H 2550 2400 50  0001 C CNN "MPN"
+F 5 "Nexperia " H 2550 2500 50  0001 C CNN "Manufacturer"
+	1    2850 2100
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	3000 1300 2850 1300
+Text HLabel 3000 1300 2    50   Input ~ 0
+DBG_USB[0..1]
+Entry Bus Bus
+	2850 1350 2750 1450
+Entry Bus Bus
+	2850 1600 2750 1700
+$Comp
+L power:GND #PWR?
+U 1 1 62838C9F
+P 2600 2350
+F 0 "#PWR?" H 2600 2100 50  0001 C CNN
+F 1 "GND" H 2605 2177 50  0000 C CNN
+F 2 "" H 2600 2350 50  0001 C CNN
+F 3 "" H 2600 2350 50  0001 C CNN
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2350 2600 2300
+Wire Wire Line
+	2600 2300 2650 2300
+Wire Wire Line
+	2650 2100 2600 2100
+Wire Wire Line
+	2600 2100 2600 1450
+Connection ~ 2600 1450
+Wire Wire Line
+	2600 1450 2750 1450
+Wire Wire Line
+	2650 2200 2500 2200
+Wire Wire Line
+	2500 2200 2500 1700
+Connection ~ 2500 1700
+Wire Wire Line
+	2500 1700 2750 1700
+Wire Bus Line
+	2850 950  2850 1150
+Wire Bus Line
+	2850 1300 2850 1600
 $EndSCHEMATC
