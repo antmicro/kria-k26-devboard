@@ -348,34 +348,33 @@ Wire Wire Line
 	2600 7000 2600 6800
 Wire Wire Line
 	2750 7000 2600 7000
-Text Notes 6600 6250 2    50   ~ 0
-Activate midspan collision avoidance
-NoConn ~ 5000 6200
+Text Notes 7250 6250 2    50   ~ 0
+DNM - Activate midspan collision avoidance
 Wire Wire Line
-	5100 6100 5100 6300
+	5450 6100 5450 6200
 Wire Wire Line
-	5100 6700 5100 6600
-Connection ~ 5100 6700
+	5450 6700 5450 6600
+Connection ~ 5450 6700
 Wire Wire Line
-	5000 6700 5100 6700
+	5000 6700 5450 6700
 Wire Wire Line
-	5100 6600 5100 6500
-Connection ~ 5100 6600
+	5450 6600 5450 6500
+Connection ~ 5450 6600
 Wire Wire Line
-	5000 6600 5100 6600
+	5000 6600 5450 6600
 Wire Wire Line
-	5100 6500 5100 6400
-Connection ~ 5100 6500
+	5450 6500 5450 6400
+Connection ~ 5450 6500
 Wire Wire Line
-	5000 6500 5100 6500
+	5000 6500 5450 6500
 Wire Wire Line
-	5100 6400 5100 6300
-Connection ~ 5100 6400
+	5450 6400 5450 6300
+Connection ~ 5450 6400
 Wire Wire Line
-	5000 6400 5100 6400
-Connection ~ 5100 6300
+	5000 6400 5450 6400
+Connection ~ 5450 6300
 Wire Wire Line
-	5000 6300 5100 6300
+	5000 6300 5450 6300
 Wire Wire Line
 	2450 5150 2450 5800
 Wire Wire Line
@@ -393,27 +392,25 @@ Wire Wire Line
 	2350 5800 2250 5800
 Wire Wire Line
 	5200 4350 4500 4350
-Connection ~ 5100 5200
+Connection ~ 5450 5200
 Wire Wire Line
-	5100 5200 6000 5200
+	5450 5200 6000 5200
+Connection ~ 5450 6800
 Wire Wire Line
-	5100 6800 5450 6800
-Connection ~ 5100 6800
-Wire Wire Line
-	5100 6800 5100 6700
+	5450 6800 5450 6700
 Connection ~ 2450 4350
 Wire Wire Line
 	2450 4350 2050 4350
 Wire Wire Line
-	4500 5200 5100 5200
+	4500 5200 5450 5200
 Connection ~ 4500 5200
 Wire Wire Line
 	4500 5000 4500 5200
 Wire Wire Line
-	5100 5600 5100 5700
-Connection ~ 5100 5600
+	5450 5600 5450 5700
+Connection ~ 5450 5600
 Wire Wire Line
-	5100 5200 5100 5600
+	5450 5200 5450 5600
 Wire Wire Line
 	4100 5200 4500 5200
 Wire Wire Line
@@ -499,26 +496,24 @@ Wire Wire Line
 NoConn ~ 5000 6000
 NoConn ~ 5000 5900
 Wire Wire Line
-	5450 6800 5450 6900
+	5000 6800 5450 6800
+Connection ~ 5450 6100
 Wire Wire Line
-	5000 6800 5100 6800
-Connection ~ 5100 6100
+	5000 6100 5450 6100
 Wire Wire Line
-	5000 6100 5100 6100
+	5450 5800 5450 6100
+Connection ~ 5450 5800
 Wire Wire Line
-	5100 5800 5100 6100
-Connection ~ 5100 5800
-Wire Wire Line
-	5100 5800 5000 5800
+	5450 5800 5000 5800
 Wire Wire Line
 	5100 6900 5000 6900
 Wire Wire Line
-	5100 5700 5100 5800
-Connection ~ 5100 5700
+	5450 5700 5450 5800
+Connection ~ 5450 5700
 Wire Wire Line
-	5000 5700 5100 5700
+	5000 5700 5450 5700
 Wire Wire Line
-	5100 5600 5000 5600
+	5450 5600 5000 5600
 Wire Wire Line
 	5400 6900 5450 6900
 $Comp
@@ -767,4 +762,27 @@ Wire Wire Line
 Connection ~ 10100 2900
 Text HLabel 10150 1650 2    50   Input ~ 0
 POE_12V
+Wire Wire Line
+	5450 6800 5450 6900
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 62359494
+P 5200 6200
+F 0 "R?" H 5050 6250 60  0000 C CNN
+F 1 "R_0R_0402" H 5200 6050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5400 6400 60  0001 L CNN
+F 3 "" H 5200 6200 50  0001 C CNN
+F 4 "PANASONIC" H 5400 6600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5400 6500 60  0001 L CNN "MPN"
+F 6 "0R" H 5200 6200 50  0000 C CNN "Val"
+	1    5200 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6200 5050 6200
+Wire Wire Line
+	5350 6200 5450 6200
+Connection ~ 5450 6200
+Wire Wire Line
+	5450 6200 5450 6300
 $EndSCHEMATC
