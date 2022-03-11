@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 9
+Sheet 1 13
 Title "Kria K26 Devboard"
 Date "2022-03-10"
 Rev "1.0.0"
@@ -31,6 +31,9 @@ U 63C44BC2
 F0 "Power Supply" 50
 F1 "supply.sch" 50
 F2 "PD_CC[1..2]" I R 3550 3600 50 
+F3 "DBG_USB[0..1]" I R 3550 2900 50 
+F4 "VCCOEN_PS_M2C" I R 3550 3000 50 
+F5 "VCCOEN_PL_M2C" I R 3550 3100 50 
 $EndSheet
 $Sheet
 S 4700 4250 1650 800 
