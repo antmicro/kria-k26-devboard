@@ -173,10 +173,6 @@ Wire Bus Line
 	6650 3700 6500 3700
 Text HLabel 6650 3700 2    50   Input ~ 0
 DBG_USB[0..1]
-Entry Bus Bus
-	6500 3750 6400 3850
-Entry Bus Bus
-	6500 4000 6400 4100
 $Comp
 L power:GND #PWR?
 U 1 1 62AA36B9
@@ -240,10 +236,6 @@ Wire Wire Line
 	5200 4600 5050 4600
 Wire Wire Line
 	6400 3650 5150 3650
-Entry Bus Bus
-	6500 3550 6400 3650
-Entry Bus Bus
-	6500 3450 6400 3550
 Wire Wire Line
 	5150 4500 5150 3650
 Wire Wire Line
@@ -262,9 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 3550 6400 3550
 Connection ~ 6100 4100
-Connection ~ 6200 3850
-Wire Wire Line
-	6200 3850 6400 3850
 Wire Wire Line
 	6100 4100 6400 4100
 Text HLabel 7950 3250 2    50   Input ~ 0
@@ -276,4 +265,15 @@ Wire Bus Line
 	6500 3350 6500 3550
 Wire Bus Line
 	6500 3700 6500 4000
+Connection ~ 6200 3850
+Wire Wire Line
+	6200 3850 6400 3850
+Entry Wire Line
+	6500 3550 6400 3650
+Entry Wire Line
+	6500 3450 6400 3550
+Entry Wire Line
+	6500 3750 6400 3850
+Entry Wire Line
+	6500 4000 6400 4100
 $EndSCHEMATC

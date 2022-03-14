@@ -19,6 +19,7 @@ U 62525BE1
 F0 "PoE" 50
 F1 "PoE.sch" 50
 F2 "POE_12V" I R 4700 4600 50 
+F3 "POE_VC[1..4]" I L 3600 4600 50 
 $EndSheet
 $Sheet
 S 7700 3350 1250 850 
@@ -87,4 +88,8 @@ Wire Wire Line
 	7550 3550 7700 3550
 Wire Wire Line
 	7550 3650 7700 3650
+Text HLabel 3400 4600 0    50   Input ~ 0
+POE_VC[1..4]
+Wire Bus Line
+	3400 4600 3600 4600
 $EndSCHEMATC

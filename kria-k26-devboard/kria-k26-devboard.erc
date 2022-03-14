@@ -1,0 +1,1175 @@
+ERC report (Mon 14 Mar 2022 01:07:32 PM CET, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /Xilinx K26 SOM/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 90.17 mm): Pin B10 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 91.44 mm): Pin D10 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 93.98 mm): Pin C11 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 95.25 mm): Pin B12 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 96.52 mm): Pin C12 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 96.52 mm): Pin D12 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 97.79 mm): Pin B13 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 88.90 mm): Pin D09 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 87.63 mm): Pin B09 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 86.36 mm): Pin C08 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 83.82 mm): Pin C07 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 81.28 mm): Pin D06 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 78.74 mm): Pin D05 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 80.01 mm): Pin B06 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 116.84 mm): Pin C20 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 109.22 mm): Pin C17 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 114.30 mm): Pin D19 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 113.03 mm): Pin B19 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 111.76 mm): Pin D18 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 111.76 mm): Pin C18 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 110.49 mm): Pin B18 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 99.06 mm): Pin D13 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 106.68 mm): Pin D16 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 105.41 mm): Pin B16 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 104.14 mm): Pin D15 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 104.14 mm): Pin C15 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 102.87 mm): Pin B15 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 101.60 mm): Pin C14 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 171.45 mm): Pin A42 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 168.91 mm): Pin A41 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 163.83 mm): Pin A39 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 161.29 mm): Pin A38 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 156.21 mm): Pin A36 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 153.67 mm): Pin A35 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 148.59 mm): Pin A33 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 146.05 mm): Pin A32 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 140.97 mm): Pin A30 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 138.43 mm): Pin A29 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 67.31 mm): Pin B01 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 77.47 mm): Pin B05 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 76.20 mm): Pin C04 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 73.66 mm): Pin C03 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 71.12 mm): Pin D02 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 69.85 mm): Pin B02 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 68.58 mm): Pin D01 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 160.02 mm): Pin D37 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 167.64 mm): Pin D40 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 166.37 mm): Pin B40 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 165.10 mm): Pin D39 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 165.10 mm): Pin C39 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 163.83 mm): Pin B39 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 162.56 mm): Pin C38 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 170.18 mm): Pin C41 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 158.75 mm): Pin B37 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 157.48 mm): Pin D36 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 157.48 mm): Pin C36 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 156.21 mm): Pin B36 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 154.94 mm): Pin C35 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 152.40 mm): Pin D34 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 151.13 mm): Pin B34 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 177.80 mm): Pin D44 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 85.09 mm): Pin A08 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 182.88 mm): Pin D46 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 182.88 mm): Pin C46 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 181.61 mm): Pin B46 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 181.61 mm): Pin A46 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 180.34 mm): Pin D45 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 179.07 mm): Pin B45 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 176.53 mm): Pin B44 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 172.72 mm): Pin C42 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 125.73 mm): Pin B24 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 134.62 mm): Pin C27 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 133.35 mm): Pin B27 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 132.08 mm): Pin C26 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 129.54 mm): Pin D25 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 128.27 mm): Pin B25 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 127.00 mm): Pin D24 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 127.00 mm): Pin C24 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 124.46 mm): Pin C23 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 121.92 mm): Pin D22 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 120.65 mm): Pin B22 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 119.38 mm): Pin D21 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 119.38 mm): Pin C21 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 118.11 mm): Pin B21 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 142.24 mm): Pin D30 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 149.86 mm): Pin D33 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 149.86 mm): Pin C33 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 148.59 mm): Pin B33 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 147.32 mm): Pin C32 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 144.78 mm): Pin D31 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 143.51 mm): Pin B31 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 142.24 mm): Pin C30 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 140.97 mm): Pin B30 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 139.70 mm): Pin C29 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 137.16 mm): Pin D28 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 135.89 mm): Pin B28 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 134.62 mm): Pin D27 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 199.39 mm): Pin B53 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 196.85 mm): Pin B52 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 191.77 mm): Pin B50 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 189.23 mm): Pin B49 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 186.69 mm): Pin B48 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 184.15 mm): Pin A47 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 217.17 mm): Pin A60 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 214.63 mm): Pin A59 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 212.09 mm): Pin A58 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 207.01 mm): Pin A56 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 204.47 mm): Pin A55 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 201.93 mm): Pin A54 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 194.31 mm): Pin A51 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 191.77 mm): Pin A50 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 186.69 mm): Pin A48 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 207.01 mm): Pin B56 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 110.49 mm): Pin A18 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 107.95 mm): Pin A17 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 102.87 mm): Pin A15 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 100.33 mm): Pin A14 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 95.25 mm): Pin A12 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 92.71 mm): Pin A11 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 82.55 mm): Pin A07 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 74.93 mm): Pin A04 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 72.39 mm): Pin A03 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 133.35 mm): Pin A27 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 130.81 mm): Pin A26 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 125.73 mm): Pin A24 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 123.19 mm): Pin A23 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 118.11 mm): Pin A21 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 115.57 mm): Pin A20 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 78.74 mm): Pin C06 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 73.66 mm): Pin C04 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 71.12 mm): Pin C03 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 212.09 mm): Pin B58 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 209.55 mm): Pin B57 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 104.14 mm): Pin C16 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 101.60 mm): Pin C15 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 96.52 mm): Pin C13 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 93.98 mm): Pin C12 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 88.90 mm): Pin C10 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 86.36 mm): Pin C09 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 81.28 mm): Pin C07 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 213.36 mm): Pin D58 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 215.90 mm): Pin C59 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 218.44 mm): Pin C60 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 213.36 mm): Pin C58 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 210.82 mm): Pin D57 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 208.28 mm): Pin D56 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 208.28 mm): Pin C56 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 185.42 mm): Pin C47 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 190.50 mm): Pin D49 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(241.30 mm, 196.85 mm): Pin A52 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 195.58 mm): Pin C51 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 193.04 mm): Pin D50 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 193.04 mm): Pin C50 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 187.96 mm): Pin D48 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 187.96 mm): Pin C48 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(271.78 mm, 201.93 mm): Pin B54 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 205.74 mm): Pin C55 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 203.20 mm): Pin D54 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 203.20 mm): Pin C54 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 200.66 mm): Pin D53 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(368.30 mm, 198.12 mm): Pin D52 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(337.82 mm, 198.12 mm): Pin C52 (Passive) of component J_SOM240_2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 152.40 mm): Pin A36 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 147.32 mm): Pin A34 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 149.86 mm): Pin A35 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 137.16 mm): Pin A30 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 134.62 mm): Pin A29 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 132.08 mm): Pin A28 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 129.54 mm): Pin A27 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 187.96 mm): Pin B50 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 185.42 mm): Pin B49 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 162.56 mm): Pin A40 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 157.48 mm): Pin A38 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 160.02 mm): Pin A39 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 73.66 mm): Pin B05 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 81.28 mm): Pin B08 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 78.74 mm): Pin B07 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 71.12 mm): Pin B04 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 66.04 mm): Pin B02 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 63.50 mm): Pin B01 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 193.04 mm): Pin A52 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 111.76 mm): Pin B20 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 124.46 mm): Pin B25 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 127.00 mm): Pin B26 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 121.92 mm): Pin B24 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 114.30 mm): Pin B21 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 116.84 mm): Pin B22 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 104.14 mm): Pin B17 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 106.68 mm): Pin B18 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 101.60 mm): Pin B16 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 86.36 mm): Pin B10 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 88.90 mm): Pin B11 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 200.66 mm): Pin A55 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 203.20 mm): Pin A56 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 190.50 mm): Pin A51 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 180.34 mm): Pin A47 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 182.88 mm): Pin A48 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 83.82 mm): Pin D08 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 116.84 mm): Pin D21 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 114.30 mm): Pin D20 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 106.68 mm): Pin D17 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 104.14 mm): Pin D16 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 91.44 mm): Pin D11 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 88.90 mm): Pin D10 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 119.38 mm): Pin D22 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 81.28 mm): Pin D07 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 76.20 mm): Pin D05 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 73.66 mm): Pin D04 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 205.74 mm): Pin C56 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 203.20 mm): Pin C55 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 160.02 mm): Pin D38 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 154.94 mm): Pin D36 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 149.86 mm): Pin D34 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 147.32 mm): Pin D33 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 144.78 mm): Pin D32 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 139.70 mm): Pin D30 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 137.16 mm): Pin D29 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 134.62 mm): Pin D28 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 129.54 mm): Pin D26 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 124.46 mm): Pin D24 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 114.30 mm): Pin C20 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 109.22 mm): Pin C18 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 185.42 mm): Pin C48 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 154.94 mm): Pin C36 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 152.40 mm): Pin C35 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 149.86 mm): Pin C34 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 144.78 mm): Pin C32 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 142.24 mm): Pin C31 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 139.70 mm): Pin C30 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 86.36 mm): Pin A10 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 116.84 mm): Pin A22 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 111.76 mm): Pin A20 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 109.22 mm): Pin A19 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 104.14 mm): Pin A17 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 101.60 mm): Pin A16 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 99.06 mm): Pin A15 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 93.98 mm): Pin A13 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 91.44 mm): Pin A12 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 78.74 mm): Pin A07 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 76.20 mm): Pin A06 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 124.46 mm): Pin A25 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 63.50 mm): Pin A01 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 83.82 mm): Pin A09 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 71.12 mm): Pin A04 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 68.58 mm): Pin A03 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 121.92 mm): Pin A24 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(45.72 mm, 119.38 mm): Pin A23 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 210.82 mm): Pin D58 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 208.28 mm): Pin D57 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 198.12 mm): Pin D53 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 200.66 mm): Pin D54 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 127.00 mm): Pin D25 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 157.48 mm): Pin D37 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 187.96 mm): Pin D49 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 190.50 mm): Pin D50 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 99.06 mm): Pin D14 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 96.52 mm): Pin D13 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 142.24 mm): Pin B32 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 154.94 mm): Pin B37 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 152.40 mm): Pin B36 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 144.78 mm): Pin B33 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 147.32 mm): Pin B34 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 134.62 mm): Pin B29 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 137.16 mm): Pin B30 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 132.08 mm): Pin B28 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 205.74 mm): Pin B57 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 208.28 mm): Pin B58 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 195.58 mm): Pin B53 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 198.12 mm): Pin B54 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 165.10 mm): Pin B41 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 167.64 mm): Pin B42 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 162.56 mm): Pin B40 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 182.88 mm): Pin C47 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 195.58 mm): Pin C52 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 193.04 mm): Pin C51 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 109.22 mm): Pin D18 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 121.92 mm): Pin C23 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 132.08 mm): Pin C27 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 129.54 mm): Pin C26 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 134.62 mm): Pin C28 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 119.38 mm): Pin C22 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 124.46 mm): Pin C24 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 111.76 mm): Pin C19 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 162.56 mm): Pin C39 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 160.02 mm): Pin C38 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 165.10 mm): Pin C40 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 175.26 mm): Pin D44 (Passive) of component J_SOM240_1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(172.72 mm, 177.80 mm): Pin D45 (Passive) of component J_SOM240_1 is unconnected.
+
+***** Sheet /Ethernet/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 125.73 mm): Pin 4 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(125.73 mm, 171.45 mm): Pin 43 (Input) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 153.67 mm): Pin 23 (Input) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 161.29 mm): Pin 22 (Input) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 156.21 mm): Pin 21 (Output) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 135.89 mm): Pin 8 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 133.35 mm): Pin 7 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 128.27 mm): Pin 5 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 184.15 mm): Pin 49 (Power input) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 113.03 mm): Pin 48 (Power input) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 166.37 mm): Pin 47 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 168.91 mm): Pin 46 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 171.45 mm): Pin 45 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(125.73 mm, 166.37 mm): Pin 44 (Bidirectional) of component U15 is unconnected.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(186.69 mm, 105.41 mm): Pin 42 (Power input) of component U15 is not driven (Net 386).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 140.97 mm): Pin 10 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 158.75 mm): Pin 20 (Input) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 120.65 mm): Pin 2 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(125.73 mm, 184.15 mm): Pin 18 (Output) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 179.07 mm): Pin 17 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 176.53 mm): Pin 16 (Input) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(125.73 mm, 176.53 mm): Pin 15 (Unspecified) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(125.73 mm, 179.07 mm): Pin 14 (Unspecified) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 110.49 mm): Pin 13 (Power input) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 148.59 mm): Pin 12 (Unspecified) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 143.51 mm): Pin 11 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 118.11 mm): Pin 1 (Bidirectional) of component U15 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 161.29 mm): Pin 4 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 184.15 mm): Pin 12 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 186.69 mm): Pin 13 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 189.23 mm): Pin 14 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(297.18 mm, 172.72 mm): Pin 15 (Passive) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(297.18 mm, 175.26 mm): Pin 16 (Passive) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(297.18 mm, 170.18 mm): Pin 17 (Passive) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(297.18 mm, 167.64 mm): Pin 18 (Passive) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 195.58 mm): Pin 19 (Passive) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 156.21 mm): Pin 2 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 198.12 mm): Pin 20 (Passive) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 158.75 mm): Pin 3 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 181.61 mm): Pin 11 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 163.83 mm): Pin 5 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 166.37 mm): Pin 6 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 168.91 mm): Pin 7 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 171.45 mm): Pin 8 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 173.99 mm): Pin 9 (Bidirectional) of component J8 is unconnected.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(125.73 mm, 97.79 mm): Pin 19 (Power input) of component U15 is not driven (Net 417).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 85.09 mm): Pin 2 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 82.55 mm): Pin 1 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 105.41 mm): Pin 10 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 110.49 mm): Pin 11 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 113.03 mm): Pin 12 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 115.57 mm): Pin 13 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 118.11 mm): Pin 14 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(295.91 mm, 101.60 mm): Pin 15 (Passive) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(295.91 mm, 104.14 mm): Pin 16 (Passive) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(295.91 mm, 99.06 mm): Pin 17 (Passive) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(295.91 mm, 96.52 mm): Pin 18 (Passive) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 124.46 mm): Pin 19 (Passive) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 127.00 mm): Pin 20 (Passive) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 87.63 mm): Pin 3 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 90.17 mm): Pin 4 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 92.71 mm): Pin 5 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 95.25 mm): Pin 6 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 97.79 mm): Pin 7 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 100.33 mm): Pin 8 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(267.97 mm, 102.87 mm): Pin 9 (Bidirectional) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 153.67 mm): Pin 1 (Bidirectional) of component J8 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(269.24 mm, 176.53 mm): Pin 10 (Bidirectional) of component J8 is unconnected.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(125.73 mm, 110.49 mm): Pin 9 (Power input) of component U15 is not driven (Net 440).
+
+***** Sheet /Power Supply/
+
+***** Sheet /Power Supply/PoE/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(113.03 mm, 50.80 mm): Pin 1 (Power input) of component IC1 is not driven (Net 575).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(138.43 mm, 55.88 mm): Pin 6 (Passive) of component IC1 is unconnected.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(140.97 mm, 76.20 mm): Pin 1 (Power input) of component #PWR0102 is not driven (Net 579).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(50.80 mm, 36.83 mm): Pin 3 (Passive) of component D1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(50.80 mm, 62.23 mm): Pin 3 (Passive) of component D2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(50.80 mm, 46.99 mm): Pin 4 (Passive) of component D1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(50.80 mm, 72.39 mm): Pin 4 (Passive) of component D2 is unconnected.
+ErrType(5): Conflict problem between pins. Severity: error
+    @(69.85 mm, 152.40 mm): Pin 25 (Output) of component U3 is connected to 
+    @(69.85 mm, 149.86 mm): pin 26 (Output) of component U3 (net 585).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(69.85 mm, 149.86 mm): Pin 26 (Output) of component U3 is connected to 
+    @(69.85 mm, 147.32 mm): pin 27 (Output) of component U3 (net 585).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(69.85 mm, 172.72 mm): Pin 17 (Output) of component U3 is connected to 
+    @(69.85 mm, 177.80 mm): pin 15 (Unspecified) of component U3 (net 587).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(69.85 mm, 177.80 mm): Pin 15 (Unspecified) of component U3 is connected to 
+    @(127.00 mm, 170.18 mm): pin 12 (Power input) of component U3 (net 587).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(127.00 mm, 170.18 mm): Pin 12 (Power input) of component U3 is connected to 
+    @(127.00 mm, 167.64 mm): pin 11 (Unspecified) of component U3 (net 587).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(127.00 mm, 167.64 mm): Pin 11 (Unspecified) of component U3 is connected to 
+    @(127.00 mm, 165.10 mm): pin 10 (Unspecified) of component U3 (net 587).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(127.00 mm, 165.10 mm): Pin 10 (Unspecified) of component U3 is connected to 
+    @(104.14 mm, 127.00 mm): pin 2 (Passive) of component C11 (net 587).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(104.14 mm, 127.00 mm): Pin 2 (Passive) of component C11 is connected to 
+    @(127.00 mm, 154.94 mm): pin 6 (Unspecified) of component U3 (net 587).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(127.00 mm, 154.94 mm): Pin 6 (Unspecified) of component U3 is connected to 
+    @(127.00 mm, 160.02 mm): pin 8 (Unspecified) of component U3 (net 587).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(127.00 mm, 160.02 mm): Pin 8 (Unspecified) of component U3 is connected to 
+    @(127.00 mm, 162.56 mm): pin 9 (Unspecified) of component U3 (net 587).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(127.00 mm, 162.56 mm): Pin 9 (Unspecified) of component U3 is connected to 
+    @(127.00 mm, 147.32 mm): pin 3 (Power input) of component U3 (net 587).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(69.85 mm, 162.56 mm): Pin 21 (Power input) of component U3 is not driven (Net 591).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(69.85 mm, 142.24 mm): Pin 29 (Unspecified) of component U3 is unconnected.
+
+***** Sheet /Power Supply/DC/DC conventers/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(110.49 mm, 257.81 mm): Pin 5 (Input) of component U7 is not driven (Net 1).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(226.06 mm, 99.06 mm): Pin 5 (Input) of component U9 is not driven (Net 2).
+ErrType(8): Global label not connected to any other global label
+    @(285.75 mm, 92.71 mm): Global label PL_3V3 is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(285.75 mm, 132.08 mm): Global label PL_1V8 is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(285.75 mm, 171.45 mm): Global label PL_1V2 is not connected to any other global label.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(217.17 mm, 60.96 mm): Pin 12 (Power input) of component U8 is not driven (Net 551).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(181.61 mm, 55.88 mm): Pin 11 (Not connected) of component U8 is connected to 
+    @(181.61 mm, 55.88 mm): pin 3 (Not connected) of component U8 (net 555).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(181.61 mm, 55.88 mm): Pin 3 (Not connected) of component U8 is connected to 
+    @(181.61 mm, 55.88 mm): pin 10 (Not connected) of component U8 (net 555).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(181.61 mm, 53.34 mm): Pin 4 (Not connected) of component U8 is connected to 
+    @(181.61 mm, 53.34 mm): pin 5 (Not connected) of component U8 (net 556).
+ErrType(8): Global label not connected to any other global label
+    @(246.38 mm, 39.37 mm): Global label SOM_5V is not connected to any other global label.
+ErrType(5): Conflict problem between pins. Severity: error
+    @(217.17 mm, 40.64 mm): Pin 8 (Output) of component U8 is connected to 
+    @(217.17 mm, 40.64 mm): pin 7 (Output) of component U8 (net 558).
+ErrType(8): Global label not connected to any other global label
+    @(170.18 mm, 92.71 mm): Global label PS_3V3 is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(170.18 mm, 210.82 mm): Global label PS_1V2 is not connected to any other global label.
+
+***** Sheet /Power Supply/Supply ORing/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(151.13 mm, 90.17 mm): Pin 9 (Output) of component U14 is connected to 
+    @(148.59 mm, 133.35 mm): pin 9 (Output) of component U12 (net 446).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(148.59 mm, 133.35 mm): Pin 9 (Output) of component U12 is connected to 
+    @(148.59 mm, 135.89 mm): pin 8 (Power output) of component U12 (net 446).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(148.59 mm, 135.89 mm): Pin 8 (Power output) of component U12 is connected to 
+    @(151.13 mm, 87.63 mm): pin 15 (Power output) of component U14 (net 446).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(151.13 mm, 87.63 mm): Pin 15 (Power output) of component U14 is connected to 
+    @(148.59 mm, 130.81 mm): pin 15 (Power output) of component U12 (net 446).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(148.59 mm, 130.81 mm): Pin 15 (Power output) of component U12 is connected to 
+    @(151.13 mm, 52.07 mm): pin 8 (Power output) of component U13 (net 446).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(151.13 mm, 52.07 mm): Pin 8 (Power output) of component U13 is connected to 
+    @(151.13 mm, 49.53 mm): pin 9 (Output) of component U13 (net 446).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(151.13 mm, 49.53 mm): Pin 9 (Output) of component U13 is connected to 
+    @(151.13 mm, 46.99 mm): pin 15 (Power output) of component U13 (net 446).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 52.07 mm): Pin 5 (Output) of component U13 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(128.27 mm, 135.89 mm): Pin 5 (Output) of component U12 is unconnected.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(140.97 mm, 105.41 mm): Pin 7 (Power input) of component U14 is not driven (Net 606).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 92.71 mm): Pin 5 (Output) of component U14 is unconnected.
+
+***** Sheet /Power Supply/USB-C socket/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(113.03 mm, 85.09 mm): Pin B4_A9 (Power input) of component J2 is not driven (Net 441).
+
+***** Sheet /Power Supply/DC Input/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(144.78 mm, 91.44 mm): Pin 2 (Passive) of component J3 is unconnected.
+
+***** Sheet /USB/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(152.40 mm, 85.09 mm): Pin 10 (Passive) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(152.40 mm, 92.71 mm): Pin 1 (Power input) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 80.01 mm): Pin 2 (Bidirectional) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 82.55 mm): Pin 3 (Bidirectional) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(152.40 mm, 80.01 mm): Pin 4 (Power input) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 85.09 mm): Pin 5 (Output) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 87.63 mm): Pin 6 (Output) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(152.40 mm, 82.55 mm): Pin 7 (Passive) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 90.17 mm): Pin 8 (Input) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 92.71 mm): Pin 9 (Input) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 115.57 mm): Pin 8 (Input) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 118.11 mm): Pin 9 (Input) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(152.40 mm, 118.11 mm): Pin 1 (Power input) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(152.40 mm, 110.49 mm): Pin 10 (Passive) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 105.41 mm): Pin 2 (Bidirectional) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 107.95 mm): Pin 3 (Bidirectional) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(152.40 mm, 105.41 mm): Pin 4 (Power input) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 110.49 mm): Pin 5 (Output) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(127.00 mm, 113.03 mm): Pin 6 (Output) of component J5 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(152.40 mm, 107.95 mm): Pin 7 (Passive) of component J5 is unconnected.
+
+***** Sheet /HDMI/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(149.86 mm, 123.19 mm): Pin SH (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 87.63 mm): Pin 9 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 123.19 mm): Pin 8 (Power input) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 85.09 mm): Pin 7 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 82.55 mm): Pin 6 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 123.19 mm): Pin 5 (Power input) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 80.01 mm): Pin 4 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 77.47 mm): Pin 3 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(137.16 mm, 123.19 mm): Pin 2 (Power input) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 113.03 mm): Pin 19 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(142.24 mm, 67.31 mm): Pin 18 (Power input) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(147.32 mm, 123.19 mm): Pin 17 (Power input) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 105.41 mm): Pin 16 (Bidirectional) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 102.87 mm): Pin 15 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 110.49 mm): Pin 14 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 97.79 mm): Pin 13 (Bidirectional) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 92.71 mm): Pin 12 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(144.78 mm, 123.19 mm): Pin 11 (Power input) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 90.17 mm): Pin 10 (Passive) of component J6 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(132.08 mm, 74.93 mm): Pin 1 (Passive) of component J6 is unconnected.
+
+***** Sheet /Camera interfaces/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 139.70 mm): Pin 43 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 114.30 mm): Pin 33 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 116.84 mm): Pin 34 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 119.38 mm): Pin 35 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 121.92 mm): Pin 36 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 78.74 mm): Pin 19 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 124.46 mm): Pin 37 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 127.00 mm): Pin 38 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 129.54 mm): Pin 39 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 40.64 mm): Pin 4 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 132.08 mm): Pin 40 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 134.62 mm): Pin 41 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 137.16 mm): Pin 42 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 76.20 mm): Pin 18 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 142.24 mm): Pin 44 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 144.78 mm): Pin 45 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 147.32 mm): Pin 46 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 149.86 mm): Pin 47 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 152.40 mm): Pin 48 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 154.94 mm): Pin 49 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 43.18 mm): Pin 5 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 157.48 mm): Pin 50 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 45.72 mm): Pin 6 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 48.26 mm): Pin 7 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 50.80 mm): Pin 8 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 53.34 mm): Pin 9 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 109.22 mm): Pin 31 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 111.76 mm): Pin 32 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 73.66 mm): Pin 17 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 71.12 mm): Pin 16 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 68.58 mm): Pin 15 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 66.04 mm): Pin 14 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 63.50 mm): Pin 13 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 60.96 mm): Pin 12 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 58.42 mm): Pin 11 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 55.88 mm): Pin 10 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 33.02 mm): Pin 1 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 35.56 mm): Pin 2 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 81.28 mm): Pin 20 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 86.36 mm): Pin 22 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 83.82 mm): Pin 21 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 106.68 mm): Pin 30 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 38.10 mm): Pin 3 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 104.14 mm): Pin 29 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 101.60 mm): Pin 28 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 96.52 mm): Pin 26 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 93.98 mm): Pin 25 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 91.44 mm): Pin 24 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 88.90 mm): Pin 23 (Passive) of component J7 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 99.06 mm): Pin 27 (Passive) of component J7 is unconnected.
+
+***** Sheet /Debug/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 68.58 mm): Pin 26 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 130.81 mm): Pin 27 (Input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 135.89 mm): Pin 28 (Output) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(146.05 mm, 151.13 mm): Pin 29 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 139.70 mm): Pin 3 (Input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 43.18 mm): Pin 30 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 48.26 mm): Pin 31 (Power output) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 86.36 mm): Pin 32 (Input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 85.09 mm): Pin 34 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 87.63 mm): Pin 35 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 90.17 mm): Pin 36 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 92.71 mm): Pin 37 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 95.25 mm): Pin 38 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 71.12 mm): Pin 39 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 115.57 mm): Pin 4 (Input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 97.79 mm): Pin 40 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 100.33 mm): Pin 41 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 102.87 mm): Pin 42 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 144.78 mm): Pin 43 (Output) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 63.50 mm): Pin 17 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(154.94 mm, 151.13 mm): Pin 29 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 123.19 mm): Pin 1 (Output) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 66.04 mm): Pin 10 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 46.99 mm): Pin 11 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 49.53 mm): Pin 12 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 52.07 mm): Pin 13 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 54.61 mm): Pin 14 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 57.15 mm): Pin 15 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 59.69 mm): Pin 16 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 55.88 mm): Pin 25 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 66.04 mm): Pin 18 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 68.58 mm): Pin 19 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 125.73 mm): Pin 2 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 71.12 mm): Pin 20 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 73.66 mm): Pin 21 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 76.20 mm): Pin 22 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 78.74 mm): Pin 23 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 81.28 mm): Pin 24 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 53.34 mm): Pin 8 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 91.44 mm): Pin 63 (Input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 93.98 mm): Pin 64 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 60.96 mm): Pin 66 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 142.24 mm): Pin 67 (Output) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 120.65 mm): Pin 68 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(148.59 mm, 151.13 mm): Pin 69 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 44.45 mm): Pin 7 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 81.28 mm): Pin 61 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(143.51 mm, 151.13 mm): Pin 9 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 121.92 mm): Pin 51 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 106.68 mm): Pin 45 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 109.22 mm): Pin 46 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 111.76 mm): Pin 47 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 114.30 mm): Pin 48 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 129.54 mm): Pin 49 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 116.84 mm): Pin 49 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 132.08 mm): Pin 50 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 119.38 mm): Pin 50 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 134.62 mm): Pin 51 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 58.42 mm): Pin 44 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 73.66 mm): Pin 51 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 137.16 mm): Pin 52 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 124.46 mm): Pin 52 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 78.74 mm): Pin 57 (Power input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 102.87 mm): Pin 58 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 105.41 mm): Pin 59 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(171.45 mm, 41.91 mm): Pin 6 (Bidirectional) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 110.49 mm): Pin 60 (Input) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 96.52 mm): Pin 65 (Output) of component U1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(130.81 mm, 99.06 mm): Pin 62 (Output) of component U1 is unconnected.
+
+ ** ERC messages: 562  Errors 13  Warnings 549

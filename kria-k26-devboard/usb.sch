@@ -16,25 +16,25 @@ $EndDescr
 $Comp
 L antmicroUSBDVIHDMIConnectors:48393-0001 J5
 U 1 1 63CB692B
-P 5500 4200
-F 0 "J5" H 5500 3885 50  0000 C CNN
-F 1 "48393-0001" H 5500 3976 50  0000 C CNN
-F 2 "antmicro-footprints:48393-001" H 5500 3050 50  0001 C CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0483930003_IO_CONNECTORS.pdf" H 5350 4300 50  0001 C CNN
-F 4 "Molex" H 5500 2950 50  0001 C CNN "Manufacturer"
-	1    5500 4200
+P -1000 7200
+F 0 "J5" H -1000 6885 50  0000 C CNN
+F 1 "48393-0001" H -1000 6976 50  0000 C CNN
+F 2 "antmicro-footprints:48393-001" H -1000 6050 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0483930003_IO_CONNECTORS.pdf" H -1150 7300 50  0001 C CNN
+F 4 "Molex" H -1000 5950 50  0001 C CNN "Manufacturer"
+	1    -1000 7200
 	1    0    0    1   
 $EndComp
 $Comp
 L antmicroUSBDVIHDMIConnectors:48393-0001 J4
 U 1 1 63CB6932
-P 5500 3200
-F 0 "J4" H 5500 2885 50  0000 C CNN
-F 1 "48393-0001" H 5500 2976 50  0000 C CNN
-F 2 "antmicro-footprints:48393-001" H 5500 2050 50  0001 C CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0483930003_IO_CONNECTORS.pdf" H 5350 3300 50  0001 C CNN
-F 4 "Molex" H 5500 1950 50  0001 C CNN "Manufacturer"
-	1    5500 3200
+P -1000 6200
+F 0 "J4" H -1000 5885 50  0000 C CNN
+F 1 "48393-0001" H -1000 5976 50  0000 C CNN
+F 2 "antmicro-footprints:48393-001" H -1000 5050 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0483930003_IO_CONNECTORS.pdf" H -1150 6300 50  0001 C CNN
+F 4 "Molex" H -1000 4950 50  0001 C CNN "Manufacturer"
+	1    -1000 6200
 	1    0    0    1   
 $EndComp
 $EndSCHEMATC

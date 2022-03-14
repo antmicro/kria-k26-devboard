@@ -86,12 +86,8 @@ Wire Wire Line
 	1800 4100 1400 4100
 Wire Wire Line
 	1800 4200 1700 4200
-Text Label 1400 4400 2    50   ~ 0
-VCCO_EN_PL_M2C
 Wire Wire Line
 	1800 4400 1400 4400
-Text Label 1400 4300 2    50   ~ 0
-VCCOEN_PS_M2C
 Wire Wire Line
 	1800 4300 1400 4300
 Wire Wire Line
@@ -3765,4 +3761,8 @@ Wire Bus Line
 	4800 6500 4800 6900
 Wire Bus Line
 	7700 6300 7700 7000
+Text HLabel 1400 4400 0    50   Input ~ 0
+VCCO_EN_PL_M2C
+Text HLabel 1400 4300 0    50   Input ~ 0
+VCCO_EN_PS_M2C
 $EndSCHEMATC

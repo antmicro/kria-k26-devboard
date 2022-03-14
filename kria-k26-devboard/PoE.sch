@@ -795,4 +795,18 @@ VSS_POE_IN
 Wire Wire Line
 	2500 7000 2600 7000
 Connection ~ 2600 7000
+Text HLabel 1650 1300 0    50   Input ~ 0
+POE_VC[1..4]
+Wire Bus Line
+	1650 1300 1700 1300
+Entry Wire Line
+	1800 1450 1700 1350
+Entry Wire Line
+	1800 1850 1700 1750
+Entry Wire Line
+	1800 2450 1700 2350
+Entry Wire Line
+	1800 2850 1700 2750
+Wire Bus Line
+	1700 1300 1700 2750
 $EndSCHEMATC
