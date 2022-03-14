@@ -460,20 +460,6 @@ Wire Wire Line
 	2450 4950 2450 5150
 Wire Wire Line
 	2750 6400 2600 6400
-$Comp
-L kria-k26-devboard-rescue:1N4448-Diode D?
-U 1 1 6253A6C2
-P 2350 6000
-AR Path="/63C44BC2/6253A6C2" Ref="D?"  Part="1" 
-AR Path="/63C44BC2/62525BE1/6253A6C2" Ref="D3"  Part="1" 
-AR Path="/6253A6C2" Ref="D3"  Part="1" 
-F 0 "D3" V 2396 5920 50  0000 R CNN
-F 1 "1N4448" V 2305 5920 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2350 5825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2350 6000 50  0001 C CNN
-	1    2350 6000
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	2350 6200 2350 6150
 Wire Wire Line
@@ -793,4 +779,20 @@ PoE PSE\n\n
 Wire Notes Line
 	500  3450 11200 3450
 NoConn ~ 8500 2100
+$Comp
+L Diode:1N4448WS D3
+U 1 1 6265BF3C
+P 2350 6000
+F 0 "D3" V 2350 6150 50  0000 R CNN
+F 1 "1N4448WS" V 2250 6450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 2350 5825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/81387/1n4448ws.pdf" H 2350 6000 50  0001 C CNN
+	1    2350 6000
+	0    -1   -1   0   
+$EndComp
+Text Label 2500 7000 2    50   ~ 0
+VSS_POE_IN
+Wire Wire Line
+	2500 7000 2600 7000
+Connection ~ 2600 7000
 $EndSCHEMATC

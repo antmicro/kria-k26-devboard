@@ -8,8 +8,8 @@ Title ""
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -2202,10 +2202,10 @@ F 8 "4x4" H 5875 8675 50  0001 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDCDCConverters:RPX-4.0-R U?
+L antmicroDCDCConverters:RPX-4.0-R U8
 U 1 1 625E2C9C
 P 7850 2000
-F 0 "U?" H 7850 2757 50  0000 C CNN
+F 0 "U8" H 7850 2757 50  0000 C CNN
 F 1 "RPX-4.0-R" H 7850 2666 50  0000 C CNN
 F 2 "antmicro-footprints:Recom_15-PowerBQFN" H 7850 2000 50  0001 L BNN
 F 3 "https://recom-power.com/pdf/Innoline/RPX-4.0.pdf" H 7850 2000 50  0001 L BNN

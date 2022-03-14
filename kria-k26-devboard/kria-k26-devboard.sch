@@ -18,12 +18,14 @@ S 4700 2850 1700 900
 U 622B7DC8
 F0 "Xilinx K26 SOM" 50
 F1 "k26_som.sch" 50
+F2 "MIO[64..77]" I R 6400 3000 50 
 $EndSheet
 $Sheet
 S 7400 2850 1600 900 
 U 63C3FA95
 F0 "Ethernet" 50
 F1 "eth.sch" 50
+F2 "MIO[64..77]" I L 7400 3000 50 
 $EndSheet
 $Sheet
 S 1950 2800 1600 900 
@@ -66,4 +68,6 @@ Wire Bus Line
 	3750 3600 3750 4250
 Wire Bus Line
 	3750 4250 3550 4250
+Wire Bus Line
+	6400 3000 7400 3000
 $EndSCHEMATC
