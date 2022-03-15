@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 13
+Sheet 8 14
 Title ""
 Date ""
 Rev ""
@@ -171,7 +171,7 @@ F 5 "Nexperia " H 6150 4900 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Bus Line
 	6650 3700 6500 3700
-Text HLabel 6650 3700 2    50   Input ~ 0
+Text HLabel 6650 3700 2    50   BiDi ~ 0
 DBG_USB[0..1]
 $Comp
 L power:GND #PWR?
@@ -261,10 +261,6 @@ VBUS
 Wire Wire Line
 	7950 3250 7900 3250
 Connection ~ 7900 3250
-Wire Bus Line
-	6500 3350 6500 3550
-Wire Bus Line
-	6500 3700 6500 4000
 Connection ~ 6200 3850
 Wire Wire Line
 	6200 3850 6400 3850
@@ -276,4 +272,8 @@ Entry Wire Line
 	6500 3750 6400 3850
 Entry Wire Line
 	6500 4000 6400 4100
+Wire Bus Line
+	6500 3350 6500 3550
+Wire Bus Line
+	6500 3700 6500 4000
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 13
+Sheet 2 14
 Title "K26 SOM connnector"
 Date "2022-03-10"
 Rev "1.0.0"
@@ -159,16 +159,10 @@ Wire Wire Line
 	1800 6100 1700 6100
 Text Label 1400 6300 2    50   ~ 0
 MIO62
-Wire Wire Line
-	1800 6300 1400 6300
 Text Label 1400 6200 2    50   ~ 0
 MIO61
-Wire Wire Line
-	1800 6200 1400 6200
 Text Label 1400 6400 2    50   ~ 0
 MIO63
-Wire Wire Line
-	1800 6400 1400 6400
 Wire Wire Line
 	1800 6500 1700 6500
 Text Label 1400 6700 2    50   ~ 0
@@ -698,16 +692,10 @@ F 3 "" H 3100 6700 50  0001 C CNN
 	1    3100 6700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3000 6400 3400 6400
 Text Label 3400 6400 0    50   ~ 0
 MIO58
-Wire Wire Line
-	3000 6600 3400 6600
 Text Label 3400 6600 0    50   ~ 0
 MIO60
-Wire Wire Line
-	3000 6500 3400 6500
 Text Label 3400 6500 0    50   ~ 0
 MIO59
 Wire Wire Line
@@ -741,12 +729,8 @@ Wire Wire Line
 	3000 7300 3400 7300
 Wire Wire Line
 	3000 7800 3400 7800
-Text Label 3400 7800 0    50   ~ 0
-GTR_DP2_C2M_N
 Wire Wire Line
 	3000 7700 3400 7700
-Text Label 3400 7700 0    50   ~ 0
-GTR_DP2_C2M_P
 Wire Wire Line
 	3000 8200 3400 8200
 Text Label 3400 8200 0    50   ~ 0
@@ -1072,16 +1056,10 @@ F 3 "" H 5500 6600 50  0001 C CNN
 	1    5500 6600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5600 6500 5200 6500
 Text Label 5200 6500 2    50   ~ 0
 MIO57
-Wire Wire Line
-	5600 6300 5200 6300
 Text Label 5200 6300 2    50   ~ 0
 MIO55
-Wire Wire Line
-	5600 6400 5200 6400
 Text Label 5200 6400 2    50   ~ 0
 MIO56
 Wire Wire Line
@@ -1372,10 +1350,6 @@ MIO52
 Text Label 7200 6200 0    50   ~ 0
 MIO53
 Wire Wire Line
-	6800 6100 7200 6100
-Wire Wire Line
-	7200 6200 6800 6200
-Wire Wire Line
 	6800 6000 6900 6000
 $Comp
 L power:GND #PWR0167
@@ -1488,18 +1462,12 @@ Wire Wire Line
 	6900 8100 6800 8100
 Wire Wire Line
 	6800 8400 6900 8400
-Text Label 7200 8200 0    50   ~ 0
-GTR_DP2_M2C_P
 Text Label 7200 8500 0    50   ~ 0
 VCC_SOM
-Text Label 7200 8300 0    50   ~ 0
-GTR_DP2_M2C_N
 Wire Wire Line
 	6800 8500 7200 8500
 Text Label 7200 6300 0    50   ~ 0
 MIO54
-Wire Wire Line
-	7200 6300 6800 6300
 $Comp
 L power:GND #PWR0174
 U 1 1 62F005E9
@@ -3679,30 +3647,30 @@ Wire Wire Line
 	4450 10800 4650 10800
 Text Notes 1200 10100 0    50   ~ 0
 SOM 5V0 decoupling
-Text HLabel 7800 6300 2    50   Input ~ 0
+Text HLabel 7650 6300 2    50   Input ~ 0
 MIO[64..77]
 Wire Bus Line
-	7800 6300 7700 6300
+	7650 6300 7550 6300
 Entry Wire Line
-	7600 6500 7700 6400
+	7450 6500 7550 6400
 Wire Wire Line
-	6800 6500 7600 6500
+	6800 6500 7450 6500
 Wire Wire Line
-	6800 6600 7600 6600
+	6800 6600 7450 6600
 Wire Wire Line
-	6800 6700 7600 6700
+	6800 6700 7450 6700
 Wire Wire Line
-	6800 6900 7600 6900
+	6800 6900 7450 6900
 Wire Wire Line
-	6800 7000 7600 7000
+	6800 7000 7450 7000
 Entry Wire Line
-	7600 6900 7700 6800
+	7450 6900 7550 6800
 Entry Wire Line
-	7600 7000 7700 6900
+	7450 7000 7550 6900
 Entry Wire Line
-	7600 6700 7700 6600
+	7450 6700 7550 6600
 Entry Wire Line
-	7600 6600 7700 6500
+	7450 6600 7550 6500
 Text HLabel 3800 6600 2    50   Input ~ 0
 MIO[64..77]
 Wire Bus Line
@@ -3753,16 +3721,96 @@ Wire Bus Line
 	3750 6600 3800 6600
 Text HLabel 4750 6500 0    50   Input ~ 0
 MIO[64..77]
+Text HLabel 1400 4400 0    50   Input ~ 0
+VCCO_EN_PL_M2C
+Text HLabel 1400 4300 0    50   Input ~ 0
+VCCO_EN_PS_M2C
+Text HLabel 3800 6200 2    50   Input ~ 0
+MIO[52..63]
+Entry Wire Line
+	3650 6400 3750 6300
+Entry Wire Line
+	3650 6500 3750 6400
+Entry Wire Line
+	3650 6600 3750 6500
+Wire Bus Line
+	3750 6200 3800 6200
+Wire Wire Line
+	3000 6600 3650 6600
+Wire Wire Line
+	3000 6500 3650 6500
+Wire Wire Line
+	3000 6400 3650 6400
+Text HLabel 1000 6000 0    50   Input ~ 0
+MIO[52..63]
+Entry Wire Line
+	1150 6200 1050 6100
+Entry Wire Line
+	1150 6300 1050 6200
+Entry Wire Line
+	1150 6400 1050 6300
+Wire Bus Line
+	1050 6000 1000 6000
+Wire Wire Line
+	1150 6400 1800 6400
+Wire Wire Line
+	1150 6300 1800 6300
+Wire Wire Line
+	1150 6200 1800 6200
+Text HLabel 4750 6100 0    50   Input ~ 0
+MIO[52..63]
+Entry Wire Line
+	4900 6300 4800 6200
+Entry Wire Line
+	4900 6400 4800 6300
+Entry Wire Line
+	4900 6500 4800 6400
+Wire Bus Line
+	4800 6100 4750 6100
+Wire Wire Line
+	4900 6300 5600 6300
+Wire Wire Line
+	4900 6400 5600 6400
+Wire Wire Line
+	4900 6500 5600 6500
+Text HLabel 7600 5900 2    50   Input ~ 0
+MIO[52..63]
+Entry Wire Line
+	7450 6100 7550 6000
+Entry Wire Line
+	7450 6200 7550 6100
+Entry Wire Line
+	7450 6300 7550 6200
+Wire Bus Line
+	7550 5900 7600 5900
+Wire Wire Line
+	6800 6300 7450 6300
+Wire Wire Line
+	6800 6200 7450 6200
+Wire Wire Line
+	6800 6100 7450 6100
+Wire Bus Line
+	4800 6500 4800 6800
 Wire Bus Line
 	3750 6600 3750 6900
 Wire Bus Line
 	1050 6400 1050 6700
 Wire Bus Line
-	4800 6500 4800 6900
+	3750 6200 3750 6500
 Wire Bus Line
-	7700 6300 7700 7000
-Text HLabel 1400 4400 0    50   Input ~ 0
-VCCO_EN_PL_M2C
-Text HLabel 1400 4300 0    50   Input ~ 0
-VCCO_EN_PS_M2C
+	1050 6000 1050 6300
+Wire Bus Line
+	4800 6100 4800 6400
+Wire Bus Line
+	7550 5900 7550 6200
+Wire Bus Line
+	7550 6300 7550 6900
+Text HLabel 3400 7700 2    50   Input ~ 0
+GTR_DP2_C2M_P
+Text HLabel 3400 7800 2    50   Input ~ 0
+GTR_DP2_C2M_N
+Text HLabel 7200 8200 2    50   Input ~ 0
+GTR_DP2_M2C_P
+Text HLabel 7200 8300 2    50   Input ~ 0
+GTR_DP2_M2C_N
 $EndSCHEMATC
