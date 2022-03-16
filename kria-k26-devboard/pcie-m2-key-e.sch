@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 14 15
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L antmicroPciConnectors:2199119-6 P1
+U 1 1 630B351C
+P 6000 2900
+F 0 "P1" H 6000 4365 50  0000 C CNN
+F 1 "2199119-6" H 6000 4274 50  0000 C CNN
+F 2 "antmicro-footprints:TE_1-2199119-6" H 6000 3450 50  0001 C CNN
+F 3 "https://www.te.com/usa-en/product-1-2199119-6.datasheet.pdf" H 6000 3450 50  0001 C CNN
+F 4 "2199119-6" H 6000 2900 50  0001 C CNN "MPN"
+F 5 "TE Connectivity " H 6000 2900 50  0001 C CNN "Manufacturer"
+	1    6000 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
