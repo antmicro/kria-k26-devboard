@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 15
+Sheet 16 16
 Title "K26 SOM connnector"
 Date "2022-03-10"
 Rev "1.0.0"
@@ -394,20 +394,12 @@ F 3 "" H 1700 7700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1800 7800 1700 7800
-Text Label 1400 7200 2    50   ~ 0
-GTR_DP1_M2C_N
 Wire Wire Line
 	1800 7200 1400 7200
-Text Label 1400 7100 2    50   ~ 0
-GTR_DP1_M2C_P
 Wire Wire Line
 	1800 7100 1400 7100
-Text Label 1400 7600 2    50   ~ 0
-GTR_REFCLK3_C2M_N
 Wire Wire Line
 	1800 7600 1400 7600
-Text Label 1400 7500 2    50   ~ 0
-GTR_REFCLK3_C2M_P
 Wire Wire Line
 	1800 7500 1400 7500
 Wire Wire Line
@@ -422,10 +414,6 @@ Wire Wire Line
 	1800 8300 1700 8300
 Wire Wire Line
 	1700 8300 1700 8400
-Text Label 1400 8000 2    50   ~ 0
-GTR_DP0_C2M_N
-Text Label 1400 7900 2    50   ~ 0
-GTR_DP0_C2M_P
 Wire Wire Line
 	3000 3600 3100 3600
 Wire Wire Line
@@ -729,12 +717,8 @@ Wire Wire Line
 	3000 7700 3400 7700
 Wire Wire Line
 	3000 8200 3400 8200
-Text Label 3400 8200 0    50   ~ 0
-GTR_DP0_M2C_N
 Wire Wire Line
 	3000 8100 3400 8100
-Text Label 3400 8100 0    50   ~ 0
-GTR_DP0_M2C_P
 Wire Wire Line
 	3000 7500 3100 7500
 $Comp
@@ -1006,12 +990,8 @@ Wire Wire Line
 	5600 5700 5200 5700
 Text Label 5200 5700 2    50   ~ 0
 MIO31_SHUTDOWN
-Wire Wire Line
-	5600 5500 5200 5500
 Text Label 5200 5500 2    50   ~ 0
 MIO29
-Wire Wire Line
-	5600 5600 5200 5600
 Text Label 5200 5600 2    50   ~ 0
 MIO30
 Wire Wire Line
@@ -1084,12 +1064,8 @@ Wire Wire Line
 	5600 8100 5200 8100
 Wire Wire Line
 	5600 7600 5200 7600
-Text Label 5200 7600 2    50   ~ 0
-GTR_DP3_M2C_P
 Wire Wire Line
 	5600 7700 5200 7700
-Text Label 5200 7700 2    50   ~ 0
-GTR_DP3_M2C_N
 Wire Wire Line
 	5600 7200 5200 7200
 Text Label 5200 7200 2    50   ~ 0
@@ -1294,10 +1270,6 @@ MIO28
 Wire Wire Line
 	6800 5300 7200 5300
 Wire Wire Line
-	7200 5400 6800 5400
-Wire Wire Line
-	6800 5500 7200 5500
-Wire Wire Line
 	6800 5200 6900 5200
 $Comp
 L power:GND #PWR0165
@@ -1348,12 +1320,8 @@ F 3 "" H 6900 7600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6800 7500 7200 7500
-Text Label 7200 7500 0    50   ~ 0
-GTR_DP3_C2M_N
 Wire Wire Line
 	6800 7400 7200 7400
-Text Label 7200 7400 0    50   ~ 0
-GTR_DP3_C2M_P
 $Comp
 L power:GND #PWR0168
 U 1 1 62CB7F63
@@ -3823,6 +3791,36 @@ Entry Wire Line
 	3750 5900 3650 6000
 Wire Wire Line
 	3000 6000 3650 6000
+Text HLabel 3400 5700 2    50   Input ~ 0
+MIO39
+Text HLabel 7600 5200 2    50   Input ~ 0
+MIO[27..30]
+Entry Wire Line
+	7450 5400 7550 5300
+Wire Bus Line
+	7550 5200 7600 5200
+Entry Wire Line
+	7550 5400 7450 5500
+Wire Wire Line
+	6800 5400 7450 5400
+Wire Wire Line
+	6800 5500 7450 5500
+Text HLabel 4750 5350 0    50   Input ~ 0
+MIO[27..30]
+Wire Bus Line
+	4800 5350 4750 5350
+Entry Wire Line
+	4800 5400 4900 5500
+Entry Wire Line
+	4900 5600 4800 5500
+Wire Wire Line
+	4900 5500 5600 5500
+Wire Wire Line
+	4900 5600 5600 5600
+Wire Bus Line
+	4800 5350 4800 5500
+Wire Bus Line
+	7550 5200 7550 5400
 Wire Bus Line
 	4800 6500 4800 6800
 Wire Bus Line
@@ -3843,6 +3841,28 @@ Wire Bus Line
 	4800 5750 4800 6050
 Wire Bus Line
 	7550 6300 7550 6900
-Text HLabel 3400 5700 2    50   Input ~ 0
-MIO39
+Text Label 1400 7900 2    50   ~ 0
+GTR_DP0_C2M_P
+Text Label 1400 8000 2    50   ~ 0
+GTR_DP0_C2M_N
+Text HLabel 3400 8100 2    50   Input ~ 0
+GTR_DP0_M2C_P
+Text HLabel 3400 8200 2    50   Input ~ 0
+GTR_DP0_M2C_N
+Text HLabel 1400 7100 0    50   Input ~ 0
+GTR_DP1_M2C_P
+Text HLabel 1400 7200 0    50   Input ~ 0
+GTR_DP1_M2C_N
+Text HLabel 1400 7500 0    50   Input ~ 0
+GTR_REFCLK3_C2M_P
+Text HLabel 1400 7600 0    50   Input ~ 0
+GTR_REFCLK3_C2M_N
+Text HLabel 7200 7400 2    50   Input ~ 0
+GTR_DP3_C2M_P
+Text HLabel 7200 7500 2    50   Input ~ 0
+GTR_DP3_C2M_N
+Text HLabel 5200 7600 0    50   Input ~ 0
+GTR_DP3_M2C_P
+Text HLabel 5200 7700 0    50   Input ~ 0
+GTR_DP3_M2C_N
 $EndSCHEMATC

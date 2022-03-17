@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 12 16
 Title ""
 Date ""
 Rev ""
@@ -26,4 +26,16 @@ F 5 "TE Connectivity " H 6000 2900 50  0001 C CNN "Manufacturer"
 	1    6000 2900
 	1    0    0    -1  
 $EndComp
+Text HLabel 2250 2650 0    50   Input ~ 0
+GTR_DP3_C2M_P
+Text HLabel 2250 2750 0    50   Input ~ 0
+GTR_DP3_C2M_N
+Text HLabel 2250 2900 0    50   Input ~ 0
+GTR_DP3_M2C_P
+Text HLabel 2250 3000 0    50   Input ~ 0
+GTR_DP3_M2C_N
+Text HLabel 2250 2400 0    50   Input ~ 0
+GTR_REFCLK3_C2M_P
+Text HLabel 2250 2500 0    50   Input ~ 0
+GTR_REFCLK3_C2M_N
 $EndSCHEMATC
