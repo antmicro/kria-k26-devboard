@@ -279,15 +279,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 3250 4700 3250
 Wire Wire Line
-	4700 3250 4700 3350
-Wire Wire Line
 	4700 3650 4600 3650
 Connection ~ 4800 3250
 Wire Wire Line
 	4800 3250 4800 3450
-Connection ~ 4700 3350
-Wire Wire Line
-	4700 3350 4700 3650
 $Comp
 L antmicroResistors0402:R_49R9_0402 R?
 U 1 1 63CA6BD7
@@ -402,8 +397,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 3150 5200 3350
 Connection ~ 4950 3250
-Wire Wire Line
-	4700 3250 4800 3250
 Wire Wire Line
 	4950 3150 4950 3250
 Connection ~ 5200 3350
@@ -797,7 +790,6 @@ Text Label 7100 3250 0    50   ~ 0
 DP_AUX_C_P
 Text Label 7100 3350 0    50   ~ 0
 DP_AUX_C_N
-Connection ~ 4700 3250
 Wire Wire Line
 	4950 3250 6700 3250
 Wire Wire Line
@@ -859,11 +851,13 @@ Wire Wire Line
 	7050 5200 7050 5150
 Wire Wire Line
 	7050 4300 7050 4250
-Connection ~ 4950 3350
 Wire Wire Line
-	4950 3350 5200 3350
+	4700 3250 4700 3350
 Wire Wire Line
 	4700 3350 5200 3350
 Wire Bus Line
 	1100 3500 1100 3850
+Connection ~ 4700 3350
+Wire Wire Line
+	4700 3350 4700 3650
 $EndSCHEMATC
