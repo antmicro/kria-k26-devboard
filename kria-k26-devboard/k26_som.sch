@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 16 16
+Sheet 15 16
 Title "K26 SOM connnector"
 Date "2022-03-10"
 Rev "1.0.0"
@@ -34,12 +34,8 @@ Wire Wire Line
 	1800 2600 1700 2600
 Wire Wire Line
 	1800 2700 1400 2700
-Text Label 1400 2700 2    50   ~ 0
-HPA06_P
 Wire Wire Line
 	1800 2800 1400 2800
-Text Label 1400 2800 2    50   ~ 0
-HPA06_N
 Text Label 1400 3100 2    50   ~ 0
 HPA06_CLK0_N
 Wire Wire Line
@@ -424,32 +420,20 @@ Wire Wire Line
 	3000 3400 3400 3400
 Text Label 3400 3400 0    50   ~ 0
 HPA11_P
-Text Label 3400 3100 0    50   ~ 0
-HPA07_P
 Wire Wire Line
 	3000 3100 3400 3100
-Text Label 3400 3200 0    50   ~ 0
-HPA07_N
 Wire Wire Line
 	3000 3200 3400 3200
 Wire Wire Line
 	3000 3300 3100 3300
-Text Label 3400 2800 0    50   ~ 0
-HPA04_P
 Wire Wire Line
 	3000 2800 3400 2800
-Text Label 3400 2900 0    50   ~ 0
-HPA04_N
 Wire Wire Line
 	3000 2900 3400 2900
 Wire Wire Line
 	3000 3000 3100 3000
-Text Label 3400 2500 0    50   ~ 0
-HPA05_CC_P
 Wire Wire Line
 	3000 2500 3400 2500
-Text Label 3400 2600 0    50   ~ 0
-HPA05_CC_N
 Wire Wire Line
 	3000 2600 3400 2600
 Wire Wire Line
@@ -812,22 +796,14 @@ F 3 "" H 5500 2600 50  0001 C CNN
 	1    5500 2600
 	0    1    1    0   
 $EndComp
-Text Label 7200 3800 0    50   ~ 0
-HPA14_P
 Wire Wire Line
 	6800 4100 7200 4100
-Text Label 7200 3900 0    50   ~ 0
-HPA14_N
 Wire Wire Line
 	6800 4200 7200 4200
 Wire Wire Line
 	6900 3700 6800 3700
 Wire Wire Line
 	7200 3600 6800 3600
-Text Label 7200 3600 0    50   ~ 0
-HPA09_N
-Text Label 7200 3500 0    50   ~ 0
-HPA09_P
 Wire Wire Line
 	6800 3500 7200 3500
 Wire Wire Line
@@ -858,12 +834,8 @@ F 3 "" H 6900 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6800 4000 6900 4000
-Text Label 7200 3200 0    50   ~ 0
-HPA01_P
 Wire Wire Line
 	6800 3200 7200 3200
-Text Label 7200 3300 0    50   ~ 0
-HPA01_N
 Wire Wire Line
 	6800 3300 7200 3300
 $Comp
@@ -892,12 +864,8 @@ F 3 "" H 6900 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 3400 6800 3400
-Text Label 7200 2900 0    50   ~ 0
-HPA02_P
 Wire Wire Line
 	6800 2900 7200 2900
-Text Label 7200 3000 0    50   ~ 0
-HPA02_N
 Wire Wire Line
 	6800 3000 7200 3000
 $Comp
@@ -1189,15 +1157,9 @@ Wire Wire Line
 	6800 2600 6900 2600
 Wire Wire Line
 	6900 2600 6900 2700
-Wire Wire Line
-	6900 2600 7200 2600
 Connection ~ 6900 2600
 Wire Wire Line
 	6800 4300 7200 4300
-Text Label 7200 4100 0    50   ~ 0
-HDA00_C
-Text Label 7200 4200 0    50   ~ 0
-HDA01
 Text Label 7200 4300 0    50   ~ 0
 HDA02
 $Comp
@@ -1561,28 +1523,16 @@ Wire Wire Line
 	5500 3900 5600 3900
 Wire Wire Line
 	5600 2800 5200 2800
-Text Label 5200 2800 2    50   ~ 0
-HPA00_CC_P
 Wire Wire Line
 	5600 2900 5200 2900
-Text Label 5200 2900 2    50   ~ 0
-HPA00_CC_N
 Wire Wire Line
 	5600 3100 5200 3100
-Text Label 5200 3100 2    50   ~ 0
-HPA03_P
 Wire Wire Line
 	5600 3200 5200 3200
-Text Label 5200 3200 2    50   ~ 0
-HPA03_N
 Wire Wire Line
 	5600 3400 5200 3400
-Text Label 5200 3400 2    50   ~ 0
-HPA08_P
 Wire Wire Line
 	5600 3500 5200 3500
-Text Label 5200 3500 2    50   ~ 0
-HPA08_N
 Wire Wire Line
 	5600 3700 5200 3700
 Text Label 5200 3700 2    50   ~ 0
@@ -3530,20 +3480,6 @@ F 6 "1u" H 4765 10497 50  0000 L CNN "Val"
 	1    4650 10550
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroCapacitors0402:C_100n_0402 C8
-U 1 1 6235AF00
-P 5050 10550
-F 0 "C8" H 5165 10595 60  0000 L CNN
-F 1 "C_100n_0402" H 5050 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5250 10750 60  0001 L CNN
-F 3 "" H 5050 10550 50  0001 C CNN
-F 4 "Murata" H 5250 10950 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 5250 10850 60  0001 L CNN "MPN"
-F 6 "100n" H 5165 10497 50  0000 L CNN "Val"
-	1    5050 10550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 10400 3850 10300
 Wire Wire Line
@@ -3817,30 +3753,6 @@ Wire Wire Line
 	4900 5500 5600 5500
 Wire Wire Line
 	4900 5600 5600 5600
-Wire Bus Line
-	4800 5350 4800 5500
-Wire Bus Line
-	7550 5200 7550 5400
-Wire Bus Line
-	4800 6500 4800 6800
-Wire Bus Line
-	3750 6600 3750 6900
-Wire Bus Line
-	1050 6400 1050 6700
-Wire Bus Line
-	3750 6200 3750 6500
-Wire Bus Line
-	1050 6000 1050 6300
-Wire Bus Line
-	4800 6100 4800 6400
-Wire Bus Line
-	7550 5900 7550 6200
-Wire Bus Line
-	7550 5500 7550 5800
-Wire Bus Line
-	4800 5750 4800 6050
-Wire Bus Line
-	7550 6300 7550 6900
 Text Label 1400 7900 2    50   ~ 0
 GTR_DP0_C2M_P
 Text Label 1400 8000 2    50   ~ 0
@@ -3865,4 +3777,125 @@ Text HLabel 5200 7600 0    50   Input ~ 0
 GTR_DP3_M2C_P
 Text HLabel 5200 7700 0    50   Input ~ 0
 GTR_DP3_M2C_N
+Text HLabel 5200 2800 0    50   Input ~ 0
+HPA00_CC_P
+Text HLabel 5200 2900 0    50   Input ~ 0
+HPA00_CC_N
+Text HLabel 5200 3100 0    50   Input ~ 0
+HPA03_P
+Text HLabel 5200 3200 0    50   Input ~ 0
+HPA03_N
+Text HLabel 5200 3400 0    50   Input ~ 0
+HPA08_P
+Text HLabel 5200 3500 0    50   Input ~ 0
+HPA08_N
+Text HLabel 7200 2900 2    50   Input ~ 0
+HPA02_P
+Text HLabel 7200 3000 2    50   Input ~ 0
+HPA02_N
+Text HLabel 7200 3200 2    50   Input ~ 0
+HPA01_P
+Text HLabel 7200 3300 2    50   Input ~ 0
+HPA01_N
+Text HLabel 7200 3500 2    50   Input ~ 0
+HPA09_P
+Text HLabel 7200 3600 2    50   Input ~ 0
+HPA09_N
+Text GLabel 7650 2600 2    50   Input ~ 0
+PL_3V3
+Wire Wire Line
+	6900 2600 7650 2600
+Text Label 7200 3800 0    50   ~ 0
+HPA14_P
+Text Label 7200 3900 0    50   ~ 0
+HPA14_N
+Text HLabel 3400 2500 2    50   Input ~ 0
+HPA05_CC_P
+Text HLabel 3400 2600 2    50   Input ~ 0
+HPA05_CC_N
+Text HLabel 1400 2700 0    50   Input ~ 0
+HPA06_P
+Text HLabel 1400 2800 0    50   Input ~ 0
+HPA06_N
+Text HLabel 3400 2800 2    50   Input ~ 0
+HPA04_P
+Text HLabel 3400 2900 2    50   Input ~ 0
+HPA04_N
+Text HLabel 3400 3100 2    50   Input ~ 0
+HPA07_P
+Text HLabel 3400 3200 2    50   Input ~ 0
+HPA07_N
+Text HLabel 7200 4100 2    50   Input ~ 0
+HDA00_C
+Text HLabel 7200 4200 2    50   Input ~ 0
+HDA01
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C8
+U 1 1 6235AF00
+P 5050 10550
+F 0 "C8" H 5165 10595 60  0000 L CNN
+F 1 "C_100n_0402" H 5050 10400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5250 10750 60  0001 L CNN
+F 3 "" H 5050 10550 50  0001 C CNN
+F 4 "Murata" H 5250 10950 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 5250 10850 60  0001 L CNN "MPN"
+F 6 "100n" H 5165 10497 50  0000 L CNN "Val"
+	1    5050 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 658981C2
+P 8000 1700
+F 0 "C?" H 8115 1745 60  0000 L CNN
+F 1 "C_100n_0402" H 8000 1550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8200 1900 60  0001 L CNN
+F 3 "" H 8000 1700 50  0001 C CNN
+F 4 "Murata" H 8200 2100 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 8200 2000 60  0001 L CNN "MPN"
+F 6 "100n" H 8115 1647 50  0000 L CNN "Val"
+	1    8000 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 1450 1    50   Input ~ 0
+PL_3V3
+$Comp
+L power:GND #PWR?
+U 1 1 658B0818
+P 8000 1950
+F 0 "#PWR?" H 8000 1700 50  0001 C CNN
+F 1 "GND" V 8005 1822 50  0000 R CNN
+F 2 "" H 8000 1950 50  0001 C CNN
+F 3 "" H 8000 1950 50  0001 C CNN
+	1    8000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 1950 8000 1850
+Wire Wire Line
+	8000 1550 8000 1450
+Wire Bus Line
+	4800 5350 4800 5500
+Wire Bus Line
+	7550 5200 7550 5400
+Wire Bus Line
+	4800 6500 4800 6800
+Wire Bus Line
+	3750 6600 3750 6900
+Wire Bus Line
+	1050 6400 1050 6700
+Wire Bus Line
+	3750 6200 3750 6500
+Wire Bus Line
+	1050 6000 1050 6300
+Wire Bus Line
+	4800 6100 4800 6400
+Wire Bus Line
+	7550 5900 7550 6200
+Wire Bus Line
+	7550 5500 7550 5800
+Wire Bus Line
+	4800 5750 4800 6050
+Wire Bus Line
+	7550 6300 7550 6900
 $EndSCHEMATC
