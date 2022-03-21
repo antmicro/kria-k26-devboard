@@ -429,6 +429,42 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroCapacitors0402_C_470n_0402
+#
+DEF antmicroCapacitors0402_C_470n_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_470n_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X5R1E474M050BB" 200 300 60 H I L CNN "MPN"
+F6 "470n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0402_C_47n_0402
+#
+DEF antmicroCapacitors0402_C_47n_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_47n_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MC0402X473K160CT" 200 300 60 H I L CNN "MPN"
+F6 "47n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroCapacitors0402_C_4u7_0402
 #
 DEF antmicroCapacitors0402_C_4u7_0402 C 0 0 Y Y 1 F N
@@ -1251,6 +1287,52 @@ X RI- 9 500 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# antmicroLogicGatesandInverters_74LV07ATPWJ
+#
+DEF antmicroLogicGatesandInverters_74LV07ATPWJ U 0 40 Y Y 7 L N
+F0 "U" 50 150 50 H V C CNN
+F1 "antmicroLogicGatesandInverters_74LV07ATPWJ" 350 350 50 H V C CNN
+F2 "antmicro-footprints:TSSOP-14_W4.4mm" 150 -300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Nexperia" 0 0 50 H I C CNN "Manufacturer"
+F5 "74LV07ATPWJ" 0 0 50 H I C CNN "MPN"
+DRAW
+S -200 300 200 -300 7 1 10 f
+P 4 1 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 2 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 3 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 4 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 5 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 6 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 2 1 1 0 -100 -25 -50 -25 N
+P 5 1 1 0 -75 25 -100 0 -75 -25 -50 0 -75 25 N
+P 2 2 1 0 -100 -25 -50 -25 N
+P 5 2 1 0 -75 25 -100 0 -75 -25 -50 0 -75 25 N
+P 2 3 1 0 -100 -25 -50 -25 N
+P 5 3 1 0 -75 25 -100 0 -75 -25 -50 0 -75 25 N
+P 2 4 1 0 -100 -25 -50 -25 N
+P 5 4 1 0 -75 25 -100 0 -75 -25 -50 0 -75 25 N
+P 2 5 1 0 -100 -25 -50 -25 N
+P 5 5 1 0 -75 25 -100 0 -75 -25 -50 0 -75 25 N
+P 2 6 1 0 -100 -25 -50 -25 N
+P 5 6 1 0 -75 25 -100 0 -75 -25 -50 0 -75 25 N
+X ~ 1 -300 0 150 R 50 50 1 0 I
+X ~ 2 300 0 150 L 50 50 1 0 C
+X ~ 3 -300 0 150 R 50 50 2 0 I
+X ~ 4 300 0 150 L 50 50 2 0 C
+X ~ 5 -300 0 150 R 50 50 3 0 I
+X ~ 6 300 0 150 L 50 50 3 0 C
+X ~ 8 300 0 150 L 50 50 4 0 C
+X ~ 9 -300 0 150 R 50 50 4 0 I
+X ~ 10 300 0 150 L 50 50 5 0 C
+X ~ 11 -300 0 150 R 50 50 5 0 I
+X ~ 12 300 0 150 L 50 50 6 0 C
+X ~ 13 -300 0 150 R 50 50 6 0 I
+X VCC 14 0 500 200 D 50 50 7 0 W
+X GND 7 0 -500 200 U 50 50 7 0 W
+ENDDRAW
+ENDDEF
+#
 # antmicroLogicSignalSwitchesMultiplexersDecoders_PI4MSD5V9540BUEX
 #
 DEF antmicroLogicSignalSwitchesMultiplexersDecoders_PI4MSD5V9540BUEX U 0 40 Y Y 1 F N
@@ -1448,6 +1530,27 @@ S 400 0 0 250 1 1 0 f
 ENDDRAW
 ENDDEF
 #
+# antmicroOscillators_SIT1602BC-13-18E-24.000000G
+#
+DEF antmicroOscillators_SIT1602BC-13-18E-24.000000G XTAL 0 10 Y Y 1 F N
+F0 "XTAL" 900 500 60 H V C CNN
+F1 "antmicroOscillators_SIT1602BC-13-18E-24.000000G" 900 400 60 H V C CNN
+F2 "antmicro-footprints:SiTIME_SMD-6-1EP" 900 340 60 H I C CNN
+F3 "" 0 150 60 H I C CNN
+F4 "SiTime" 400 -200 50 H I C CNN "Manufacturer"
+F5 "SiT1602BC-13-18E-24.000000G" 900 -300 50 H I C CNN "MPN"
+$FPLIST
+ SON4_SIT1602-1_SIT
+$ENDFPLIST
+DRAW
+S 300 300 1250 -150 1 1 0 f
+X OE/ST/NC 1 0 150 300 R 59 59 1 1 U
+X GND 2 0 0 300 R 59 59 1 1 W
+X OUT 3 1550 0 300 L 59 59 1 1 O
+X VDD 4 1550 150 300 L 59 59 1 1 W
+ENDDRAW
+ENDDEF
+#
 # antmicroPMICORControllersIdealDiodes_LTC4358CDE
 #
 DEF antmicroPMICORControllersIdealDiodes_LTC4358CDE U 0 10 Y Y 1 F N
@@ -1587,6 +1690,30 @@ X EP 9 500 -800 200 U 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
+# antmicroPMICPowerSequencers_TPS3840PH30DBVR
+#
+DEF antmicroPMICPowerSequencers_TPS3840PH30DBVR U 0 10 Y Y 1 F N
+F0 "U" -550 -300 60 H V C CNN
+F1 "antmicroPMICPowerSequencers_TPS3840PH30DBVR" -150 -400 60 H V C CNN
+F2 "antmicro-footprints:SOT-23-5" -350 -500 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Texas Instruments" -100 -300 50 H I C CNN "Manufacturer"
+F5 "TPS3840PH30DBVR" -250 -600 50 H I C CNN "MPN"
+$FPLIST
+ DBV0005A_N
+ DBV0005A_M
+ DBV0005A_L
+$ENDFPLIST
+DRAW
+S -600 400 150 -200 1 1 8 f
+X RESET 1 350 250 200 L 59 59 1 1 C
+X VDD 2 -800 250 200 R 59 59 1 1 W
+X GND 3 350 -50 200 L 59 59 1 1 W
+X MR_N 4 -800 100 200 R 59 59 1 1 I
+X CT 5 -800 -50 200 R 59 59 1 1 I
+ENDDRAW
+ENDDEF
+#
 # antmicroPciConnectors_2199119-6
 #
 DEF antmicroPciConnectors_2199119-6 P 0 40 Y Y 1 F N
@@ -1666,6 +1793,36 @@ X GND 75 -900 -2200 200 R 50 50 1 1 W
 X PCM_CLK 8 900 900 200 L 50 50 1 1 B
 X SDIO_CLK 9 -900 800 200 R 50 50 1 1 I
 X M M 0 -2500 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroPushbuttonSwitches_KMR2
+#
+DEF antmicroPushbuttonSwitches_KMR2 S 0 40 Y Y 1 F N
+F0 "S" -150 150 50 H V C CNN
+F1 "antmicroPushbuttonSwitches_KMR2" 10 -164 50 H V C CNN
+F2 "antmicro-footprints:SW_SPST_4.2x2.8" 200 200 50 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "KMR211NGLFS" 196 393 60 H I L CNN "MPN"
+F5 "C&K Components" 200 472 60 H I L CNN "Manufacturer"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+C -60 -100 10 1 1 0 N
+C 60 -100 10 1 1 0 N
+P 2 0 1 0 -100 0 -70 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 -60 -12 -60 -86 N
+P 2 0 1 0 -40 110 40 110 N
+P 2 0 1 0 0 50 0 110 N
+P 2 0 1 0 60 -10 60 -86 N
+P 2 0 1 0 100 0 70 0 N
+P 2 1 1 0 -100 -100 -70 -100 N
+P 2 1 1 0 100 -100 70 -100 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+X ~ 3 -150 -100 50 R 50 50 1 1 P
+X ~ 4 150 -100 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1842,6 +1999,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "Multicomp Pro" 200 400 60 H I L CNN "Manufacturer"
 F5 "MP000515" 200 300 60 H I L CNN "MPN"
 F6 "1k5" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_1k_0402
+#
+DEF antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_1k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
+F6 "1k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -2275,6 +2449,72 @@ X D2 6 -300 -400 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# antmicroTransistorsFETsMOSFETsSingle_AO3401A
+#
+DEF antmicroTransistorsFETsMOSFETsSingle_AO3401A Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_AO3401A" 136 0 60 V V C CNN
+F2 "antmicro-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" 200 300 60 H I L CNN
+F4 "AO3401A" 200 500 60 H I L CNN "MPN"
+F5 "Alpha & Omega Semiconductor Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 -12 20 -12 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 20 20 60 20 40 -10 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# antmicroTransistorsFETsMOSFETsSingle_BSS123
+#
+DEF antmicroTransistorsFETsMOSFETsSingle_BSS123 Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_BSS123" 136 0 60 V V C CNN
+F2 "antmicro-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" 200 300 60 H I L CNN
+F4 "BSS123" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # antmicroTransistorsFETsMOSFETsSingle_PJA3441
 #
 DEF antmicroTransistorsFETsMOSFETsSingle_PJA3441 Q 0 40 Y Y 1 F N
@@ -2574,24 +2814,6 @@ DRAW
 S -50 -60 50 -80 0 1 10 F
 P 2 0 1 0 0 0 0 -60 N
 X GNDD 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_C_100n_0402
-#
-DEF sa800u-baseboard-hw_C_100n_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_C_100n_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
-F5 "GRM155R61H104KE14D" 200 300 60 H I L CNN "MPN"
-F6 "100n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -18,8 +18,8 @@ L antmicroInterfaceControllers:FT4232HPQ U?
 U 1 1 625B163F
 P 5950 4050
 AR Path="/63C44BC2/625B163F" Ref="U?"  Part="1" 
-AR Path="/625B0244/625B163F" Ref="U1"  Part="1" 
-F 0 "U1" H 5950 6787 60  0000 C CNN
+AR Path="/625B0244/625B163F" Ref="U23"  Part="1" 
+F 0 "U23" H 5950 6787 60  0000 C CNN
 F 1 "FT4232HPQ" H 5950 6681 60  0000 C CNN
 F 2 "antmicro-footprints:QFN-68_EP_8x8_Pitch0.4mm" V 6150 4250 60  0001 L CNN
 F 3 "https://ftdichip.com/wp-content/uploads/2021/11/DS_FT4233HP.pdf" H 6150 4450 60  0001 L CNN

@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 17 17
 Title ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Bitmap
-Pos 2300 2300
+Pos 3000 2700
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 28 00 00 03 F9 08 02 00 00 00 72 F4 9C 
@@ -2690,4 +2690,846 @@ EA CA 62 B1 8E 1D 3B B6 71 E3 46 EE 1B CD 9D 3B 77 C0 80 01 2B 57 AE 24 84 04 06
 B3 89 C3 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L antmicroPushbuttonSwitches:KMR2 S?
+U 1 1 65CACCC2
+P 6200 1550
+F 0 "S?" H 6200 1825 50  0000 C CNN
+F 1 "KMR2" H 6200 1734 50  0000 C CNN
+F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 6400 1750 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 6400 1850 60  0001 L CNN
+F 4 "KMR211NGLFS" H 6396 1943 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 6400 2022 60  0001 L CNN "Manufacturer"
+	1    6200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65CAD662
+P 5950 1700
+F 0 "#PWR?" H 5950 1450 50  0001 C CNN
+F 1 "GND" H 5955 1527 50  0000 C CNN
+F 2 "" H 5950 1700 50  0001 C CNN
+F 3 "" H 5950 1700 50  0001 C CNN
+	1    5950 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1550 6000 1550
+Wire Wire Line
+	6000 1550 6000 1650
+Wire Wire Line
+	6000 1650 6050 1650
+Wire Wire Line
+	6000 1650 5950 1650
+Wire Wire Line
+	5950 1650 5950 1700
+Connection ~ 6000 1650
+Wire Wire Line
+	6350 1550 6400 1550
+Wire Wire Line
+	6400 1550 6400 1650
+Wire Wire Line
+	6400 1650 6350 1650
+Wire Wire Line
+	6400 1650 7050 1650
+Connection ~ 6400 1650
+$Comp
+L antmicroPMICPowerSequencers:TPS3840PH30DBVR U?
+U 1 1 65CB4393
+P 7850 1750
+F 0 "U?" H 7625 2338 60  0000 C CNN
+F 1 "TPS3840PH30DBVR" H 7625 2232 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-23-5" H 7500 1250 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps3840.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.pl%2F&distId=26" H 7850 1750 60  0001 C CNN
+F 4 "Texas Instruments" H 7750 1450 50  0001 C CNN "Manufacturer"
+F 5 "TPS3840PH30DBVR" H 7600 1150 50  0001 C CNN "MPN"
+	1    7850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_47n_0402 C?
+U 1 1 65CB4EA9
+P 6950 2000
+F 0 "C?" H 7065 2045 60  0000 L CNN
+F 1 "C_47n_0402" H 6950 1850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7150 2200 60  0001 L CNN
+F 3 "" H 6950 2000 50  0001 C CNN
+F 4 "MULTICOMP" H 7150 2400 60  0001 L CNN "Manufacturer"
+F 5 "MC0402X473K160CT" H 7150 2300 60  0001 L CNN "MPN"
+F 6 "47n" H 7065 1947 50  0000 L CNN "Val"
+	1    6950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1850 6950 1800
+Wire Wire Line
+	6950 1800 7050 1800
+Wire Wire Line
+	6950 2200 6950 2150
+$Comp
+L power:GND #PWR?
+U 1 1 65CB5898
+P 6950 2200
+F 0 "#PWR?" H 6950 1950 50  0001 C CNN
+F 1 "GND" H 6955 2027 50  0000 C CNN
+F 2 "" H 6950 2200 50  0001 C CNN
+F 3 "" H 6950 2200 50  0001 C CNN
+	1    6950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65CB5E85
+P 8250 1900
+F 0 "#PWR?" H 8250 1650 50  0001 C CNN
+F 1 "GND" H 8255 1727 50  0000 C CNN
+F 2 "" H 8250 1900 50  0001 C CNN
+F 3 "" H 8250 1900 50  0001 C CNN
+	1    8250 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1900 8250 1800
+Wire Wire Line
+	8250 1800 8200 1800
+Text GLabel 6950 1500 0    50   Input ~ 0
+PS_3V3
+Wire Wire Line
+	6950 1500 7050 1500
+Wire Wire Line
+	6400 5650 7050 5650
+$Comp
+L antmicroPMICPowerSequencers:TPS3840PH30DBVR U?
+U 1 1 65CBA321
+P 7850 5750
+F 0 "U?" H 7625 6338 60  0000 C CNN
+F 1 "TPS3840PH30DBVR" H 7625 6232 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-23-5" H 7500 5250 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps3840.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.pl%2F&distId=26" H 7850 5750 60  0001 C CNN
+F 4 "Texas Instruments" H 7750 5450 50  0001 C CNN "Manufacturer"
+F 5 "TPS3840PH30DBVR" H 7600 5150 50  0001 C CNN "MPN"
+	1    7850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_47n_0402 C?
+U 1 1 65CBA32E
+P 6950 6000
+F 0 "C?" H 7065 6045 60  0000 L CNN
+F 1 "C_47n_0402" H 6950 5850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7150 6200 60  0001 L CNN
+F 3 "" H 6950 6000 50  0001 C CNN
+F 4 "MULTICOMP" H 7150 6400 60  0001 L CNN "Manufacturer"
+F 5 "MC0402X473K160CT" H 7150 6300 60  0001 L CNN "MPN"
+F 6 "47n" H 7065 5947 50  0000 L CNN "Val"
+	1    6950 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5850 6950 5800
+Wire Wire Line
+	6950 5800 7050 5800
+Wire Wire Line
+	6950 6200 6950 6150
+$Comp
+L power:GND #PWR?
+U 1 1 65CBA33B
+P 6950 6200
+F 0 "#PWR?" H 6950 5950 50  0001 C CNN
+F 1 "GND" H 6955 6027 50  0000 C CNN
+F 2 "" H 6950 6200 50  0001 C CNN
+F 3 "" H 6950 6200 50  0001 C CNN
+	1    6950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65CBA345
+P 8250 5900
+F 0 "#PWR?" H 8250 5650 50  0001 C CNN
+F 1 "GND" H 8255 5727 50  0000 C CNN
+F 2 "" H 8250 5900 50  0001 C CNN
+F 3 "" H 8250 5900 50  0001 C CNN
+	1    8250 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5900 8250 5800
+Wire Wire Line
+	8250 5800 8200 5800
+Text GLabel 6950 5500 0    50   Input ~ 0
+PL_3V3
+Wire Wire Line
+	6950 5500 7050 5500
+Wire Wire Line
+	8200 5500 8450 5500
+Text GLabel 9350 2900 1    50   Input ~ 0
+PS_3V3
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 65CD36B8
+P 9350 3100
+F 0 "R?" V 9305 3170 60  0000 L CNN
+F 1 "R_10k_0402" H 9350 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9550 3300 60  0001 L CNN
+F 3 "" H 9350 3100 50  0001 C CNN
+F 4 "VISHAY" H 9550 3500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9550 3400 60  0001 L CNN "MPN"
+F 6 "10k" V 9403 3170 50  0000 L CNN "Val"
+	1    9350 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 3350 9350 3350
+Wire Wire Line
+	9350 3350 9350 3250
+Wire Wire Line
+	9350 2950 9350 2900
+Text GLabel 9950 2900 1    50   Input ~ 0
+PS_3V3
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 65CDB374
+P 9950 3100
+F 0 "R?" V 9905 3170 60  0000 L CNN
+F 1 "R_10k_0402" H 9950 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10150 3300 60  0001 L CNN
+F 3 "" H 9950 3100 50  0001 C CNN
+F 4 "VISHAY" H 10150 3500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 10150 3400 60  0001 L CNN "MPN"
+F 6 "10k" V 10003 3170 50  0000 L CNN "Val"
+	1    9950 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 2950 9950 2900
+Text GLabel 10250 2900 1    50   Input ~ 0
+PS_1V8
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 65CE35C2
+P 10250 3100
+F 0 "R?" V 10205 3170 60  0000 L CNN
+F 1 "R_10k_0402" H 10250 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10450 3300 60  0001 L CNN
+F 3 "" H 10250 3100 50  0001 C CNN
+F 4 "VISHAY" H 10450 3500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 10450 3400 60  0001 L CNN "MPN"
+F 6 "10k" V 10303 3170 50  0000 L CNN "Val"
+	1    10250 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10250 2950 10250 2900
+Wire Wire Line
+	9250 4850 10250 4850
+Wire Wire Line
+	9350 3350 10450 3350
+Connection ~ 9350 3350
+Wire Wire Line
+	9950 4350 10450 4350
+Connection ~ 9950 4350
+Wire Wire Line
+	10250 4850 10450 4850
+Connection ~ 10250 4850
+Text HLabel 10450 3350 2    50   Input ~ 0
+SD_CARD_RESET
+Text HLabel 10450 3850 2    50   Input ~ 0
+USB_PHY_RESET
+Text HLabel 10450 4350 2    50   Input ~ 0
+USB_HUB_RESET
+Text HLabel 10450 4850 2    50   Input ~ 0
+ETH_RESET
+Text GLabel 9450 9450 1    50   Input ~ 0
+SOM_5V
+Wire Wire Line
+	9450 9650 9450 9550
+$Comp
+L power:GND #PWR?
+U 1 1 65CF7C44
+P 7700 3900
+F 0 "#PWR?" H 7700 3650 50  0001 C CNN
+F 1 "GND" H 7705 3727 50  0000 C CNN
+F 2 "" H 7700 3900 50  0001 C CNN
+F 3 "" H 7700 3900 50  0001 C CNN
+	1    7700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4350 9950 4350
+$Comp
+L antmicroLogicGatesandInverters:74LV07ATPWJ U?
+U 1 1 65D5EDD7
+P 8950 3350
+F 0 "U?" H 8950 3667 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 8950 3576 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 9100 3050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 8950 3350 50  0001 C CNN
+F 4 "Nexperia" H 8950 3350 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 8950 3350 50  0001 C CNN "MPN"
+	1    8950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LV07ATPWJ U?
+U 2 1 65D5F51C
+P 8950 3850
+F 0 "U?" H 8950 4167 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 8950 4076 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 9100 3550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 8950 3850 50  0001 C CNN
+F 4 "Nexperia" H 8950 3850 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 8950 3850 50  0001 C CNN "MPN"
+	2    8950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LV07ATPWJ U?
+U 3 1 65D604CB
+P 8950 4350
+F 0 "U?" H 8950 4667 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 8950 4576 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 9100 4050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 8950 4350 50  0001 C CNN
+F 4 "Nexperia" H 8950 4350 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 8950 4350 50  0001 C CNN "MPN"
+	3    8950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LV07ATPWJ U?
+U 4 1 65D62493
+P 8950 4850
+F 0 "U?" H 8950 5167 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 8950 5076 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 9100 4550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 8950 4850 50  0001 C CNN
+F 4 "Nexperia" H 8950 4850 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 8950 4850 50  0001 C CNN "MPN"
+	4    8950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LV07ATPWJ U?
+U 7 1 65D67358
+P 9450 10150
+F 0 "U?" H 9680 10196 50  0000 L CNN
+F 1 "74LV07ATPWJ" H 9680 10105 50  0000 L CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 9600 9850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 9450 10150 50  0001 C CNN
+F 4 "Nexperia" H 9450 10150 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 9450 10150 50  0001 C CNN "MPN"
+	7    9450 10150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9650 3850
+Wire Wire Line
+	9650 3850 10450 3850
+Wire Wire Line
+	9250 3850 9650 3850
+Wire Wire Line
+	9650 3850 9650 3250
+Wire Wire Line
+	9650 2950 9650 2900
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 65CD8253
+P 9650 3100
+F 0 "R?" V 9605 3170 60  0000 L CNN
+F 1 "R_10k_0402" H 9650 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9850 3300 60  0001 L CNN
+F 3 "" H 9650 3100 50  0001 C CNN
+F 4 "VISHAY" H 9850 3500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9850 3400 60  0001 L CNN "MPN"
+F 6 "10k" V 9703 3170 50  0000 L CNN "Val"
+	1    9650 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 9650 2900 1    50   Input ~ 0
+PS_1V8
+Wire Wire Line
+	9950 3250 9950 4350
+Wire Wire Line
+	10250 3250 10250 4850
+Wire Wire Line
+	8200 3350 8650 3350
+Wire Wire Line
+	8200 3450 8500 3450
+Wire Wire Line
+	8500 3850 8650 3850
+Wire Wire Line
+	8200 3650 8300 3650
+Wire Wire Line
+	8300 3650 8300 4850
+Wire Wire Line
+	8300 4850 8650 4850
+Wire Wire Line
+	8500 3450 8500 3850
+Wire Wire Line
+	8400 4350 8400 3550
+Wire Wire Line
+	8400 3550 8200 3550
+Wire Wire Line
+	8400 4350 8650 4350
+Wire Wire Line
+	7700 3900 7700 3850
+$Comp
+L power:GND #PWR?
+U 1 1 65E2B5F7
+P 9450 10750
+F 0 "#PWR?" H 9450 10500 50  0001 C CNN
+F 1 "GND" H 9455 10577 50  0000 C CNN
+F 2 "" H 9450 10750 50  0001 C CNN
+F 3 "" H 9450 10750 50  0001 C CNN
+	1    9450 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 10750 9450 10650
+Text GLabel 7600 2600 1    50   Input ~ 0
+PS_1V8
+Wire Wire Line
+	7600 2650 7600 2600
+Text GLabel 7800 2600 1    50   Input ~ 0
+PS_3V3
+Wire Wire Line
+	7800 2650 7800 2600
+$Comp
+L power:GND #PWR?
+U 1 1 65E346FD
+P 8350 3150
+F 0 "#PWR?" H 8350 2900 50  0001 C CNN
+F 1 "GND" H 8550 3050 50  0000 R CNN
+F 2 "" H 8350 3150 50  0001 C CNN
+F 3 "" H 8350 3150 50  0001 C CNN
+	1    8350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3150 8250 3150
+Wire Wire Line
+	8250 3150 8250 3100
+Wire Wire Line
+	8250 3050 8200 3050
+Wire Wire Line
+	8350 3100 8250 3100
+Connection ~ 8250 3100
+Wire Wire Line
+	8250 3100 8250 3050
+Wire Wire Line
+	8200 2950 8250 2950
+Wire Wire Line
+	8250 2950 8250 2900
+Wire Wire Line
+	8250 2850 8200 2850
+Wire Wire Line
+	8250 2900 8450 2900
+Wire Wire Line
+	8450 2900 8450 1500
+Wire Wire Line
+	8450 1500 8200 1500
+Connection ~ 8250 2900
+Wire Wire Line
+	8250 2900 8250 2850
+Wire Wire Line
+	7200 3350 7100 3350
+Wire Wire Line
+	7200 3450 7150 3450
+Wire Wire Line
+	7200 3550 7150 3550
+Wire Wire Line
+	7200 3650 7150 3650
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 65E9F76C
+P 6900 4500
+F 0 "C?" H 7015 4545 60  0000 L CNN
+F 1 "C_100n_0402" H 6900 4350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7100 4700 60  0001 L CNN
+F 3 "" H 6900 4500 50  0001 C CNN
+F 4 "Murata" H 7100 4900 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 7100 4800 60  0001 L CNN "MPN"
+F 6 "100n" H 7015 4447 50  0000 L CNN "Val"
+	1    6900 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 4300 1    50   Input ~ 0
+PS_1V8
+Wire Wire Line
+	6900 4350 6900 4300
+$Comp
+L power:GND #PWR?
+U 1 1 65EA28C3
+P 6900 4750
+F 0 "#PWR?" H 6900 4500 50  0001 C CNN
+F 1 "GND" H 6905 4577 50  0000 C CNN
+F 2 "" H 6900 4750 50  0001 C CNN
+F 3 "" H 6900 4750 50  0001 C CNN
+	1    6900 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4750 6900 4650
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 65EA53BF
+P 7300 4500
+F 0 "C?" H 7415 4545 60  0000 L CNN
+F 1 "C_100n_0402" H 7300 4350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7500 4700 60  0001 L CNN
+F 3 "" H 7300 4500 50  0001 C CNN
+F 4 "Murata" H 7500 4900 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 7500 4800 60  0001 L CNN "MPN"
+F 6 "100n" H 7415 4447 50  0000 L CNN "Val"
+	1    7300 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 4300 1    50   Input ~ 0
+PS_3V3
+Wire Wire Line
+	7300 4350 7300 4300
+$Comp
+L power:GND #PWR?
+U 1 1 65EA5577
+P 7300 4750
+F 0 "#PWR?" H 7300 4500 50  0001 C CNN
+F 1 "GND" H 7305 4577 50  0000 C CNN
+F 2 "" H 7300 4750 50  0001 C CNN
+F 3 "" H 7300 4750 50  0001 C CNN
+	1    7300 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4750 7300 4650
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 65EAC36F
+P 8750 1700
+F 0 "C?" H 8865 1745 60  0000 L CNN
+F 1 "C_100n_0402" H 8750 1550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8950 1900 60  0001 L CNN
+F 3 "" H 8750 1700 50  0001 C CNN
+F 4 "Murata" H 8950 2100 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 8950 2000 60  0001 L CNN "MPN"
+F 6 "100n" H 8865 1647 50  0000 L CNN "Val"
+	1    8750 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 1500 1    50   Input ~ 0
+PS_3V3
+Wire Wire Line
+	8750 1550 8750 1500
+$Comp
+L power:GND #PWR?
+U 1 1 65EAC6F1
+P 8750 1950
+F 0 "#PWR?" H 8750 1700 50  0001 C CNN
+F 1 "GND" H 8755 1777 50  0000 C CNN
+F 2 "" H 8750 1950 50  0001 C CNN
+F 3 "" H 8750 1950 50  0001 C CNN
+	1    8750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1950 8750 1850
+Wire Wire Line
+	8350 3150 8350 3100
+Wire Wire Line
+	6400 1650 6400 5650
+$Comp
+L antmicroLogicTranslatorsLevelShifters:SN74AVC4T245PWR U?
+U 1 1 65D2E069
+P 7700 3250
+F 0 "U?" H 7350 3800 50  0000 C CNN
+F 1 "SN74AVC4T245PWR" H 8200 2650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7700 3150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 7650 3000 50  0001 C CNN
+	1    7700 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 8000 7200 8000
+Text GLabel 7800 6950 1    50   Input ~ 0
+PS_3V3
+Text GLabel 7600 6950 1    50   Input ~ 0
+PL_1V8
+Wire Wire Line
+	8200 7800 8500 7800
+Wire Wire Line
+	8200 7700 8650 7700
+$Comp
+L antmicroLogicTranslatorsLevelShifters:SN74AVC4T245PWR U?
+U 1 1 65F95901
+P 7700 7600
+F 0 "U?" H 7350 8150 50  0000 C CNN
+F 1 "SN74AVC4T245PWR" H 7300 7000 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7700 7500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 7650 7350 50  0001 C CNN
+	1    7700 7600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 7500 8350 7450
+Wire Wire Line
+	7200 7800 7150 7800
+Wire Wire Line
+	7200 7700 7150 7700
+Wire Wire Line
+	8250 7250 8250 7200
+Wire Wire Line
+	8250 7250 8450 7250
+Wire Wire Line
+	8250 7200 8200 7200
+Connection ~ 8250 7250
+Wire Wire Line
+	8250 7300 8250 7250
+Wire Wire Line
+	8200 7300 8250 7300
+Wire Wire Line
+	8250 7450 8250 7400
+Wire Wire Line
+	8350 7450 8250 7450
+Wire Wire Line
+	8250 7400 8200 7400
+Connection ~ 8250 7450
+Wire Wire Line
+	8250 7500 8250 7450
+Wire Wire Line
+	8200 7500 8250 7500
+$Comp
+L power:GND #PWR?
+U 1 1 65F958B2
+P 8350 7500
+F 0 "#PWR?" H 8350 7250 50  0001 C CNN
+F 1 "GND" H 8550 7400 50  0000 R CNN
+F 2 "" H 8350 7500 50  0001 C CNN
+F 3 "" H 8350 7500 50  0001 C CNN
+	1    8350 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 7000 7800 6950
+Wire Wire Line
+	7600 7000 7600 6950
+Wire Wire Line
+	7700 8250 7700 8200
+$Comp
+L power:GND #PWR?
+U 1 1 65F954A3
+P 7700 8250
+F 0 "#PWR?" H 7700 8000 50  0001 C CNN
+F 1 "GND" H 7705 8077 50  0000 C CNN
+F 2 "" H 7700 8250 50  0001 C CNN
+F 3 "" H 7700 8250 50  0001 C CNN
+	1    7700 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 7800 8500 7950
+$Comp
+L antmicroLogicGatesandInverters:74LV07ATPWJ U?
+U 5 1 65D63CC3
+P 8950 7700
+F 0 "U?" H 8950 8017 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 8950 7926 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 9100 7400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 8950 7700 50  0001 C CNN
+F 4 "Nexperia" H 8950 7700 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 8950 7700 50  0001 C CNN "MPN"
+	5    8950 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6605CB59
+P 6850 8900
+F 0 "C?" H 6965 8945 60  0000 L CNN
+F 1 "C_100n_0402" H 6850 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7050 9100 60  0001 L CNN
+F 3 "" H 6850 8900 50  0001 C CNN
+F 4 "Murata" H 7050 9300 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 7050 9200 60  0001 L CNN "MPN"
+F 6 "100n" H 6965 8847 50  0000 L CNN "Val"
+	1    6850 8900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6850 8700 1    50   Input ~ 0
+PS_1V8
+Wire Wire Line
+	6850 8750 6850 8700
+$Comp
+L power:GND #PWR?
+U 1 1 6605CEED
+P 6850 9150
+F 0 "#PWR?" H 6850 8900 50  0001 C CNN
+F 1 "GND" H 6855 8977 50  0000 C CNN
+F 2 "" H 6850 9150 50  0001 C CNN
+F 3 "" H 6850 9150 50  0001 C CNN
+	1    6850 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 9150 6850 9050
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6605CEFB
+P 7250 8900
+F 0 "C?" H 7365 8945 60  0000 L CNN
+F 1 "C_100n_0402" H 7250 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7450 9100 60  0001 L CNN
+F 3 "" H 7250 8900 50  0001 C CNN
+F 4 "Murata" H 7450 9300 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 7450 9200 60  0001 L CNN "MPN"
+F 6 "100n" H 7365 8847 50  0000 L CNN "Val"
+	1    7250 8900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 8700 1    50   Input ~ 0
+PS_3V3
+Wire Wire Line
+	7250 8750 7250 8700
+$Comp
+L power:GND #PWR?
+U 1 1 6605CF07
+P 7250 9150
+F 0 "#PWR?" H 7250 8900 50  0001 C CNN
+F 1 "GND" H 7255 8977 50  0000 C CNN
+F 2 "" H 7250 9150 50  0001 C CNN
+F 3 "" H 7250 9150 50  0001 C CNN
+	1    7250 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 9150 7250 9050
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6606BB6A
+P 9000 5850
+F 0 "C?" H 9115 5895 60  0000 L CNN
+F 1 "C_100n_0402" H 9000 5700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9200 6050 60  0001 L CNN
+F 3 "" H 9000 5850 50  0001 C CNN
+F 4 "Murata" H 9200 6250 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 9200 6150 60  0001 L CNN "MPN"
+F 6 "100n" H 9115 5797 50  0000 L CNN "Val"
+	1    9000 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9000 5650 1    50   Input ~ 0
+PS_3V3
+Wire Wire Line
+	9000 5700 9000 5650
+$Comp
+L power:GND #PWR?
+U 1 1 6606BFE2
+P 9000 6100
+F 0 "#PWR?" H 9000 5850 50  0001 C CNN
+F 1 "GND" H 9005 5927 50  0000 C CNN
+F 2 "" H 9000 6100 50  0001 C CNN
+F 3 "" H 9000 6100 50  0001 C CNN
+	1    9000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 6100 9000 6000
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 66089940
+P 8900 10200
+F 0 "C?" H 9015 10245 60  0000 L CNN
+F 1 "C_100n_0402" H 8900 10050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9100 10400 60  0001 L CNN
+F 3 "" H 8900 10200 50  0001 C CNN
+F 4 "Murata" H 9100 10600 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 9100 10500 60  0001 L CNN "MPN"
+F 6 "100n" H 9015 10147 50  0000 L CNN "Val"
+	1    8900 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 10650 9450 10650
+Wire Wire Line
+	8900 10350 8900 10650
+Connection ~ 9450 10650
+Wire Wire Line
+	9450 9550 8900 9550
+Wire Wire Line
+	8900 9550 8900 10050
+Connection ~ 9450 9550
+Wire Wire Line
+	9450 9550 9450 9450
+Wire Wire Line
+	8450 7250 8450 5500
+Text GLabel 9950 7250 1    50   Input ~ 0
+PL_3V3
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 66253EA6
+P 9950 7450
+F 0 "R?" V 9905 7520 60  0000 L CNN
+F 1 "R_10k_0402" H 9950 7300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10150 7650 60  0001 L CNN
+F 3 "" H 9950 7450 50  0001 C CNN
+F 4 "VISHAY" H 10150 7850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 10150 7750 60  0001 L CNN "MPN"
+F 6 "10k" V 10003 7520 50  0000 L CNN "Val"
+	1    9950 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 7300 9950 7250
+Wire Wire Line
+	9950 7600 9950 7700
+Connection ~ 9950 7700
+Wire Wire Line
+	9950 7700 10450 7700
+Wire Wire Line
+	9250 7700 9950 7700
+$Comp
+L power:GND #PWR?
+U 1 1 6627DC99
+P 7100 8050
+F 0 "#PWR?" H 7100 7800 50  0001 C CNN
+F 1 "GND" H 7105 7877 50  0000 C CNN
+F 2 "" H 7100 8050 50  0001 C CNN
+F 3 "" H 7100 8050 50  0001 C CNN
+	1    7100 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 8050 7100 8000
+Text HLabel 7100 3350 0    50   Input ~ 0
+MIO43
+Text HLabel 7100 3450 0    50   Input ~ 0
+MIO44
+Wire Wire Line
+	7150 3450 7150 3550
+Connection ~ 7150 3450
+Wire Wire Line
+	7150 3450 7100 3450
+Text HLabel 7150 3650 0    50   Input ~ 0
+MIO38
+Text HLabel 10450 7700 2    50   Input ~ 0
+CAM0_RST
+Text HLabel 10450 7950 2    50   Input ~ 0
+CAM0_PWDN
+Text HLabel 10450 8050 2    50   Input ~ 0
+CAM1_PWDN
+Wire Wire Line
+	10450 7950 8500 7950
+Wire Wire Line
+	8200 7900 8450 7900
+Wire Wire Line
+	8450 7900 8450 8050
+Wire Wire Line
+	8450 8050 10450 8050
+Wire Wire Line
+	7200 7900 7150 7900
+Text HLabel 7150 7700 0    50   Input ~ 0
+HDA02
+Text HLabel 7150 7800 0    50   Input ~ 0
+HDA04
+Text HLabel 7150 7900 0    50   Input ~ 0
+HDA09
 $EndSCHEMATC
