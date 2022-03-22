@@ -88,18 +88,10 @@ Wire Wire Line
 	1700 4500 1800 4500
 Wire Wire Line
 	1800 4700 1400 4700
-Text Label 1400 4600 2    50   ~ 0
-JTAG_TMS_C2M
 Wire Wire Line
 	1800 4600 1400 4600
 Wire Wire Line
 	1800 4800 1400 4800
-Text Label 1400 4700 2    50   ~ 0
-JTAG_TDO_M2C
-Text Label 1400 4800 2    50   ~ 0
-JTAG_TDI_C2M
-Text Label 1400 4900 2    50   ~ 0
-JTAG_TCK_C2M
 Wire Wire Line
 	1400 4900 1800 4900
 Text Label 1400 5100 2    50   ~ 0
@@ -590,12 +582,8 @@ Text Label 3400 5200 0    50   ~ 0
 MIO35_WD_OUT
 Wire Wire Line
 	3000 5400 3400 5400
-Text Label 3400 5400 0    50   ~ 0
-MIO37
 Wire Wire Line
 	3000 5300 3400 5300
-Text Label 3400 5300 0    50   ~ 0
-MIO36
 Wire Wire Line
 	3100 5500 3000 5500
 $Comp
@@ -3866,6 +3854,14 @@ Wire Wire Line
 	6800 5700 7200 5700
 Wire Bus Line
 	7600 5650 7550 5650
+Text HLabel 1400 6000 0    50   Input ~ 0
+MIO43
+Text HLabel 3400 4100 2    50   Input ~ 0
+HDA04
+Text HLabel 7200 4300 2    50   Input ~ 0
+HDA02
+Text HLabel 1400 3900 0    50   Input ~ 0
+HDA09
 Wire Bus Line
 	4800 5350 4800 5500
 Wire Bus Line
@@ -3890,12 +3886,16 @@ Wire Bus Line
 	4800 5750 4800 6050
 Wire Bus Line
 	7550 6300 7550 6900
-Text HLabel 1400 6000 0    50   Input ~ 0
-MIO43
-Text HLabel 3400 4100 2    50   Input ~ 0
-HDA04
-Text HLabel 7200 4300 2    50   Input ~ 0
-HDA02
-Text HLabel 1400 3900 0    50   Input ~ 0
-HDA09
+Text HLabel 3400 5300 2    50   Input ~ 0
+MIO36
+Text HLabel 3400 5400 2    50   Input ~ 0
+MIO37
+Text HLabel 1400 4600 0    50   Input ~ 0
+JTAG_TMS_C2M
+Text HLabel 1400 4700 0    50   Input ~ 0
+JTAG_TDO_M2C
+Text HLabel 1400 4800 0    50   Input ~ 0
+JTAG_TDI_C2M
+Text HLabel 1400 4900 0    50   Input ~ 0
+JTAG_TCK_C2M
 $EndSCHEMATC

@@ -48,8 +48,9 @@ U 62A9ECDC
 F0 "USB-C socket" 50
 F1 "usbc-socket.sch" 50
 F2 "PD_CC[1..2]" I L 3600 2800 50 
-F3 "DBG_USB[0..1]" I L 3600 2900 50 
-F4 "VBUS" I R 4700 2800 50 
+F3 "VBUS" I R 4700 2800 50 
+F4 "DBG_USB_P" I L 3600 3000 50 
+F5 "DBG_USB_N" I L 3600 3100 50 
 $EndSheet
 $Sheet
 S 3600 3600 1100 600 
@@ -74,12 +75,8 @@ Wire Wire Line
 	4950 4600 4700 4600
 Text HLabel 3450 2800 0    50   Input ~ 0
 PD_CC[1..2]
-Text HLabel 3450 2900 0    50   Input ~ 0
-DBG_USB[0..1]
 Wire Wire Line
 	3450 2800 3600 2800
-Wire Wire Line
-	3600 2900 3450 2900
 Text HLabel 7550 3550 0    50   Input ~ 0
 VCCOEN_PS_M2C
 Text HLabel 7550 3650 0    50   Input ~ 0
@@ -92,4 +89,12 @@ Text HLabel 3400 4600 0    50   Input ~ 0
 POE_VC[1..4]
 Wire Bus Line
 	3400 4600 3600 4600
+Text HLabel 3450 3000 0    50   Input ~ 0
+DBG_USB_P
+Wire Wire Line
+	3450 3000 3600 3000
+Text HLabel 3450 3100 0    50   Input ~ 0
+DBG_USB_N
+Wire Wire Line
+	3450 3100 3600 3100
 $EndSCHEMATC

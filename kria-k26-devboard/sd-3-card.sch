@@ -483,10 +483,10 @@ Wire Wire Line
 	9050 5300 9300 5300
 Connection ~ 8800 6100
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:AO3401A Q?
+L antmicroTransistorsFETsMOSFETsSingle:AO3401A Q4
 U 1 1 6678C047
 P 9100 2750
-F 0 "Q?" H 9208 2803 60  0000 L CNN
+F 0 "Q4" H 9208 2803 60  0000 L CNN
 F 1 "AO3401A" H 9208 2697 60  0000 L CNN
 F 2 "antmicro-footprints:SOT-23-3" H 9300 2950 60  0001 L CNN
 F 3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 9300 3050 60  0001 L CNN
@@ -496,10 +496,10 @@ F 5 "Alpha & Omega Semiconductor Inc." H 9300 3850 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS123 Q?
+L antmicroTransistorsFETsMOSFETsSingle:BSS123 Q3
 U 1 1 6678D115
 P 8250 3550
-F 0 "Q?" H 8358 3603 60  0000 L CNN
+F 0 "Q3" H 8358 3603 60  0000 L CNN
 F 1 "BSS123" H 8358 3497 60  0000 L CNN
 F 2 "antmicro-footprints:SOT-23-3" H 8450 3750 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 8450 3850 60  0001 L CNN
@@ -509,10 +509,10 @@ F 5 "ON Semiconductor" H 8450 4650 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0264
 U 1 1 66661087
 P 8250 3850
-F 0 "#PWR?" H 8250 3600 50  0001 C CNN
+F 0 "#PWR0264" H 8250 3600 50  0001 C CNN
 F 1 "GND" H 8255 3677 50  0000 C CNN
 F 2 "" H 8250 3850 50  0001 C CNN
 F 3 "" H 8250 3850 50  0001 C CNN
@@ -529,10 +529,10 @@ PS_3V3
 Wire Wire Line
 	8250 2400 8250 2500
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L antmicroResistors0402:R_1k_0402 R66
 U 1 1 66639BBE
 P 8250 3100
-F 0 "R?" H 8250 3200 60  0000 C CNN
+F 0 "R66" H 8250 3200 60  0000 C CNN
 F 1 "R_1k_0402" H 8250 2950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8450 3300 60  0001 L CNN
 F 3 "" H 8250 3100 50  0001 C CNN
@@ -543,10 +543,10 @@ F 6 "1k" H 8250 3100 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C?
+L antmicroCapacitors0402:C_470n_0402 C146
 U 1 1 666642E9
 P 8500 2650
-F 0 "C?" H 8615 2695 60  0000 L CNN
+F 0 "C146" H 8615 2695 60  0000 L CNN
 F 1 "C_470n_0402" H 8500 2500 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8700 2850 60  0001 L CNN
 F 3 "" H 8500 2650 50  0001 C CNN
@@ -557,10 +557,10 @@ F 6 "470n" H 8615 2597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R3
 U 1 1 6667AA59
 P 8250 2650
-F 0 "R?" H 8200 2550 60  0000 L CNN
+F 0 "R3" H 8200 2550 60  0000 L CNN
 F 1 "R_10k_0402" H 8250 2500 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8450 2850 60  0001 L CNN
 F 3 "" H 8250 2650 50  0001 C CNN
@@ -591,10 +591,10 @@ SD_CARD_RESET
 Wire Wire Line
 	9100 2550 9100 2400
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C?
+L antmicroCapacitors0402:C_470n_0402 C147
 U 1 1 667B7A84
 P 8500 3050
-F 0 "C?" H 8615 3095 60  0000 L CNN
+F 0 "C147" H 8615 3095 60  0000 L CNN
 F 1 "C_470n_0402" H 8500 2900 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8700 3250 60  0001 L CNN
 F 3 "" H 8500 3050 50  0001 C CNN

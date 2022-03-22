@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 17
+Sheet 7 17
 Title ""
 Date ""
 Rev ""
@@ -30,12 +30,6 @@ F 3 "" H 4600 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 4100 4500 4150
-Connection ~ 4500 4100
-Wire Wire Line
-	4500 3850 4500 3900
-Connection ~ 4500 3850
-Wire Wire Line
 	4600 4700 4450 4700
 Wire Wire Line
 	4600 4600 4600 4700
@@ -44,13 +38,9 @@ Wire Wire Line
 Wire Wire Line
 	4500 4150 4450 4150
 Wire Wire Line
-	4500 4050 4500 4100
-Wire Wire Line
 	4450 4050 4500 4050
 Wire Wire Line
 	4500 3900 4450 3900
-Wire Wire Line
-	4500 3800 4500 3850
 Wire Wire Line
 	4450 3800 4500 3800
 Text Label 4850 3650 2    50   ~ 0
@@ -110,16 +100,8 @@ Text HLabel 6650 3350 2    50   Input ~ 0
 PD_CC[1..2]
 Wire Bus Line
 	6650 3350 6500 3350
-Text Label 4550 3850 0    50   ~ 0
-DBG_USB_P
-Text Label 4550 4100 0    50   ~ 0
-DBG_USB_N
 NoConn ~ 4450 4400
 NoConn ~ 4450 4300
-Wire Wire Line
-	4500 3850 6200 3850
-Wire Wire Line
-	4500 4100 6100 4100
 $Comp
 L antmicroCapacitorsmisc:C_100n_0402_50V C?
 U 1 1 62AA369D
@@ -169,10 +151,6 @@ F 5 "Nexperia " H 6150 4900 50  0001 C CNN "Manufacturer"
 	1    6450 4500
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	6650 3700 6500 3700
-Text HLabel 6650 3700 2    50   BiDi ~ 0
-DBG_USB[0..1]
 $Comp
 L power:GND #PWR?
 U 1 1 62AA36B9
@@ -193,11 +171,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4500 6200 4500
 Wire Wire Line
-	6200 4500 6200 3850
-Wire Wire Line
 	6250 4600 6100 4600
-Wire Wire Line
-	6100 4600 6100 4100
 $Comp
 L antmicroTVSDiodes:PESD2USB5UV-TR D?
 U 1 1 62AA36C7
@@ -253,27 +227,59 @@ Wire Wire Line
 	5150 3650 5150 3550
 Wire Wire Line
 	5150 3550 6400 3550
-Connection ~ 6100 4100
-Wire Wire Line
-	6100 4100 6400 4100
 Text HLabel 7950 3250 2    50   Input ~ 0
 VBUS
 Wire Wire Line
 	7950 3250 7900 3250
 Connection ~ 7900 3250
-Connection ~ 6200 3850
-Wire Wire Line
-	6200 3850 6400 3850
 Entry Wire Line
 	6500 3550 6400 3650
 Entry Wire Line
 	6500 3450 6400 3550
-Entry Wire Line
-	6500 3750 6400 3850
-Entry Wire Line
-	6500 4000 6400 4100
+Wire Wire Line
+	4500 4050 4500 4100
+Wire Wire Line
+	4500 3800 4500 3850
+Wire Wire Line
+	4500 3850 4750 3850
+Wire Wire Line
+	4750 3850 4750 3950
+Wire Wire Line
+	4750 3950 6100 3950
+Wire Wire Line
+	6550 3950 6550 3900
+Wire Wire Line
+	6550 3900 6600 3900
+Connection ~ 4500 3850
+Wire Wire Line
+	4500 3850 4500 3900
+Wire Wire Line
+	4500 4100 4750 4100
+Wire Wire Line
+	4750 4100 4750 4000
+Wire Wire Line
+	4750 4000 6200 4000
+Wire Wire Line
+	6550 4000 6550 4050
+Wire Wire Line
+	6550 4050 6600 4050
+Connection ~ 4500 4100
+Wire Wire Line
+	4500 4100 4500 4150
+Text HLabel 6600 3900 2    50   Input ~ 0
+DBG_USB_P
+Text HLabel 6600 4050 2    50   Input ~ 0
+DBG_USB_N
+Wire Wire Line
+	6100 3950 6100 4600
+Connection ~ 6100 3950
+Wire Wire Line
+	6100 3950 6550 3950
 Wire Bus Line
 	6500 3350 6500 3550
-Wire Bus Line
-	6500 3700 6500 4000
+Connection ~ 6200 4000
+Wire Wire Line
+	6200 4000 6550 4000
+Wire Wire Line
+	6200 4000 6200 4500
 $EndSCHEMATC
