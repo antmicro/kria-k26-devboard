@@ -97,4 +97,9 @@ Text HLabel 3450 3100 0    50   Input ~ 0
 DBG_USB_N
 Wire Wire Line
 	3450 3100 3600 3100
+Text HLabel 5000 2800 2    50   Input ~ 0
+VBUS
+Wire Wire Line
+	4950 2800 5000 2800
+Connection ~ 4950 2800
 $EndSCHEMATC
