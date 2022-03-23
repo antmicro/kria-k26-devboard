@@ -1,0 +1,299 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 19 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L antmicroTVSDiodes:TPD4E05U06QDQARQ1 U?
+U 1 1 6498DC0A
+P 4600 5050
+F 0 "U?" H 4928 5141 50  0000 L CNN
+F 1 "TPD4E05U06QDQARQ1" H 4650 4650 50  0001 L CNN
+F 2 "antmicro-footprints:TPD4E05U06QDQARQ1" H 4650 5500 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TPD4E001&fileType=pdf" H 4600 5450 50  0001 L CNN
+F 4 "Texas Instruments" H 4928 5050 50  0000 L CNN "Manufacturer"
+F 5 "TPD4E05U06QDQARQ1" H 4928 4959 50  0000 L CNN "MPN"
+	1    4600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:SSW-106-02-G-D-RA J?
+U 1 1 649925B1
+P 5550 3000
+F 0 "J?" H 5550 3567 50  0000 C CNN
+F 1 "SSW-106-02-G-D-RA" H 5550 3476 50  0000 C CNN
+F 2 "antmicro-footprints:SAMTEC_SSW-106-02-G-D-RA" H 5150 3550 50  0001 L BNN
+F 3 "https://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf" H 5550 3000 50  0001 L BNN
+F 4 "Samtec Inc." H 5250 3650 50  0001 L BNN "Manufacturer"
+F 5 "SSW-106-02-G-D-RA" H 5550 2550 50  0001 C CNN "MPN"
+	1    5550 3000
+	1    0    0    -1  
+$EndComp
+Text Label 4550 2750 0    50   ~ 0
+HDA11
+Text Label 4550 2850 0    50   ~ 0
+HDA12
+Text Label 4550 2950 0    50   ~ 0
+HDA13
+Text Label 4550 3050 0    50   ~ 0
+HDA14
+Wire Wire Line
+	4400 4850 4550 4850
+Wire Wire Line
+	4400 4950 4550 4950
+Wire Wire Line
+	4550 5050 4400 5050
+Wire Wire Line
+	4400 5150 4550 5150
+Text Label 4400 4850 2    50   ~ 0
+HDA11
+Text Label 4400 4950 2    50   ~ 0
+HDA12
+Text Label 4400 5050 2    50   ~ 0
+HDA13
+Text Label 4400 5150 2    50   ~ 0
+HDA14
+Text HLabel 6950 2600 2    50   Input ~ 0
+HDA[11..18]
+Wire Bus Line
+	6950 2600 6850 2600
+Entry Wire Line
+	6850 2650 6750 2750
+Entry Wire Line
+	6850 2850 6750 2950
+Entry Wire Line
+	6850 2950 6750 3050
+Wire Wire Line
+	6750 2750 5750 2750
+Wire Wire Line
+	5750 2950 6750 2950
+Wire Wire Line
+	6750 3050 5750 3050
+Text Label 5850 2750 0    50   ~ 0
+HDA15
+Text Label 5850 2950 0    50   ~ 0
+HDA17
+Text HLabel 6300 2850 2    50   Input ~ 0
+HDA16_CC
+Text Label 5850 2850 0    50   ~ 0
+HDA16_CC
+Text Label 5850 3050 0    50   ~ 0
+HDA18
+Wire Wire Line
+	5750 3150 5950 3150
+Wire Wire Line
+	5950 3150 5950 3200
+Wire Wire Line
+	5350 3150 5100 3150
+Wire Wire Line
+	5100 3150 5100 3200
+$Comp
+L power:GND #PWR?
+U 1 1 649A6690
+P 4450 5350
+F 0 "#PWR?" H 4450 5100 50  0001 C CNN
+F 1 "GND" H 4455 5177 50  0000 C CNN
+F 2 "" H 4450 5350 50  0001 C CNN
+F 3 "" H 4450 5350 50  0001 C CNN
+	1    4450 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 5350 4450 5250
+Wire Wire Line
+	4450 5250 4550 5250
+$Comp
+L power:GND #PWR?
+U 1 1 649A6F75
+P 5100 3200
+F 0 "#PWR?" H 5100 2950 50  0001 C CNN
+F 1 "GND" H 5105 3027 50  0000 C CNN
+F 2 "" H 5100 3200 50  0001 C CNN
+F 3 "" H 5100 3200 50  0001 C CNN
+	1    5100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 649A7323
+P 5950 3200
+F 0 "#PWR?" H 5950 2950 50  0001 C CNN
+F 1 "GND" H 5955 3027 50  0000 C CNN
+F 2 "" H 5950 3200 50  0001 C CNN
+F 3 "" H 5950 3200 50  0001 C CNN
+	1    5950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2850 6300 2850
+Text Label 6150 5150 2    50   ~ 0
+HDA15
+Text Label 6150 4950 2    50   ~ 0
+HDA17
+Text Label 6150 5050 2    50   ~ 0
+HDA16_CC
+Text Label 6150 4850 2    50   ~ 0
+HDA18
+Wire Wire Line
+	6250 5050 6150 5050
+$Comp
+L antmicroTVSDiodes:TPD4E05U06QDQARQ1 U?
+U 1 1 649B0170
+P 6300 5050
+F 0 "U?" H 6628 5141 50  0000 L CNN
+F 1 "TPD4E05U06QDQARQ1" H 6350 4650 50  0001 L CNN
+F 2 "antmicro-footprints:TPD4E05U06QDQARQ1" H 6350 5500 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TPD4E001&fileType=pdf" H 6300 5450 50  0001 L CNN
+F 4 "Texas Instruments" H 6628 5050 50  0000 L CNN "Manufacturer"
+F 5 "TPD4E05U06QDQARQ1" H 6628 4959 50  0000 L CNN "MPN"
+	1    6300 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4850 6250 4850
+Wire Wire Line
+	6150 4950 6250 4950
+Wire Wire Line
+	6150 5150 6250 5150
+$Comp
+L power:GND #PWR?
+U 1 1 649B2E10
+P 6150 5350
+F 0 "#PWR?" H 6150 5100 50  0001 C CNN
+F 1 "GND" H 6155 5177 50  0000 C CNN
+F 2 "" H 6150 5350 50  0001 C CNN
+F 3 "" H 6150 5350 50  0001 C CNN
+	1    6150 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5350 6150 5250
+Wire Wire Line
+	6150 5250 6250 5250
+Wire Wire Line
+	5350 3250 5300 3250
+Text GLabel 4750 3450 0    50   Input ~ 0
+PL_3V3
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 649C2025
+P 5300 3650
+F 0 "C?" H 5415 3695 60  0000 L CNN
+F 1 "C_100n_0402" H 5300 3500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5500 3850 60  0001 L CNN
+F 3 "" H 5300 3650 50  0001 C CNN
+F 4 "Murata" H 5500 4050 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 5500 3950 60  0001 L CNN "MPN"
+F 6 "100n" H 5415 3597 50  0000 L CNN "Val"
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 649C25C6
+P 5800 3650
+F 0 "C?" H 5915 3695 60  0000 L CNN
+F 1 "C_100n_0402" H 5800 3500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6000 3850 60  0001 L CNN
+F 3 "" H 5800 3650 50  0001 C CNN
+F 4 "Murata" H 6000 4050 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 6000 3950 60  0001 L CNN "MPN"
+F 6 "100n" H 5915 3597 50  0000 L CNN "Val"
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 649C4ADC
+P 4950 3650
+F 0 "C?" H 5065 3695 60  0000 L CNN
+F 1 "C_1u_0402" H 4950 3500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5150 3850 60  0001 L CNN
+F 3 "" H 4950 3650 50  0001 C CNN
+F 4 "TDK" H 5150 4050 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 5150 3950 60  0001 L CNN "MPN"
+F 6 "1u" H 5065 3597 50  0000 L CNN "Val"
+	1    4950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3500 4950 3450
+Wire Wire Line
+	5750 3250 5800 3250
+Wire Wire Line
+	5300 3250 5300 3450
+Wire Wire Line
+	4750 3450 4950 3450
+Connection ~ 4950 3450
+Wire Wire Line
+	4950 3800 4950 3900
+$Comp
+L power:GND #PWR?
+U 1 1 649DA63B
+P 5800 3950
+F 0 "#PWR?" H 5800 3700 50  0001 C CNN
+F 1 "GND" H 5805 3777 50  0000 C CNN
+F 2 "" H 5800 3950 50  0001 C CNN
+F 3 "" H 5800 3950 50  0001 C CNN
+	1    5800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3050 5350 3050
+Wire Wire Line
+	5350 2950 4450 2950
+Wire Wire Line
+	4450 2850 5350 2850
+Wire Wire Line
+	4450 2750 5350 2750
+Entry Wire Line
+	4350 2950 4450 3050
+Entry Wire Line
+	4350 2850 4450 2950
+Entry Wire Line
+	4350 2750 4450 2850
+Entry Wire Line
+	4350 2650 4450 2750
+Wire Bus Line
+	4250 2600 4350 2600
+Text HLabel 4250 2600 0    50   Input ~ 0
+HDA[11..18]
+Wire Wire Line
+	5800 3250 5800 3450
+Wire Wire Line
+	5300 3450 5800 3450
+Connection ~ 5300 3450
+Connection ~ 5800 3450
+Wire Wire Line
+	5800 3450 5800 3500
+Wire Wire Line
+	5800 3900 5800 3800
+Wire Wire Line
+	5300 3500 5300 3450
+Wire Wire Line
+	5300 3800 5300 3900
+Connection ~ 5300 3900
+Wire Wire Line
+	5300 3900 5800 3900
+Wire Wire Line
+	5800 3950 5800 3900
+Connection ~ 5800 3900
+Wire Wire Line
+	4950 3900 5300 3900
+Wire Wire Line
+	4950 3450 5300 3450
+Wire Bus Line
+	6850 2600 6850 2950
+Wire Bus Line
+	4350 2600 4350 2950
+$EndSCHEMATC

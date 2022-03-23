@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 17
+Sheet 11 19
 Title ""
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr

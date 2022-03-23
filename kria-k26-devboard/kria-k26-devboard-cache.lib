@@ -339,6 +339,24 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroCapacitors0402_C_100p_0402
+#
+DEF antmicroCapacitors0402_C_100p_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_100p_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
+F5 "0402N101J500CT" 200 300 60 H I L CNN "MPN"
+F6 "100p" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroCapacitors0402_C_10n_0402
 #
 DEF antmicroCapacitors0402_C_10n_0402 C 0 0 Y Y 1 F N
@@ -1373,6 +1391,36 @@ X RI- 9 500 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# antmicroLogicBuffersDriversReceiversTransceivers_NC7WZ07P6X
+#
+DEF antmicroLogicBuffersDriversReceiversTransceivers_NC7WZ07P6X U 0 0 Y Y 1 F N
+F0 "U" -100 150 60 H V R CNN
+F1 "antmicroLogicBuffersDriversReceiversTransceivers_NC7WZ07P6X" 75 -350 60 H V L CNN
+F2 "antmicro-footprints:SOT-363" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NC7WZ07-D.pdf" 200 300 60 H I L CNN
+F4 "NC7WZ07P6X" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -200 100 100 -300 0 1 0 f
+P 2 0 1 0 -200 -200 -100 -200 N
+P 2 0 1 0 -100 0 -200 0 N
+P 2 0 1 0 0 -200 100 -200 N
+P 2 0 1 0 100 0 0 0 N
+P 4 0 1 0 -100 -150 -100 -250 0 -200 -100 -150 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 -65 -195 -70 -195 -75 -210 -80 -210 N
+P 4 0 1 0 -65 5 -70 5 -75 -10 -80 -10 N
+P 4 0 1 0 -55 -195 -60 -195 -65 -210 -70 -210 N
+P 4 0 1 0 -55 5 -60 5 -65 -10 -70 -10 N
+X A1 1 -300 0 100 R 50 50 1 1 I
+X GND 2 0 -400 100 U 50 50 1 1 W
+X A2 3 -300 -200 100 R 50 50 1 1 I
+X Y2 4 200 -200 100 L 50 50 1 1 O
+X VCC 5 0 200 100 D 50 50 1 1 W
+X Y1 6 200 0 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # antmicroLogicGatesandInverters_74LV07ATPWJ
 #
 DEF antmicroLogicGatesandInverters_74LV07ATPWJ U 0 40 Y Y 7 L N
@@ -1471,6 +1519,28 @@ X DAT1B 9 1800 -550 300 L 59 59 1 1 B
 ENDDRAW
 ENDDEF
 #
+# antmicroLogicTranslatorsLevelShifters_PCA9306D_118
+#
+DEF antmicroLogicTranslatorsLevelShifters_PCA9306D_118 U 0 20 Y Y 1 F N
+F0 "U" -300 400 60 H V C CNN
+F1 "antmicroLogicTranslatorsLevelShifters_PCA9306D_118" 400 -450 60 H V R CNN
+F2 "antmicro-footprints:SOIC-8_W3.9mm" -800 -550 60 H I L CNN
+F3 "" 250 200 60 H I L CNN
+F4 "PCA9306D,118" -350 -650 60 H I L CNN "MPN"
+F5 "NXP USA Inc." -250 -750 60 H I L CNN "Manufacturer"
+DRAW
+S -300 350 300 -400 0 1 0 f
+X GND 1 -400 -300 100 R 50 50 1 1 W
+X VREF1 2 -400 250 100 R 50 50 1 1 W
+X SCL1 3 -400 -50 100 R 50 50 1 1 P
+X SDA1 4 -400 -150 100 R 50 50 1 1 P
+X SDA2 5 400 -150 100 L 50 50 1 1 P
+X SCL2 6 400 -50 100 L 50 50 1 1 P
+X VREF2 7 400 250 100 L 50 50 1 1 W
+X EN 8 400 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # antmicroLogicTranslatorsLevelShifters_SN74AVC2T245RSWR
 #
 DEF antmicroLogicTranslatorsLevelShifters_SN74AVC2T245RSWR U 0 40 Y Y 1 F N
@@ -1542,6 +1612,30 @@ X 1 1 -200 200 100 R 1 1 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroMechanicalParts_antmicro_logo
+#
+DEF antmicroMechanicalParts_antmicro_logo N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "antmicroMechanicalParts_antmicro_logo" 0 -200 50 H V C CNN
+F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# antmicroMechanicalParts_oshw_logo
+#
+DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "antmicroMechanicalParts_oshw_logo" 30 -150 50 H V C CNN
+F2 "antmicro-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # antmicroMemoryConnectorsPCCardSockets_1140084168
 #
 DEF antmicroMemoryConnectorsPCCardSockets_1140084168 J 0 40 Y Y 1 F N
@@ -1589,6 +1683,34 @@ X GND 5 -400 -200 100 R 50 50 1 1 W
 X ORG 6 -400 -100 100 R 50 50 1 1 I
 X NC 7 -400 0 100 R 50 50 1 1 I
 X VCC 8 -400 100 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# antmicroMemory_M24C64-FMC6TG
+#
+DEF antmicroMemory_M24C64-FMC6TG U 0 10 Y Y 1 F N
+F0 "U" 550 400 60 H V C CNN
+F1 "antmicroMemory_M24C64-FMC6TG" 550 300 60 H V C CNN
+F2 "antmicro-footprints:STM_UFDFPN8DFN8_2X3" 550 240 60 H I C CNN
+F3 "" 1200 -100 60 H I C CNN
+F4 "STMicroelectronics" 550 -500 50 H I C CNN "Manufacturer"
+F5 "M24C64-FMC6TG" 550 -600 50 H I C CNN "MPN"
+$FPLIST
+ UFDFPN8DFN8_2X3_STM
+ UFDFPN8DFN8_2X3_STM-M
+ UFDFPN8DFN8_2X3_STM-L
+$ENDFPLIST
+DRAW
+S 300 200 850 -450 1 1 0 f
+X E0 1 0 -150 300 R 59 59 1 1 I
+X E1 2 0 -250 300 R 59 59 1 1 I
+X E2 3 0 -350 300 R 59 59 1 1 I
+X VSS 4 1150 -350 300 L 59 59 1 1 W
+X SDA 5 0 0 300 R 59 59 1 1 B
+X SCL 6 0 100 300 R 59 59 1 1 I
+X *WC 7 1150 -50 300 L 59 59 1 1 I
+X VCC 8 1150 100 300 L 59 59 1 1 W
+X VSS 9 1150 -250 300 L 59 59 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -1960,6 +2082,86 @@ X ~ 4 150 -100 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroRectangularConnectorsHeadersFemalePins_SSW-106-02-G-D-RA
+#
+DEF antmicroRectangularConnectorsHeadersFemalePins_SSW-106-02-G-D-RA J 0 40 Y Y 1 F N
+F0 "J" -350 350 50 H V L BNN
+F1 "antmicroRectangularConnectorsHeadersFemalePins_SSW-106-02-G-D-RA" -450 -400 50 H V L BNN
+F2 "antmicro-footprints:SAMTEC_SSW-106-02-G-D-RA" -450 450 50 H I L BNN
+F3 "" 50 -50 50 H I L BNN
+F4 "Samtec Inc." -350 550 50 H I L BNN "Manufacturer"
+F5 "SSW-106-02-G-D-RA" 0 -450 50 H I C CNN "MPN"
+DRAW
+S -100 300 100 -300 1 1 0 f
+S -60 -240 -40 -260 1 1 0 F
+S -60 -140 -40 -160 1 1 0 F
+S -60 -40 -40 -60 1 1 0 F
+S -60 60 -40 40 1 1 0 F
+S -60 160 -40 140 1 1 0 F
+S -60 260 -40 240 1 1 0 F
+S 40 -240 60 -260 1 1 0 F
+S 40 -140 60 -160 1 1 0 F
+S 40 -40 60 -60 1 1 0 F
+S 40 60 60 40 1 1 0 F
+S 40 160 60 140 1 1 0 F
+S 40 260 60 240 1 1 0 F
+X ~ 1 -200 250 100 R 50 50 1 1 P
+X ~ 10 200 -150 100 L 50 50 1 1 P
+X ~ 11 -200 -250 100 R 50 50 1 1 P
+X ~ 12 200 -250 100 L 50 50 1 1 P
+X ~ 2 200 250 100 L 50 50 1 1 P
+X ~ 3 -200 150 100 R 50 50 1 1 P
+X ~ 4 200 150 100 L 50 50 1 1 P
+X ~ 5 -200 50 100 R 50 50 1 1 P
+X ~ 6 200 50 100 L 50 50 1 1 P
+X ~ 7 -200 -50 100 R 50 50 1 1 P
+X ~ 8 200 -50 100 L 50 50 1 1 P
+X ~ 9 -200 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroRectangularConnectorsHeadersMalePins_0878311420
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_0878311420 J 0 40 Y Y 1 F N
+F0 "J" -100 400 50 H V L CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_0878311420" 0 -400 50 H V C CNN
+F2 "antmicro-footprints:PinHeader_2x7_P2mm_Drill1mm" 200 200 60 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" 200 300 60 H I L CNN
+F4 "0878311420" 200 500 60 H I L CNN "MPN"
+F5 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -100 350 100 -350 1 1 0 f
+S -60 -290 -40 -310 1 1 0 F
+S -60 -190 -40 -210 1 1 0 F
+S -60 -90 -40 -110 1 1 0 F
+S -60 10 -40 -10 1 1 0 F
+S -60 110 -40 90 1 1 0 F
+S -60 210 -40 190 1 1 0 F
+S -60 310 -40 290 1 1 0 F
+S 40 -290 60 -310 1 1 0 F
+S 40 -190 60 -210 1 1 0 F
+S 40 -90 60 -110 1 1 0 F
+S 40 10 60 -10 1 1 0 F
+S 40 110 60 90 1 1 0 F
+S 40 210 60 190 1 1 0 F
+S 40 310 60 290 1 1 0 F
+X ~ 1 -200 300 100 R 50 50 1 1 P
+X ~ 10 200 -100 100 L 50 50 1 1 P
+X ~ 11 -200 -200 100 R 50 50 1 1 P
+X ~ 12 200 -200 100 L 50 50 1 1 P
+X ~ 13 -200 -300 100 R 50 50 1 1 P
+X ~ 14 200 -300 100 L 50 50 1 1 P
+X ~ 2 200 300 100 L 50 50 1 1 P
+X ~ 3 -200 200 100 R 50 50 1 1 P
+X ~ 4 200 200 100 L 50 50 1 1 P
+X ~ 5 -200 100 100 R 50 50 1 1 P
+X ~ 6 200 100 100 L 50 50 1 1 P
+X ~ 7 -200 0 100 R 50 50 1 1 P
+X ~ 8 200 0 100 L 50 50 1 1 P
+X ~ 9 -200 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistorNetworksArrays_4x33R_0201_array
 #
 DEF antmicroResistorNetworksArrays_4x33R_0201_array R 0 40 Y Y 1 F N
@@ -2150,6 +2352,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
 F6 "1k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_200k_0402
+#
+DEF antmicroResistors0402_R_200k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_200k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO_(PHYCOMP)" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402FR-07200KL" 200 300 60 H I L CNN "MPN"
+F6 "200k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
