@@ -19,21 +19,25 @@ U 63C3FA95
 F0 "Ethernet" 50
 F1 "eth.sch" 50
 F2 "MIO[64..77]" I L 9850 1200 50 
-F3 "POE_VC[1..4]" I L 9850 900 50 
+F3 "POE_VC[1..4]" I L 9850 850 50 
 F4 "ETH_RESET" I R 11550 900 50 
+F5 "VDD_POE_OUT" I L 9850 950 50 
+F6 "VSS_POE_OUT" I L 9850 1050 50 
 $EndSheet
 $Sheet
-S 4350 800  1600 900 
+S 4350 650  1600 1100
 U 63C44BC2
 F0 "Power Supply" 50
 F1 "supply.sch" 50
 F2 "PD_CC[1..2]" I R 5950 1550 50 
-F3 "VCCOEN_PS_M2C" I R 5950 1000 50 
-F4 "VCCOEN_PL_M2C" I R 5950 1100 50 
-F5 "POE_VC[1..4]" I R 5950 900 50 
-F6 "DBG_USB_P" I R 5950 1250 50 
-F7 "DBG_USB_N" I R 5950 1400 50 
+F3 "VCCOEN_PS_M2C" I R 5950 1100 50 
+F4 "VCCOEN_PL_M2C" I R 5950 1200 50 
+F5 "POE_VC[1..4]" I R 5950 700 50 
+F6 "DBG_USB_P" I R 5950 1300 50 
+F7 "DBG_USB_N" I R 5950 1450 50 
 F8 "VBUS" I R 5950 1650 50 
+F9 "VDD_POE_OUT" I R 5950 850 50 
+F10 "VSS_POE_OUT" I R 5950 950 50 
 $EndSheet
 $Sheet
 S 9850 1900 1700 900 
@@ -66,10 +70,8 @@ F11 "VBUS" I R 5950 2000 50
 F12 "EEPROM_WC" I L 4350 3050 50 
 F13 "~PS_POR" I L 4350 3150 50 
 $EndSheet
-Wire Bus Line
-	5950 900  9850 900 
 Wire Wire Line
-	5950 1100 6400 1100
+	5950 1200 6400 1200
 $Sheet
 S 9850 5250 1700 1300
 U 62C5A15F
@@ -498,25 +500,11 @@ Wire Wire Line
 Wire Wire Line
 	6000 2250 6000 2300
 Wire Wire Line
-	6250 1350 6000 1350
-Wire Wire Line
-	6000 1350 6000 1400
-Wire Wire Line
-	6000 1400 5950 1400
-Wire Wire Line
 	6000 2300 6250 2300
-Wire Wire Line
-	5950 1000 6500 1000
 Wire Wire Line
 	6500 1200 7050 1200
 Wire Wire Line
 	6400 1300 7050 1300
-Wire Wire Line
-	5950 1250 6000 1250
-Wire Wire Line
-	6000 1250 6000 1300
-Wire Wire Line
-	6000 1300 6300 1300
 Wire Wire Line
 	6300 2350 6000 2350
 Wire Wire Line
@@ -752,22 +740,12 @@ Wire Wire Line
 	6000 6250 7000 6250
 Wire Wire Line
 	7000 6300 6000 6300
-Wire Wire Line
-	6500 1000 6500 1200
-Wire Wire Line
-	6400 1100 6400 1300
 Wire Bus Line
 	6150 1550 5950 1550
-Wire Wire Line
-	6250 1350 6250 2300
-Wire Wire Line
-	6300 1300 6300 2350
 Wire Wire Line
 	5950 2000 6050 2000
 Wire Wire Line
 	6050 2000 6050 1650
-Wire Wire Line
-	6050 1650 5950 1650
 Wire Bus Line
 	5950 2100 6150 2100
 Wire Bus Line
@@ -796,25 +774,14 @@ Wire Wire Line
 Wire Wire Line
 	11650 8400 11650 10150
 $Comp
-L antmicroMechanicalParts:oshw_logo N?
+L antmicroMechanicalParts:oshw_logo N2
 U 1 1 63FCC534
 P 700 11000
-F 0 "N?" H 894 11003 50  0000 L CNN
+F 0 "N2" H 894 11003 50  0000 L CNN
 F 1 "oshw_logo" H 894 10912 50  0000 L CNN
 F 2 "antmicro-footprints:oshw-logo" H 720 10760 50  0001 C CNN
 F 3 "" H 700 11000 50  0001 C CNN
 	1    700  11000
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroMechanicalParts:antmicro_logo N?
-U 1 1 63FCC88F
-P 650 10850
-F 0 "N?" H 864 10943 50  0000 L CNN
-F 1 "antmicro_logo" H 864 10852 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo" H 550 11100 50  0001 C CNN
-F 3 "" H 650 11200 50  0001 C CNN
-	1    650  10850
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -856,4 +823,46 @@ Wire Wire Line
 Connection ~ 6350 8250
 Wire Wire Line
 	6350 8250 7050 8250
+Wire Wire Line
+	6000 1300 6000 1350
+Wire Wire Line
+	5950 1300 6000 1300
+Wire Wire Line
+	6000 1450 5950 1450
+Wire Wire Line
+	6000 1400 6000 1450
+Wire Wire Line
+	6250 1400 6000 1400
+Wire Wire Line
+	6250 1400 6250 2300
+Wire Wire Line
+	6300 1350 6300 2350
+Wire Wire Line
+	6000 1350 6300 1350
+Wire Wire Line
+	6400 1200 6400 1300
+Wire Wire Line
+	6500 1100 6500 1200
+Wire Wire Line
+	5950 1100 6500 1100
+Wire Wire Line
+	6050 1650 5950 1650
+Wire Bus Line
+	5950 700  9700 700 
+Wire Bus Line
+	9700 700  9700 850 
+Wire Bus Line
+	9700 850  9850 850 
+Wire Wire Line
+	9850 950  9600 950 
+Wire Wire Line
+	9600 950  9600 850 
+Wire Wire Line
+	9600 850  5950 850 
+Wire Wire Line
+	9850 1050 9500 1050
+Wire Wire Line
+	9500 1050 9500 950 
+Wire Wire Line
+	9500 950  5950 950 
 $EndSCHEMATC

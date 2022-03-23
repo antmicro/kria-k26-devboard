@@ -1612,18 +1612,6 @@ X 1 1 -200 200 100 R 1 1 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroMechanicalParts_antmicro_logo
-#
-DEF antmicroMechanicalParts_antmicro_logo N 0 40 Y Y 1 F N
-F0 "N" 0 350 50 H V C CNN
-F1 "antmicroMechanicalParts_antmicro_logo" 0 -200 50 H V C CNN
-F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
-F3 "" 0 350 50 H I C CNN
-DRAW
-T 0 50 50 79 0 0 0 Logo Normal 0 C C
-ENDDRAW
-ENDDEF
-#
 # antmicroMechanicalParts_oshw_logo
 #
 DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
@@ -2522,6 +2510,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2RKF3322X" 200 300 60 H I L CNN "MPN"
 F6 "33k2" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_470R_0402
+#
+DEF antmicroResistors0402_R_470R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_470R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW0402470RFKED" 200 300 60 H I L CNN "MPN"
+F6 "470R" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
