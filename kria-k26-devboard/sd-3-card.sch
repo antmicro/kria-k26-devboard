@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 19
+Sheet 12 19
 Title ""
 Date ""
 Rev ""
@@ -587,7 +587,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 2500 8500 2400
 Text HLabel 7900 3650 0    50   Input ~ 0
-SD_CARD_RESET
+~SD_CARD_RESET
 Wire Wire Line
 	9100 2550 9100 2400
 $Comp

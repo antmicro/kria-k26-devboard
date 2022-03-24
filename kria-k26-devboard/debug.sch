@@ -1203,8 +1203,6 @@ F 6 "1uH/0.48A" H 3050 1101 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	3250 1000 3650 1000
-Wire Wire Line
-	3250 1850 3600 1850
 $Comp
 L antmicroCapacitors0603:C_10u_0603 C175
 U 1 1 62CDA2E7
@@ -1970,7 +1968,7 @@ Connection ~ 10400 10500
 Wire Wire Line
 	10400 9650 10550 9650
 Text HLabel 10550 9650 2    50   Input ~ 0
-EEPROM_WC
+~EEPROM_WC
 Wire Wire Line
 	7200 8000 7600 8000
 Text Label 7600 8000 0    50   ~ 0
@@ -2437,11 +2435,11 @@ Wire Wire Line
 	4400 1550 4400 1850
 Wire Wire Line
 	4400 1850 3650 1850
-Wire Wire Line
-	3650 1850 3600 1850
-Wire Bus Line
-	4900 7300 4900 7500
 Connection ~ 3600 1850
 Wire Wire Line
 	3600 1850 3650 1850
+Wire Wire Line
+	3250 1850 3650 1850
+Wire Bus Line
+	4900 7300 4900 7500
 $EndSCHEMATC

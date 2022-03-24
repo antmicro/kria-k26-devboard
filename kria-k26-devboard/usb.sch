@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 19
+Sheet 18 19
 Title ""
 Date "2022-03-10"
 Rev "1.0.0"
@@ -2241,7 +2241,7 @@ Wire Wire Line
 	3300 3200 3350 3200
 Connection ~ 3350 3200
 Text HLabel 2850 1450 0    50   Input ~ 0
-USB_PHY_RESET
+~USB_PHY_RESET
 Wire Wire Line
 	2850 1450 3100 1450
 Wire Wire Line
@@ -2249,7 +2249,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1600 3500 1600
 Text HLabel 2900 6900 0    50   Input ~ 0
-USB_HUB_RESET
+~USB_HUB_RESET
 Wire Wire Line
 	4500 7000 4500 6900
 Wire Wire Line

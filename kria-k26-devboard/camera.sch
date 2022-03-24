@@ -457,7 +457,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 4200 8500 4200
 Text HLabel 8250 4100 0    50   Input ~ 0
-CAM0_RST
+~CAM0_RST
 Wire Wire Line
 	8250 4100 8500 4100
 Text HLabel 8250 4000 0    50   Input ~ 0

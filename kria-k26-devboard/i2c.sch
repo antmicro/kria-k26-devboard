@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 19
+Sheet 16 19
 Title ""
 Date ""
 Rev ""
@@ -372,5 +372,5 @@ Wire Wire Line
 	8700 3550 8750 3550
 Connection ~ 8700 3550
 Text HLabel 8750 3550 2    50   Input ~ 0
-EEPROM_WC_B
+~EEPROM_WC
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 17 19
+Sheet 15 19
 Title ""
 Date ""
 Rev ""
@@ -2933,14 +2933,12 @@ Connection ~ 11050 4350
 Wire Wire Line
 	11350 4850 11550 4850
 Connection ~ 11350 4850
-Text HLabel 11550 3350 2    50   Input ~ 0
-SD_CARD_RESET
 Text HLabel 11550 3850 2    50   Input ~ 0
-USB_PHY_RESET
+~USB_PHY_RESET
 Text HLabel 11550 4350 2    50   Input ~ 0
-USB_HUB_RESET
+~USB_HUB_RESET
 Text HLabel 11550 4850 2    50   Input ~ 0
-ETH_RESET
+~ETH_RESET
 Text GLabel 9450 9450 1    50   Input ~ 0
 SOM_5V
 Wire Wire Line
@@ -3250,10 +3248,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 7650 3000 50  0001 C 
 $EndComp
 Wire Wire Line
 	7100 8000 7200 8000
-Text GLabel 7800 6950 1    50   Input ~ 0
-PS_3V3
-Text GLabel 7600 6950 1    50   Input ~ 0
-PL_1V8
 Wire Wire Line
 	8200 7800 8500 7800
 Wire Wire Line
@@ -3511,7 +3505,7 @@ Wire Wire Line
 Text HLabel 7150 3650 0    50   Input ~ 0
 MIO38
 Text HLabel 10250 7700 2    50   Input ~ 0
-CAM0_RST
+~CAM0_RST
 Text HLabel 10250 7950 2    50   Input ~ 0
 CAM0_PWDN
 Text HLabel 10250 8050 2    50   Input ~ 0
@@ -3566,8 +3560,6 @@ F 3 "" H 10300 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10300 1200 10300 1050
-Text HLabel 11550 3350 2    50   Input ~ 0
-SD_CARD_RESET
 Text HLabel 10350 1050 2    50   Input ~ 0
 ~PS_POR
 Wire Wire Line
@@ -3717,4 +3709,67 @@ F 6 "100k" V 8803 7570 50  0000 L CNN "Val"
 $EndComp
 Text Notes 6300 6050 0    50   ~ 0
 25ms delay
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:532610771 J?
+U 1 1 6252DE32
+P 11750 6050
+F 0 "J?" H 12078 6146 50  0000 L CNN
+F 1 "532610771" H 11700 5550 50  0001 L BNN
+F 2 "antmicro-footprints:MOLEX_532610771" H 11750 6050 50  0001 L BNN
+F 3 "" H 11750 6050 50  0001 L BNN
+F 4 "Molex" H 12078 6055 50  0000 L CNN "Manufacturer"
+F 5 "532610771" H 12078 5964 50  0000 L CNN "MPN"
+	1    11750 6050
+	1    0    0    -1  
+$EndComp
+Text HLabel 11500 5700 0    50   Input ~ 0
+~PS_POR
+$Comp
+L power:GND #PWR?
+U 1 1 6253AB9B
+P 11500 6500
+F 0 "#PWR?" H 11500 6250 50  0001 C CNN
+F 1 "GND" H 11505 6327 50  0000 C CNN
+F 2 "" H 11500 6500 50  0001 C CNN
+F 3 "" H 11500 6500 50  0001 C CNN
+	1    11500 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 6300 11500 6300
+Wire Wire Line
+	11500 6300 11500 6400
+Wire Wire Line
+	11650 6400 11500 6400
+Connection ~ 11500 6400
+Wire Wire Line
+	11500 6400 11500 6500
+Wire Wire Line
+	11500 5700 11650 5700
+Wire Wire Line
+	11650 5800 11500 5800
+Wire Wire Line
+	11500 5900 11650 5900
+Wire Wire Line
+	11650 6000 11500 6000
+Wire Wire Line
+	11500 6100 11650 6100
+Wire Wire Line
+	11650 6200 11500 6200
+Text HLabel 11550 3350 2    50   Input ~ 0
+~SD_CARD_RESET
+Text HLabel 11500 6200 0    50   Input ~ 0
+~CAM0_RST
+Text HLabel 11500 6100 0    50   Input ~ 0
+~ETH_RESET
+Text HLabel 11500 6000 0    50   Input ~ 0
+~USB_HUB_RESET
+Text HLabel 11500 5900 0    50   Input ~ 0
+~USB_PHY_RESET
+Text HLabel 11500 5800 0    50   Input ~ 0
+~SD_CARD_RESET
+Text GLabel 7600 6950 1    50   Input ~ 0
+PL_3V3
+Text GLabel 7800 6950 1    50   Input ~ 0
+PL_3V3
 $EndSCHEMATC

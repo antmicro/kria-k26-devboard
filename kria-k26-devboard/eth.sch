@@ -1308,8 +1308,6 @@ Wire Wire Line
 	1150 1700 1150 1650
 Text Notes 1200 3100 1    50   ~ 0
 Autoneg disable
-Text HLabel 4100 3850 0    50   Input ~ 0
-ETH_RESET
 Wire Wire Line
 	4100 3850 5500 3850
 $Comp
@@ -2554,7 +2552,7 @@ Wire Wire Line
 Text Notes 1100 8300 1    50   ~ 0
 Autoneg disable
 Text HLabel 4000 9050 0    50   Input ~ 0
-ETH_RESET
+~ETH_RESET
 Wire Wire Line
 	4000 9050 5400 9050
 Wire Wire Line
@@ -2597,4 +2595,6 @@ Wire Bus Line
 	4950 1500 4950 3050
 Wire Bus Line
 	4850 6700 4850 8250
+Text HLabel 4100 3850 0    50   Input ~ 0
+~ETH_RESET
 $EndSCHEMATC

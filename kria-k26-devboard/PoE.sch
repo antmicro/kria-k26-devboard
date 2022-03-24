@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 19
+Sheet 3 19
 Title ""
 Date "2022-03-10"
 Rev "1.0.0"
@@ -811,10 +811,10 @@ Text Label 1500 2450 0    50   ~ 0
 POE_VC3
 Text Label 1500 2850 0    50   ~ 0
 POE_VC4
-Wire Bus Line
-	1400 1300 1400 2750
 Text HLabel 2050 4350 0    50   Input ~ 0
 VDD_POE_OUT
 Text HLabel 2050 5150 0    50   Input ~ 0
 VSS_POE_OUT
+Wire Bus Line
+	1400 1300 1400 2750
 $EndSCHEMATC
