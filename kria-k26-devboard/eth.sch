@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 19
+Sheet 18 19
 Title ""
 Date "2022-03-10"
 Rev "1.0.0"
@@ -2585,6 +2585,8 @@ Text Notes 550  5150 0    100  ~ 20
 ETH2 - PSE PoE
 Wire Notes Line
 	500  4950 16050 4950
+Text HLabel 4100 3850 0    50   Input ~ 0
+~ETH_RESET
 Wire Bus Line
 	8850 4150 8850 4350
 Wire Bus Line
@@ -2595,6 +2597,4 @@ Wire Bus Line
 	4950 1500 4950 3050
 Wire Bus Line
 	4850 6700 4850 8250
-Text HLabel 4100 3850 0    50   Input ~ 0
-~ETH_RESET
 $EndSCHEMATC

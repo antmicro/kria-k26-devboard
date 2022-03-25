@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 19
+Sheet 19 19
 Title "K26 SOM connnector"
 Date "2022-03-10"
 Rev "1.0.0"
@@ -524,8 +524,6 @@ F 3 "" H 3300 3100 50  0001 C CNN
 	1    3300 3100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3200 2800 3600 2800
 Text Label 3600 2800 0    50   ~ 0
 HDA15
 Text Label 3600 3000 0    50   ~ 0
@@ -659,10 +657,6 @@ Text Label 3600 5300 0    50   ~ 0
 MIO71
 Wire Wire Line
 	3300 5500 3200 5500
-Text Label 3600 5800 0    50   ~ 0
-REFCLK1_C2M_N
-Text Label 3600 5700 0    50   ~ 0
-REFCLK1_C2M_P
 Wire Wire Line
 	3200 5800 3600 5800
 Wire Wire Line
@@ -1002,12 +996,8 @@ Wire Wire Line
 	5800 6100 5400 6100
 Wire Wire Line
 	5800 5600 5400 5600
-Text Label 5400 5600 2    50   ~ 0
-GTR_REFCLK0_C2M_P
 Wire Wire Line
 	5800 5700 5400 5700
-Text Label 5400 5700 2    50   ~ 0
-GTR_REFCLK0_C2M_N
 Wire Wire Line
 	5800 6300 5700 6300
 $Comp
@@ -1298,10 +1288,6 @@ Wire Wire Line
 	7100 6100 7000 6100
 Wire Wire Line
 	7000 6400 7100 6400
-Text Label 7400 6300 0    50   ~ 0
-GTR_REFCLK2_C2M_N
-Text Label 7400 6200 0    50   ~ 0
-GTR_REFCLK2_C2M_P
 $Comp
 L power:GND #PWR0172
 U 1 1 62D96344
@@ -3921,8 +3907,6 @@ Entry Wire Line
 	4250 2700 4150 2800
 Wire Wire Line
 	3200 3000 4150 3000
-Wire Wire Line
-	4150 2800 3650 2800
 Text HLabel 1150 2350 0    50   Input ~ 0
 HDA[11..18]
 Wire Bus Line
@@ -4053,6 +4037,8 @@ Wire Wire Line
 Connection ~ 2550 8350
 Wire Wire Line
 	1850 8350 2200 8350
+Wire Wire Line
+	3200 2800 4150 2800
 Wire Bus Line
 	5000 3750 5000 3900
 Wire Bus Line
@@ -4081,4 +4067,16 @@ Wire Bus Line
 	5000 4150 5000 4450
 Wire Bus Line
 	7750 4700 7750 5300
+Text HLabel 7400 6200 2    50   Input ~ 0
+GTR_REFCLK2_C2M_P
+Text HLabel 7400 6300 2    50   Input ~ 0
+GTR_REFCLK2_C2M_N
+Text HLabel 3600 5700 2    50   Input ~ 0
+GTR_REFCLK1_C2M_P
+Text HLabel 3600 5800 2    50   Input ~ 0
+GTR_REFCLK1_C2M_N
+Text HLabel 5400 5600 0    50   Input ~ 0
+GTR_REFCLK0_C2M_P
+Text HLabel 5400 5700 0    50   Input ~ 0
+GTR_REFCLK0_C2M_N
 $EndSCHEMATC
