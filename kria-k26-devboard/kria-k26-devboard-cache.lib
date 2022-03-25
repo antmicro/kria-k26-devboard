@@ -1,27 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_D_x2_ACom_KKA
-#
-DEF Device_D_x2_ACom_KKA D 0 30 Y N 1 F N
-F0 "D" 50 -100 50 H V C CNN
-F1 "Device_D_x2_ACom_KKA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 0 10 0 1 0 F
-P 2 0 1 0 -150 0 150 0 N
-P 2 0 1 0 0 0 0 -100 N
-P 3 0 1 10 -150 50 -150 -50 -150 -50 N
-P 3 0 1 10 150 50 150 -50 150 -50 N
-P 6 0 1 10 -50 -50 -150 0 -50 50 -50 -50 -50 -50 -50 -50 N
-P 6 0 1 10 50 50 150 0 50 -50 50 50 50 50 50 50 N
-X K 1 -300 0 150 R 50 50 0 1 P
-X K 2 300 0 150 L 50 50 0 1 P
-X A 3 0 -200 100 U 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
 # antmicroB2bConnectors_ADM6-60-01.5-L-4-2-A-TR
 #
 DEF antmicroB2bConnectors_ADM6-60-01.5-L-4-2-A-TR J 0 40 Y Y 2 L N
@@ -589,6 +568,24 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroCapacitorsmisc_C_1u_1210_100V
+#
+DEF antmicroCapacitorsmisc_C_1u_1210_100V C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitorsmisc_C_1u_1210_100V" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:1210-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
+F5 "12101C105K4Z2A" 200 300 60 H I L CNN "MPN"
+F6 "1u/100V" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroCapacitorsmisc_C_47u_0805
 #
 DEF antmicroCapacitorsmisc_C_47u_0805 C 0 0 Y Y 1 F N
@@ -826,6 +823,23 @@ X PG 6 700 0 200 L 40 40 0 0 O
 X VOUT 7 700 400 200 L 40 40 0 0 O
 X VOUT 8 700 400 200 L 40 40 0 0 O
 X FB 9 700 200 200 L 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+# antmicroDiodesRectifiersSingle_1N4148WS
+#
+DEF antmicroDiodesRectifiersSingle_1N4148WS D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C BNN
+F1 "antmicroDiodesRectifiersSingle_1N4148WS" 0 -100 60 H V C CNN
+F2 "antmicro-footprints:SOD-323F" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" 200 300 60 H I L CNN
+F4 "1N4148WS" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+X ~ A -200 0 150 R 50 50 1 1 P
+X ~ K 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1436,6 +1450,27 @@ X NC 5 -500 -200 100 R 50 50 1 1 N N
 X NC 6 -500 -200 100 R 50 50 1 1 N N
 X OUT+ 7 500 100 100 L 50 50 1 1 O
 X OUT- 8 500 -100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z
+#
+DEF antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
+F0 "D" -200 150 60 H V C CNN
+F1 "antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
+F2 "antmicro-footprints:LED_0603" 200 200 60 H I L CNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" 200 300 60 H I L CNN
+F4 "LG L29K-G2J1-24-Z" 200 500 60 H I L CNN "MPN"
+F5 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -2189,6 +2224,24 @@ X ~ 9 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroRectangularConnectorsHeadersMalePins_22-23-2021
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_22-23-2021 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_22-23-2021" 50 -150 50 H V C CNN
+F2 "antmicro-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" 200 300 60 H I L CNN
+F4 "22-23-2021" 200 500 60 H I L CNN "MPN"
+F5 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroRectangularConnectorsHeadersMalePins_532610771
 #
 DEF antmicroRectangularConnectorsHeadersMalePins_532610771 J 0 40 Y Y 1 F N
@@ -2654,6 +2707,23 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_510R_0402
+#
+DEF antmicroResistors0402_R_510R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_510R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Yageo" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402JR-07510RL" 200 300 60 H I L CNN "MPN"
+F6 "510R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_5k76_0402
 #
 DEF antmicroResistors0402_R_5k76_0402 R 0 0 Y Y 1 F N
@@ -2681,6 +2751,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "Vishay" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040263R4FKED" 200 300 60 H I L CNN "MPN"
 F6 "63R4" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_68_0402
+#
+DEF antmicroResistors0402_R_68_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_68_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TE" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRGCQ0402F68R" 200 300 60 H I L CNN "MPN"
+F6 "68" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -2837,6 +2924,31 @@ X IO2 9 -50 100 100 R 40 40 1 1 P N
 ENDDRAW
 ENDDEF
 #
+# antmicroTransistorsBipolarSingle_BC847
+#
+DEF antmicroTransistorsBipolarSingle_BC847 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "antmicroTransistorsBipolarSingle_BC847" 200 0 50 H V L CNN
+F2 "antmicro-footprints:SOT-23-3" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+F4 "BC817-16LT3G" 450 -150 50 H I C CNN "MPN"
+F5 "ON Semiconductor" 400 -250 50 H I C CNN "Manufacturer"
+ALIAS BC818 BC847 BC848 BC849 BC850 MMBT3904 MMBT5550L MMBT5551L
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroTransistorsFETsMOSFETsArrays_BSS138DW-7-F
 #
 DEF antmicroTransistorsFETsMOSFETsArrays_BSS138DW-7-F Q 0 0 Y Y 1 F N
@@ -2989,6 +3101,36 @@ P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
 X G 1 -300 -100 100 R 50 50 1 1 B
 X S 2 0 -200 100 U 50 50 1 1 B
 X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# antmicroTransistorsFETsMOSFETsSingle_PJA3441
+#
+DEF antmicroTransistorsFETsMOSFETsSingle_PJA3441 Q 0 40 Y Y 1 F N
+F0 "Q" -100 50 50 H V C CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_PJA3441" 350 350 50 H V C CNN
+F2 "antmicro-footprints:SOT-23-3" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Panjit" 300 150 50 H I C CNN "Manufacturer"
+F5 "PJA3441_R1_00001" 550 250 50 H I C CNN "MPN"
+DRAW
+C 15 250 110 1 1 10 N
+C 50 180 10 1 1 0 F
+C 50 320 10 1 1 0 F
+P 2 1 1 0 -40 250 -150 250 N
+P 2 1 1 10 -40 325 -40 175 N
+P 2 1 1 10 -20 200 -20 160 N
+P 2 1 1 10 -20 270 -20 230 N
+P 2 1 1 10 -20 340 -20 300 N
+P 2 1 1 0 50 350 50 320 N
+P 3 1 1 0 50 150 50 250 -20 250 N
+P 4 1 1 0 -20 320 80 320 80 180 -20 180 N
+P 4 1 1 0 40 250 0 265 0 235 40 250 F
+P 4 1 1 0 60 230 65 235 95 235 100 240 N
+P 4 1 1 0 80 235 65 260 95 260 80 235 N
+X G 1 -250 250 100 R 50 50 1 1 I
+X S 2 50 50 100 U 50 50 1 1 P
+X D 3 50 450 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
