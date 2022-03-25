@@ -4039,6 +4039,18 @@ Wire Wire Line
 	1850 8350 2200 8350
 Wire Wire Line
 	3200 2800 4150 2800
+Text HLabel 7400 6200 2    50   Input ~ 0
+GTR_REFCLK2_C2M_P
+Text HLabel 7400 6300 2    50   Input ~ 0
+GTR_REFCLK2_C2M_N
+Text HLabel 3600 5700 2    50   Input ~ 0
+GTR_REFCLK1_C2M_P
+Text HLabel 3600 5800 2    50   Input ~ 0
+GTR_REFCLK1_C2M_N
+Text HLabel 5400 5600 0    50   Input ~ 0
+GTR_REFCLK0_C2M_P
+Text HLabel 5400 5700 0    50   Input ~ 0
+GTR_REFCLK0_C2M_N
 Wire Bus Line
 	5000 3750 5000 3900
 Wire Bus Line
@@ -4067,16 +4079,4 @@ Wire Bus Line
 	5000 4150 5000 4450
 Wire Bus Line
 	7750 4700 7750 5300
-Text HLabel 7400 6200 2    50   Input ~ 0
-GTR_REFCLK2_C2M_P
-Text HLabel 7400 6300 2    50   Input ~ 0
-GTR_REFCLK2_C2M_N
-Text HLabel 3600 5700 2    50   Input ~ 0
-GTR_REFCLK1_C2M_P
-Text HLabel 3600 5800 2    50   Input ~ 0
-GTR_REFCLK1_C2M_N
-Text HLabel 5400 5600 0    50   Input ~ 0
-GTR_REFCLK0_C2M_P
-Text HLabel 5400 5700 0    50   Input ~ 0
-GTR_REFCLK0_C2M_N
 $EndSCHEMATC
