@@ -1252,22 +1252,38 @@ Wire Wire Line
 	11650 5750 12850 5750
 Wire Wire Line
 	12250 5850 12250 5350
-Text Label 1300 5050 0    50   ~ 0
-MIO75
+Wire Wire Line
+	4100 7200 5500 7200
+Text Notes 500  700  0    100  ~ 20
+ETH0 - PD PoE
+Text HLabel 4100 7200 0    50   Input ~ 0
+~ETH_RESET
+Text Notes 1200 6750 1    50   ~ 0
+Autoneg disable =  false
+Wire Wire Line
+	1150 5050 1150 5000
+Connection ~ 1150 5050
+Wire Wire Line
+	1300 5050 1150 5050
+Wire Wire Line
+	1150 5100 1150 5050
+Wire Wire Line
+	1150 5500 1150 5400
+Wire Wire Line
+	1150 4700 1150 4600
 $Comp
-L antmicroResistors0402:R_2k49_0402 R2
-U 1 1 628628A5
-P 1150 5250
-F 0 "R2" V 1105 5320 60  0000 L CNN
-F 1 "R_2k49_0402" H 1150 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1350 5450 60  0001 L CNN
-F 3 "" H 1150 5250 50  0001 C CNN
-F 4 "YAGEO" H 1350 5650 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-132K49L" H 1350 5550 60  0001 L CNN "MPN"
-F 6 "2k49" V 1203 5320 50  0000 L CNN "Val"
-	1    1150 5250
-	0    1    1    0   
+L power:GND #PWR01
+U 1 1 6287F6AC
+P 1150 5500
+F 0 "#PWR01" H 1150 5250 50  0001 C CNN
+F 1 "GND" H 1155 5327 50  0000 C CNN
+F 2 "" H 1150 5500 50  0001 C CNN
+F 3 "" H 1150 5500 50  0001 C CNN
+	1    1150 5500
+	1    0    0    -1  
 $EndComp
+Text GLabel 1150 4600 1    50   Input ~ 0
+PS_1V8
 $Comp
 L antmicroResistors0402:R_5k76_0402 R1
 U 1 1 62863A95
@@ -1282,42 +1298,82 @@ F 6 "5k76" V 1203 4920 50  0000 L CNN "Val"
 	1    1150 4850
 	0    1    1    0   
 $EndComp
-Text GLabel 1150 4600 1    50   Input ~ 0
-PS_1V8
 $Comp
-L power:GND #PWR01
-U 1 1 6287F6AC
-P 1150 5500
-F 0 "#PWR01" H 1150 5250 50  0001 C CNN
-F 1 "GND" H 1155 5327 50  0000 C CNN
-F 2 "" H 1150 5500 50  0001 C CNN
-F 3 "" H 1150 5500 50  0001 C CNN
-	1    1150 5500
-	1    0    0    -1  
+L antmicroResistors0402:R_2k49_0402 R2
+U 1 1 628628A5
+P 1150 5250
+F 0 "R2" V 1105 5320 60  0000 L CNN
+F 1 "R_2k49_0402" H 1150 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1350 5450 60  0001 L CNN
+F 3 "" H 1150 5250 50  0001 C CNN
+F 4 "YAGEO" H 1350 5650 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-132K49L" H 1350 5550 60  0001 L CNN "MPN"
+F 6 "2k49" V 1203 5320 50  0000 L CNN "Val"
+	1    1150 5250
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1150 4700 1150 4600
-Wire Wire Line
-	1150 5500 1150 5400
-Wire Wire Line
-	1150 5100 1150 5050
-Wire Wire Line
-	1300 5050 1150 5050
-Connection ~ 1150 5050
-Wire Wire Line
-	1150 5050 1150 5000
-Text Notes 1200 6450 1    50   ~ 0
-Autoneg disable
-Wire Wire Line
-	4100 7200 5500 7200
-Text Notes 500  700  0    100  ~ 20
-ETH0 - PD PoE
-Text HLabel 4100 7200 0    50   Input ~ 0
-~ETH_RESET
+Text Label 1300 5050 0    50   ~ 0
+MIO75
 Wire Bus Line
 	8850 7500 8850 7700
 Wire Bus Line
 	10400 6300 10400 6700
 Wire Bus Line
 	4950 4850 4950 6400
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 64F4CD3B
+P 700 4850
+F 0 "R?" V 655 4920 60  0000 L CNN
+F 1 "R_10k_0402" H 700 4700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 900 5050 60  0001 L CNN
+F 3 "" H 700 4850 50  0001 C CNN
+F 4 "VISHAY" H 900 5250 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 900 5150 60  0001 L CNN "MPN"
+F 6 "10k" V 753 4920 50  0000 L CNN "Val"
+	1    700  4850
+	0    1    1    0   
+$EndComp
+Text Notes 750  6450 1    50   ~ 0
+Address = 0x01
+Wire Wire Line
+	700  5050 700  5000
+Connection ~ 700  5050
+Wire Wire Line
+	850  5050 700  5050
+Wire Wire Line
+	700  5100 700  5050
+Wire Wire Line
+	700  5500 700  5400
+Wire Wire Line
+	700  4700 700  4600
+$Comp
+L power:GND #PWR?
+U 1 1 64F379D8
+P 700 5500
+F 0 "#PWR?" H 700 5250 50  0001 C CNN
+F 1 "GND" H 705 5327 50  0000 C CNN
+F 2 "" H 700 5500 50  0001 C CNN
+F 3 "" H 700 5500 50  0001 C CNN
+	1    700  5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 700  4600 1    50   Input ~ 0
+PS_1V8
+$Comp
+L antmicroResistors0402:R_2k49_0402 R?
+U 1 1 64F379C0
+P 700 5250
+F 0 "R?" V 655 5320 60  0000 L CNN
+F 1 "R_2k49_0402" H 700 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 900 5450 60  0001 L CNN
+F 3 "" H 700 5250 50  0001 C CNN
+F 4 "YAGEO" H 900 5650 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-132K49L" H 900 5550 60  0001 L CNN "MPN"
+F 6 "2k49" V 753 5320 50  0000 L CNN "Val"
+	1    700  5250
+	0    1    1    0   
+$EndComp
+Text Label 850  5050 0    50   ~ 0
+MIO71
 $EndSCHEMATC
