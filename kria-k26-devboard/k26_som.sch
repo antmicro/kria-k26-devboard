@@ -3690,8 +3690,6 @@ Wire Wire Line
 	3300 4400 3200 4400
 Wire Wire Line
 	3200 4200 3600 4200
-Text Label 3600 4300 0    50   ~ 0
-MIO40
 Wire Wire Line
 	3200 4300 3600 4300
 Wire Wire Line
@@ -4152,12 +4150,8 @@ Wire Wire Line
 	2000 4500 1600 4500
 Wire Wire Line
 	2000 4300 1600 4300
-Text Label 1600 4300 2    50   ~ 0
-MIO41
 Wire Wire Line
 	2000 4400 1600 4400
-Text Label 1600 4400 2    50   ~ 0
-MIO42
 Wire Wire Line
 	1900 4200 2000 4200
 NoConn ~ 2000 4100
@@ -4304,4 +4298,10 @@ Wire Bus Line
 	7750 2850 7750 3150
 Text Notes 6550 9950 0    100  ~ 20
 Mechanical
+Text Label 3600 4300 0    50   ~ 0
+MIO40
+Text HLabel 1600 4300 0    50   Input ~ 0
+MIO41
+Text HLabel 1600 4400 0    50   Input ~ 0
+MIO42
 $EndSCHEMATC

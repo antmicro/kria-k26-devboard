@@ -276,10 +276,8 @@ Wire Wire Line
 	4350 4600 4350 4700
 Wire Wire Line
 	4450 4600 4450 4800
-Text HLabel 3650 4700 0    50   Input ~ 0
-M2_CLKREQ#
 Text HLabel 3650 4800 0    50   Input ~ 0
-M2_PEWAKE#
+~M2_PEWAKE
 $Comp
 L antmicroResistors0402:R_10k_0402 R50
 U 1 1 656A5E34
@@ -299,7 +297,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3550 7100 3450
 Text HLabel 7250 3900 2    50   Input ~ 0
-M2_PERST#
+~M2_PERST
 Wire Wire Line
 	7100 3900 7250 3900
 Connection ~ 7100 3900
@@ -464,4 +462,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 5500 6000 5450
 Connection ~ 6000 5450
+Text HLabel 3650 4700 0    50   Input ~ 0
+~M2_CLKREQ
 $EndSCHEMATC
