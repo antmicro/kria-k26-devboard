@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 19
+Sheet 6 19
 Title ""
 Date "2022-03-10"
 Rev "1.0.0"
@@ -463,5 +463,7 @@ Wire Wire Line
 Text HLabel 8250 4000 0    50   Input ~ 0
 CAM0_VSYNC
 Text HLabel 8250 4200 0    50   Input ~ 0
-CAM1_PWDN
+CAM1_VSYNC
+Text Notes 550  700  0    100  ~ 20
+Camera interface
 $EndSCHEMATC

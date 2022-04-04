@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 19 19
+Sheet 11 19
 Title "K26 SOM connnector"
 Date "2022-03-10"
 Rev "1.0.0"
@@ -2796,8 +2796,6 @@ F 3 "" H 9600 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9700 1100 9600 1100
-Text Label 5400 2600 2    50   ~ 0
-PS_SRST_C2M_L
 Wire Wire Line
 	5800 2600 5400 2600
 Wire Wire Line
@@ -4304,4 +4302,6 @@ Text HLabel 1600 4300 0    50   Input ~ 0
 MIO41
 Text HLabel 1600 4400 0    50   Input ~ 0
 MIO42
+Text HLabel 5400 2600 0    50   Input ~ 0
+~PS_SRST_C2M
 $EndSCHEMATC

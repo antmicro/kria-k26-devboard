@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 19
+Sheet 3 19
 Title ""
 Date "2022-03-10"
 Rev "1.0.0"
@@ -986,4 +986,6 @@ Wire Wire Line
 	8000 5150 8050 5150
 Wire Bus Line
 	1100 3500 1100 3850
+Text Notes 550  750  0    100  ~ 20
+DisplayPort
 $EndSCHEMATC

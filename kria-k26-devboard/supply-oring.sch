@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 19
+Sheet 17 19
 Title ""
 Date ""
 Rev ""
@@ -284,7 +284,7 @@ Wire Wire Line
 	6800 1950 7000 1950
 Connection ~ 6800 1950
 Text HLabel 4900 1850 0    50   Input ~ 0
-VBUS
+PD_VBUS
 Text HLabel 4850 3450 0    50   Input ~ 0
 DC_IN
 Text HLabel 4950 5500 0    50   Input ~ 0
@@ -342,4 +342,5 @@ Wire Notes Line
 Wire Notes Line
 	5100 3550 5100 4700
 NoConn ~ 5150 3650
+NoConn ~ 5150 2050
 $EndSCHEMATC
