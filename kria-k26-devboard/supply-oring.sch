@@ -294,10 +294,10 @@ DC_MAIN_BUS
 Text Notes 4400 4600 1    50   ~ 0
 DC JACK\nreverse polarity protection\n
 $Comp
-L antmicroDiodesRectifiersSingle:1N4148WS D?
+L antmicroDiodesRectifiersSingle:1N4148WS D24
 U 1 1 624FD7EA
 P 5000 3800
-F 0 "D?" V 5053 3722 60  0000 R CNN
+F 0 "D24" V 5053 3722 60  0000 R CNN
 F 1 "1N4148WS" V 4947 3722 60  0000 R CNN
 F 2 "antmicro-footprints:SOD-323F" H 5200 4000 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 5200 4100 60  0001 L CNN
@@ -307,10 +307,10 @@ F 5 "ON Semiconductor" H 5200 4900 60  0001 L CNN "Manufacturer"
 	0    1    -1   0   
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:1N4148WS D?
+L antmicroDiodesRectifiersSingle:1N4148WS D25
 U 1 1 624FE052
 P 5000 4450
-F 0 "D?" V 4947 4372 60  0000 R CNN
+F 0 "D25" V 4947 4372 60  0000 R CNN
 F 1 "1N4148WS" V 5053 4372 60  0000 R CNN
 F 2 "antmicro-footprints:SOD-323F" H 5200 4650 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 5200 4750 60  0001 L CNN

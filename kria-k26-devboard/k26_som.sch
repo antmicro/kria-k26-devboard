@@ -16,15 +16,15 @@ $EndDescr
 $Comp
 L antmicroModules:XILINX-KRIA-K26 M1
 U 1 1 63C4E07E
-P 6600 10500
-F 0 "M1" H 7028 10671 50  0000 L CNN
-F 1 "XILINX-KRIA-K26" H 7028 10580 50  0000 L CNN
-F 2 "antmicro-footprints:XILINX-KRIA-K26" H 7050 10350 50  0001 C CNN
-F 3 "" H 6600 10500 50  0001 C CNN
-F 4 "Xilinx" H 6450 10250 50  0001 C CNN "Manufacturer"
-F 5 "SM-K26-XCL2GC" H 6700 10150 50  0001 C CNN "MPN"
-F 6 "System-On-Modules - SOM K26C SOM" H 7150 10050 50  0001 C CNN "Description"
-	1    6600 10500
+P 6550 10500
+F 0 "M1" H 6978 10671 50  0000 L CNN
+F 1 "XILINX-KRIA-K26" H 6978 10580 50  0000 L CNN
+F 2 "antmicro-footprints:XILINX-KRIA-K26" H 7000 10350 50  0001 C CNN
+F 3 "" H 6550 10500 50  0001 C CNN
+F 4 "Xilinx" H 6400 10250 50  0001 C CNN "Manufacturer"
+F 5 "SM-K26-XCL2GC" H 6650 10150 50  0001 C CNN "MPN"
+F 6 "System-On-Modules - SOM K26C SOM" H 7100 10050 50  0001 C CNN "Description"
+	1    6550 10500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -139,88 +139,88 @@ Wire Wire Line
 $Comp
 L antmicroMechanicalParts:JSOM-0515-01 SP2
 U 1 1 628AF44E
-P 9150 10350
-F 0 "SP2" V 9139 10420 50  0000 R CNN
-F 1 "JSOM-0515-01" V 9048 10420 50  0000 R CNN
-F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 9150 10350 50  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 9150 10350 50  0001 C CNN
-F 4 "Samtec" H 9150 10350 50  0001 C CNN "Manufacturer"
-F 5 "JSOM-0515-01" H 9150 10350 50  0001 C CNN "MPN"
-	1    9150 10350
+P 9200 10100
+F 0 "SP2" V 9189 10170 50  0000 R CNN
+F 1 "JSOM-0515-01" V 9098 10170 50  0000 R CNN
+F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 9200 10100 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 9200 10100 50  0001 C CNN
+F 4 "Samtec" H 9200 10100 50  0001 C CNN "Manufacturer"
+F 5 "JSOM-0515-01" H 9200 10100 50  0001 C CNN "MPN"
+	1    9200 10100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L antmicroMechanicalParts:JSOM-0515-01 SP3
 U 1 1 62B58BCA
-P 10100 10350
-F 0 "SP3" V 10089 10420 50  0000 R CNN
-F 1 "JSOM-0515-01" V 9998 10420 50  0000 R CNN
-F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 10100 10350 50  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 10100 10350 50  0001 C CNN
-F 4 "Samtec" H 10100 10350 50  0001 C CNN "Manufacturer"
-F 5 "JSOM-0515-01" H 10100 10350 50  0001 C CNN "MPN"
-	1    10100 10350
+P 10150 10100
+F 0 "SP3" V 10139 10170 50  0000 R CNN
+F 1 "JSOM-0515-01" V 10048 10170 50  0000 R CNN
+F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 10150 10100 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 10150 10100 50  0001 C CNN
+F 4 "Samtec" H 10150 10100 50  0001 C CNN "Manufacturer"
+F 5 "JSOM-0515-01" H 10150 10100 50  0001 C CNN "MPN"
+	1    10150 10100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L antmicroMechanicalParts:JSOM-0515-01 SP1
 U 1 1 62B59055
-P 8200 10350
-F 0 "SP1" V 8189 10420 50  0000 R CNN
-F 1 "JSOM-0515-01" V 8098 10420 50  0000 R CNN
-F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 8200 10350 50  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 8200 10350 50  0001 C CNN
-F 4 "Samtec" H 8200 10350 50  0001 C CNN "Manufacturer"
-F 5 "JSOM-0515-01" H 8200 10350 50  0001 C CNN "MPN"
-	1    8200 10350
+P 8250 10100
+F 0 "SP1" V 8239 10170 50  0000 R CNN
+F 1 "JSOM-0515-01" V 8148 10170 50  0000 R CNN
+F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 8250 10100 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 8250 10100 50  0001 C CNN
+F 4 "Samtec" H 8250 10100 50  0001 C CNN "Manufacturer"
+F 5 "JSOM-0515-01" H 8250 10100 50  0001 C CNN "MPN"
+	1    8250 10100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L antmicroMechanicalParts:JSOM-0515-01 SP4
 U 1 1 62E38346
-P 11000 10350
-F 0 "SP4" V 10989 10420 50  0000 R CNN
-F 1 "JSOM-0515-01" V 10898 10420 50  0000 R CNN
-F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 11000 10350 50  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 11000 10350 50  0001 C CNN
-F 4 "Samtec" H 11000 10350 50  0001 C CNN "Manufacturer"
-F 5 "JSOM-0515-01" H 11000 10350 50  0001 C CNN "MPN"
-	1    11000 10350
+P 11050 10100
+F 0 "SP4" V 11039 10170 50  0000 R CNN
+F 1 "JSOM-0515-01" V 10948 10170 50  0000 R CNN
+F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 11050 10100 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 11050 10100 50  0001 C CNN
+F 4 "Samtec" H 11050 10100 50  0001 C CNN "Manufacturer"
+F 5 "JSOM-0515-01" H 11050 10100 50  0001 C CNN "MPN"
+	1    11050 10100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8000 10550 8000 10700
+	8050 10300 8050 10450
 Wire Wire Line
-	8000 10700 8950 10700
+	8050 10450 9000 10450
 Wire Wire Line
-	10800 10700 10800 10550
+	10850 10450 10850 10300
 Wire Wire Line
-	9900 10550 9900 10700
-Connection ~ 9900 10700
+	9950 10300 9950 10450
+Connection ~ 9950 10450
 Wire Wire Line
-	9900 10700 10800 10700
+	9950 10450 10850 10450
 Wire Wire Line
-	8950 10550 8950 10700
-Connection ~ 8950 10700
+	9000 10300 9000 10450
+Connection ~ 9000 10450
 Wire Wire Line
-	8950 10700 9900 10700
+	9000 10450 9950 10450
 $Comp
 L power:GND #PWR0214
 U 1 1 62F65B5C
-P 10800 10800
-F 0 "#PWR0214" H 10800 10550 50  0001 C CNN
-F 1 "GND" H 10805 10627 50  0000 C CNN
-F 2 "" H 10800 10800 50  0001 C CNN
-F 3 "" H 10800 10800 50  0001 C CNN
-	1    10800 10800
+P 10850 10550
+F 0 "#PWR0214" H 10850 10300 50  0001 C CNN
+F 1 "GND" H 10855 10377 50  0000 C CNN
+F 2 "" H 10850 10550 50  0001 C CNN
+F 3 "" H 10850 10550 50  0001 C CNN
+	1    10850 10550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10800 10800 10800 10700
-Connection ~ 10800 10700
-Text Notes 7850 10150 0    50   ~ 0
+	10850 10550 10850 10450
+Connection ~ 10850 10450
+Text Notes 7900 9900 0    50   ~ 0
 Standoffs
-Text Notes 6600 10150 0    50   ~ 0
+Text Notes 6550 10150 0    50   ~ 0
 SOM 3D Model
 $Comp
 L antmicroCapacitorsmisc:C_47u_0805 C134
@@ -508,10 +508,10 @@ Connection ~ 2550 8350
 Wire Wire Line
 	1850 8350 2200 8350
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q?
+L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q11
 U 1 1 635A4D4D
 P 4250 8500
-F 0 "Q?" H 4358 8553 60  0000 L CNN
+F 0 "Q11" H 4358 8553 60  0000 L CNN
 F 1 "BSS138-7-F" H 4358 8447 60  0000 L CNN
 F 2 "antmicro-footprints:SOT-23-3" H 4450 8700 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 4450 8800 60  0001 L CNN
@@ -521,10 +521,10 @@ F 5 "Diodes Incorporated" H 4450 9600 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:PJA3441 Q?
+L antmicroTransistorsFETsMOSFETsSingle:PJA3441 Q10
 U 1 1 635AB375
 P 4000 7800
-F 0 "Q?" V 4292 8050 50  0000 C CNN
+F 0 "Q10" V 4292 8050 50  0000 C CNN
 F 1 "PJA3441" V 4201 8050 50  0000 C CNN
 F 2 "antmicro-footprints:SOT-23-3" H 4000 7800 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/1057/PJA3441-1867252.pdf" H 4000 7800 50  0001 C CNN
@@ -534,10 +534,10 @@ F 5 "PJA3441_R1_00001" H 4550 8050 50  0001 C CNN "MPN"
 	0    1    -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_100k_0402 R?
+L antmicroResistors0402:R_100k_0402 R93
 U 1 1 635AEB19
 P 3800 8000
-F 0 "R?" V 3755 8070 60  0000 L CNN
+F 0 "R93" V 3755 8070 60  0000 L CNN
 F 1 "R_100k_0402" H 3800 7850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 4000 8200 60  0001 L CNN
 F 3 "" H 3800 8000 50  0001 C CNN
@@ -566,10 +566,10 @@ Connection ~ 3800 7750
 Wire Wire Line
 	4250 8700 4250 8750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0350
 U 1 1 638A6E7C
 P 4250 9050
-F 0 "#PWR?" H 4250 8800 50  0001 C CNN
+F 0 "#PWR0350" H 4250 8800 50  0001 C CNN
 F 1 "GND" V 4255 8922 50  0000 R CNN
 F 2 "" H 4250 9050 50  0001 C CNN
 F 3 "" H 4250 9050 50  0001 C CNN
@@ -577,10 +577,10 @@ F 3 "" H 4250 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:1N4148WS D?
+L antmicroDiodesRectifiersSingle:1N4148WS D5
 U 1 1 639B4756
 P 4750 8050
-F 0 "D?" V 4803 7972 60  0000 R CNN
+F 0 "D5" V 4803 7972 60  0000 R CNN
 F 1 "1N4148WS" V 4697 7972 60  0000 R CNN
 F 2 "antmicro-footprints:SOD-323F" H 4950 8250 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 4950 8350 60  0001 L CNN
@@ -590,10 +590,10 @@ F 5 "ON Semiconductor" H 4950 9150 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB?
+L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB5
 U 1 1 639FC1DD
 P 6200 8400
-F 0 "FB?" H 6200 8687 60  0000 C CNN
+F 0 "FB5" H 6200 8687 60  0000 C CNN
 F 1 "BLM15PD121SN1D" H 6200 8581 60  0000 C CNN
 F 2 "antmicro-footprints:0402-res" H 6400 8600 60  0001 L CNN
 F 3 "" H 6400 8700 60  0001 L CNN
@@ -603,10 +603,10 @@ F 5 "Murata" H 6400 9500 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB?
+L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB4
 U 1 1 639FD0B2
 P 6150 7750
-F 0 "FB?" H 6150 8037 60  0000 C CNN
+F 0 "FB4" H 6150 8037 60  0000 C CNN
 F 1 "BLM15PD121SN1D" H 6150 7931 60  0000 C CNN
 F 2 "antmicro-footprints:0402-res" H 6350 7950 60  0001 L CNN
 F 3 "" H 6350 8050 60  0001 L CNN
@@ -627,10 +627,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 8400 4750 8250
 $Comp
-L antmicroCapacitorsmisc:C_1u_1210_100V C?
+L antmicroCapacitorsmisc:C_1u_1210_100V C177
 U 1 1 63D12F0E
 P 5500 8050
-F 0 "C?" H 5615 8095 60  0000 L CNN
+F 0 "C177" H 5615 8095 60  0000 L CNN
 F 1 "C_1u_1210_100V" H 5500 7900 60  0001 C CNN
 F 2 "antmicro-footprints:1210-cap" H 5700 8250 60  0001 L CNN
 F 3 "" H 5500 8050 50  0001 C CNN
@@ -658,10 +658,10 @@ Connection ~ 4250 8750
 Wire Wire Line
 	4250 8750 4250 9000
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:22-23-2021 J?
+L antmicroRectangularConnectorsHeadersMalePins:22-23-2021 J9
 U 1 1 63E996B5
 P 6850 8100
-F 0 "J?" V 6941 7972 50  0000 R CNN
+F 0 "J9" V 6941 7972 50  0000 R CNN
 F 1 "22-23-2021" V 6850 7972 50  0000 R CNN
 F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 7050 8300 60  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 7050 8400 60  0001 L CNN
@@ -687,10 +687,10 @@ Wire Wire Line
 Text GLabel 3650 7750 0    50   Input ~ 0
 5V_SOM
 $Comp
-L antmicroResistors0402:R_100k_0402 R?
+L antmicroResistors0402:R_100k_0402 R101
 U 1 1 640BB9D1
 P 3850 8800
-F 0 "R?" V 3805 8870 60  0000 L CNN
+F 0 "R101" V 3805 8870 60  0000 L CNN
 F 1 "R_100k_0402" H 3850 8650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 4050 9000 60  0001 L CNN
 F 3 "" H 3850 8800 50  0001 C CNN
@@ -4266,14 +4266,68 @@ F 5 "ADM6-60-01.5-L-4-2-A-TR" H 6400 4000 50  0001 C CNN "MPN"
 $EndComp
 Wire Notes Line
 	6450 9700 6450 11200
-Wire Bus Line
-	4250 2750 4250 3000
+Text Notes 6550 9950 0    100  ~ 20
+Mechanical
+Text Label 3600 4300 0    50   ~ 0
+MIO40
+Text HLabel 1600 4300 0    50   Input ~ 0
+MIO41
+Text HLabel 1600 4400 0    50   Input ~ 0
+MIO42
+Text HLabel 5400 2600 0    50   Input ~ 0
+~PS_SRST_C2M
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_4.2_NPTH MP1
+U 1 1 69C35635
+P 6750 10850
+F 0 "MP1" H 6958 10896 50  0000 L CNN
+F 1 "PCB_Mount_Hole_4.2_NPTH" H 6500 10600 50  0000 L CNN
+F 2 "antmicro-footprints:mounting-hole-4.2mm-NPTH" H 7550 11550 50  0001 C CNN
+F 3 "" H 7700 11650 50  0001 C CNN
+	1    6750 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_4.2_NPTH MP3
+U 1 1 69F1D063
+P 8850 10850
+F 0 "MP3" H 9058 10896 50  0000 L CNN
+F 1 "PCB_Mount_Hole_4.2_NPTH" H 8600 10600 50  0000 L CNN
+F 2 "antmicro-footprints:mounting-hole-4.2mm-NPTH" H 9650 11550 50  0001 C CNN
+F 3 "" H 9800 11650 50  0001 C CNN
+	1    8850 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_4.2_NPTH MP4
+U 1 1 69F1D6C6
+P 9900 10850
+F 0 "MP4" H 10108 10896 50  0000 L CNN
+F 1 "PCB_Mount_Hole_4.2_NPTH" H 9650 10600 50  0000 L CNN
+F 2 "antmicro-footprints:mounting-hole-4.2mm-NPTH" H 10700 11550 50  0001 C CNN
+F 3 "" H 10850 11650 50  0001 C CNN
+	1    9900 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_4.2_NPTH MP2
+U 1 1 69F1CA75
+P 7800 10850
+F 0 "MP2" H 8008 10896 50  0000 L CNN
+F 1 "PCB_Mount_Hole_4.2_NPTH" H 7550 10600 50  0000 L CNN
+F 2 "antmicro-footprints:mounting-hole-4.2mm-NPTH" H 8600 11550 50  0001 C CNN
+F 3 "" H 8750 11650 50  0001 C CNN
+	1    7800 10850
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	7750 4150 7750 4300
 Wire Bus Line
 	7750 3700 7750 3900
 Wire Bus Line
 	5000 3850 5000 4000
+Wire Bus Line
+	4250 2750 4250 3000
 Wire Bus Line
 	7750 4400 7750 4700
 Wire Bus Line
@@ -4294,14 +4348,4 @@ Wire Bus Line
 	5000 4250 5000 4550
 Wire Bus Line
 	7750 2850 7750 3150
-Text Notes 6550 9950 0    100  ~ 20
-Mechanical
-Text Label 3600 4300 0    50   ~ 0
-MIO40
-Text HLabel 1600 4300 0    50   Input ~ 0
-MIO41
-Text HLabel 1600 4400 0    50   Input ~ 0
-MIO42
-Text HLabel 5400 2600 0    50   Input ~ 0
-~PS_SRST_C2M
 $EndSCHEMATC

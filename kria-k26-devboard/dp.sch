@@ -984,8 +984,8 @@ Wire Wire Line
 	8000 5200 8000 5150
 Wire Wire Line
 	8000 5150 8050 5150
-Wire Bus Line
-	1100 3500 1100 3850
 Text Notes 550  750  0    100  ~ 20
 DisplayPort
+Wire Bus Line
+	1100 3500 1100 3850
 $EndSCHEMATC

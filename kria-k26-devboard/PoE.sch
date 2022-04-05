@@ -257,11 +257,11 @@ Wire Wire Line
 Wire Wire Line
 	7400 3700 7500 3700
 Wire Wire Line
-	4500 3450 6400 3450
+	4500 3450 6350 3450
 Wire Wire Line
 	5750 4100 5750 4700
 Wire Wire Line
-	5750 4700 6400 4700
+	5750 4700 6350 4700
 Wire Wire Line
 	7400 4700 7400 4100
 Wire Wire Line
@@ -271,62 +271,18 @@ Wire Wire Line
 	5750 4700 5750 4800
 Wire Wire Line
 	5850 3900 5650 3900
-$Comp
-L antmicroCapacitorspol:C_47u_ELEC_100V C?
-U 1 1 6253A657
-P 6800 4000
-AR Path="/63C44BC2/6253A657" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/62525BE1/6253A657" Ref="C31"  Part="1" 
-F 0 "C31" V 6650 3900 60  0000 L CNN
-F 1 "C_47u_ELEC_100V" H 6800 3850 60  0001 C CNN
-F 2 "antmicro-footprints:CP_Elec_10x10.5" H 7000 4200 60  0001 L CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf" H 6800 4000 50  0001 C CNN
-F 4 "PANASONIC" H 7000 4400 60  0001 L CNN "Manufacturer"
-F 5 "EEEHA2A470UP" H 7000 4300 60  0001 L CNN "MPN"
-F 6 "47u/100V" V 6950 3800 50  0000 L CNN "Val"
-	1    6800 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6800 3900 6800 3450
-Connection ~ 6800 3450
+	6750 3900 6750 3450
 Wire Wire Line
-	6800 3450 7400 3450
-Wire Wire Line
-	6800 4200 6800 4700
-Connection ~ 6800 4700
-Wire Wire Line
-	6800 4700 7400 4700
+	6750 4200 6750 4700
 Text Label 7450 3900 2    50   ~ 0
 POE_ACTIVE
 Wire Wire Line
 	7450 3900 7500 3900
-$Comp
-L antmicroCapacitorspol:C_47u_ELEC_100V C?
-U 1 1 62542DEE
-P 6400 4000
-AR Path="/63C44BC2/62542DEE" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/62525BE1/62542DEE" Ref="C30"  Part="1" 
-F 0 "C30" V 6250 3900 60  0000 L CNN
-F 1 "C_47u_ELEC_100V" H 6400 3850 60  0001 C CNN
-F 2 "antmicro-footprints:CP_Elec_10x10.5" H 6600 4200 60  0001 L CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf" H 6400 4000 50  0001 C CNN
-F 4 "PANASONIC" H 6600 4400 60  0001 L CNN "Manufacturer"
-F 5 "EEEHA2A470UP" H 6600 4300 60  0001 L CNN "MPN"
-F 6 "47u/100V" V 6550 3800 50  0000 L CNN "Val"
-	1    6400 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6400 3900 6400 3450
+	6350 3900 6350 3450
 Wire Wire Line
-	6400 4200 6400 4700
-Connection ~ 6400 3450
-Wire Wire Line
-	6400 3450 6800 3450
-Connection ~ 6400 4700
-Wire Wire Line
-	6400 4700 6800 4700
+	6350 4200 6350 4700
 $Comp
 L antmicroCapacitorsmisc:C_47u_16V_1206 C32
 U 1 1 6254E76E
@@ -445,6 +401,94 @@ Text Label 1700 4250 0    50   ~ 0
 POE_VC3
 Text Label 1700 4650 0    50   ~ 0
 POE_VC4
+$Comp
+L antmicroCapacitorsmisc:C_22u_2220_100V C205
+U 1 1 6A074DA7
+P 6350 4050
+F 0 "C205" V 6400 3750 60  0000 L CNN
+F 1 "C_22u_2220_100V" H 6350 3900 60  0001 C CNN
+F 2 "antmicro-footprints:2220-cap" H 6550 4250 60  0001 L CNN
+F 3 "" H 6350 4050 50  0001 C CNN
+F 4 "TDK" H 6550 4450 60  0001 L CNN "Manufacturer"
+F 5 "C5750X7S2A226M280KB" H 6550 4350 60  0001 L CNN "MPN"
+F 6 "22u/100V" V 6300 3550 50  0000 L CNN "Val"
+	1    6350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_22u_2220_100V C30
+U 1 1 6A0791F7
+P 6550 4050
+F 0 "C30" V 6600 3750 60  0000 L CNN
+F 1 "C_22u_2220_100V" H 6550 3900 60  0001 C CNN
+F 2 "antmicro-footprints:2220-cap" H 6750 4250 60  0001 L CNN
+F 3 "" H 6550 4050 50  0001 C CNN
+F 4 "TDK" H 6750 4450 60  0001 L CNN "Manufacturer"
+F 5 "C5750X7S2A226M280KB" H 6750 4350 60  0001 L CNN "MPN"
+F 6 "22u/100V" V 6500 3550 50  0000 L CNN "Val"
+	1    6550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_22u_2220_100V C31
+U 1 1 6A0794FE
+P 6750 4050
+F 0 "C31" V 6800 3750 60  0000 L CNN
+F 1 "C_22u_2220_100V" H 6750 3900 60  0001 C CNN
+F 2 "antmicro-footprints:2220-cap" H 6950 4250 60  0001 L CNN
+F 3 "" H 6750 4050 50  0001 C CNN
+F 4 "TDK" H 6950 4450 60  0001 L CNN "Manufacturer"
+F 5 "C5750X7S2A226M280KB" H 6950 4350 60  0001 L CNN "MPN"
+F 6 "22u/100V" V 6700 3550 50  0000 L CNN "Val"
+	1    6750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_22u_2220_100V C206
+U 1 1 6A079825
+P 6950 4050
+F 0 "C206" V 7000 3750 60  0000 L CNN
+F 1 "C_22u_2220_100V" H 6950 3900 60  0001 C CNN
+F 2 "antmicro-footprints:2220-cap" H 7150 4250 60  0001 L CNN
+F 3 "" H 6950 4050 50  0001 C CNN
+F 4 "TDK" H 7150 4450 60  0001 L CNN "Manufacturer"
+F 5 "C5750X7S2A226M280KB" H 7150 4350 60  0001 L CNN "MPN"
+F 6 "22u/100V" V 6900 3550 50  0000 L CNN "Val"
+	1    6950 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 3450
+Connection ~ 6750 3450
+Wire Wire Line
+	6350 3450 6550 3450
+Connection ~ 6350 4700
+Connection ~ 6750 4700
+Wire Wire Line
+	6750 4700 6950 4700
+Wire Wire Line
+	6350 4700 6550 4700
+Wire Wire Line
+	6550 4200 6550 4700
+Connection ~ 6550 4700
+Wire Wire Line
+	6550 4700 6750 4700
+Wire Wire Line
+	6950 4200 6950 4700
+Connection ~ 6950 4700
+Wire Wire Line
+	6950 4700 7400 4700
+Wire Wire Line
+	6950 3900 6950 3450
+Wire Wire Line
+	6750 3450 6950 3450
+Connection ~ 6950 3450
+Wire Wire Line
+	6950 3450 7400 3450
+Wire Wire Line
+	6550 3900 6550 3450
 Wire Bus Line
 	1600 3100 1600 4550
+Connection ~ 6550 3450
+Wire Wire Line
+	6550 3450 6750 3450
 $EndSCHEMATC

@@ -283,27 +283,10 @@ Wire Wire Line
 	4800 3450 5300 3450
 Text Notes 550  750  0    100  ~ 20
 PMOD
-$Comp
-L antmicroTVSDiodes:ESD9L5.0ST5G D?
-U 1 1 69767A1C
-P 4050 3750
-F 0 "D?" V 4096 3650 50  0000 R CNN
-F 1 "ESD9L5.0ST5G" V 4005 3650 50  0000 R CNN
-F 2 "antmicro-footprints:DIOM1006X40N" H 3800 3950 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 4050 3750 50  0001 C CNN
-F 4 "ESD9L5.0ST5G" H 3750 4000 50  0001 C CNN "MPN"
-F 5 "ONSEMI" H 4200 4000 50  0001 C CNN "Manufacturer"
-	1    4050 3750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3900 3450 4050 3450
 Wire Wire Line
 	4800 4100 4050 4100
-Wire Wire Line
-	4050 4100 4050 4000
-Wire Wire Line
-	4050 3500 4050 3450
 Connection ~ 4050 3450
 Wire Wire Line
 	4050 3450 4800 3450
@@ -317,6 +300,23 @@ Connection ~ 5800 4100
 Wire Wire Line
 	5300 3800 5300 4100
 Connection ~ 4800 4100
+$Comp
+L antmicroTVSDiodes:PTVS5V0Z1USKPYL D3
+U 1 1 69B7F430
+P 4050 3750
+F 0 "D3" V 4103 3622 60  0000 R CNN
+F 1 "PTVS5V0Z1USKPYL" H 4250 3950 60  0000 R CNN
+F 2 "antmicro-footprints:SOD-964" H 4250 3950 60  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf" H 4250 4050 60  0001 L CNN
+F 4 "Nexperia" H 4250 4850 60  0001 L CNN "Manufacturer"
+F 5 "PTVS5V0Z1USKPYL" H 4250 4250 60  0001 L CNN "MPN"
+	1    4050 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3450 4050 3550
+Wire Wire Line
+	4050 3950 4050 4100
 Wire Bus Line
 	6850 2600 6850 2950
 Wire Bus Line
