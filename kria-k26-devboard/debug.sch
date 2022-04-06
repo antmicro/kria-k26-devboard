@@ -110,15 +110,15 @@ $EndComp
 $Comp
 L antmicroResistors0402:R_10k_0402 R91
 U 1 1 623BF93A
-P 8550 1850
-F 0 "R91" V 8505 1920 60  0000 L CNN
-F 1 "R_10k_0402" H 8550 1700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8750 2050 60  0001 L CNN
-F 3 "" H 8550 1850 50  0001 C CNN
-F 4 "VISHAY" H 8750 2250 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 8750 2150 60  0001 L CNN "MPN"
-F 6 "10k" V 8603 1920 50  0000 L CNN "Val"
-	1    8550 1850
+P 8550 1650
+F 0 "R91" V 8505 1720 60  0000 L CNN
+F 1 "R_10k_0402" H 8550 1500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8750 1850 60  0001 L CNN
+F 3 "" H 8550 1650 50  0001 C CNN
+F 4 "VISHAY" H 8750 2050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 8750 1950 60  0001 L CNN "MPN"
+F 6 "10k" V 8603 1720 50  0000 L CNN "Val"
+	1    8550 1650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -156,7 +156,7 @@ Wire Wire Line
 	8550 2050 8900 2050
 Connection ~ 8550 2050
 Wire Wire Line
-	8550 2050 8550 2000
+	8550 2050 8550 1800
 $Comp
 L power:GND #PWR0319
 U 1 1 623C7697
@@ -184,7 +184,7 @@ $EndComp
 Wire Wire Line
 	9200 2200 9200 2150
 Wire Wire Line
-	8550 1300 8550 1700
+	8550 1300 8550 1500
 Wire Wire Line
 	9200 1300 9200 1250
 Wire Wire Line
@@ -2695,6 +2695,22 @@ F 5 "Molex" H 1500 3100 60  0001 L CNN "Manufacturer"
 	1    1300 2000
 	1    0    0    -1  
 $EndComp
+Text Notes 12200 4350 0    50   ~ 0
+2 A <- B
+Text Notes 12150 2350 0    50   ~ 0
+1 A -> B
+Text Notes 12150 2450 0    50   ~ 0
+2 A -> B
+Text Notes 12200 4250 0    50   ~ 0
+1 A <- B
+Text Notes 12300 6050 0    50   ~ 0
+A1 -> B
+Text Notes 12300 6150 0    50   ~ 0
+A2 -> B
+Text Notes 12250 7850 0    50   ~ 0
+A1 -> B
+Text Notes 12250 7950 0    50   ~ 0
+A2 <- B
 Wire Bus Line
 	4700 6500 4700 6700
 $EndSCHEMATC

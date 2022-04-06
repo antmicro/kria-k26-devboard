@@ -4040,4 +4040,10 @@ Wire Notes Line
 	10650 8700 5300 8700
 Text Notes 10800 7050 0    100  ~ 20
 Xilinx reference
+Text Notes 7250 2500 0    50   ~ 0
+B -> A
+Text Notes 7250 2600 0    50   ~ 0
+B -> A
+Text Notes 7250 5000 0    50   ~ 0
+B -> A
 $EndSCHEMATC

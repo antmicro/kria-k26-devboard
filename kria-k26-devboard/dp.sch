@@ -973,8 +973,6 @@ Wire Wire Line
 	8000 5150 8050 5150
 Text Notes 550  750  0    100  ~ 20
 DisplayPort
-Wire Bus Line
-	1100 3500 1100 3850
 $Comp
 L antmicroInterfaceDriversReceiversTransceivers:FIN1019MTC U2
 U 1 1 63C499AA
@@ -988,4 +986,6 @@ F 5 "FIN1019MTCX" H 4100 3350 50  0001 C CNN "MPN"
 	1    4100 3350
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	1100 3500 1100 3850
 $EndSCHEMATC
