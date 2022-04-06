@@ -218,7 +218,7 @@ S 9850 3050 1700 350
 U 630339CE
 F0 "SD 3.0 card" 50
 F1 "sd-3-card.sch" 50
-F2 "MIO[45..50]" I L 9850 3150 50 
+F2 "MIO[45..51]" I L 9850 3150 50 
 F3 "MIO39" I L 9850 3250 50 
 F4 "~SD_CARD_RESET" I R 11550 3150 50 
 $EndSheet
@@ -495,10 +495,10 @@ Wire Wire Line
 Wire Wire Line
 	9850 8600 8750 8600
 $Comp
-L antmicroMechanicalParts:oshw_logo N2
+L antmicroMechanicalParts:oshw_logo N1
 U 1 1 63FCC534
 P 700 11000
-F 0 "N2" H 894 11003 50  0000 L CNN
+F 0 "N1" H 894 11003 50  0000 L CNN
 F 1 "oshw_logo" H 894 10912 50  0000 L CNN
 F 2 "antmicro-footprints:oshw-logo" H 720 10760 50  0001 C CNN
 F 3 "" H 700 11000 50  0001 C CNN
@@ -587,7 +587,7 @@ F6 "GTR_DP2_C2M_P" I R 8750 2300 50
 F7 "GTR_DP2_C2M_N" I R 8750 2450 50 
 F8 "GTR_DP2_M2C_P" I R 8750 2000 50 
 F9 "GTR_DP2_M2C_N" I R 8750 2150 50 
-F10 "MIO[45..50]" I R 8750 3150 50 
+F10 "MIO[45..51]" I R 8750 3150 50 
 F11 "MIO39" I R 8750 3250 50 
 F12 "MIO[27..30]" I R 8750 3700 50 
 F13 "GTR_DP0_M2C_P" I R 8750 3850 50 
@@ -972,4 +972,15 @@ Wire Wire Line
 	4150 9900 4150 9200
 Wire Wire Line
 	4150 9200 4350 9200
+$Comp
+L antmicroMechanicalParts:antmicro_logo N2
+U 1 1 6B81F324
+P 650 10850
+F 0 "N2" H 864 10943 50  0000 L CNN
+F 1 "antmicro_logo" H 864 10852 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_15mm" H 550 11100 50  0001 C CNN
+F 3 "" H 650 11200 50  0001 C CNN
+	1    650  10850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
