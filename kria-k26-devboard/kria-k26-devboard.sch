@@ -978,7 +978,7 @@ U 1 1 6B81F324
 P 650 10850
 F 0 "N2" H 864 10943 50  0000 L CNN
 F 1 "antmicro_logo" H 864 10852 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_15mm" H 550 11100 50  0001 C CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_30mm" H 550 11100 50  0001 C CNN
 F 3 "" H 650 11200 50  0001 C CNN
 	1    650  10850
 	1    0    0    -1  

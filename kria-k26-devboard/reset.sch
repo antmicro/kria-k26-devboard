@@ -110,27 +110,27 @@ Wire Wire Line
 $Comp
 L antmicroLogicGatesandInverters:74LV07ATPWJ U27
 U 1 1 65D5EDD7
-P 11850 2100
-F 0 "U27" H 11850 2417 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 2326 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 1800 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 2100 50  0001 C CNN
-F 4 "Nexperia" H 11850 2100 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 2100 50  0001 C CNN "MPN"
-	1    11850 2100
+P 11850 4900
+F 0 "U27" H 11850 5217 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 11850 5126 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 4600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 4900 50  0001 C CNN
+F 4 "Nexperia" H 11850 4900 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 11850 4900 50  0001 C CNN "MPN"
+	1    11850 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicroLogicGatesandInverters:74LV07ATPWJ U27
 U 2 1 65D5F51C
-P 11850 2600
-F 0 "U27" H 11850 2917 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 2826 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 2300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 2600 50  0001 C CNN
-F 4 "Nexperia" H 11850 2600 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 2600 50  0001 C CNN "MPN"
-	2    11850 2600
+P 11850 3600
+F 0 "U27" H 11850 3917 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 11850 3826 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 3600 50  0001 C CNN
+F 4 "Nexperia" H 11850 3600 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 11850 3600 50  0001 C CNN "MPN"
+	2    11850 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -149,14 +149,14 @@ $EndComp
 $Comp
 L antmicroLogicGatesandInverters:74LV07ATPWJ U27
 U 4 1 65D62493
-P 11850 3600
-F 0 "U27" H 11850 3917 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 3826 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 3300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 3600 50  0001 C CNN
-F 4 "Nexperia" H 11850 3600 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 3600 50  0001 C CNN "MPN"
-	4    11850 3600
+P 11850 2600
+F 0 "U27" H 11850 2917 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 11850 2826 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 2600 50  0001 C CNN
+F 4 "Nexperia" H 11850 2600 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 11850 2600 50  0001 C CNN "MPN"
+	4    11850 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -351,14 +351,14 @@ $EndComp
 $Comp
 L antmicroLogicGatesandInverters:74LV07ATPWJ U27
 U 5 1 65D63CC3
-P 11850 4900
-F 0 "U27" H 11850 5217 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 5126 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 4600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 4900 50  0001 C CNN
-F 4 "Nexperia" H 11850 4900 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 4900 50  0001 C CNN "MPN"
-	5    11850 4900
+P 11850 2100
+F 0 "U27" H 11850 2417 50  0000 C CNN
+F 1 "74LV07ATPWJ" H 11850 2326 50  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 1800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 2100 50  0001 C CNN
+F 4 "Nexperia" H 11850 2100 50  0001 C CNN "Manufacturer"
+F 5 "74LV07ATPWJ" H 11850 2100 50  0001 C CNN "MPN"
+	5    11850 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -395,19 +395,6 @@ Wire Wire Line
 	6850 2500 6800 2500
 Text HLabel 6850 2700 0    50   Input ~ 0
 MIO38
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q7
-U 1 1 63E971C7
-P 2850 5650
-F 0 "Q7" H 2958 5703 60  0000 L CNN
-F 1 "BSS138-7-F" H 2958 5597 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 3050 5850 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 3050 5950 60  0001 L CNN
-F 4 "BSS138-7-F" H 3050 6150 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 3050 6750 60  0001 L CNN "Manufacturer"
-	1    2850 5650
-	1    0    0    -1  
-$EndComp
 Text Label 2350 5750 2    50   ~ 0
 PS_RST
 Wire Wire Line
@@ -4046,4 +4033,17 @@ Text Notes 7250 2600 0    50   ~ 0
 B -> A
 Text Notes 7250 5000 0    50   ~ 0
 B -> A
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q7
+U 1 1 63E971C7
+P 2850 5650
+F 0 "Q7" H 2958 5703 60  0000 L CNN
+F 1 "BSS138-7-F" H 2958 5597 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23-3" H 3050 5850 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 3050 5950 60  0001 L CNN
+F 4 "BSS138-7-F" H 3050 6150 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 3050 6750 60  0001 L CNN "Manufacturer"
+	1    2850 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

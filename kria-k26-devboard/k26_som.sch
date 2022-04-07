@@ -4372,10 +4372,10 @@ Text Label 1600 6900 2    50   ~ 0
 VCC_SOM
 Entry Wire Line
 	3950 4500 3850 4600
-Wire Bus Line
-	3950 4350 3950 4500
 Wire Wire Line
 	3200 4600 3850 4600
+Wire Bus Line
+	3950 4350 3950 4500
 Wire Bus Line
 	7750 4150 7750 4300
 Wire Bus Line

@@ -799,20 +799,6 @@ F 6 "100k" V 6003 2070 50  0000 L CNN "Val"
 	1    5950 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L antmicroResistors0603:R_15k_0603 R86
-U 1 1 62B3E1B1
-P 5950 2400
-F 0 "R86" V 5905 2470 60  0000 L CNN
-F 1 "R_15k_0603" H 5950 2250 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 6150 2600 60  0001 L CNN
-F 3 "" H 5950 2400 50  0001 C CNN
-F 4 "BOURNS" H 6150 2800 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-FX-1502ELF" H 6150 2700 60  0001 L CNN "MPN"
-F 6 "15k" V 6003 2470 50  0000 L CNN "Val"
-	1    5950 2400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5950 1850 5950 1800
 Wire Wire Line
@@ -1153,32 +1139,13 @@ Connection ~ 2100 5150
 $Comp
 L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 62E3F1AA
-P 850 4150
+P 1100 4150
 AR Path="/63C44BC2/62E3F1AA" Ref="C?"  Part="1" 
 AR Path="/63C44BC2/6235D136/62E3F1AA" Ref="C?"  Part="1" 
 AR Path="/63C44BC2/623E44F4/62E3F1AA" Ref="C?"  Part="1" 
 AR Path="/63C44BC2/6244F9D5/62E3F1AA" Ref="C?"  Part="1" 
 AR Path="/625B0244/62E3F1AA" Ref="C125"  Part="1" 
-F 0 "C125" H 950 4050 60  0000 C CNN
-F 1 "C_100n_0402" H 850 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1050 4350 60  0001 L CNN
-F 3 "" H 850 4150 50  0001 C CNN
-F 4 "Murata" H 1050 4550 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 1050 4450 60  0001 L CNN "MPN"
-F 6 "100n" H 950 4250 50  0000 C CNN "Val"
-	1    850  4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_100n_0402 C?
-U 1 1 62E3F4A1
-P 1100 4150
-AR Path="/63C44BC2/62E3F4A1" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/6235D136/62E3F4A1" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/623E44F4/62E3F4A1" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/6244F9D5/62E3F4A1" Ref="C?"  Part="1" 
-AR Path="/625B0244/62E3F4A1" Ref="C126"  Part="1" 
-F 0 "C126" H 1200 4050 60  0000 C CNN
+F 0 "C125" H 1200 4050 60  0000 C CNN
 F 1 "C_100n_0402" H 1100 4000 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 1300 4350 60  0001 L CNN
 F 3 "" H 1100 4150 50  0001 C CNN
@@ -1190,14 +1157,14 @@ F 6 "100n" H 1200 4250 50  0000 C CNN "Val"
 $EndComp
 $Comp
 L antmicroCapacitors0402:C_100n_0402 C?
-U 1 1 62E3F4AE
+U 1 1 62E3F4A1
 P 1350 4150
-AR Path="/63C44BC2/62E3F4AE" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/6235D136/62E3F4AE" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/623E44F4/62E3F4AE" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/6244F9D5/62E3F4AE" Ref="C?"  Part="1" 
-AR Path="/625B0244/62E3F4AE" Ref="C128"  Part="1" 
-F 0 "C128" H 1450 4050 60  0000 C CNN
+AR Path="/63C44BC2/62E3F4A1" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/6235D136/62E3F4A1" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/623E44F4/62E3F4A1" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/6244F9D5/62E3F4A1" Ref="C?"  Part="1" 
+AR Path="/625B0244/62E3F4A1" Ref="C126"  Part="1" 
+F 0 "C126" H 1450 4050 60  0000 C CNN
 F 1 "C_100n_0402" H 1350 4000 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 1550 4350 60  0001 L CNN
 F 3 "" H 1350 4150 50  0001 C CNN
@@ -1209,14 +1176,14 @@ F 6 "100n" H 1450 4250 50  0000 C CNN "Val"
 $EndComp
 $Comp
 L antmicroCapacitors0402:C_100n_0402 C?
-U 1 1 62E3F4BB
+U 1 1 62E3F4AE
 P 1600 4150
-AR Path="/63C44BC2/62E3F4BB" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/6235D136/62E3F4BB" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/623E44F4/62E3F4BB" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/6244F9D5/62E3F4BB" Ref="C?"  Part="1" 
-AR Path="/625B0244/62E3F4BB" Ref="C130"  Part="1" 
-F 0 "C130" H 1700 4050 60  0000 C CNN
+AR Path="/63C44BC2/62E3F4AE" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/6235D136/62E3F4AE" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/623E44F4/62E3F4AE" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/6244F9D5/62E3F4AE" Ref="C?"  Part="1" 
+AR Path="/625B0244/62E3F4AE" Ref="C128"  Part="1" 
+F 0 "C128" H 1700 4050 60  0000 C CNN
 F 1 "C_100n_0402" H 1600 4000 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 1800 4350 60  0001 L CNN
 F 3 "" H 1600 4150 50  0001 C CNN
@@ -1228,14 +1195,14 @@ F 6 "100n" H 1700 4250 50  0000 C CNN "Val"
 $EndComp
 $Comp
 L antmicroCapacitors0402:C_100n_0402 C?
-U 1 1 62E3F4C8
+U 1 1 62E3F4BB
 P 1850 4150
-AR Path="/63C44BC2/62E3F4C8" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/6235D136/62E3F4C8" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/623E44F4/62E3F4C8" Ref="C?"  Part="1" 
-AR Path="/63C44BC2/6244F9D5/62E3F4C8" Ref="C?"  Part="1" 
-AR Path="/625B0244/62E3F4C8" Ref="C132"  Part="1" 
-F 0 "C132" H 1950 4050 60  0000 C CNN
+AR Path="/63C44BC2/62E3F4BB" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/6235D136/62E3F4BB" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/623E44F4/62E3F4BB" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/6244F9D5/62E3F4BB" Ref="C?"  Part="1" 
+AR Path="/625B0244/62E3F4BB" Ref="C130"  Part="1" 
+F 0 "C130" H 1950 4050 60  0000 C CNN
 F 1 "C_100n_0402" H 1850 4000 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2050 4350 60  0001 L CNN
 F 3 "" H 1850 4150 50  0001 C CNN
@@ -1246,22 +1213,13 @@ F 6 "100n" H 1950 4250 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	850  4000 850  3950
-Wire Wire Line
-	850  3950 1100 3950
-Wire Wire Line
-	1850 3950 1850 4000
-Wire Wire Line
-	850  4350 850  4300
-Wire Wire Line
-	850  4350 1100 4350
-Wire Wire Line
-	1850 4350 1850 4300
-Wire Wire Line
 	1100 4000 1100 3950
-Connection ~ 1100 3950
 Wire Wire Line
 	1100 3950 1350 3950
+Wire Wire Line
+	1100 4350 1100 4300
+Wire Wire Line
+	1100 4350 1350 4350
 Wire Wire Line
 	1350 4000 1350 3950
 Connection ~ 1350 3950
@@ -1273,10 +1231,8 @@ Connection ~ 1600 3950
 Wire Wire Line
 	1600 3950 1850 3950
 Wire Wire Line
-	1100 4300 1100 4350
-Connection ~ 1100 4350
-Wire Wire Line
-	1100 4350 1350 4350
+	1850 4000 1850 3950
+Connection ~ 1850 3950
 Wire Wire Line
 	1350 4300 1350 4350
 Connection ~ 1350 4350
@@ -1288,8 +1244,10 @@ Connection ~ 1600 4350
 Wire Wire Line
 	1600 4350 1850 4350
 Wire Wire Line
-	2100 4400 2100 4350
+	1850 4300 1850 4350
 Connection ~ 1850 4350
+Wire Wire Line
+	2100 4400 2100 4350
 $Comp
 L antmicroCapacitors0402:C_4u7_0402 C136
 U 1 1 62E58889
@@ -1305,12 +1263,7 @@ F 6 "4u7" H 2215 4097 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 3950 2100 3950
-Wire Wire Line
 	2100 3950 2100 4000
-Connection ~ 1850 3950
-Wire Wire Line
-	1850 4350 2100 4350
 Wire Wire Line
 	2100 4350 2100 4300
 $Comp
@@ -2415,19 +2368,6 @@ Mount for debug \ninterface on micro USB
 Text Label 4850 7450 2    50   ~ 0
 USB_3V3
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:MCP1799-3302H_DB U29
-U 1 1 667265D6
-P 4150 2500
-F 0 "U29" H 4150 2787 60  0000 C CNN
-F 1 "MCP1799-3302H_DB" H 4150 2681 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-223" H 4350 1950 60  0001 L CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP1799-Data-Sheet-20006248A.pdf" H 4350 2800 60  0001 L CNN
-F 4 "MCP1799-3302H/DB" H 4350 2050 60  0001 L CNN "MPN"
-F 5 "Microchip" H 4350 2150 60  0001 L CNN "Manufacturer"
-	1    4150 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroCapacitors0603:C_10u_0603 C143
 U 1 1 66726B02
 P 4950 2750
@@ -2711,6 +2651,37 @@ Text Notes 12250 7850 0    50   ~ 0
 A1 -> B
 Text Notes 12250 7950 0    50   ~ 0
 A2 <- B
+Wire Wire Line
+	1850 3950 2100 3950
+Wire Wire Line
+	1850 4350 2100 4350
+$Comp
+L antmicroPMICVoltageRegulatorsLinear:MCP1799-3302H_DB U29
+U 1 1 667265D6
+P 4150 2500
+F 0 "U29" H 4150 2787 60  0000 C CNN
+F 1 "MCP1799-3302H_DB" H 4150 2681 60  0000 C CNN
+F 2 "antmicro-footprints:SOT-223" H 4350 1950 60  0001 L CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP1799-Data-Sheet-20006248A.pdf" H 4350 2800 60  0001 L CNN
+F 4 "MCP1799-3302H/DB" H 4350 2050 60  0001 L CNN "MPN"
+F 5 "Microchip" H 4350 2150 60  0001 L CNN "Manufacturer"
+	1    4150 2500
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	4700 6500 4700 6700
+$Comp
+L antmicroResistors0603:R_15k_0603 R86
+U 1 1 62B3E1B1
+P 5950 2400
+F 0 "R86" V 5905 2470 60  0000 L CNN
+F 1 "R_15k_0603" H 5950 2250 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 6150 2600 60  0001 L CNN
+F 3 "" H 5950 2400 50  0001 C CNN
+F 4 "BOURNS" H 6150 2800 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-FX-1502ELF" H 6150 2700 60  0001 L CNN "MPN"
+F 6 "15k" V 6003 2470 50  0000 L CNN "Val"
+	1    5950 2400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
