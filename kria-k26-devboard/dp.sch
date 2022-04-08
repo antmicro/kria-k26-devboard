@@ -39,17 +39,6 @@ F 5 "TPD4E05U06QDQARQ1" H 8428 4859 50  0000 L CNN "MPN"
 	1    8100 4950
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroLogicTranslatorsLevelShifters:SN74AVC4T245PWR U1
-U 1 1 63C4DF6B
-P 2100 3550
-F 0 "U1" H 1750 3000 50  0000 C CNN
-F 1 "SN74AVC4T245PWR" H 1650 2900 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-16_4.4x5mm_P0.65mm" H 2100 3450 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 2050 3300 50  0001 C CNN
-	1    2100 3550
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	1050 3500 1100 3500
 Entry Wire Line
@@ -988,4 +977,17 @@ F 5 "FIN1019MTCX" H 4100 3350 50  0001 C CNN "MPN"
 $EndComp
 Wire Bus Line
 	1100 3500 1100 3850
+$Comp
+L antmicroLogicTranslatorsLevelShifters:74AVC4T245RSVRG4 U1
+U 1 1 635038ED
+P 2100 3550
+F 0 "U1" H 2600 4050 50  0000 C CNN
+F 1 "74AVC4T245RSVRG4" H 2900 3950 50  0000 C CNN
+F 2 "antmicro-footprints:Texas_16-UFQFN" H 2900 2800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 2050 3300 50  0001 C CNN
+F 4 "74AVC4T245RSVRG4" H 2550 2900 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 2500 3000 50  0001 C CNN "Manufacturer"
+	1    2100 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -338,17 +338,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 2200 8050 2150
 $Comp
-L antmicroLogicTranslatorsLevelShifters:SN74AVC4T245PWR U24
-U 1 1 65D2E069
-P 7400 2300
-F 0 "U24" H 7050 2850 50  0000 C CNN
-F 1 "SN74AVC4T245PWR" H 7900 1700 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-16_4.4x5mm_P0.65mm" H 7400 2200 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 7350 2050 50  0001 C CNN
-	1    7400 2300
-	-1   0    0    -1  
-$EndComp
-$Comp
 L antmicroLogicGatesandInverters:74LV07ATPWJ U27
 U 5 1 65D63CC3
 P 11850 2100
@@ -4045,5 +4034,18 @@ F 4 "BSS138-7-F" H 3050 6150 60  0001 L CNN "MPN"
 F 5 "Diodes Incorporated" H 3050 6750 60  0001 L CNN "Manufacturer"
 	1    2850 5650
 	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicTranslatorsLevelShifters:74AVC4T245RSVRG4 U24
+U 1 1 6350C5AD
+P 7400 2300
+F 0 "U24" H 7200 2950 50  0000 C CNN
+F 1 "74AVC4T245RSVRG4" H 6900 2850 50  0000 C CNN
+F 2 "antmicro-footprints:Texas_16-UFQFN" H 8200 1550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 7350 2050 50  0001 C CNN
+F 4 "74AVC4T245RSVRG4" H 7850 1650 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 7800 1750 50  0001 C CNN "Manufacturer"
+	1    7400 2300
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
