@@ -464,4 +464,34 @@ Wire Wire Line
 Connection ~ 6000 5450
 Text HLabel 3650 4700 0    50   Input ~ 0
 ~M2_CLKREQ
+$Comp
+L power:GND #PWR0307
+U 1 1 6256A4FD
+P 5600 7200
+F 0 "#PWR0307" H 5600 6950 50  0001 C CNN
+F 1 "GND" H 5605 7027 50  0000 C CNN
+F 2 "" H 5600 7200 50  0001 C CNN
+F 3 "" H 5600 7200 50  0001 C CNN
+	1    5600 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 7150 5600 7150
+Wire Wire Line
+	5600 7150 5600 7200
+Text Notes 5600 6900 0    50   ~ 0
+Mechanical
+$Comp
+L antmicroMechanicalParts:9774015243R SP5
+U 1 1 62573850
+P 5900 7150
+F 0 "SP5" H 6030 7203 60  0000 L CNN
+F 1 "9774015243R" H 6030 7097 60  0000 L CNN
+F 2 "antmicro-footprints:9774015243R" H 5900 7150 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774015243R.pdf" H 5900 7150 60  0001 C CNN
+F 4 "Wurth Elektronik" H 5900 7150 50  0001 C CNN "Manufacturer"
+F 5 "9774015243R" H 5900 7150 50  0001 C CNN "MPN"
+	1    5900 7150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

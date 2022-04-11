@@ -2141,57 +2141,6 @@ Text Label 4600 7050 2    50   ~ 0
 USB_P
 Text Label 4600 6950 2    50   ~ 0
 USB_N
-Text Label 1700 1800 0    50   ~ 0
-USBB_VBUS
-Wire Wire Line
-	1600 1800 1700 1800
-NoConn ~ 1600 2100
-$Comp
-L power:GND #PWR?
-U 1 1 6602D48C
-P 1700 2250
-AR Path="/63C44BC2/6602D48C" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/6235D136/6602D48C" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/623E44F4/6602D48C" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/6244F9D5/6602D48C" Ref="#PWR?"  Part="1" 
-AR Path="/625B0244/6602D48C" Ref="#PWR0299"  Part="1" 
-F 0 "#PWR0299" H 1700 2000 50  0001 C CNN
-F 1 "GND" H 1705 2077 50  0000 C CNN
-F 2 "" H 1700 2250 50  0001 C CNN
-F 3 "" H 1700 2250 50  0001 C CNN
-	1    1700 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 2200 1700 2200
-Wire Wire Line
-	1700 2200 1700 2250
-$Comp
-L power:GND #PWR?
-U 1 1 66051E26
-P 1200 2700
-AR Path="/63C44BC2/66051E26" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/6235D136/66051E26" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/623E44F4/66051E26" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/6244F9D5/66051E26" Ref="#PWR?"  Part="1" 
-AR Path="/625B0244/66051E26" Ref="#PWR0298"  Part="1" 
-F 0 "#PWR0298" H 1200 2450 50  0001 C CNN
-F 1 "GND" H 1205 2527 50  0000 C CNN
-F 2 "" H 1200 2700 50  0001 C CNN
-F 3 "" H 1200 2700 50  0001 C CNN
-	1    1200 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 2700 1200 2600
-Text Label 1700 2000 0    50   ~ 0
-USBB_P
-Wire Wire Line
-	1600 2000 1700 2000
-Text Label 1700 1900 0    50   ~ 0
-USBB_N
-Wire Wire Line
-	1600 1900 1700 1900
 Text Label 3250 10450 0    50   ~ 0
 USBB_P
 Text Label 5150 6600 2    50   ~ 0
@@ -2345,7 +2294,7 @@ Used as tri-state buffer
 Text Notes 550  9450 0    100  ~ 20
 Connector configuration
 Text Notes 550  700  0    100  ~ 20
-micro USB
+Debug USB
 Text Notes 2700 700  0    100  ~ 20
 Supply
 Text Notes 600  3550 0    100  ~ 20
@@ -2465,19 +2414,6 @@ NoConn ~ 7000 7500
 NoConn ~ 7000 7600
 NoConn ~ 7000 7700
 NoConn ~ 7000 7800
-$Comp
-L antmicroUSBDVIHDMIConnectors:1050170001 J8
-U 1 1 6B83F4A7
-P 1300 2000
-F 0 "J8" H 1364 2723 50  0000 C CNN
-F 1 "1050170001" H 1364 2632 50  0000 C CNN
-F 2 "antmicro-footprints:USB_Micro_B_Female_1050170001" H 1500 2200 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" H 1500 2300 60  0001 L CNN
-F 4 "1050170001" H 1500 2500 60  0001 L CNN "MPN"
-F 5 "Molex" H 1500 3100 60  0001 L CNN "Manufacturer"
-	1    1300 2000
-	1    0    0    -1  
-$EndComp
 Text Notes 12200 4350 0    50   ~ 0
 2 A <- B
 Text Notes 12150 2350 0    50   ~ 0
@@ -2615,13 +2551,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 1600 3700 1600
 Connection ~ 3650 1500
-Wire Bus Line
-	4700 6500 4700 6700
 $Comp
-L antmicroTransistorsBipolarSingle:DTC014TEBTL Q?
+L antmicroTransistorsBipolarSingle:DTC014TEBTL Q17
 U 1 1 63983E69
 P 8350 3650
-F 0 "Q?" H 8538 3696 50  0000 L CNN
+F 0 "Q17" H 8538 3696 50  0000 L CNN
 F 1 "DTC014TEBTL" H 8538 3605 50  0000 L CNN
 F 2 "antmicro-footprints:SOT-416" H 8550 3350 50  0001 L CNN
 F 3 "" H 8350 3650 50  0001 L CNN
@@ -2630,4 +2564,200 @@ F 5 "DTC014TEBTL" H 8800 3450 50  0001 C CNN "MPN"
 	1    8350 3650
 	1    0    0    -1  
 $EndComp
+Text Label 2000 850  0    50   ~ 0
+USBB_VBUS
+Connection ~ 1500 2850
+Wire Wire Line
+	1500 2900 1500 2850
+$Comp
+L power:GND #PWR?
+U 1 1 6424D92A
+P 1500 2900
+AR Path="/63C44BC2/6424D92A" Ref="#PWR?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6424D92A" Ref="#PWR?"  Part="1" 
+AR Path="/625B0244/6424D92A" Ref="#PWR0298"  Part="1" 
+F 0 "#PWR0298" H 1500 2650 50  0001 C CNN
+F 1 "GND" H 1505 2727 50  0000 C CNN
+F 2 "" H 1500 2900 50  0001 C CNN
+F 3 "" H 1500 2900 50  0001 C CNN
+	1    1500 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2850 1350 2850
+Wire Wire Line
+	1500 2750 1500 2850
+Wire Wire Line
+	1350 2750 1500 2750
+Wire Wire Line
+	1400 2300 1350 2300
+Wire Wire Line
+	1350 2200 1400 2200
+Wire Wire Line
+	1400 2050 1350 2050
+Wire Wire Line
+	1350 1950 1400 1950
+$Comp
+L antmicroTVSDiodes:ESD144B1W0201E6327XTSA1 D?
+U 1 1 6424D93B
+P 2000 1250
+AR Path="/63C44BC2/6424D93B" Ref="D?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6424D93B" Ref="D?"  Part="1" 
+AR Path="/625B0244/6424D93B" Ref="D4"  Part="1" 
+F 0 "D4" V 1954 1328 50  0000 L CNN
+F 1 "ESD144B1W0201E6327XTSA1" H 1650 1500 50  0000 L CNN
+F 2 "antmicro-footprints:ESD144B1W0201E6327XTSA1" H 2000 1250 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-ESD144-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d462677d0f4601679886a2a8707c" H 2000 1250 50  0001 C CNN
+F 4 "ESD144B1W0201E6327XTSA1" H 2000 1250 50  0001 C CNN "MPN"
+F 5 "Infineon Technologies" H 2000 1250 50  0001 C CNN "Manufacturer"
+	1    2000 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6424D942
+P 2000 1750
+AR Path="/63C44BC2/6424D942" Ref="#PWR?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6424D942" Ref="#PWR?"  Part="1" 
+AR Path="/625B0244/6424D942" Ref="#PWR0299"  Part="1" 
+F 0 "#PWR0299" H 2000 1500 50  0001 C CNN
+F 1 "GND" H 2005 1577 50  0000 C CNN
+F 2 "" H 2000 1750 50  0001 C CNN
+F 3 "" H 2000 1750 50  0001 C CNN
+	1    2000 1750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1350 2550
+NoConn ~ 1350 2450
+$Comp
+L antmicroCapacitorsmisc:C_100n_0402_50V C?
+U 1 1 6424D94D
+P 1650 1250
+AR Path="/63C44BC2/6424D94D" Ref="C?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6424D94D" Ref="C?"  Part="1" 
+AR Path="/625B0244/6424D94D" Ref="C143"  Part="1" 
+F 0 "C143" V 1500 1200 50  0000 L CNN
+F 1 "C_100n_0402_50V" H 1650 1250 50  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1650 1250 50  0001 C CNN
+F 3 "" H 1650 1250 50  0001 C CNN
+F 4 "GRM155R71H104KE14D" H 1650 1250 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1650 1250 50  0001 C CNN "Manufacturer"
+F 6 "100n/50V" V 1800 1100 50  0000 L CNN "Val"
+	1    1650 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 850  1650 850 
+Wire Wire Line
+	1650 850  1650 1100
+Wire Wire Line
+	2000 850  2000 900 
+Wire Wire Line
+	2000 1600 2000 1650
+Wire Wire Line
+	1650 1650 2000 1650
+Wire Wire Line
+	1650 1400 1650 1650
+Connection ~ 2000 1650
+Wire Wire Line
+	2000 1650 2000 1750
+$Comp
+L antmicroTVSDiodes:PESD2USB5UV-TR D?
+U 1 1 6424D95D
+P 2050 2650
+AR Path="/63C44BC2/6424D95D" Ref="D?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6424D95D" Ref="D?"  Part="1" 
+AR Path="/625B0244/6424D95D" Ref="D5"  Part="1" 
+F 0 "D5" H 2050 2850 60  0000 L CNN
+F 1 "PESD2USB5UV-TR" V 2500 2150 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23s" H 2100 2850 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 2050 2650 60  0001 C CNN
+F 4 "PESD2USB5UV-TR " H 1750 2950 50  0001 C CNN "MPN"
+F 5 "Nexperia " H 1750 3050 50  0001 C CNN "Manufacturer"
+	1    2050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6424D963
+P 1800 2900
+AR Path="/63C44BC2/6424D963" Ref="#PWR?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6424D963" Ref="#PWR?"  Part="1" 
+AR Path="/625B0244/6424D963" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 1800 2650 50  0001 C CNN
+F 1 "GND" H 1805 2727 50  0000 C CNN
+F 2 "" H 1800 2900 50  0001 C CNN
+F 3 "" H 1800 2900 50  0001 C CNN
+	1    1800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2900 1800 2850
+Wire Wire Line
+	1800 2850 1850 2850
+Wire Wire Line
+	1850 2750 1700 2750
+Wire Wire Line
+	1400 2200 1400 2250
+Wire Wire Line
+	1400 1950 1400 2000
+Wire Wire Line
+	1400 2000 1650 2000
+Connection ~ 1400 2000
+Wire Wire Line
+	1400 2000 1400 2050
+Connection ~ 1400 2250
+Wire Wire Line
+	1400 2250 1400 2300
+Wire Wire Line
+	1350 1500 1450 1500
+Wire Wire Line
+	1450 850  1650 850 
+Wire Wire Line
+	1450 850  1450 1500
+Connection ~ 1650 850 
+$Comp
+L antmicroUSBDVIHDMIConnectors:USB4105-GF-A J?
+U 1 1 6424D98C
+P 550 2450
+AR Path="/63C44BC2/6424D98C" Ref="J?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6424D98C" Ref="J?"  Part="1" 
+AR Path="/625B0244/6424D98C" Ref="J8"  Part="1" 
+F 0 "J8" H 957 3807 50  0000 C CNN
+F 1 "USB4105-GF-A" H 957 3716 50  0000 C CNN
+F 2 "antmicro-footprints:GCT_USB4105-GF-A" H -100 2700 50  0001 L BNN
+F 3 "https://gct.co/files/drawings/usb4105.pdf" H 550 2450 50  0001 L BNN
+F 4 "GCT" H -100 2800 50  0001 L BNN "Manufacturer"
+F 5 "USB4105-GF-A" H 957 3625 50  0000 C CNN "MPN"
+	1    550  2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2200 1700 2200
+Wire Wire Line
+	1650 2250 1650 2200
+Wire Wire Line
+	1400 2250 1650 2250
+Wire Wire Line
+	1650 2000 1650 2100
+Text Label 1900 2200 0    50   ~ 0
+USBB_N
+Text Label 1900 2100 0    50   ~ 0
+USBB_P
+Wire Wire Line
+	1800 2650 1800 2100
+Connection ~ 1800 2100
+Wire Wire Line
+	1800 2100 1900 2100
+Wire Wire Line
+	1800 2650 1850 2650
+Wire Wire Line
+	1650 2100 1800 2100
+Wire Wire Line
+	1700 2200 1700 2750
+Connection ~ 1700 2200
+Wire Wire Line
+	1700 2200 1650 2200
+Wire Bus Line
+	4700 6500 4700 6700
 $EndSCHEMATC
