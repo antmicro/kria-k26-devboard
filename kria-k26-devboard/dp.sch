@@ -975,8 +975,6 @@ F 5 "FIN1019MTCX" H 4100 3350 50  0001 C CNN "MPN"
 	1    4100 3350
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1100 3500 1100 3850
 $Comp
 L antmicroLogicTranslatorsLevelShifters:74AVC4T245RSVRG4 U1
 U 1 1 635038ED
@@ -990,4 +988,6 @@ F 5 "Texas Instruments" H 2500 3000 50  0001 C CNN "Manufacturer"
 	1    2100 3550
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	1100 3500 1100 3850
 $EndSCHEMATC

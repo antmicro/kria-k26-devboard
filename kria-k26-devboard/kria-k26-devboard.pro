@@ -1,4 +1,4 @@
-update=Mon 11 Apr 2022 02:55:54 PM CEST
+update=Tue 12 Apr 2022 03:38:40 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -266,7 +266,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=impedance_ctrl
 Clearance=0.1
-TrackWidth=0.182
+TrackWidth=0.109
 ViaDiameter=0.4
 ViaDrill=0.15
 uViaDiameter=0.4

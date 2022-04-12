@@ -409,9 +409,9 @@ F 6 "100R" V 5853 2920 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	5550 2750 5650 2750
-Text HLabel 6050 2650 2    50   Input ~ 0
+Text HLabel 6050 2500 2    50   Input ~ 0
 GTR_REFCLK3_N
-Text HLabel 6000 3050 2    50   Input ~ 0
+Text HLabel 6050 2100 2    50   Input ~ 0
 GTR_REFCLK3_P
 Wire Wire Line
 	5800 2500 6050 2500
@@ -445,9 +445,9 @@ F 6 "100R" V 5853 2370 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	5650 2400 5550 2400
-Text HLabel 6050 2100 2    50   Input ~ 0
+Text HLabel 6000 3050 2    50   Input ~ 0
 GTR_REFCLK3_C2M_N
-Text HLabel 6050 2500 2    50   Input ~ 0
+Text HLabel 6050 2650 2    50   Input ~ 0
 GTR_REFCLK3_C2M_P
 Wire Wire Line
 	4450 1550 4450 1450
