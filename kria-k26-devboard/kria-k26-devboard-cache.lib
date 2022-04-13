@@ -1507,15 +1507,15 @@ X VCC 5 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# antmicroLogicGatesandInverters_74LV07ATPWJ
+# antmicroLogicGatesandInverters_74LCX07BQX
 #
-DEF antmicroLogicGatesandInverters_74LV07ATPWJ U 0 40 Y Y 7 L N
+DEF antmicroLogicGatesandInverters_74LCX07BQX U 0 40 Y Y 7 L N
 F0 "U" 50 150 50 H V C CNN
-F1 "antmicroLogicGatesandInverters_74LV07ATPWJ" 350 350 50 H V C CNN
-F2 "antmicro-footprints:TSSOP-14_W4.4mm" 150 -300 50 H I C CNN
+F1 "antmicroLogicGatesandInverters_74LCX07BQX" 350 350 50 H V C CNN
+F2 "antmicro-footprints:DQFN-14" 100 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "Nexperia" 0 0 50 H I C CNN "Manufacturer"
-F5 "74LV07ATPWJ" 0 0 50 H I C CNN "MPN"
+F4 "onsemi" -350 -150 50 H I C CNN "Manufacturer"
+F5 "74LCX07BQX" -200 -250 50 H I C CNN "MPN"
 DRAW
 S -200 300 200 -300 7 1 10 f
 P 4 1 0 10 -150 150 -150 -150 150 0 -150 150 f

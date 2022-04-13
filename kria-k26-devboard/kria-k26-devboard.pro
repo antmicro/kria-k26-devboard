@@ -1,4 +1,4 @@
-update=Tue 12 Apr 2022 03:38:40 PM CEST
+update=Wed 13 Apr 2022 01:31:43 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -39,11 +39,17 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.7
 TrackWidth1=0.109
-TrackWidth2=0.1
+TrackWidth2=0.109
+TrackWidth3=0.182
+TrackWidth4=0.4
 ViaDiameter1=0.4
 ViaDrill1=0.15
 ViaDiameter2=0.4
-ViaDrill2=0.2
+ViaDrill2=0.15
+ViaDiameter3=0.5
+ViaDrill3=0.2
+ViaDiameter4=0.6
+ViaDrill4=0.3
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -266,7 +272,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=impedance_ctrl
 Clearance=0.1
-TrackWidth=0.109
+TrackWidth=0.182
 ViaDiameter=0.4
 ViaDrill=0.15
 uViaDiameter=0.4

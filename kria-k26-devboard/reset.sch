@@ -107,71 +107,6 @@ F 3 "" H 7400 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12150 3100 12850 3100
-$Comp
-L antmicroLogicGatesandInverters:74LV07ATPWJ U27
-U 1 1 65D5EDD7
-P 11850 4900
-F 0 "U27" H 11850 5217 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 5126 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 4600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 4900 50  0001 C CNN
-F 4 "Nexperia" H 11850 4900 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 4900 50  0001 C CNN "MPN"
-	1    11850 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroLogicGatesandInverters:74LV07ATPWJ U27
-U 2 1 65D5F51C
-P 11850 3600
-F 0 "U27" H 11850 3917 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 3826 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 3300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 3600 50  0001 C CNN
-F 4 "Nexperia" H 11850 3600 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 3600 50  0001 C CNN "MPN"
-	2    11850 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroLogicGatesandInverters:74LV07ATPWJ U27
-U 3 1 65D604CB
-P 11850 3100
-F 0 "U27" H 11850 3417 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 3326 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 2800 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 3100 50  0001 C CNN
-F 4 "Nexperia" H 11850 3100 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 3100 50  0001 C CNN "MPN"
-	3    11850 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroLogicGatesandInverters:74LV07ATPWJ U27
-U 4 1 65D62493
-P 11850 2600
-F 0 "U27" H 11850 2917 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 2826 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 2300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 2600 50  0001 C CNN
-F 4 "Nexperia" H 11850 2600 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 2600 50  0001 C CNN "MPN"
-	4    11850 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroLogicGatesandInverters:74LV07ATPWJ U27
-U 7 1 65D67358
-P 11850 5850
-F 0 "U27" H 12080 5896 50  0000 L CNN
-F 1 "74LV07ATPWJ" H 12080 5805 50  0000 L CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 5550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 5850 50  0001 C CNN
-F 4 "Nexperia" H 11850 5850 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 5850 50  0001 C CNN "MPN"
-	7    11850 5850
-	1    0    0    -1  
-$EndComp
 Connection ~ 12550 2600
 Wire Wire Line
 	12550 2600 13350 2600
@@ -338,19 +273,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 2200 8050 2150
 $Comp
-L antmicroLogicGatesandInverters:74LV07ATPWJ U27
-U 5 1 65D63CC3
-P 11850 2100
-F 0 "U27" H 11850 2417 50  0000 C CNN
-F 1 "74LV07ATPWJ" H 11850 2326 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-14_W4.4mm" H 12000 1800 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07AT.pdf" H 11850 2100 50  0001 C CNN
-F 4 "Nexperia" H 11850 2100 50  0001 C CNN "Manufacturer"
-F 5 "74LV07ATPWJ" H 11850 2100 50  0001 C CNN "MPN"
-	5    11850 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroCapacitors0402:C_100n_0402 C124
 U 1 1 66089940
 P 11300 5900
@@ -368,7 +290,6 @@ Wire Wire Line
 	11300 6350 11850 6350
 Wire Wire Line
 	11300 6050 11300 6350
-Connection ~ 11850 6350
 Wire Wire Line
 	11850 5300 11300 5300
 Wire Wire Line
@@ -1181,8 +1102,6 @@ Wire Wire Line
 	11350 2100 11550 2100
 Wire Wire Line
 	11550 2600 11350 2600
-Wire Wire Line
-	11550 3100 11300 3100
 Wire Wire Line
 	11300 2600 11300 3100
 Wire Wire Line
@@ -4048,4 +3967,85 @@ F 5 "Texas Instruments" H 7800 1750 50  0001 C CNN "Manufacturer"
 	1    7400 2300
 	-1   0    0    -1  
 $EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LCX07BQX U27
+U 1 1 6259BC1C
+P 11850 4900
+F 0 "U27" H 11850 5217 50  0000 C CNN
+F 1 "74LCX07BQX" H 11850 5126 50  0000 C CNN
+F 2 "antmicro-footprints:DQFN-14" H 11950 4550 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/308/74LCX07_D-2309542.pdf" H 11850 4900 50  0001 C CNN
+F 4 "onsemi" H 11500 4750 50  0001 C CNN "Manufacturer"
+F 5 "74LCX07BQX" H 11650 4650 50  0001 C CNN "MPN"
+	1    11850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LCX07BQX U27
+U 2 1 6259E072
+P 11850 3600
+F 0 "U27" H 11850 3917 50  0000 C CNN
+F 1 "74LCX07BQX" H 11850 3826 50  0000 C CNN
+F 2 "antmicro-footprints:DQFN-14" H 11950 3250 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/308/74LCX07_D-2309542.pdf" H 11850 3600 50  0001 C CNN
+F 4 "onsemi" H 11500 3450 50  0001 C CNN "Manufacturer"
+F 5 "74LCX07BQX" H 11650 3350 50  0001 C CNN "MPN"
+	2    11850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LCX07BQX U27
+U 3 1 625A0CA5
+P 11850 3100
+F 0 "U27" H 11850 3417 50  0000 C CNN
+F 1 "74LCX07BQX" H 11850 3326 50  0000 C CNN
+F 2 "antmicro-footprints:DQFN-14" H 11950 2750 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/308/74LCX07_D-2309542.pdf" H 11850 3100 50  0001 C CNN
+F 4 "onsemi" H 11500 2950 50  0001 C CNN "Manufacturer"
+F 5 "74LCX07BQX" H 11650 2850 50  0001 C CNN "MPN"
+	3    11850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LCX07BQX U27
+U 4 1 625A206C
+P 11850 2600
+F 0 "U27" H 11850 2917 50  0000 C CNN
+F 1 "74LCX07BQX" H 11850 2826 50  0000 C CNN
+F 2 "antmicro-footprints:DQFN-14" H 11950 2250 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/308/74LCX07_D-2309542.pdf" H 11850 2600 50  0001 C CNN
+F 4 "onsemi" H 11500 2450 50  0001 C CNN "Manufacturer"
+F 5 "74LCX07BQX" H 11650 2350 50  0001 C CNN "MPN"
+	4    11850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LCX07BQX U27
+U 5 1 625A5067
+P 11850 2100
+F 0 "U27" H 11850 2417 50  0000 C CNN
+F 1 "74LCX07BQX" H 11850 2326 50  0000 C CNN
+F 2 "antmicro-footprints:DQFN-14" H 11950 1750 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/308/74LCX07_D-2309542.pdf" H 11850 2100 50  0001 C CNN
+F 4 "onsemi" H 11500 1950 50  0001 C CNN "Manufacturer"
+F 5 "74LCX07BQX" H 11650 1850 50  0001 C CNN "MPN"
+	5    11850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicGatesandInverters:74LCX07BQX U27
+U 7 1 625A98E0
+P 11850 5850
+F 0 "U27" H 12080 5896 50  0000 L CNN
+F 1 "74LCX07BQX" H 12080 5805 50  0000 L CNN
+F 2 "antmicro-footprints:DQFN-14" H 11950 5500 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/308/74LCX07_D-2309542.pdf" H 11850 5850 50  0001 C CNN
+F 4 "onsemi" H 11500 5700 50  0001 C CNN "Manufacturer"
+F 5 "74LCX07BQX" H 11650 5600 50  0001 C CNN "MPN"
+	7    11850 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 11850 6350
+Wire Wire Line
+	11300 3100 11550 3100
 $EndSCHEMATC

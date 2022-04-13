@@ -340,8 +340,6 @@ F 3 "" H 6300 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 3150 6300 3100
-Wire Bus Line
-	6500 3350 6500 3550
 $Comp
 L antmicroUSBDVIHDMIConnectors:USB4105-GF-A J?
 U 1 1 62AA367B
@@ -357,4 +355,21 @@ F 5 "USB4105-GF-A" H 4057 5475 50  0000 C CNN "MPN"
 	1    3650 4300
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroTVSDiodes:WE-TVS-82400152 U?
+U 1 1 62E99410
+P 5150 5750
+AR Path="/625B0244/62E99410" Ref="U?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/62E99410" Ref="U53"  Part="1" 
+F 0 "U53" H 5100 5950 50  0000 R CNN
+F 1 "WE-TVS-82400152" H 5550 5550 50  0000 R CNN
+F 2 "antmicro-footprints:SOT-563" H 5150 5550 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5150 5500 50  0001 C CNN
+F 4 "82400152" H 4800 5350 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 4900 5450 50  0001 C CNN "Manufacturer"
+	1    5150 5750
+	0    -1   -1   0   
+$EndComp
+Wire Bus Line
+	6500 3350 6500 3550
 $EndSCHEMATC

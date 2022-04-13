@@ -30,45 +30,9 @@ F 5 "Renesas / IDT" H 9250 3650 60  0001 L CNN "Manufacturer"
 	1    9050 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroResistors0402:R_100R_0402 R28
-U 1 1 626DD55B
-P 9800 2600
-F 0 "R28" V 9755 2670 60  0000 L CNN
-F 1 "R_100R_0402" H 9800 2450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10000 2800 60  0001 L CNN
-F 3 "" H 9800 2600 50  0001 C CNN
-F 4 "BOURNS" H 10000 3000 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 10000 2900 60  0001 L CNN "MPN"
-F 6 "100R" V 9853 2670 50  0000 L CNN "Val"
-	1    9800 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9450 2550 9650 2550
-Wire Wire Line
-	9650 2550 9650 2400
-Wire Wire Line
-	9650 2400 9800 2400
-Wire Wire Line
-	9800 2400 9800 2450
-Wire Wire Line
-	9450 2650 9650 2650
-Wire Wire Line
-	9650 2650 9650 2800
-Wire Wire Line
-	9650 2800 9800 2800
-Wire Wire Line
-	9800 2800 9800 2750
-Wire Wire Line
-	9800 2400 9900 2400
-Connection ~ 9800 2400
-Wire Wire Line
-	9800 2800 9900 2800
-Connection ~ 9800 2800
-Text HLabel 9900 2400 2    50   Input ~ 0
+Text HLabel 9900 2550 2    50   Input ~ 0
 GTR_REFCLK1_C2M_P
-Text HLabel 9900 2800 2    50   Input ~ 0
+Text HLabel 9900 2650 2    50   Input ~ 0
 GTR_REFCLK1_C2M_N
 Text GLabel 7700 2300 0    50   Input ~ 0
 PS_3V3
@@ -209,45 +173,13 @@ F 3 "" H 3950 7250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3950 7250 3950 7150
-$Comp
-L antmicroResistors0402:R_100R_0402 R24
-U 1 1 6298446A
-P 4700 6750
-F 0 "R24" V 4655 6820 60  0000 L CNN
-F 1 "R_100R_0402" H 4700 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4900 6950 60  0001 L CNN
-F 3 "" H 4700 6750 50  0001 C CNN
-F 4 "BOURNS" H 4900 7150 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 4900 7050 60  0001 L CNN "MPN"
-F 6 "100R" V 4753 6820 50  0000 L CNN "Val"
-	1    4700 6750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4450 6650 4550 6650
 Wire Wire Line
-	4550 6650 4550 6550
-Wire Wire Line
-	4550 6550 4700 6550
-Wire Wire Line
-	4700 6550 4700 6600
-Wire Wire Line
 	4450 6850 4550 6850
-Wire Wire Line
-	4550 6850 4550 6950
-Wire Wire Line
-	4550 6950 4700 6950
-Wire Wire Line
-	4700 6950 4700 6900
-Wire Wire Line
-	4700 6550 4800 6550
-Connection ~ 4700 6550
-Wire Wire Line
-	4700 6950 4800 6950
-Connection ~ 4700 6950
-Text HLabel 4800 6550 2    50   Input ~ 0
+Text HLabel 4800 6700 2    50   Input ~ 0
 GTR_REFCLK0_C2M_P
-Text HLabel 4800 6950 2    50   Input ~ 0
+Text HLabel 4800 6800 2    50   Input ~ 0
 GTR_REFCLK0_C2M_N
 $Comp
 L power:GND #PWR042
@@ -377,77 +309,17 @@ Wire Wire Line
 	3650 2450 3850 2450
 Wire Wire Line
 	3550 2550 3650 2550
-Connection ~ 5800 3050
-Wire Wire Line
-	5650 3050 5800 3050
-Wire Wire Line
-	5650 2750 5650 3050
-Wire Wire Line
-	5800 3050 5800 3000
-Wire Wire Line
-	6000 3050 5800 3050
-Wire Wire Line
-	5800 2650 6050 2650
-Connection ~ 5800 2650
-Wire Wire Line
-	5800 2650 5800 2700
-Wire Wire Line
-	5550 2650 5800 2650
-$Comp
-L antmicroResistors0402:R_100R_0402 R26
-U 1 1 623FB342
-P 5800 2850
-F 0 "R26" V 5755 2920 60  0000 L CNN
-F 1 "R_100R_0402" H 5800 2700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6000 3050 60  0001 L CNN
-F 3 "" H 5800 2850 50  0001 C CNN
-F 4 "BOURNS" H 6000 3250 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 6000 3150 60  0001 L CNN "MPN"
-F 6 "100R" V 5853 2920 50  0000 L CNN "Val"
-	1    5800 2850
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	5550 2750 5650 2750
-Text HLabel 6050 2500 2    50   Input ~ 0
+Text HLabel 6050 2350 2    50   Input ~ 0
 GTR_REFCLK3_N
-Text HLabel 6050 2100 2    50   Input ~ 0
+Text HLabel 6050 2250 2    50   Input ~ 0
 GTR_REFCLK3_P
 Wire Wire Line
-	5800 2500 6050 2500
-Connection ~ 5800 2500
-Wire Wire Line
-	5800 2450 5800 2500
-Wire Wire Line
-	5550 2500 5800 2500
-Wire Wire Line
-	5800 2100 6050 2100
-Connection ~ 5800 2100
-Wire Wire Line
-	5800 2100 5800 2150
-Wire Wire Line
-	5650 2100 5800 2100
-Wire Wire Line
-	5650 2400 5650 2100
-$Comp
-L antmicroResistors0402:R_100R_0402 R25
-U 1 1 623F60B0
-P 5800 2300
-F 0 "R25" V 5755 2370 60  0000 L CNN
-F 1 "R_100R_0402" H 5800 2150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6000 2500 60  0001 L CNN
-F 3 "" H 5800 2300 50  0001 C CNN
-F 4 "BOURNS" H 6000 2700 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 6000 2600 60  0001 L CNN "MPN"
-F 6 "100R" V 5853 2370 50  0000 L CNN "Val"
-	1    5800 2300
-	0    1    -1   0   
-$EndComp
+	5650 2400 5650 2250
 Wire Wire Line
 	5650 2400 5550 2400
-Text HLabel 6000 3050 2    50   Input ~ 0
+Text HLabel 6050 2900 2    50   Input ~ 0
 GTR_REFCLK3_C2M_N
-Text HLabel 6050 2650 2    50   Input ~ 0
+Text HLabel 6050 2800 2    50   Input ~ 0
 GTR_REFCLK3_C2M_P
 Wire Wire Line
 	4450 1550 4450 1450
@@ -777,42 +649,10 @@ F 5 "ABRACON" H 9050 6300 50  0001 C CNN "Manufacturer"
 $EndComp
 Text GLabel 7750 5750 0    50   Input ~ 0
 PS_3V3
-$Comp
-L antmicroResistors0402:R_100R_0402 R27
-U 1 1 624017F6
-P 9650 5900
-F 0 "R27" V 9605 5970 60  0000 L CNN
-F 1 "R_100R_0402" H 9650 5750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9850 6100 60  0001 L CNN
-F 3 "" H 9650 5900 50  0001 C CNN
-F 4 "BOURNS" H 9850 6300 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9850 6200 60  0001 L CNN "MPN"
-F 6 "100R" V 9703 5970 50  0000 L CNN "Val"
-	1    9650 5900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9450 5750 9500 5750
 Wire Wire Line
-	9500 5750 9500 5700
-Wire Wire Line
-	9500 5700 9650 5700
-Wire Wire Line
-	9650 5700 9650 5750
-Wire Wire Line
 	9450 6050 9500 6050
-Wire Wire Line
-	9500 6050 9500 6100
-Wire Wire Line
-	9500 6100 9650 6100
-Wire Wire Line
-	9650 6100 9650 6050
-Wire Wire Line
-	9650 5700 9750 5700
-Connection ~ 9650 5700
-Wire Wire Line
-	9650 6100 9750 6100
-Connection ~ 9650 6100
 $Comp
 L power:GND #PWR050
 U 1 1 62406B82
@@ -860,9 +700,9 @@ Wire Wire Line
 Connection ~ 7850 5750
 Wire Wire Line
 	7850 5750 7750 5750
-Text HLabel 9750 5700 2    50   Input ~ 0
+Text HLabel 9750 5850 2    50   Input ~ 0
 GTR_REFCLK2_C2M_P
-Text HLabel 9750 6100 2    50   Input ~ 0
+Text HLabel 9750 5950 2    50   Input ~ 0
 GTR_REFCLK2_C2M_N
 Wire Wire Line
 	7850 5750 8700 5750
@@ -870,19 +710,6 @@ Text HLabel 8650 5950 0    50   Input ~ 0
 PS_CLK_EN
 Wire Wire Line
 	8650 5950 8700 5950
-$Comp
-L antmicroLogicBuffersDriversReceiversTransceivers:SI53152-A01AGMR U6
-U 1 1 6503C5D4
-P 3850 2150
-F 0 "U6" H 5350 2400 60  0000 L CNN
-F 1 "SI53152-A01AGMR" H 5350 2300 60  0000 L CNN
-F 2 "antmicro-footprints:SIL_QFN24_4X4" H 5600 2400 60  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/472/Si53152-2507526.pdf" H 3350 2500 60  0001 C CNN
-F 4 "Skyworks" H 5450 2300 50  0001 C CNN "Manufacturer"
-F 5 "SI53152-A01AGMR" H 5650 2200 50  0001 C CNN "MPN"
-	1    3850 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 1100 1500 1100
 Wire Wire Line
@@ -964,4 +791,59 @@ Wire Wire Line
 Connection ~ 1500 1100
 Wire Wire Line
 	1500 1100 2100 1100
+Wire Wire Line
+	4550 6700 4800 6700
+Wire Wire Line
+	4550 6800 4800 6800
+Wire Wire Line
+	9500 5850 9750 5850
+Wire Wire Line
+	9500 5950 9750 5950
+Wire Wire Line
+	5650 2250 6050 2250
+Wire Wire Line
+	4550 6700 4550 6650
+Wire Wire Line
+	4550 6800 4550 6850
+Wire Wire Line
+	9500 6050 9500 5950
+Wire Wire Line
+	9500 5850 9500 5750
+Wire Wire Line
+	9450 2550 9900 2550
+Wire Wire Line
+	9450 2650 9900 2650
+Wire Wire Line
+	5550 2750 5650 2750
+Wire Wire Line
+	6050 2900 5650 2900
+Wire Wire Line
+	5650 2900 5650 2750
+Wire Wire Line
+	5700 2650 5700 2800
+Wire Wire Line
+	5700 2800 6050 2800
+Wire Wire Line
+	5550 2650 5700 2650
+Wire Wire Line
+	5550 2500 5700 2500
+Wire Wire Line
+	5700 2500 5700 2350
+Wire Wire Line
+	5700 2350 6050 2350
+$Comp
+L antmicroLogicBuffersDriversReceiversTransceivers:SI53152-A01AGMR U6
+U 1 1 6503C5D4
+P 3850 2150
+F 0 "U6" H 5350 2400 60  0000 L CNN
+F 1 "SI53152-A01AGMR" H 5350 2300 60  0000 L CNN
+F 2 "antmicro-footprints:SIL_QFN24_4X4" H 5600 2400 60  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/472/Si53152-2507526.pdf" H 3350 2500 60  0001 C CNN
+F 4 "Skyworks" H 5450 2300 50  0001 C CNN "Manufacturer"
+F 5 "SI53152-A01AGMR" H 5650 2200 50  0001 C CNN "MPN"
+	1    3850 2150
+	1    0    0    -1  
+$EndComp
+Text Notes 5450 4550 0    50   ~ 0
+Should be HCSL ?
 $EndSCHEMATC
