@@ -305,10 +305,8 @@ Wire Wire Line
 	6850 2500 6800 2500
 Text HLabel 6850 2700 0    50   Input ~ 0
 MIO38
-Text Label 2350 5750 2    50   ~ 0
+Text Label 2350 5650 2    50   ~ 0
 PS_RST
-Wire Wire Line
-	2350 5750 2450 5750
 $Comp
 L power:GND #PWR0276
 U 1 1 63EA9D32
@@ -326,20 +324,6 @@ Text HLabel 2900 5350 2    50   Input ~ 0
 ~PS_POR
 Wire Wire Line
 	2850 5350 2900 5350
-Wire Wire Line
-	2450 5850 2450 5750
-Connection ~ 2450 5750
-Wire Wire Line
-	2450 5750 2550 5750
-Wire Wire Line
-	2450 6150 2450 6200
-Wire Wire Line
-	2450 6200 2850 6200
-Wire Wire Line
-	2850 5850 2850 6200
-Connection ~ 2850 6200
-Wire Wire Line
-	2850 6200 2850 6300
 Text HLabel 14750 5550 0    50   Input ~ 0
 ~PS_POR
 $Comp
@@ -372,7 +356,7 @@ Wire Wire Line
 Text HLabel 13350 2100 2    50   Input ~ 0
 ~SD_CARD_RESET
 Text HLabel 14750 6050 0    50   Input ~ 0
-~CAM0_RST
+CAM_RST
 Text HLabel 14750 5950 0    50   Input ~ 0
 ~ETH_RESET
 Text HLabel 14750 5850 0    50   Input ~ 0
@@ -381,23 +365,8 @@ Text HLabel 14750 5750 0    50   Input ~ 0
 ~USB_PHY_RESET
 Text HLabel 14750 5650 0    50   Input ~ 0
 ~SD_CARD_RESET
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q8
-U 1 1 625BE7A7
-P 4500 5650
-F 0 "Q8" H 4608 5703 60  0000 L CNN
-F 1 "BSS138-7-F" H 4608 5597 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 4700 5850 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 4700 5950 60  0001 L CNN
-F 4 "BSS138-7-F" H 4700 6150 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 4700 6750 60  0001 L CNN "Manufacturer"
-	1    4500 5650
-	1    0    0    -1  
-$EndComp
-Text Label 4000 5750 2    50   ~ 0
+Text Label 4000 5650 2    50   ~ 0
 PS_RST
-Wire Wire Line
-	4000 5750 4100 5750
 $Comp
 L power:GND #PWR0281
 U 1 1 625BEA6D
@@ -413,20 +382,6 @@ Wire Wire Line
 	4500 5450 4500 5400
 Text HLabel 4550 5400 2    50   Input ~ 0
 PS_CLOCK_EN
-Wire Wire Line
-	4100 5850 4100 5750
-Connection ~ 4100 5750
-Wire Wire Line
-	4100 5750 4200 5750
-Wire Wire Line
-	4100 6150 4100 6200
-Wire Wire Line
-	4100 6200 4500 6200
-Wire Wire Line
-	4500 5850 4500 6200
-Connection ~ 4500 6200
-Wire Wire Line
-	4500 6200 4500 6300
 Wire Wire Line
 	4550 5400 4500 5400
 Connection ~ 4500 5400
@@ -471,34 +426,6 @@ Wire Wire Line
 Connection ~ 2850 5350
 Wire Wire Line
 	2850 5350 2850 5300
-$Comp
-L antmicroResistors0402:R_100k_0402 R65
-U 1 1 6519B35F
-P 4100 6000
-F 0 "R65" V 4055 6070 60  0000 L CNN
-F 1 "R_100k_0402" H 4100 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4300 6200 60  0001 L CNN
-F 3 "" H 4100 6000 50  0001 C CNN
-F 4 "VISHAY" H 4300 6400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 4300 6300 60  0001 L CNN "MPN"
-F 6 "100k" V 4153 6070 50  0000 L CNN "Val"
-	1    4100 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroResistors0402:R_100k_0402 R63
-U 1 1 6519BD27
-P 2450 6000
-F 0 "R63" V 2405 6070 60  0000 L CNN
-F 1 "R_100k_0402" H 2450 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2650 6200 60  0001 L CNN
-F 3 "" H 2450 6000 50  0001 C CNN
-F 4 "VISHAY" H 2650 6400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 2650 6300 60  0001 L CNN "MPN"
-F 6 "100k" V 2503 6070 50  0000 L CNN "Val"
-	1    2450 6000
-	0    1    1    0   
-$EndComp
 $Comp
 L antmicroLogicTranslatorsLevelShifters:SN74AVC2T245RSWR U25
 U 1 1 65246E61
@@ -3838,64 +3765,64 @@ Resert OE controlled by voltage supervisor
 $Comp
 L antmicroLogicBuffersDriversReceiversTransceivers:SN74LVC1G125DBVR U26
 U 1 1 694166B5
-P 8300 8150
-F 0 "U26" H 8450 8300 60  0000 L CNN
-F 1 "SN74LVC1G125DBVR" H 8450 7950 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-753" H 8500 8350 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g125" H 8500 8450 60  0001 L CNN
-F 4 "SN74LVC1G125DBVR" H 8500 8650 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 8500 9250 60  0001 L CNN "Manufacturer"
-	1    8300 8150
+P 8300 8000
+F 0 "U26" H 8450 8150 60  0000 L CNN
+F 1 "SN74LVC1G125DBVR" H 8450 7800 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-753" H 8500 8200 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g125" H 8500 8300 60  0001 L CNN
+F 4 "SN74LVC1G125DBVR" H 8500 8500 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 8500 9100 60  0001 L CNN "Manufacturer"
+	1    8300 8000
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 7800 1    50   Input ~ 0
+Text GLabel 8300 7650 1    50   Input ~ 0
 PL_3V3
 Wire Wire Line
-	8300 7850 8300 7800
-Text Label 7900 8050 2    50   ~ 0
+	8300 7700 8300 7650
+Text Label 7900 7900 2    50   ~ 0
 PL_RST
 Wire Wire Line
-	7900 8050 8000 8050
-Text HLabel 7900 8250 0    50   Input ~ 0
+	7900 7900 8000 7900
+Text HLabel 7900 8100 0    50   Input ~ 0
 HDA02
 Wire Wire Line
-	7900 8250 8000 8250
+	7900 8100 8000 8100
 Wire Wire Line
-	8500 8150 8600 8150
-Text GLabel 6800 7800 1    50   Input ~ 0
+	8500 8000 8600 8000
+Text GLabel 6800 7650 1    50   Input ~ 0
 PL_3V3
 Wire Wire Line
-	6800 8250 6800 8150
+	6800 8100 6800 8000
 $Comp
 L power:GND #PWR0284
 U 1 1 6605CF07
-P 6800 8250
-F 0 "#PWR0284" H 6800 8000 50  0001 C CNN
-F 1 "GND" H 6805 8077 50  0000 C CNN
-F 2 "" H 6800 8250 50  0001 C CNN
-F 3 "" H 6800 8250 50  0001 C CNN
-	1    6800 8250
+P 6800 8100
+F 0 "#PWR0284" H 6800 7850 50  0001 C CNN
+F 1 "GND" H 6805 7927 50  0000 C CNN
+F 2 "" H 6800 8100 50  0001 C CNN
+F 3 "" H 6800 8100 50  0001 C CNN
+	1    6800 8100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 7850 6800 7800
+	6800 7700 6800 7650
 $Comp
 L antmicroCapacitors0402:C_100n_0402 C120
 U 1 1 6605CEFB
-P 6800 8000
-F 0 "C120" H 6915 8045 60  0000 L CNN
-F 1 "C_100n_0402" H 6800 7850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7000 8200 60  0001 L CNN
-F 3 "" H 6800 8000 50  0001 C CNN
-F 4 "Murata" H 7000 8400 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 7000 8300 60  0001 L CNN "MPN"
-F 6 "100n" H 6915 7947 50  0000 L CNN "Val"
-	1    6800 8000
+P 6800 7850
+F 0 "C120" H 6915 7895 60  0000 L CNN
+F 1 "C_100n_0402" H 6800 7700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7000 8050 60  0001 L CNN
+F 3 "" H 6800 7850 50  0001 C CNN
+F 4 "Murata" H 7000 8250 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 7000 8150 60  0001 L CNN "MPN"
+F 6 "100n" H 6915 7797 50  0000 L CNN "Val"
+	1    6800 7850
 	1    0    0    -1  
 $EndComp
 Text Notes 6250 9300 0    100  ~ 0
 Optional PL bypass \n(when using DNM other PL reset circuitry)
-Text HLabel 8600 8150 2    50   Input ~ 0
+Text HLabel 8600 8000 2    50   Input ~ 0
 CAM_RST
 Wire Wire Line
 	7950 10200 8250 10200
@@ -3932,7 +3859,7 @@ $EndComp
 Wire Wire Line
 	7300 10200 7650 10200
 Wire Notes Line
-	10650 8700 5300 8700
+	10650 8750 5300 8750
 Text Notes 10800 7050 0    100  ~ 20
 Xilinx reference
 Text Notes 7250 2500 0    50   ~ 0
@@ -3941,19 +3868,6 @@ Text Notes 7250 2600 0    50   ~ 0
 B -> A
 Text Notes 7250 5000 0    50   ~ 0
 B -> A
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q7
-U 1 1 63E971C7
-P 2850 5650
-F 0 "Q7" H 2958 5703 60  0000 L CNN
-F 1 "BSS138-7-F" H 2958 5597 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 3050 5850 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 3050 5950 60  0001 L CNN
-F 4 "BSS138-7-F" H 3050 6150 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 3050 6750 60  0001 L CNN "Manufacturer"
-	1    2850 5650
-	1    0    0    -1  
-$EndComp
 $Comp
 L antmicroLogicTranslatorsLevelShifters:74AVC4T245RSVRG4 U24
 U 1 1 6350C5AD
@@ -4048,4 +3962,55 @@ $EndComp
 Connection ~ 11850 6350
 Wire Wire Line
 	11300 3100 11550 3100
+$Comp
+L power:GND #PWR0393
+U 1 1 631424BA
+P 8300 8400
+F 0 "#PWR0393" H 8300 8150 50  0001 C CNN
+F 1 "GND" H 8305 8227 50  0000 C CNN
+F 2 "" H 8300 8400 50  0001 C CNN
+F 3 "" H 8300 8400 50  0001 C CNN
+	1    8300 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 8400 8300 8300
+$Comp
+L antmicroTransistorsBipolarSingle:DTC014TEBTL Q?
+U 1 1 6353F778
+P 2750 5650
+AR Path="/625B0244/6353F778" Ref="Q?"  Part="1" 
+AR Path="/65AAF1BF/6353F778" Ref="Q7"  Part="1" 
+F 0 "Q7" H 2938 5696 50  0000 L CNN
+F 1 "DTC014TEBTL" H 2938 5605 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-416" H 2950 5350 50  0001 L CNN
+F 3 "" H 2750 5650 50  0001 L CNN
+F 4 "ROHM Semiconductor" H 3350 5550 50  0001 C CNN "Manufacturer"
+F 5 "DTC014TEBTL" H 3200 5450 50  0001 C CNN "MPN"
+	1    2750 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5650 2500 5650
+Wire Wire Line
+	2850 5850 2850 6300
+Wire Wire Line
+	4500 5850 4500 6300
+$Comp
+L antmicroTransistorsBipolarSingle:DTC014TEBTL Q?
+U 1 1 63557454
+P 4400 5650
+AR Path="/625B0244/63557454" Ref="Q?"  Part="1" 
+AR Path="/65AAF1BF/63557454" Ref="Q8"  Part="1" 
+F 0 "Q8" H 4588 5696 50  0000 L CNN
+F 1 "DTC014TEBTL" H 4588 5605 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-416" H 4600 5350 50  0001 L CNN
+F 3 "" H 4400 5650 50  0001 L CNN
+F 4 "ROHM Semiconductor" H 5000 5550 50  0001 C CNN "Manufacturer"
+F 5 "DTC014TEBTL" H 4850 5450 50  0001 C CNN "MPN"
+	1    4400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5650 4150 5650
 $EndSCHEMATC

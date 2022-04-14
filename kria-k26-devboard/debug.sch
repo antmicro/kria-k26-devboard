@@ -84,19 +84,6 @@ Text Label 7400 5250 0    50   ~ 0
 Text Label 11700 2300 2    50   ~ 0
 FTDI_TMS
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q9
-U 1 1 623BDEBC
-P 8550 2300
-F 0 "Q9" H 8658 2353 60  0000 L CNN
-F 1 "BSS138-7-F" H 8650 2050 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 8750 2500 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 8750 2600 60  0001 L CNN
-F 4 "BSS138-7-F" H 8750 2800 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 8750 3400 60  0001 L CNN "Manufacturer"
-	1    8550 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroResistors0402:R_10k_0402 R91
 U 1 1 623BF93A
 P 8550 1650
@@ -109,19 +96,6 @@ F 5 "CRCW040210K0FKEDHP" H 8750 1950 60  0001 L CNN "MPN"
 F 6 "10k" V 8603 1720 50  0000 L CNN "Val"
 	1    8550 1650
 	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q10
-U 1 1 623C3158
-P 9200 1950
-F 0 "Q10" H 9308 2003 60  0000 L CNN
-F 1 "BSS138-7-F" H 9308 1897 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9400 2150 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 9400 2250 60  0001 L CNN
-F 4 "BSS138-7-F" H 9400 2450 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 9400 3050 60  0001 L CNN "Manufacturer"
-	1    9200 1950
-	1    0    0    -1  
 $EndComp
 $Comp
 L antmicroResistors0402:R_10k_0402 R93
@@ -138,14 +112,12 @@ F 6 "10k" V 9253 1520 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8550 2100 8550 2050
+	8550 2100 8550 1950
 Wire Wire Line
 	9200 1750 9200 1650
+Connection ~ 8550 1950
 Wire Wire Line
-	8550 2050 8900 2050
-Connection ~ 8550 2050
-Wire Wire Line
-	8550 2050 8550 1800
+	8550 1950 8550 1800
 $Comp
 L power:GND #PWR0319
 U 1 1 623C7697
@@ -177,9 +149,9 @@ Wire Wire Line
 Wire Wire Line
 	9200 1300 9200 1250
 Wire Wire Line
-	8150 2400 8250 2400
+	8100 2300 8200 2300
 Wire Wire Line
-	8550 2050 8450 2050
+	8550 1950 8450 1950
 Wire Wire Line
 	9200 1650 9350 1650
 Connection ~ 9200 1650
@@ -187,7 +159,7 @@ Wire Wire Line
 	9200 1650 9200 1600
 Text Label 9350 1650 0    50   ~ 0
 ~LS_OE
-Text Label 8450 2050 2    50   ~ 0
+Text Label 8450 1950 2    50   ~ 0
 CONN_GND
 Wire Wire Line
 	11700 1800 11800 1800
@@ -1556,19 +1528,6 @@ $EndComp
 Text HLabel 13200 4200 2    50   Input ~ 0
 JTAG_TDO_M2C
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q11
-U 1 1 63AF8DF4
-P 12650 9000
-F 0 "Q11" H 12758 9053 60  0000 L CNN
-F 1 "BSS138-7-F" H 12750 8750 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 12850 9200 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 12850 9300 60  0001 L CNN
-F 4 "BSS138-7-F" H 12850 9500 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 12850 10100 60  0001 L CNN "Manufacturer"
-	1    12650 9000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0333
 U 1 1 63AF9471
 P 12650 9600
@@ -1580,20 +1539,7 @@ F 3 "" H 12650 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 9100 12350 9100
-Wire Wire Line
 	12650 8700 12650 8800
-Wire Wire Line
-	12250 9500 12250 9550
-Wire Wire Line
-	12250 9550 12650 9550
-Wire Wire Line
-	12650 9550 12650 9600
-Wire Wire Line
-	12250 9200 12250 9100
-Wire Wire Line
-	12650 9200 12650 9550
-Connection ~ 12650 9550
 Wire Wire Line
 	12650 8700 12800 8700
 Text HLabel 12800 8700 2    50   Input ~ 0
@@ -1602,11 +1548,8 @@ Wire Wire Line
 	7000 7200 7400 7200
 Text Label 7400 7200 0    50   ~ 0
 FTDI_EEPROM_WC
-Text Label 12200 9100 2    50   ~ 0
+Text Label 12150 9000 2    50   ~ 0
 FTDI_EEPROM_WC
-Wire Wire Line
-	12200 9100 12250 9100
-Connection ~ 12250 9100
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:0878311420 J9
 U 1 1 64A16D7F
@@ -2029,7 +1972,7 @@ Text Label 11750 3700 2    50   ~ 0
 ~LS_OE
 Text Label 7400 5050 0    50   ~ 0
 ~FTDI_LS_OE
-Text Label 8150 2400 2    50   ~ 0
+Text Label 8100 2300 2    50   ~ 0
 ~FTDI_LS_OE
 Text Label 4800 1500 0    50   ~ 0
 PD_3V3
@@ -2267,20 +2210,6 @@ F 3 "" H 4800 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4800 2300 4800 2350
-$Comp
-L antmicroResistors0402:R_100k_0402 R94
-U 1 1 66B3994C
-P 12250 9350
-F 0 "R94" V 12205 9420 60  0000 L CNN
-F 1 "R_100k_0402" H 12250 9200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12450 9550 60  0001 L CNN
-F 3 "" H 12250 9350 50  0001 C CNN
-F 4 "VISHAY" H 12450 9750 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 12450 9650 60  0001 L CNN "MPN"
-F 6 "100k" V 12303 9420 50  0000 L CNN "Val"
-	1    12250 9350
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	5600 3350 5600 500 
 Wire Notes Line
@@ -2299,8 +2228,6 @@ Text Notes 2700 700  0    100  ~ 20
 Supply
 Text Notes 600  3550 0    100  ~ 20
 Decoupling and Filtering
-Text Notes 7550 3200 0    50   ~ 0
-Enables logic level conventer,\ndisables JTAG from FTDI when JTAG connector is used
 Text HLabel 15450 6200 2    50   Input ~ 0
 ~PS_SRST_C2M
 Text HLabel 9200 10600 0    50   Input ~ 0
@@ -2554,14 +2481,14 @@ Connection ~ 3650 1500
 $Comp
 L antmicroTransistorsBipolarSingle:DTC014TEBTL Q17
 U 1 1 63983E69
-P 8350 3650
-F 0 "Q17" H 8538 3696 50  0000 L CNN
-F 1 "DTC014TEBTL" H 8538 3605 50  0000 L CNN
-F 2 "antmicro-footprints:SOT-416" H 8550 3350 50  0001 L CNN
-F 3 "" H 8350 3650 50  0001 L CNN
-F 4 "ROHM Semiconductor" H 8950 3550 50  0001 C CNN "Manufacturer"
-F 5 "DTC014TEBTL" H 8800 3450 50  0001 C CNN "MPN"
-	1    8350 3650
+P 8450 2300
+F 0 "Q17" H 8638 2346 50  0000 L CNN
+F 1 "DTC014TEBTL" H 8638 2255 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-416" H 8650 2000 50  0001 L CNN
+F 3 "" H 8450 2300 50  0001 L CNN
+F 4 "ROHM Semiconductor" H 9050 2200 50  0001 C CNN "Manufacturer"
+F 5 "DTC014TEBTL" H 8900 2100 50  0001 C CNN "MPN"
+	1    8450 2300
 	1    0    0    -1  
 $EndComp
 Text Label 2000 1250 0    50   ~ 0
@@ -2789,6 +2716,40 @@ NoConn ~ 1350 1700
 NoConn ~ 1350 1800
 Wire Wire Line
 	1450 2100 1550 2100
+$Comp
+L antmicroTransistorsBipolarSingle:DTC014TEBTL Q9
+U 1 1 63285C0B
+P 9100 1950
+F 0 "Q9" H 9288 1996 50  0000 L CNN
+F 1 "DTC014TEBTL" H 9288 1905 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-416" H 9300 1650 50  0001 L CNN
+F 3 "" H 9100 1950 50  0001 L CNN
+F 4 "ROHM Semiconductor" H 9700 1850 50  0001 C CNN "Manufacturer"
+F 5 "DTC014TEBTL" H 9550 1750 50  0001 C CNN "MPN"
+	1    9100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1950 8850 1950
+Text Notes 7550 3200 0    50   ~ 0
+Enables logic level conventer,\ndisables JTAG from FTDI when JTAG connector is used
+Wire Wire Line
+	12150 9000 12300 9000
 Wire Bus Line
 	4700 6500 4700 6700
+Wire Wire Line
+	12650 9200 12650 9600
+$Comp
+L antmicroTransistorsBipolarSingle:DTC014TEBTL Q10
+U 1 1 634A6C2F
+P 12550 9000
+F 0 "Q10" H 12738 9046 50  0000 L CNN
+F 1 "DTC014TEBTL" H 12738 8955 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-416" H 12750 8700 50  0001 L CNN
+F 3 "" H 12550 9000 50  0001 L CNN
+F 4 "ROHM Semiconductor" H 13150 8900 50  0001 C CNN "Manufacturer"
+F 5 "DTC014TEBTL" H 13000 8800 50  0001 C CNN "MPN"
+	1    12550 9000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

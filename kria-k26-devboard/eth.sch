@@ -1380,14 +1380,14 @@ Text Label 9900 4800 0    50   ~ 0
 POE_VC3
 Text Label 9900 4900 0    50   ~ 0
 POE_VC4
+Text Notes 9050 11100 0    50   ~ 0
+CLK is matched to data lanes, the device tree should use "rgmii-id"
+Text Notes 9250 10950 2    50   ~ 10
+NOTE:
 Wire Bus Line
 	8500 5900 8500 6100
 Wire Bus Line
 	9800 4700 9800 5100
 Wire Bus Line
 	4600 3250 4600 4800
-Text Notes 9050 11100 0    50   ~ 0
-CLK is matched to data lanes, the device tree should use "rgmii-id"
-Text Notes 9250 10950 2    50   ~ 10
-NOTE:
 $EndSCHEMATC

@@ -709,6 +709,18 @@ F 6 "33R" H 3200 5300 50  0000 C CNN "Val"
 	1    3200 5300
 	1    0    0    -1  
 $EndComp
+Text Label 5700 5300 0    50   ~ 0
+SD_DAT3
+Text Label 5700 5200 0    50   ~ 0
+SD_DAT2
+Text Label 5700 5100 0    50   ~ 0
+SD_DAT1
+Text Label 5700 5000 0    50   ~ 0
+SD_DAT0
 Wire Bus Line
 	2250 4450 2250 6000
+Text Label 5700 4700 0    50   ~ 0
+SD_CMD
+Text Label 5700 4800 0    50   ~ 0
+SD_CLK
 $EndSCHEMATC
