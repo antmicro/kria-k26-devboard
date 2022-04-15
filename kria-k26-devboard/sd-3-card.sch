@@ -717,10 +717,10 @@ Text Label 5700 5100 0    50   ~ 0
 SD_DAT1
 Text Label 5700 5000 0    50   ~ 0
 SD_DAT0
-Wire Bus Line
-	2250 4450 2250 6000
 Text Label 5700 4700 0    50   ~ 0
 SD_CMD
 Text Label 5700 4800 0    50   ~ 0
 SD_CLK
+Wire Bus Line
+	2250 4450 2250 6000
 $EndSCHEMATC

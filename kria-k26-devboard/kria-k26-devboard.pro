@@ -1,4 +1,4 @@
-update=Thu 14 Apr 2022 09:06:14 AM CEST
+update=Fri 15 Apr 2022 12:11:36 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -18,14 +18,14 @@ PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=kria-k26-devboard.net
 CopperLayerCount=8
 BoardThickness=1.6
 AllowMicroVias=0
@@ -80,7 +80,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=2

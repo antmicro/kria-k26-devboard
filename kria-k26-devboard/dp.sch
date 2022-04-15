@@ -834,19 +834,6 @@ Wire Wire Line
 Connection ~ 4700 3350
 Wire Wire Line
 	4700 3350 4700 3650
-$Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D1
-U 1 1 647755AA
-P 8100 5700
-F 0 "D1" H 8530 5653 60  0000 L CNN
-F 1 "PESD2USB5UV-TR" H 8530 5547 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23s" H 8150 5900 60  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 8100 5700 60  0001 C CNN
-F 4 "PESD2USB5UV-TR " H 7800 6000 50  0001 C CNN "MPN"
-F 5 "Nexperia " H 7800 6100 50  0001 C CNN "Manufacturer"
-	1    8100 5700
-	1    0    0    -1  
-$EndComp
 Text Label 7950 4750 2    50   ~ 0
 GTR_DP1_M2C_C_P
 Text Label 7950 4850 2    50   ~ 0
@@ -855,9 +842,9 @@ Text Label 7950 4950 2    50   ~ 0
 GTR_DP0_M2C_C_P
 Text Label 7950 5050 2    50   ~ 0
 GTR_DP0_M2C_C_N
-Text Label 7800 5700 2    50   ~ 0
-DP_AUX_C_P
 Text Label 7800 5800 2    50   ~ 0
+DP_AUX_C_P
+Text Label 7800 5700 2    50   ~ 0
 DP_AUX_C_N
 Wire Wire Line
 	7800 5800 7900 5800
@@ -988,6 +975,42 @@ F 5 "Texas Instruments" H 2500 3000 50  0001 C CNN "Manufacturer"
 	1    2100 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroTVSDiodes:WE-TVS-824012823 U55
+U 1 1 62C93EF8
+P 8200 5800
+F 0 "U55" H 8200 6125 50  0000 C CNN
+F 1 "WE-TVS-824012823" H 8200 6034 50  0000 C CNN
+F 2 "antmicro-footprints:WE_DFN1210-6" H 8365 5540 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/824012823.pdf" H 8375 5685 50  0001 C CNN
+F 4 "824012823" H 8015 5340 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 8115 5440 50  0001 C CNN "Manufacturer"
+	1    8200 5800
+	1    0    0    -1  
+$EndComp
+Text Label 8550 5700 0    50   ~ 0
+DP_AUX_C_N
+Wire Wire Line
+	8550 5700 8500 5700
+Text Label 8550 5800 0    50   ~ 0
+DP_AUX_C_P
+Wire Wire Line
+	8500 5800 8550 5800
+$Comp
+L power:GND #PWR0394
+U 1 1 62CC00F9
+P 8550 5950
+F 0 "#PWR0394" H 8550 5700 50  0001 C CNN
+F 1 "GND" H 8555 5777 50  0000 C CNN
+F 2 "" H 8550 5950 50  0001 C CNN
+F 3 "" H 8550 5950 50  0001 C CNN
+	1    8550 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 5950 8550 5900
+Wire Wire Line
+	8550 5900 8500 5900
 Wire Bus Line
 	1100 3500 1100 3850
 $EndSCHEMATC

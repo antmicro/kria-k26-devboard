@@ -454,27 +454,23 @@ Text Label 7400 5400 0    50   ~ 0
 FTDI_UARTB_TXD
 Text Label 7400 5500 0    50   ~ 0
 FTDI_UARTB_RXD
-Text Label 11650 7850 2    50   ~ 0
-FTDI_UARTB_TXD
 Text Label 11650 7950 2    50   ~ 0
+FTDI_UARTB_TXD
+Text Label 11650 7850 2    50   ~ 0
 FTDI_UARTB_RXD
-Text Label 13250 8100 0    50   ~ 0
+Text Label 13250 8300 0    50   ~ 0
 USB_PWRD_VCCIO
-Wire Wire Line
-	13150 8100 13250 8100
 $Comp
 L power:GND #PWR0335
 U 1 1 6258C7A9
-P 13200 8300
-F 0 "#PWR0335" H 13200 8050 50  0001 C CNN
-F 1 "GND" H 13205 8127 50  0000 C CNN
-F 2 "" H 13200 8300 50  0001 C CNN
-F 3 "" H 13200 8300 50  0001 C CNN
-	1    13200 8300
-	1    0    0    -1  
+P 13350 8100
+F 0 "#PWR0335" H 13350 7850 50  0001 C CNN
+F 1 "GND" H 13355 7927 50  0000 C CNN
+F 2 "" H 13350 8100 50  0001 C CNN
+F 3 "" H 13350 8100 50  0001 C CNN
+	1    13350 8100
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	13200 8300 13200 8200
 Wire Wire Line
 	13200 8200 13150 8200
 Wire Wire Line
@@ -501,9 +497,9 @@ $EndComp
 Wire Wire Line
 	11650 8300 11650 8250
 Connection ~ 11650 8250
-Text HLabel 13150 7850 2    50   Input ~ 0
-MIO37
 Text HLabel 13150 7950 2    50   Input ~ 0
+MIO37
+Text HLabel 13150 7850 2    50   Input ~ 0
 MIO36
 Wire Wire Line
 	13150 7700 13200 7700
@@ -1913,8 +1909,6 @@ Wire Wire Line
 Connection ~ 14150 6100
 Wire Wire Line
 	14150 6100 13150 6100
-Text Label 13300 6250 0    50   ~ 0
-USB_3V45
 Wire Wire Line
 	13150 6250 13200 6250
 Wire Wire Line
@@ -1956,15 +1950,15 @@ Wire Wire Line
 	15150 6450 15150 6400
 Wire Wire Line
 	15450 6200 15350 6200
-Text HLabel 15450 6000 2    50   Input ~ 0
+Text HLabel 15450 6200 2    50   Input ~ 0
 ~PS_POR
 Wire Wire Line
 	15350 6000 15450 6000
 Text Label 11650 6250 2    50   ~ 0
 ~FTDI_PWREN
-Text Label 11650 6000 2    50   ~ 0
-~FTDI_PS_POR
 Text Label 11650 6100 2    50   ~ 0
+~FTDI_PS_POR
+Text Label 11650 6000 2    50   ~ 0
 ~FTDI_PS_SRST
 Text Label 11700 1800 2    50   ~ 0
 ~LS_OE
@@ -2110,8 +2104,6 @@ Text Label 2150 10250 0    50   ~ 0
 USBB_VBUS
 Text HLabel 1300 10250 0    50   Input ~ 0
 USBC_VBUS
-Wire Wire Line
-	1300 10250 1600 10250
 Text HLabel 7050 8200 2    50   Input ~ 0
 PD_EN
 Text Label 2950 10650 0    50   ~ 0
@@ -2228,7 +2220,7 @@ Text Notes 2700 700  0    100  ~ 20
 Supply
 Text Notes 600  3550 0    100  ~ 20
 Decoupling and Filtering
-Text HLabel 15450 6200 2    50   Input ~ 0
+Text HLabel 15450 6000 2    50   Input ~ 0
 ~PS_SRST_C2M
 Text HLabel 9200 10600 0    50   Input ~ 0
 ~PS_SRST_C2M
@@ -2354,9 +2346,9 @@ A1 -> B
 Text Notes 12300 6150 0    50   ~ 0
 A2 -> B
 Text Notes 12250 7850 0    50   ~ 0
-A1 -> B
+A1 <- B
 Text Notes 12250 7950 0    50   ~ 0
-A2 <- B
+A2 -> B
 Wire Wire Line
 	1850 3950 2100 3950
 Wire Wire Line
@@ -2491,8 +2483,6 @@ F 5 "DTC014TEBTL" H 8900 2100 50  0001 C CNN "MPN"
 	1    8450 2300
 	1    0    0    -1  
 $EndComp
-Text Label 2000 1250 0    50   ~ 0
-USBB_VBUS
 Connection ~ 1450 2850
 Wire Wire Line
 	1450 2900 1450 2850
@@ -2513,17 +2503,13 @@ $EndComp
 Wire Wire Line
 	1450 2850 1350 2850
 Wire Wire Line
-	1450 2750 1450 2850
+	1400 2250 1350 2250
 Wire Wire Line
-	1350 2750 1450 2750
+	1350 2150 1400 2150
 Wire Wire Line
-	1400 2300 1350 2300
+	1400 2000 1350 2000
 Wire Wire Line
-	1350 2200 1400 2200
-Wire Wire Line
-	1400 2050 1350 2050
-Wire Wire Line
-	1350 1950 1400 1950
+	1350 1900 1400 1900
 $Comp
 L power:GND #PWR?
 U 1 1 6424D942
@@ -2538,8 +2524,8 @@ F 3 "" H 1650 1650 50  0001 C CNN
 	1    1650 1650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1350 2550
-NoConn ~ 1350 2450
+NoConn ~ 1350 2500
+NoConn ~ 1350 2400
 $Comp
 L antmicroCapacitorsmisc:C_100n_0402_50V C?
 U 1 1 6424D94D
@@ -2562,11 +2548,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 1250 1650 1300
 Wire Wire Line
-	1350 1500 1450 1500
-Wire Wire Line
 	1450 1250 1650 1250
 Wire Wire Line
-	1450 1250 1450 1500
+	1450 1250 1450 1400
 Connection ~ 1650 1250
 $Comp
 L antmicroUSBDVIHDMIConnectors:USB4105-GF-A J?
@@ -2584,21 +2568,21 @@ F 5 "USB4105-GF-A" H 957 3625 50  0000 C CNN "MPN"
 	1    550  2450
 	1    0    0    -1  
 $EndComp
-Text Label 2300 2150 0    50   ~ 0
+Text Label 2300 2100 0    50   ~ 0
 USBB_N
-Text Label 2300 2050 0    50   ~ 0
+Text Label 2300 2000 0    50   ~ 0
 USBB_P
 $Comp
 L antmicroTVSDiodes:WE-TVS-82400152 U28
 U 1 1 62B05FE1
-P 1850 2100
-F 0 "U28" H 1800 2300 50  0000 R CNN
-F 1 "WE-TVS-82400152" H 2250 1900 50  0000 R CNN
-F 2 "antmicro-footprints:SOT-563" H 1850 1900 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 1850 1850 50  0001 C CNN
-F 4 "82400152" H 1500 1700 50  0001 C CNN "MPN"
-F 5 "Würth Elektronik" H 1600 1800 50  0001 C CNN "Manufacturer"
-	1    1850 2100
+P 1850 2050
+F 0 "U28" H 1800 2250 50  0000 R CNN
+F 1 "WE-TVS-82400152" H 2250 1850 50  0000 R CNN
+F 2 "antmicro-footprints:SOT-563" H 1850 1850 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 1850 1800 50  0001 C CNN
+F 4 "82400152" H 1500 1650 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 1600 1750 50  0001 C CNN "Manufacturer"
+	1    1850 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2656,55 +2640,55 @@ Wire Wire Line
 Wire Wire Line
 	1650 1600 1650 1650
 Wire Wire Line
+	1400 1900 1400 1950
+Wire Wire Line
+	1400 2150 1400 2200
+Wire Wire Line
+	1400 1950 1550 1950
+Connection ~ 1400 1950
+Wire Wire Line
 	1400 1950 1400 2000
 Wire Wire Line
+	1400 2200 1500 2200
+Wire Wire Line
+	1500 2200 1500 2150
+Wire Wire Line
+	1500 2150 1550 2150
+Connection ~ 1400 2200
+Wire Wire Line
 	1400 2200 1400 2250
-Wire Wire Line
-	1400 2000 1550 2000
-Connection ~ 1400 2000
-Wire Wire Line
-	1400 2000 1400 2050
-Wire Wire Line
-	1400 2250 1500 2250
-Wire Wire Line
-	1500 2250 1500 2200
-Wire Wire Line
-	1500 2200 1550 2200
-Connection ~ 1400 2250
-Wire Wire Line
-	1400 2250 1400 2300
 $Comp
 L power:GND #PWR?
 U 1 1 629FE016
-P 1450 2450
+P 1450 2400
 AR Path="/63C44BC2/629FE016" Ref="#PWR?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/629FE016" Ref="#PWR?"  Part="1" 
 AR Path="/625B0244/629FE016" Ref="#PWR0306"  Part="1" 
-F 0 "#PWR0306" H 1450 2200 50  0001 C CNN
-F 1 "GND" H 1455 2277 50  0000 C CNN
-F 2 "" H 1450 2450 50  0001 C CNN
-F 3 "" H 1450 2450 50  0001 C CNN
-	1    1450 2450
+F 0 "#PWR0306" H 1450 2150 50  0001 C CNN
+F 1 "GND" H 1455 2227 50  0000 C CNN
+F 2 "" H 1450 2400 50  0001 C CNN
+F 3 "" H 1450 2400 50  0001 C CNN
+	1    1450 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 2000 2250 2000
+	2150 1950 2250 1950
 Wire Wire Line
-	2150 2200 2250 2200
+	2150 2150 2250 2150
 Wire Wire Line
-	2150 2100 2200 2100
+	2150 2050 2200 2050
 Wire Wire Line
-	1450 2100 1450 2450
+	1450 2050 1450 2400
 Wire Wire Line
-	2250 2000 2250 2050
+	2250 1950 2250 2000
 Wire Wire Line
-	2250 2050 2300 2050
+	2250 2000 2300 2000
 Wire Wire Line
-	2250 2200 2250 2150
+	2250 2150 2250 2100
 Wire Wire Line
-	2250 2150 2300 2150
+	2250 2100 2300 2100
 Wire Wire Line
-	2200 2100 2200 1600
+	2200 2050 2200 1600
 Wire Wire Line
 	2200 1600 1950 1600
 Wire Wire Line
@@ -2712,10 +2696,10 @@ Wire Wire Line
 Connection ~ 1950 1250
 Wire Wire Line
 	1950 1250 1650 1250
-NoConn ~ 1350 1700
-NoConn ~ 1350 1800
+NoConn ~ 1350 1650
+NoConn ~ 1350 1750
 Wire Wire Line
-	1450 2100 1550 2100
+	1450 2050 1550 2050
 $Comp
 L antmicroTransistorsBipolarSingle:DTC014TEBTL Q9
 U 1 1 63285C0B
@@ -2735,8 +2719,6 @@ Text Notes 7550 3200 0    50   ~ 0
 Enables logic level conventer,\ndisables JTAG from FTDI when JTAG connector is used
 Wire Wire Line
 	12150 9000 12300 9000
-Wire Bus Line
-	4700 6500 4700 6700
 Wire Wire Line
 	12650 9200 12650 9600
 $Comp
@@ -2752,4 +2734,37 @@ F 5 "DTC014TEBTL" H 13000 8800 50  0001 C CNN "MPN"
 	1    12550 9000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1300 10250 1600 10250
+Connection ~ 2200 1600
+Wire Wire Line
+	2200 1600 2200 1550
+Wire Wire Line
+	1350 2650 1450 2650
+Wire Wire Line
+	1450 2650 1450 2750
+Wire Wire Line
+	1350 2750 1450 2750
+Connection ~ 1450 2750
+Wire Wire Line
+	1450 2750 1450 2850
+Wire Wire Line
+	1350 1400 1450 1400
+Connection ~ 1450 1400
+Wire Wire Line
+	1450 1400 1450 1500
+Wire Wire Line
+	1350 1500 1450 1500
+Text Label 2000 1250 0    50   ~ 0
+USBB_VBUS
+Wire Wire Line
+	13150 8100 13350 8100
+Wire Wire Line
+	13200 8200 13200 8300
+Wire Wire Line
+	13200 8300 13250 8300
+Text Label 13300 6250 0    50   ~ 0
+VCC_USB
+Wire Bus Line
+	4700 6500 4700 6700
 $EndSCHEMATC
