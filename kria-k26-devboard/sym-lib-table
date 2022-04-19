@@ -1,4 +1,2 @@
 (sym_lib_table
-  (lib (name sa800u-baseboard-hw)(type Legacy)(uri /home/wjuszczak/git/sa800u-baseboard-hw/lib/sa800u-baseboard-hw.lib)(options "")(descr ""))
-  (lib (name kria-k26-devboard-rescue)(type Legacy)(uri ${KIPRJMOD}/kria-k26-devboard-rescue.lib)(options "")(descr ""))
 )

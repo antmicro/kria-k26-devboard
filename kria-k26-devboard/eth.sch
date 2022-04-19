@@ -1384,6 +1384,22 @@ Text Notes 9050 11100 0    50   ~ 0
 CLK is matched to data lanes, the device tree should use "rgmii-id"
 Text Notes 9250 10950 2    50   ~ 10
 NOTE:
+Text Label 9850 3500 0    50   ~ 0
+TD_A_P
+Text Label 9850 3600 0    50   ~ 0
+TD_A_N
+Text Label 9850 3700 0    50   ~ 0
+TD_B_P
+Text Label 9850 4000 0    50   ~ 0
+TD_B_N
+Text Label 9850 4100 0    50   ~ 0
+TD_C_P
+Text Label 9850 4200 0    50   ~ 0
+TD_C_N
+Text Label 9850 4400 0    50   ~ 0
+TD_D_N
+Text Label 9850 4300 0    50   ~ 0
+TD_D_P
 Wire Bus Line
 	8500 5900 8500 6100
 Wire Bus Line

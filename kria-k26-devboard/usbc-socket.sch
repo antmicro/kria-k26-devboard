@@ -247,23 +247,10 @@ Wire Wire Line
 	5950 2650 6300 2650
 Wire Wire Line
 	6300 2650 6300 2550
-Text HLabel 6650 3000 2    50   Input ~ 0
+Text HLabel 6700 2900 2    50   Input ~ 0
 PD_EN
 Wire Wire Line
-	6650 3000 6600 3000
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q16
-U 1 1 661CFCBB
-P 6300 2900
-F 0 "Q16" H 6407 2953 60  0000 L CNN
-F 1 "BSS138-7-F" V 6550 2450 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 6500 3100 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 6500 3200 60  0001 L CNN
-F 4 "BSS138-7-F" H 6500 3400 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 6500 4000 60  0001 L CNN "Manufacturer"
-	1    6300 2900
-	-1   0    0    -1  
-$EndComp
+	6700 2900 6650 2900
 Wire Wire Line
 	6300 2700 6300 2650
 Connection ~ 6300 2650
@@ -375,6 +362,19 @@ Wire Wire Line
 Wire Wire Line
 	4500 3250 5000 3250
 Connection ~ 4500 3250
+$Comp
+L antmicroTransistorsBipolarSingle:DTC014TEBTL Q11
+U 1 1 631791E8
+P 6400 2900
+F 0 "Q11" H 6588 2946 50  0000 L CNN
+F 1 "DTC014TEBTL" H 5950 3100 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-416" H 6600 2600 50  0001 L CNN
+F 3 "" H 6400 2900 50  0001 L CNN
+F 4 "ROHM Semiconductor" H 7000 2800 50  0001 C CNN "Manufacturer"
+F 5 "DTC014TEBTL" H 6850 2700 50  0001 C CNN "MPN"
+	1    6400 2900
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	6500 3300 6500 3500
 $EndSCHEMATC
