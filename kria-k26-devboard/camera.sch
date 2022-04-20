@@ -106,17 +106,6 @@ NoConn ~ 8500 5200
 NoConn ~ 8500 5100
 Text GLabel 8275 5700 0    50   Input ~ 0
 SOM_5V
-$Comp
-L sa800u-baseboard-hw:GND #PWR054
-U 1 1 61C4B844
-P 8350 5800
-F 0 "#PWR054" H 8350 5550 50  0001 C CNN
-F 1 "GND" H 8355 5627 50  0000 C CNN
-F 2 "" H 8350 5800 50  0001 C CNN
-F 3 "" H 8350 5800 50  0001 C CNN
-	1    8350 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8500 5800 8450 5800
 Wire Wire Line
@@ -466,4 +455,15 @@ Text HLabel 8250 4200 0    50   Input ~ 0
 CAM1_VSYNC
 Text Notes 550  700  0    100  ~ 20
 Camera interface
+$Comp
+L power:GND #PWR?
+U 1 1 6733CCE5
+P 8350 5800
+F 0 "#PWR?" H 8350 5550 50  0001 C CNN
+F 1 "GND" H 8355 5627 50  0000 C CNN
+F 2 "" H 8350 5800 50  0001 C CNN
+F 3 "" H 8350 5800 50  0001 C CNN
+	1    8350 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
