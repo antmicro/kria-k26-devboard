@@ -78,21 +78,6 @@ Wire Wire Line
 Connection ~ 6000 4300
 Wire Wire Line
 	6000 4300 6350 4300
-$Comp
-L antmicroTVSDiodes:ESD144B1W0201E6327XTSA1 D?
-U 1 1 62AA954C
-P 6350 3900
-AR Path="/63C44BC2/62AA954C" Ref="D?"  Part="1" 
-AR Path="/63C44BC2/62AA815B/62AA954C" Ref="D28"  Part="1" 
-F 0 "D28" H 6300 3800 50  0000 L CNN
-F 1 "ESD144B1W0201E6327XTSA1" H 5850 4050 50  0000 L CNN
-F 2 "antmicro-footprints:ESD144B1W0201E6327XTSA1" H 6350 3900 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-ESD144-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d462677d0f4601679886a2a8707c" H 6350 3900 50  0001 C CNN
-F 4 "ESD144B1W0201E6327XTSA1" H 6350 3900 50  0001 C CNN "MPN"
-F 5 "Infineon Technologies" H 6350 3900 50  0001 C CNN "Manufacturer"
-	1    6350 3900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6350 3550 6350 3500
 Wire Wire Line
@@ -102,4 +87,17 @@ Wire Wire Line
 	6350 3500 6850 3500
 Text HLabel 6850 3500 2    50   Input ~ 0
 DC_IN
+$Comp
+L antmicroTVSDiodes:SMF4L15CA D4
+U 1 1 626BB635
+P 6350 3900
+F 0 "D4" V 6304 3978 50  0000 L CNN
+F 1 "SMF4L15CA" V 6395 3978 50  0000 L CNN
+F 2 "antmicro-footprints:SOD-123FL" H 6350 3900 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/240/Littelfuse_TVS_Diode_SMF4L_Datasheet_pdf-1665786.pdf" H 6350 3900 50  0001 C CNN
+F 4 "SMF4L15CA" H 6350 3900 50  0001 C CNN "MPN"
+F 5 "Infineon Technologies" H 6350 3900 50  0001 C CNN "Manufacturer"
+	1    6350 3900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

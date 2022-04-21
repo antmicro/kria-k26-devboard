@@ -2736,9 +2736,6 @@ F 5 "DTC014TEBTL" H 13000 8800 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	1300 10250 1600 10250
-Connection ~ 2200 1600
-Wire Wire Line
-	2200 1600 2200 1550
 Wire Wire Line
 	1350 2650 1450 2650
 Wire Wire Line

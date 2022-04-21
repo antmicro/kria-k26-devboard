@@ -1,4 +1,4 @@
-update=20/04/2022 20:28:24
+update=Thu 21 Apr 2022 02:42:09 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -40,10 +40,11 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.7
 TrackWidth1=0.109
 TrackWidth2=0.109
-TrackWidth3=0.182
-TrackWidth4=0.2
-TrackWidth5=0.4
-TrackWidth6=1
+TrackWidth3=0.178
+TrackWidth4=0.182
+TrackWidth5=0.2
+TrackWidth6=0.4
+TrackWidth7=1
 ViaDiameter1=0.4
 ViaDrill1=0.15
 ViaDiameter2=0.4
@@ -261,6 +262,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Clocks
+Clearance=0.1
+TrackWidth=0.109
+ViaDiameter=0.4
+ViaDrill=0.15
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.178
+dPairGap=0.4
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Supply
 Clearance=0.1
 TrackWidth=0.2
@@ -271,7 +283,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/3]
 Name=impedance_ctrl
 Clearance=0.1
 TrackWidth=0.182
@@ -279,6 +291,6 @@ ViaDiameter=0.4
 ViaDrill=0.15
 uViaDiameter=0.4
 uViaDrill=0.1
-dPairWidth=0.182
-dPairGap=0.196
+dPairWidth=0.109
+dPairGap=0.146
 dPairViaGap=0.25

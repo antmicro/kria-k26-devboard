@@ -507,19 +507,6 @@ Connection ~ 2550 8350
 Wire Wire Line
 	1850 8350 2200 8350
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F Q6
-U 1 1 635A4D4D
-P 4250 8500
-F 0 "Q6" H 4358 8553 60  0000 L CNN
-F 1 "BSS138-7-F" H 4358 8447 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 4450 8700 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 4450 8800 60  0001 L CNN
-F 4 "BSS138-7-F" H 4450 9000 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 4450 9600 60  0001 L CNN "Manufacturer"
-	1    4250 8500
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroTransistorsFETsMOSFETsSingle:PJA3441 Q5
 U 1 1 635AB375
 P 4000 7800
@@ -654,8 +641,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 8750 5500 8400
 Connection ~ 4250 8750
-Wire Wire Line
-	4250 8750 4250 9000
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:22-23-2021 J6
 U 1 1 63E996B5
@@ -669,37 +654,9 @@ F 5 "Molex" H 7050 9200 60  0001 L CNN "Manufacturer"
 	1    6850 8100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3950 8600 3850 8600
-Wire Wire Line
-	3850 8650 3850 8600
-Connection ~ 3850 8600
-Wire Wire Line
-	3850 8600 3800 8600
-Wire Wire Line
-	3850 8950 3850 9000
-Wire Wire Line
-	3850 9000 4250 9000
-Connection ~ 4250 9000
-Wire Wire Line
-	4250 9000 4250 9050
 Text GLabel 3650 7750 0    50   Input ~ 0
 5V_SOM
-$Comp
-L antmicroResistors0402:R_100k_0402 R62
-U 1 1 640BB9D1
-P 3850 8800
-F 0 "R62" V 3805 8870 60  0000 L CNN
-F 1 "R_100k_0402" H 3850 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4050 9000 60  0001 L CNN
-F 3 "" H 3850 8800 50  0001 C CNN
-F 4 "VISHAY" H 4050 9200 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 4050 9100 60  0001 L CNN "MPN"
-F 6 "100k" V 3903 8870 50  0000 L CNN "Val"
-	1    3850 8800
-	0    1    1    0   
-$EndComp
-Text Label 3800 8600 2    50   ~ 0
+Text Label 3750 8500 2    50   ~ 0
 HDA20
 Wire Wire Line
 	6350 7750 6650 7750
@@ -4478,6 +4435,23 @@ Connection ~ 6600 10750
 Wire Wire Line
 	6600 10750 6600 10700
 Connection ~ 2700 10300
+$Comp
+L antmicroTransistorsBipolarSingle:DTC014TEBTL Q6
+U 1 1 6353A580
+P 4150 8500
+F 0 "Q6" H 4338 8546 50  0000 L CNN
+F 1 "DTC014TEBTL" H 4338 8455 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-416" H 4350 8200 50  0001 L CNN
+F 3 "" H 4150 8500 50  0001 L CNN
+F 4 "ROHM Semiconductor" H 4750 8400 50  0001 C CNN "Manufacturer"
+F 5 "DTC014TEBTL" H 4600 8300 50  0001 C CNN "MPN"
+	1    4150 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 8750 4250 9050
+Wire Wire Line
+	3750 8500 3900 8500
 Wire Bus Line
 	3950 4350 3950 4500
 Wire Bus Line

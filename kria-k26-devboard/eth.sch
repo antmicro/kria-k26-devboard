@@ -1400,6 +1400,84 @@ Text Label 9850 4400 0    50   ~ 0
 TD_D_N
 Text Label 9850 4300 0    50   ~ 0
 TD_D_P
+Wire Wire Line
+	4600 8700 4450 8700
+Wire Wire Line
+	4050 8400 4050 8300
+NoConn ~ 3650 8700
+$Comp
+L power:GND #PWR?
+U 1 1 6317DA6B
+P 4050 9050
+AR Path="/63CADD16/6317DA6B" Ref="#PWR?"  Part="1" 
+AR Path="/63C3FA95/6317DA6B" Ref="#PWR0402"  Part="1" 
+F 0 "#PWR0402" H 4050 8800 50  0001 C CNN
+F 1 "GND" H 4055 8877 50  0000 C CNN
+F 2 "" H 4050 9050 50  0001 C CNN
+F 3 "" H 4050 9050 50  0001 C CNN
+	1    4050 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 9050 4050 9000
+$Comp
+L power:GND #PWR?
+U 1 1 6317DA73
+P 3200 8950
+AR Path="/63CADD16/6317DA73" Ref="#PWR?"  Part="1" 
+AR Path="/63C3FA95/6317DA73" Ref="#PWR0403"  Part="1" 
+F 0 "#PWR0403" H 3200 8700 50  0001 C CNN
+F 1 "GND" H 3205 8777 50  0000 C CNN
+F 2 "" H 3200 8950 50  0001 C CNN
+F 3 "" H 3200 8950 50  0001 C CNN
+	1    3200 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6317DA7C
+P 3200 8750
+AR Path="/63CADD16/6317DA7C" Ref="C?"  Part="1" 
+AR Path="/63C3FA95/6317DA7C" Ref="C58"  Part="1" 
+F 0 "C58" V 3100 8600 60  0000 C CNN
+F 1 "C_100n_0402" H 3200 8600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3400 8950 60  0001 L CNN
+F 3 "" H 3200 8750 50  0001 C CNN
+F 4 "Murata" H 3400 9150 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 3400 9050 60  0001 L CNN "MPN"
+F 6 "100n" V 3350 8750 50  0000 C CNN "Val"
+	1    3200 8750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 8600 3200 8500
+Wire Wire Line
+	3200 8950 3200 8900
+$Comp
+L antmicroCrystals:ECS-2016MV-250-CN-TR3 Y?
+U 1 1 6317DA87
+P 4050 8700
+AR Path="/63CADD16/6317DA87" Ref="Y?"  Part="1" 
+AR Path="/63C3FA95/6317DA87" Ref="Y7"  Part="1" 
+F 0 "Y7" H 4250 8950 50  0000 L CNN
+F 1 "ECS-2016MV-250-CN-TR3" H 4100 8450 50  0000 L CNN
+F 2 "antmicro-footprints:ECS-2016MV" H 4500 8350 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/122/ECS_2016MV-2529299.pdf" H 3875 8825 50  0001 C CNN
+F 4 "ECS" H 4200 8250 50  0001 C CNN "Manufacturer"
+F 5 "ECS-2520MVLC-260-CM-TR" H 4700 8150 50  0001 C CNN "MPN"
+	1    4050 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 8300 1    50   Input ~ 0
+PS_1V8
+Text GLabel 3200 8500 1    50   Input ~ 0
+PS_1V8
+Text Label 5000 5800 2    50   ~ 0
+X_I
+Wire Wire Line
+	5000 5800 5150 5800
+Text Label 4600 8700 0    50   ~ 0
+X_I
 Wire Bus Line
 	8500 5900 8500 6100
 Wire Bus Line

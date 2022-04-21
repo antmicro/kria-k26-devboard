@@ -44,21 +44,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 3750 4500 3750
 $Comp
-L antmicroTVSDiodes:ESD144B1W0201E6327XTSA1 D?
-U 1 1 62AA3683
-P 5600 2650
-AR Path="/63C44BC2/62AA3683" Ref="D?"  Part="1" 
-AR Path="/63C44BC2/62A9ECDC/62AA3683" Ref="D26"  Part="1" 
-F 0 "D26" V 5554 2728 50  0000 L CNN
-F 1 "ESD144B1W0201E6327XTSA1" H 5250 2900 50  0000 L CNN
-F 2 "antmicro-footprints:ESD144B1W0201E6327XTSA1" H 5600 2650 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-ESD144-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d462677d0f4601679886a2a8707c" H 5600 2650 50  0001 C CNN
-F 4 "ESD144B1W0201E6327XTSA1" H 5600 2650 50  0001 C CNN "MPN"
-F 5 "Infineon Technologies" H 5600 2650 50  0001 C CNN "Manufacturer"
-	1    5600 2650
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 62AA368C
 P 5600 3150
@@ -71,12 +56,12 @@ F 3 "" H 5600 3150 50  0001 C CNN
 	1    5600 3150
 	1    0    0    -1  
 $EndComp
-Text HLabel 6650 3300 2    50   Input ~ 0
+Text HLabel 6850 3450 2    50   Input ~ 0
 USBC_CC[1..2]
 Wire Bus Line
-	6650 3300 6500 3300
-NoConn ~ 4450 4400
-NoConn ~ 4450 4300
+	6850 3450 6700 3450
+NoConn ~ 4450 4350
+NoConn ~ 4450 4250
 $Comp
 L antmicroCapacitorsmisc:C_100n_0402_50V C?
 U 1 1 62AA369D
@@ -108,91 +93,33 @@ Wire Wire Line
 Connection ~ 5600 3050
 Wire Wire Line
 	5600 3050 5600 3150
-$Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D?
-U 1 1 62AA36C7
-P 5400 4500
-AR Path="/63C44BC2/62AA36C7" Ref="D?"  Part="1" 
-AR Path="/63C44BC2/62A9ECDC/62AA36C7" Ref="D25"  Part="1" 
-F 0 "D25" H 5400 4700 60  0000 L CNN
-F 1 "PESD2USB5UV-TR" H 5250 4150 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23s" H 5450 4700 60  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 5400 4500 60  0001 C CNN
-F 4 "PESD2USB5UV-TR " H 5100 4800 50  0001 C CNN "MPN"
-F 5 "Nexperia " H 5100 4900 50  0001 C CNN "Manufacturer"
-	1    5400 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62AA36CD
-P 5150 4750
-AR Path="/63C44BC2/62AA36CD" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/62A9ECDC/62AA36CD" Ref="#PWR0375"  Part="1" 
-F 0 "#PWR0375" H 5150 4500 50  0001 C CNN
-F 1 "GND" H 5155 4577 50  0000 C CNN
-F 2 "" H 5150 4750 50  0001 C CNN
-F 3 "" H 5150 4750 50  0001 C CNN
-	1    5150 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 4750 5150 4700
-Wire Wire Line
-	5150 4700 5200 4700
-Wire Wire Line
-	5200 4500 5150 4500
-Wire Wire Line
-	5200 4600 5050 4600
 Text HLabel 5000 2200 1    50   Output ~ 0
 USBC_VBUS
 Wire Wire Line
 	6100 2250 5950 2250
 Connection ~ 5600 2250
 Entry Wire Line
-	6500 3500 6400 3600
+	6700 3750 6600 3850
 Entry Wire Line
-	6500 3400 6400 3500
+	6700 3550 6600 3650
 Wire Wire Line
 	4500 4000 4500 4050
 Wire Wire Line
 	4500 3750 4500 3800
 Wire Wire Line
-	4500 3800 4750 3800
-Wire Wire Line
-	4750 3800 4750 3900
-Wire Wire Line
-	6550 3900 6550 3850
-Wire Wire Line
-	6550 3850 6600 3850
+	4500 3800 4550 3800
 Connection ~ 4500 3800
 Wire Wire Line
 	4500 3800 4500 3850
 Wire Wire Line
-	4500 4050 4750 4050
-Wire Wire Line
-	4750 4050 4750 3950
-Wire Wire Line
-	6550 3950 6550 4000
-Wire Wire Line
-	6550 4000 6600 4000
+	6700 4450 6800 4450
 Connection ~ 4500 4050
 Wire Wire Line
 	4500 4050 4500 4100
-Text HLabel 6600 3850 2    50   Input ~ 0
+Text HLabel 6800 4350 2    50   Input ~ 0
 USBC_P
-Text HLabel 6600 4000 2    50   Input ~ 0
+Text HLabel 6800 4450 2    50   Input ~ 0
 USBC_N
-Wire Wire Line
-	6100 3900 6550 3900
-Wire Wire Line
-	6200 3950 6550 3950
-Connection ~ 6200 3950
-Wire Wire Line
-	4750 3950 6200 3950
-Connection ~ 6100 3900
-Wire Wire Line
-	4750 3900 6100 3900
 Wire Wire Line
 	5000 2250 5250 2250
 Wire Wire Line
@@ -211,10 +138,6 @@ F 5 "PJA3441_R1_00001" H 6600 2550 50  0001 C CNN "MPN"
 	1    6050 2300
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5050 3600 6400 3600
-Wire Wire Line
-	5150 3500 6400 3500
 Wire Wire Line
 	5000 2250 5000 2200
 Connection ~ 5000 2250
@@ -284,75 +207,10 @@ F 5 "USB4105-GF-A" H 4057 5475 50  0000 C CNN "MPN"
 	1    3650 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroTVSDiodes:WE-TVS-82400152 U?
-U 1 1 62E99410
-P 5150 5750
-AR Path="/625B0244/62E99410" Ref="U?"  Part="1" 
-AR Path="/63C44BC2/62A9ECDC/62E99410" Ref="U53"  Part="1" 
-F 0 "U53" H 5100 5950 50  0000 R CNN
-F 1 "WE-TVS-82400152" H 5550 5550 50  0000 R CNN
-F 2 "antmicro-footprints:SOT-563" H 5150 5550 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5150 5500 50  0001 C CNN
-F 4 "82400152" H 4800 5350 50  0001 C CNN "MPN"
-F 5 "Würth Elektronik" H 4900 5450 50  0001 C CNN "Manufacturer"
-	1    5150 5750
-	0    -1   -1   0   
-$EndComp
-Text Label 4900 3600 2    50   ~ 0
+Text Label 6550 3850 2    50   ~ 0
 USBC_CC2
-Text Label 4900 3500 2    50   ~ 0
+Text Label 6550 3650 2    50   ~ 0
 USBC_CC1
-Connection ~ 5050 3600
-Wire Wire Line
-	5050 3600 4450 3600
-Connection ~ 5150 3500
-Wire Wire Line
-	4450 3500 5150 3500
-Wire Wire Line
-	6200 4750 6200 4700
-Wire Wire Line
-	6250 4600 6100 4600
-Wire Wire Line
-	6250 4500 6200 4500
-Wire Wire Line
-	6200 4700 6250 4700
-$Comp
-L power:GND #PWR?
-U 1 1 62AA36B9
-P 6200 4750
-AR Path="/63C44BC2/62AA36B9" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/62A9ECDC/62AA36B9" Ref="#PWR0377"  Part="1" 
-F 0 "#PWR0377" H 6200 4500 50  0001 C CNN
-F 1 "GND" H 6205 4577 50  0000 C CNN
-F 2 "" H 6200 4750 50  0001 C CNN
-F 3 "" H 6200 4750 50  0001 C CNN
-	1    6200 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroTVSDiodes:PESD2USB5UV-TR D?
-U 1 1 62AA36AF
-P 6450 4500
-AR Path="/63C44BC2/62AA36AF" Ref="D?"  Part="1" 
-AR Path="/63C44BC2/62A9ECDC/62AA36AF" Ref="D27"  Part="1" 
-F 0 "D27" H 6450 4650 60  0000 L CNN
-F 1 "PESD2USB5UV-TR" H 6300 4150 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23s" H 6500 4700 60  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf" H 6450 4500 60  0001 C CNN
-F 4 "PESD2USB5UV-TR " H 6150 4800 50  0001 C CNN "MPN"
-F 5 "Nexperia " H 6150 4900 50  0001 C CNN "Manufacturer"
-	1    6450 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 3900 6100 4600
-Wire Wire Line
-	6200 3950 6200 4500
-Wire Wire Line
-	5150 3500 5150 4500
-Wire Wire Line
-	5050 3600 5050 4600
 Wire Wire Line
 	4450 3350 4500 3350
 Wire Wire Line
@@ -375,6 +233,150 @@ F 5 "DTC014TEBTL" H 6850 2700 50  0001 C CNN "MPN"
 	1    6400 2900
 	-1   0    0    -1  
 $EndComp
+$Comp
+L antmicroTVSDiodes:WE-TVS-82400152 U?
+U 1 1 62E99410
+P 5850 4400
+AR Path="/625B0244/62E99410" Ref="U?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/62E99410" Ref="U53"  Part="1" 
+F 0 "U53" H 5800 4600 50  0000 R CNN
+F 1 "WE-TVS-82400152" H 6250 4200 50  0000 R CNN
+F 2 "antmicro-footprints:SOT-563" H 5850 4200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5850 4150 50  0001 C CNN
+F 4 "82400152" H 5500 4000 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 5600 4100 50  0001 C CNN "Manufacturer"
+	1    5850 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 4050 4550 4050
+NoConn ~ 5550 4400
+$Comp
+L power:GND #PWR?
+U 1 1 63812C2B
+P 6550 4550
+AR Path="/63C44BC2/63812C2B" Ref="#PWR?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/63812C2B" Ref="#PWR0375"  Part="1" 
+F 0 "#PWR0375" H 6550 4300 50  0001 C CNN
+F 1 "GND" H 6555 4377 50  0000 C CNN
+F 2 "" H 6550 4550 50  0001 C CNN
+F 3 "" H 6550 4550 50  0001 C CNN
+	1    6550 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4400 6150 4400
+Wire Wire Line
+	6550 4400 6550 4550
+Wire Wire Line
+	6150 4500 6700 4500
+Wire Wire Line
+	6700 4500 6700 4450
+Wire Wire Line
+	6150 4300 6700 4300
+Wire Wire Line
+	6700 4300 6700 4350
+Wire Wire Line
+	6700 4350 6800 4350
+Text Label 4550 3900 0    50   ~ 0
+USBC_TVS_P
+Wire Wire Line
+	4550 3800 4550 3900
+Wire Wire Line
+	4550 3900 5200 3900
+Wire Wire Line
+	4550 4050 4550 4000
+Text Label 4550 4000 0    50   ~ 0
+USBC_TVS_N
+Text Label 5100 3500 2    50   ~ 0
+USBC_TVS_CC1
+Text Label 5100 3600 2    50   ~ 0
+USBC_TVS_CC2
+$Comp
+L antmicroTVSDiodes:WE-TVS-82400152 U?
+U 1 1 6383DAA4
+P 5800 3750
+AR Path="/625B0244/6383DAA4" Ref="U?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6383DAA4" Ref="U56"  Part="1" 
+F 0 "U56" H 5750 3950 50  0000 R CNN
+F 1 "WE-TVS-82400152" H 6200 3550 50  0000 R CNN
+F 2 "antmicro-footprints:SOT-563" H 5800 3550 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5800 3500 50  0001 C CNN
+F 4 "82400152" H 5450 3350 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 5550 3450 50  0001 C CNN "Manufacturer"
+	1    5800 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3850 6600 3850
+Wire Wire Line
+	6100 3650 6600 3650
+$Comp
+L power:GND #PWR?
+U 1 1 6386B45F
+P 6150 3900
+AR Path="/63C44BC2/6386B45F" Ref="#PWR?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/6386B45F" Ref="#PWR0377"  Part="1" 
+F 0 "#PWR0377" H 6150 3650 50  0001 C CNN
+F 1 "GND" H 6155 3727 50  0000 C CNN
+F 2 "" H 6150 3900 50  0001 C CNN
+F 3 "" H 6150 3900 50  0001 C CNN
+	1    6150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3750 6150 3900
+Wire Wire Line
+	6150 3750 6100 3750
+NoConn ~ 5500 3750
+Wire Wire Line
+	5150 4000 5150 4450
+Wire Wire Line
+	4550 4000 5150 4000
+Wire Wire Line
+	5250 3600 5250 3850
+Wire Wire Line
+	5250 3850 5500 3850
+Wire Wire Line
+	4450 3600 5250 3600
+Wire Wire Line
+	5500 3650 5300 3650
+Wire Wire Line
+	5300 3650 5300 3500
+Wire Wire Line
+	4450 3500 5300 3500
+Wire Wire Line
+	5200 4350 5500 4350
+Wire Wire Line
+	5500 4350 5500 4300
+Wire Wire Line
+	5500 4300 5550 4300
+Wire Wire Line
+	5500 4500 5500 4450
+Wire Wire Line
+	5500 4500 5550 4500
+Wire Wire Line
+	5200 3900 5200 4350
+Wire Wire Line
+	4450 4500 4600 4500
+Wire Wire Line
+	4600 4500 4600 4600
+Wire Wire Line
+	5150 4450 5500 4450
+Connection ~ 4600 4600
+$Comp
+L antmicroTVSDiodes:SMF4L15CA D1
+U 1 1 626860F1
+P 5600 2650
+F 0 "D1" V 5554 2728 50  0000 L CNN
+F 1 "SMF4L15CA" V 5645 2728 50  0000 L CNN
+F 2 "antmicro-footprints:SOD-123FL" H 5600 2650 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/240/Littelfuse_TVS_Diode_SMF4L_Datasheet_pdf-1665786.pdf" H 5600 2650 50  0001 C CNN
+F 4 "SMF4L15CA" H 5600 2650 50  0001 C CNN "MPN"
+F 5 "Infineon Technologies" H 5600 2650 50  0001 C CNN "Manufacturer"
+	1    5600 2650
+	0    1    1    0   
+$EndComp
 Wire Bus Line
-	6500 3300 6500 3500
+	6700 3450 6700 3750
 $EndSCHEMATC
