@@ -1,4 +1,4 @@
-update=Thu 21 Apr 2022 02:42:09 PM CEST
+update=Thu 21 Apr 2022 04:17:20 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -291,6 +291,6 @@ ViaDiameter=0.4
 ViaDrill=0.15
 uViaDiameter=0.4
 uViaDrill=0.1
-dPairWidth=0.109
-dPairGap=0.146
+dPairWidth=0.182
+dPairGap=0.196
 dPairViaGap=0.25
