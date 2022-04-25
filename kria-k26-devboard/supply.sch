@@ -73,8 +73,6 @@ Wire Wire Line
 	4950 4600 4700 4600
 Text HLabel 3450 3150 0    50   Input ~ 0
 USBC_CC[1..2]
-Wire Wire Line
-	3450 3150 3600 3150
 Text HLabel 7750 3900 0    50   Input ~ 0
 VCCOEN_PS_M2C
 Text HLabel 7750 4000 0    50   Input ~ 0
@@ -155,4 +153,6 @@ Wire Wire Line
 	3600 3050 3450 3050
 Text HLabel 3450 3050 0    50   Input ~ 0
 PD_EN
+Wire Bus Line
+	3450 3150 3600 3150
 $EndSCHEMATC

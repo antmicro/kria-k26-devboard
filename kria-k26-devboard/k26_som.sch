@@ -654,8 +654,6 @@ F 5 "Molex" H 7050 9200 60  0001 L CNN "Manufacturer"
 	1    6850 8100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3650 7750 0    50   Input ~ 0
-5V_SOM
 Text Label 3750 8500 2    50   ~ 0
 HDA20
 Wire Wire Line
@@ -4323,7 +4321,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 6900 1900 6900
 Text GLabel 1200 6900 0    50   Input ~ 0
-SOM_5V
+SOM_5V0
 Text Label 1600 6900 2    50   ~ 0
 VCC_SOM
 Entry Wire Line
@@ -4482,4 +4480,6 @@ Wire Bus Line
 	5000 4250 5000 4550
 Wire Bus Line
 	7750 2850 7750 3150
+Text GLabel 3650 7750 0    50   Input ~ 0
+USB_5V
 $EndSCHEMATC
