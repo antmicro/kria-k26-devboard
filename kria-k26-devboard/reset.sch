@@ -90,8 +90,6 @@ Text HLabel 13350 3100 2    50   Input ~ 0
 ~USB_HUB_RESET
 Text HLabel 13350 3600 2    50   Input ~ 0
 ~ETH_RESET
-Text GLabel 11250 5300 0    50   Input ~ 0
-SOM_5V
 Wire Wire Line
 	11850 5350 11850 5300
 $Comp
@@ -4013,4 +4011,6 @@ F 5 "DTC014TEBTL" H 4850 5450 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	4000 5650 4150 5650
+Text GLabel 11250 5300 0    50   Input ~ 0
+PS_3V3
 $EndSCHEMATC

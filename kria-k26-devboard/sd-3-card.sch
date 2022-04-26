@@ -124,14 +124,6 @@ Wire Wire Line
 	3850 3600 3700 3600
 Wire Wire Line
 	3550 4500 3700 4500
-Wire Wire Line
-	3350 5000 3700 5000
-Wire Wire Line
-	3700 5100 3350 5100
-Wire Wire Line
-	3350 5200 3700 5200
-Wire Wire Line
-	3700 5300 3350 5300
 $Comp
 L antmicroResistors0402:R_33R_0402 R16
 U 1 1 631DF31D
@@ -653,62 +645,6 @@ Text Label 5950 6350 1    50   ~ 0
 VCCB
 Wire Wire Line
 	5950 6750 5950 6800
-$Comp
-L antmicroResistors0402:R_33R_0402 R17
-U 1 1 6B9BC7A8
-P 3200 5000
-F 0 "R17" H 3000 5050 60  0000 C CNN
-F 1 "R_33R_0402" H 3200 4850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3400 5200 60  0001 L CNN
-F 3 "" H 3200 5000 50  0001 C CNN
-F 4 "Vishay" H 3400 5400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 3400 5300 60  0001 L CNN "MPN"
-F 6 "33R" H 3200 5000 50  0000 C CNN "Val"
-	1    3200 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R105
-U 1 1 6B9BCD69
-P 3200 5100
-F 0 "R105" H 3000 5150 60  0000 C CNN
-F 1 "R_33R_0402" H 3200 4950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3400 5300 60  0001 L CNN
-F 3 "" H 3200 5100 50  0001 C CNN
-F 4 "Vishay" H 3400 5500 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 3400 5400 60  0001 L CNN "MPN"
-F 6 "33R" H 3200 5100 50  0000 C CNN "Val"
-	1    3200 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R117
-U 1 1 6B9BD877
-P 3200 5200
-F 0 "R117" H 3000 5250 60  0000 C CNN
-F 1 "R_33R_0402" H 3200 5050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3400 5400 60  0001 L CNN
-F 3 "" H 3200 5200 50  0001 C CNN
-F 4 "Vishay" H 3400 5600 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 3400 5500 60  0001 L CNN "MPN"
-F 6 "33R" H 3200 5200 50  0000 C CNN "Val"
-	1    3200 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R121
-U 1 1 6B9BDB94
-P 3200 5300
-F 0 "R121" H 3000 5350 60  0000 C CNN
-F 1 "R_33R_0402" H 3200 5150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3400 5500 60  0001 L CNN
-F 3 "" H 3200 5300 50  0001 C CNN
-F 4 "Vishay" H 3400 5700 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 3400 5600 60  0001 L CNN "MPN"
-F 6 "33R" H 3200 5300 50  0000 C CNN "Val"
-	1    3200 5300
-	1    0    0    -1  
-$EndComp
 Text Label 5700 5300 0    50   ~ 0
 SD_DAT3
 Text Label 5700 5200 0    50   ~ 0
@@ -721,6 +657,27 @@ Text Label 5700 4700 0    50   ~ 0
 SD_CMD
 Text Label 5700 4800 0    50   ~ 0
 SD_CLK
+$Comp
+L antmicroResistorNetworksArrays:4x33R_0201_array R17
+U 1 1 632D3168
+P 3250 4900
+F 0 "R17" H 3150 5400 60  0000 C CNN
+F 1 "4x33R_0201_array" H 3250 5500 60  0000 C CNN
+F 2 "antmicro-footprints:EXB18V" H 3050 5650 60  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 3050 5650 60  0001 L CNN
+F 4 "EXB-18V330JX" H 3050 5850 60  0001 L CNN "MPN"
+F 5 "Panasonic" H 3050 5750 60  0001 L CNN "Manufacturer"
+	1    3250 4900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3400 5000 3700 5000
+Wire Wire Line
+	3400 5100 3700 5100
+Wire Wire Line
+	3400 5200 3700 5200
+Wire Wire Line
+	3400 5300 3700 5300
 Wire Bus Line
 	2250 4450 2250 6000
 $EndSCHEMATC

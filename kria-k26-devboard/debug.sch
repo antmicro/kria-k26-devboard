@@ -209,8 +209,6 @@ Wire Wire Line
 	11750 3700 11900 3700
 Wire Wire Line
 	11750 3800 11900 3800
-Text Label 11700 2000 2    50   ~ 0
-USB_PWRD_VCCIO
 Wire Wire Line
 	11700 2000 11800 2000
 Wire Wire Line
@@ -458,8 +456,6 @@ Text Label 11650 7950 2    50   ~ 0
 FTDI_UARTB_TXD
 Text Label 11650 7850 2    50   ~ 0
 FTDI_UARTB_RXD
-Text Label 13250 8300 0    50   ~ 0
-USB_PWRD_VCCIO
 $Comp
 L power:GND #PWR0335
 U 1 1 6258C7A9
@@ -2029,27 +2025,23 @@ Wire Wire Line
 	3450 1350 3450 1400
 Wire Wire Line
 	3450 2000 3450 1700
-Text HLabel 3400 1350 0    50   Input ~ 0
-USBC_VBUS
 Wire Wire Line
 	3400 1350 3450 1350
 Connection ~ 3450 1350
 Wire Wire Line
 	4400 1500 4800 1500
-Text HLabel 5950 1800 1    50   Input ~ 0
-USBC_VBUS
 $Comp
 L antmicroResistors0402:R_0R_0402 R82
 U 1 1 65D83F07
-P 2550 10650
-F 0 "R82" H 2550 10750 60  0000 C CNN
-F 1 "R_0R_0402" H 2550 10500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2750 10850 60  0001 L CNN
-F 3 "" H 2550 10650 50  0001 C CNN
-F 4 "PANASONIC" H 2750 11050 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2750 10950 60  0001 L CNN "MPN"
-F 6 "0R" H 2550 10650 50  0000 C CNN "Val"
-	1    2550 10650
+P 2700 10650
+F 0 "R82" H 2700 10750 60  0000 C CNN
+F 1 "R_0R_0402" H 2700 10500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2900 10850 60  0001 L CNN
+F 3 "" H 2700 10650 50  0001 C CNN
+F 4 "PANASONIC" H 2900 11050 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2900 10950 60  0001 L CNN "MPN"
+F 6 "0R" H 2700 10650 50  0000 C CNN "Val"
+	1    2700 10650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2069,7 +2061,7 @@ $EndComp
 Text HLabel 1300 10450 0    50   Input ~ 0
 USBC_P
 Wire Wire Line
-	2950 10450 2700 10450
+	3100 10450 2850 10450
 Wire Wire Line
 	1600 10450 1300 10450
 Text Label 2150 10450 0    50   ~ 0
@@ -2078,7 +2070,7 @@ Text Label 4600 7050 2    50   ~ 0
 USB_P
 Text Label 4600 6950 2    50   ~ 0
 USB_N
-Text Label 2950 10450 0    50   ~ 0
+Text Label 3100 10450 0    50   ~ 0
 USBB_P
 Text Label 5150 6600 2    50   ~ 0
 VCC_PD
@@ -2086,34 +2078,20 @@ Wire Wire Line
 	5150 6600 5400 6600
 Wire Wire Line
 	7000 8200 7050 8200
-$Comp
-L antmicroResistors0402:R_0R_0402 R78
-U 1 1 6615CA96
-P 1750 10250
-F 0 "R78" H 1750 10350 60  0000 C CNN
-F 1 "R_0R_0402" H 1750 10100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1950 10450 60  0001 L CNN
-F 3 "" H 1750 10250 50  0001 C CNN
-F 4 "PANASONIC" H 1950 10650 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 1950 10550 60  0001 L CNN "MPN"
-F 6 "0R" H 1750 10250 50  0000 C CNN "Val"
-	1    1750 10250
-	1    0    0    -1  
-$EndComp
 Text Label 2150 10250 0    50   ~ 0
-USBB_VBUS
+USB_VBUS
 Text HLabel 1300 10250 0    50   Input ~ 0
 USBC_VBUS
 Text HLabel 7050 8200 2    50   Input ~ 0
 PD_EN
-Text Label 2950 10650 0    50   ~ 0
+Text Label 3100 10650 0    50   ~ 0
 USBB_N
 Text Label 2150 10650 0    50   ~ 0
 USB_N
 Wire Wire Line
 	1600 10650 1300 10650
 Wire Wire Line
-	2950 10650 2700 10650
+	3100 10650 2850 10650
 Text HLabel 1300 10650 0    50   Input ~ 0
 USBC_N
 $Comp
@@ -2133,39 +2111,37 @@ $EndComp
 $Comp
 L antmicroResistors0402:R_0R_0402 R81
 U 1 1 65DA9332
-P 2550 10450
-F 0 "R81" H 2550 10550 60  0000 C CNN
-F 1 "R_0R_0402" H 2550 10300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2750 10650 60  0001 L CNN
-F 3 "" H 2550 10450 50  0001 C CNN
-F 4 "PANASONIC" H 2750 10850 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2750 10750 60  0001 L CNN "MPN"
-F 6 "0R" H 2550 10450 50  0000 C CNN "Val"
-	1    2550 10450
+P 2700 10450
+F 0 "R81" H 2700 10550 60  0000 C CNN
+F 1 "R_0R_0402" H 2700 10300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2900 10650 60  0001 L CNN
+F 3 "" H 2700 10450 50  0001 C CNN
+F 4 "PANASONIC" H 2900 10850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2900 10750 60  0001 L CNN "MPN"
+F 6 "0R" H 2700 10450 50  0000 C CNN "Val"
+	1    2700 10450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 10450 2400 10450
+	1900 10450 2550 10450
 Wire Wire Line
-	1900 10650 2400 10650
-Wire Wire Line
-	1900 10250 2150 10250
+	1900 10650 2550 10650
 Wire Notes Line
-	1350 10800 2900 10800
+	1350 10800 3050 10800
 Wire Notes Line
-	2900 9900 1350 9900
+	3050 9900 1350 9900
 Wire Notes Line
-	2900 10100 1350 10100
+	3050 10100 1350 10100
 Wire Notes Line
 	1350 9900 1350 10800
 Wire Notes Line
 	2100 9900 2100 10800
 Wire Notes Line
-	2900 9900 2900 10800
-Text Notes 1400 10050 0    39   ~ 0
-Mount for debug \ninterface on USB-C
-Text Notes 2150 10050 0    39   ~ 0
-Mount for debug \ninterface on micro USB
+	3050 9900 3050 10800
+Text Notes 1350 10050 0    39   ~ 0
+Mount for debug \ninterface on USB-C PD
+Text Notes 2250 10050 0    39   ~ 0
+Mount for debug \ninterface on USB-C debug
 Text Label 4850 7450 2    50   ~ 0
 USB_3V3
 $Comp
@@ -2735,8 +2711,6 @@ F 5 "DTC014TEBTL" H 13000 8800 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 10250 1600 10250
-Wire Wire Line
 	1350 2650 1450 2650
 Wire Wire Line
 	1450 2650 1450 2750
@@ -2760,8 +2734,54 @@ Wire Wire Line
 	13200 8200 13200 8300
 Wire Wire Line
 	13200 8300 13250 8300
+Text Label 3400 1350 2    50   ~ 0
+USB_VBUS
+Text Label 3100 10250 0    50   ~ 0
+USBB_VBUS
+Text HLabel 5950 1800 1    50   Input ~ 0
+USBC_VBUS
+Wire Wire Line
+	2900 10250 3100 10250
+$Comp
+L antmicroDiodesRectifiersSingle:1N4148WS D?
+U 1 1 63741A22
+P 1850 10250
+AR Path="/63C44BC2/629B9728/63741A22" Ref="D?"  Part="1" 
+AR Path="/625B0244/63741A22" Ref="D6"  Part="1" 
+F 0 "D6" H 2050 10200 60  0000 R CNN
+F 1 "1N4148WS" H 1850 10350 60  0000 R CNN
+F 2 "antmicro-footprints:SOD-323F" H 2050 10450 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 2050 10550 60  0001 L CNN
+F 4 "1N4148WS" H 2050 10750 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 2050 11350 60  0001 L CNN "Manufacturer"
+	1    1850 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroDiodesRectifiersSingle:1N4148WS D?
+U 1 1 6376D6F3
+P 2700 10250
+AR Path="/63C44BC2/629B9728/6376D6F3" Ref="D?"  Part="1" 
+AR Path="/625B0244/6376D6F3" Ref="D25"  Part="1" 
+F 0 "D25" H 2650 10200 60  0000 R CNN
+F 1 "1N4148WS" H 3250 10300 60  0000 R CNN
+F 2 "antmicro-footprints:SOD-323F" H 2900 10450 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 2900 10550 60  0001 L CNN
+F 4 "1N4148WS" H 2900 10750 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 2900 11350 60  0001 L CNN "Manufacturer"
+	1    2700 10250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 10250 1650 10250
+Wire Wire Line
+	2050 10250 2500 10250
+Text Label 13250 8300 0    50   ~ 0
+USB_3V3
 Text Label 13300 6250 0    50   ~ 0
-VCC_USB
+USB_3V3
 Wire Bus Line
 	4700 6500 4700 6700
+Text Label 11700 2000 2    50   ~ 0
+USB_3V3
 $EndSCHEMATC

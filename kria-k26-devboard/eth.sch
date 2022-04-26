@@ -1547,4 +1547,17 @@ Connection ~ 10150 5250
 Connection ~ 10150 5400
 Wire Wire Line
 	10150 5400 9950 5400
+$Comp
+L antmicroResistorNetworksArrays:4x33R_0201_array R149
+U 1 1 632CC1BA
+P -3650 3550
+F 0 "R149" H -3675 4197 60  0000 C CNN
+F 1 "4x33R_0201_array" H -3675 4091 60  0000 C CNN
+F 2 "antmicro-footprints:EXB18V" H -3850 4300 60  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H -3850 4300 60  0001 L CNN
+F 4 "EXB-18V330JX" H -3850 4500 60  0001 L CNN "MPN"
+F 5 "Panasonic" H -3850 4400 60  0001 L CNN "Manufacturer"
+	1    -3650 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

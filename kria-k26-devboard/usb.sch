@@ -107,7 +107,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 2850 10950 2850
 Text GLabel 15300 1150 2    50   Input ~ 0
-SOM_5V
+SOM_5V0
 Wire Wire Line
 	15300 1150 15050 1150
 $Comp

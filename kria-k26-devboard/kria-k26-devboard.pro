@@ -1,4 +1,4 @@
-update=Mon 25 Apr 2022 03:06:12 PM CEST
+update=Tue 26 Apr 2022 03:47:00 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -269,8 +269,8 @@ ViaDiameter=0.4
 ViaDrill=0.15
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.178
-dPairGap=0.386
+dPairWidth=0.107
+dPairGap=0.336
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Supply
