@@ -105,7 +105,7 @@ NoConn ~ 8500 5300
 NoConn ~ 8500 5200
 NoConn ~ 8500 5100
 Text GLabel 8275 5700 0    50   Input ~ 0
-SOM_5V
+SOM_5V0
 Wire Wire Line
 	8500 5800 8450 5800
 Wire Wire Line

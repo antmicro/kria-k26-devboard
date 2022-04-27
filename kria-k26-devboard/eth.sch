@@ -1537,12 +1537,6 @@ Wire Wire Line
 	9950 5400 9950 5450
 Wire Wire Line
 	10150 5250 10150 5400
-Wire Bus Line
-	8500 5900 8500 6100
-Wire Bus Line
-	9800 4700 9800 5100
-Wire Bus Line
-	4600 3250 4600 4800
 Connection ~ 10150 5250
 Connection ~ 10150 5400
 Wire Wire Line
@@ -1560,4 +1554,10 @@ F 5 "Panasonic" H -3850 4400 60  0001 L CNN "Manufacturer"
 	1    -3650 3550
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	8500 5900 8500 6100
+Wire Bus Line
+	9800 4700 9800 5100
+Wire Bus Line
+	4600 3250 4600 4800
 $EndSCHEMATC

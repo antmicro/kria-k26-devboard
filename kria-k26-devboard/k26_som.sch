@@ -4450,6 +4450,8 @@ Wire Wire Line
 	4250 8750 4250 9050
 Wire Wire Line
 	3750 8500 3900 8500
+Text GLabel 3650 7750 0    50   Input ~ 0
+USB_5V
 Wire Bus Line
 	3950 4350 3950 4500
 Wire Bus Line
@@ -4480,6 +4482,4 @@ Wire Bus Line
 	5000 4250 5000 4550
 Wire Bus Line
 	7750 2850 7750 3150
-Text GLabel 3650 7750 0    50   Input ~ 0
-USB_5V
 $EndSCHEMATC

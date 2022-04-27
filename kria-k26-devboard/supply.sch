@@ -27,8 +27,9 @@ U 6244F9D5
 F0 "DC/DC conventers" 50
 F1 "dc-dc-conventers.sch" 50
 F2 "DC_MAIN_BUS" I L 7900 3700 50 
-F3 "VCCOEN_PS_M2C" I L 7900 4000 50 
-F4 "VCCOEN_PL_M2C" I L 7900 3900 50 
+F3 "VCCOEN_PS_M2C" I L 7900 3950 50 
+F4 "VCCOEN_PL_M2C" I L 7900 3850 50 
+F5 "PS_ETH_EN" I L 7900 4050 50 
 $EndSheet
 $Sheet
 S 5400 3350 1450 750 
@@ -73,14 +74,14 @@ Wire Wire Line
 	4950 4600 4700 4600
 Text HLabel 3450 3150 0    50   Input ~ 0
 USBC_CC[1..2]
-Text HLabel 7750 3900 0    50   Input ~ 0
+Text HLabel 7750 3850 0    50   Input ~ 0
 VCCOEN_PS_M2C
-Text HLabel 7750 4000 0    50   Input ~ 0
+Text HLabel 7750 3950 0    50   Input ~ 0
 VCCOEN_PL_M2C
 Wire Wire Line
-	7750 3900 7900 3900
+	7750 3850 7900 3850
 Wire Wire Line
-	7750 4000 7900 4000
+	7750 3950 7900 3950
 Text HLabel 3400 4600 0    50   Output ~ 0
 POE_VC[1..4]
 Wire Bus Line
@@ -155,4 +156,8 @@ Text HLabel 3450 3050 0    50   Input ~ 0
 PD_EN
 Wire Bus Line
 	3450 3150 3600 3150
+Text HLabel 7750 4050 0    50   Input ~ 0
+PS_ETH_EN
+Wire Wire Line
+	7750 4050 7900 4050
 $EndSCHEMATC
