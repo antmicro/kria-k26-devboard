@@ -13,19 +13,6 @@ Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR?
-U 1 1 62AA3664
-P 3800 4850
-AR Path="/63C44BC2/62AA3664" Ref="#PWR?"  Part="1" 
-AR Path="/63C44BC2/62A9ECDC/62AA3664" Ref="#PWR0374"  Part="1" 
-F 0 "#PWR0374" H 3800 4600 50  0001 C CNN
-F 1 "GND" H 3805 4677 50  0000 C CNN
-F 2 "" H 3800 4850 50  0001 C CNN
-F 3 "" H 3800 4850 50  0001 C CNN
-	1    3800 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4450 3850 4400 3850
 Wire Wire Line
@@ -183,22 +170,6 @@ F 3 "" H 6300 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 3150 6300 3100
-$Comp
-L antmicroUSBDVIHDMIConnectors:USB4105-GF-A J?
-U 1 1 62AA367B
-P 3800 3850
-AR Path="/63C44BC2/62AA367B" Ref="J?"  Part="1" 
-AR Path="/63C44BC2/62A9ECDC/62AA367B" Ref="J10"  Part="1" 
-AR Path="/62AA367B" Ref="J10"  Part="1" 
-F 0 "J10" H 4207 5207 50  0000 C CNN
-F 1 "USB4105-GF-A" H 4207 5116 50  0000 C CNN
-F 2 "antmicro-footprints:GCT_USB4105-GF-A" H 3150 4100 50  0001 L BNN
-F 3 "https://gct.co/files/drawings/usb4105.pdf" H 3800 3850 50  0001 L BNN
-F 4 "GCT" H 3150 4200 50  0001 L BNN "Manufacturer"
-F 5 "USB4105-GF-A" H 4207 5025 50  0000 C CNN "MPN"
-	1    3800 3850
-	1    0    0    -1  
-$EndComp
 Text Label 6550 3850 2    50   ~ 0
 USBC_CC2
 Text Label 6550 3650 2    50   ~ 0
@@ -357,15 +328,44 @@ Wire Wire Line
 	5150 4450 5550 4450
 Wire Wire Line
 	4400 3250 5000 3250
+$Comp
+L power:GND #PWR?
+U 1 1 629B8553
+P 3800 4800
+AR Path="/63CADD16/629B8553" Ref="#PWR?"  Part="1" 
+AR Path="/625B0244/629B8553" Ref="#PWR?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/629B8553" Ref="#PWR0418"  Part="1" 
+F 0 "#PWR0418" H 3800 4550 50  0001 C CNN
+F 1 "GND" H 3805 4627 50  0000 C CNN
+F 2 "" H 3800 4800 50  0001 C CNN
+F 3 "" H 3800 4800 50  0001 C CNN
+	1    3800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroUSBDVIHDMIConnectors:USB4105-GF-A J?
+U 1 1 62AA367B
+P 3800 3850
+AR Path="/63C44BC2/62AA367B" Ref="J?"  Part="1" 
+AR Path="/63C44BC2/62A9ECDC/62AA367B" Ref="J10"  Part="1" 
+AR Path="/62AA367B" Ref="J10"  Part="1" 
+F 0 "J10" H 4207 5207 50  0000 C CNN
+F 1 "USB4105-GF-A" H 4207 5116 50  0000 C CNN
+F 2 "antmicro-footprints:GCT_USB4105-GF-A" H 3150 4100 50  0001 L BNN
+F 3 "https://gct.co/files/drawings/usb4105.pdf" H 3800 3850 50  0001 L BNN
+F 4 "GCT" H 3150 4200 50  0001 L BNN "Manufacturer"
+F 5 "USB4105-GF-A" H 4207 5025 50  0000 C CNN "MPN"
+	1    3800 3850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3800 4750 3800 4800
 Wire Wire Line
-	3800 4800 3500 4800
+	3400 4850 3500 4850
 Wire Wire Line
-	3500 4800 3500 4750
+	3500 4750 3500 4850
 Wire Bus Line
 	6700 3450 6700 3750
-Connection ~ 3800 4800
-Wire Wire Line
-	3800 4800 3800 4850
+Text GLabel 3400 4850 0    50   Input ~ 0
+SH_UP
 $EndSCHEMATC

@@ -680,4 +680,6 @@ Wire Wire Line
 	3400 5300 3700 5300
 Wire Bus Line
 	2250 4450 2250 6000
+Text Label 8900 3350 0    50   ~ 0
+SD_VDD
 $EndSCHEMATC
