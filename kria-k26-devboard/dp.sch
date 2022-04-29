@@ -984,8 +984,8 @@ Wire Wire Line
 	9100 3200 9100 3850
 Wire Wire Line
 	8200 3900 8200 4000
-Wire Bus Line
-	1100 3500 1100 3850
 Text GLabel 8200 4000 3    50   Input ~ 0
 SH_UP
+Wire Bus Line
+	1100 3500 1100 3850
 $EndSCHEMATC
