@@ -1476,12 +1476,12 @@ Wire Wire Line
 Wire Wire Line
 	10150 5250 10150 5400
 Connection ~ 10150 5250
+Text GLabel 10150 5400 3    50   Input ~ 0
+SH_UP
 Wire Bus Line
 	8500 5900 8500 6100
 Wire Bus Line
 	9800 4700 9800 5100
 Wire Bus Line
 	4600 3250 4600 4800
-Text GLabel 10150 5400 3    50   Input ~ 0
-SH_UP
 $EndSCHEMATC
