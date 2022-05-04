@@ -172,31 +172,11 @@ F 6 "CUI" H 8650 3900 50  0001 L BNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Connection ~ 4100 3450
-$Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2378DDA IC?
-U 1 1 6253A62C
-P 4250 3800
-AR Path="/63C44BC2/6253A62C" Ref="IC?"  Part="1" 
-AR Path="/63C44BC2/62525BE1/6253A62C" Ref="IC2"  Part="1" 
-F 0 "IC2" H 4750 4065 50  0000 C CNN
-F 1 "TPS2378DDA" H 4750 3974 50  0000 C CNN
-F 2 "antmicro-footprints:SOIC127P600X170-9N" H 5100 3900 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps2378.pdf" H 5100 3800 50  0001 L CNN
-F 4 "IEEE 802.3at PoE High-Power PD Interface with AUX Control" H 5100 3700 50  0001 L CNN "Description"
-F 5 "Texas Instruments" H 5100 3500 50  0001 L CNN "Manufacturer"
-F 6 "TPS2378DDA" H 5100 3400 50  0001 L CNN "MPN"
-F 7 "TPS2378DDA" H 5100 3300 50  0001 L CNN "Arrow Part Number"
-F 8 "https://www.arrow.com/en/products/tps2378dda/texas-instruments" H 5100 3200 50  0001 L CNN "Arrow Price/Stock"
-F 9 "595-TPS2378DDA" H 5100 3100 50  0001 L CNN "Mouser Part Number"
-F 10 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2378DDA?qs=5771e39Rz9HhOSwUvwIrNw%3D%3D" H 5100 3000 50  0001 L CNN "Mouser Price/Stock"
-	1    4250 3800
-	1    0    0    -1  
-$EndComp
 Text Label 4300 3450 0    50   ~ 0
 VDD_POE_IN
 Text Label 4250 4700 0    50   ~ 0
 VSS_POE_IN
-Text Label 5450 3900 0    50   ~ 0
+Text Label 5450 4000 0    50   ~ 0
 POE_ACTIVE
 Wire Wire Line
 	1800 3250 1300 3250
@@ -254,7 +234,7 @@ Connection ~ 5350 4700
 Wire Wire Line
 	5350 4700 5350 4800
 Wire Wire Line
-	5450 3900 5250 3900
+	5450 4000 5250 4000
 Wire Wire Line
 	6350 3900 6350 3450
 Wire Wire Line
@@ -473,7 +453,6 @@ Wire Wire Line
 Connection ~ 6150 3450
 Wire Wire Line
 	6150 3450 6350 3450
-NoConn ~ 5250 4000
 $Comp
 L antmicroResistors0603:R_63R4_0603 R24
 U 1 1 649CE59F
@@ -584,6 +563,27 @@ Wire Wire Line
 Connection ~ 7400 4700
 Wire Wire Line
 	7400 4700 7950 4700
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2378DDA IC?
+U 1 1 6253A62C
+P 4250 3800
+AR Path="/63C44BC2/6253A62C" Ref="IC?"  Part="1" 
+AR Path="/63C44BC2/62525BE1/6253A62C" Ref="IC2"  Part="1" 
+F 0 "IC2" H 4750 4065 50  0000 C CNN
+F 1 "TPS2378DDA" H 4750 3974 50  0000 C CNN
+F 2 "antmicro-footprints:SOIC127P600X170-9N" H 5100 3900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2378.pdf" H 5100 3800 50  0001 L CNN
+F 4 "IEEE 802.3at PoE High-Power PD Interface with AUX Control" H 5100 3700 50  0001 L CNN "Description"
+F 5 "Texas Instruments" H 5100 3500 50  0001 L CNN "Manufacturer"
+F 6 "TPS2378DDA" H 5100 3400 50  0001 L CNN "MPN"
+F 7 "TPS2378DDA" H 5100 3300 50  0001 L CNN "Arrow Part Number"
+F 8 "https://www.arrow.com/en/products/tps2378dda/texas-instruments" H 5100 3200 50  0001 L CNN "Arrow Price/Stock"
+F 9 "595-TPS2378DDA" H 5100 3100 50  0001 L CNN "Mouser Part Number"
+F 10 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2378DDA?qs=5771e39Rz9HhOSwUvwIrNw%3D%3D" H 5100 3000 50  0001 L CNN "Mouser Price/Stock"
+	1    4250 3800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5250 3900
 Wire Bus Line
 	1200 3100 1200 4550
 $EndSCHEMATC
