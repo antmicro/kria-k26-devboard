@@ -364,8 +364,8 @@ Wire Wire Line
 	3400 4850 3500 4850
 Wire Wire Line
 	3500 4750 3500 4850
-Wire Bus Line
-	6700 3450 6700 3750
 Text GLabel 3400 4850 0    50   Input ~ 0
 SH_UP
+Wire Bus Line
+	6700 3450 6700 3750
 $EndSCHEMATC
