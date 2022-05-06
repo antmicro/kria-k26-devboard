@@ -3334,6 +3334,19 @@ X ~ 6 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroTestPoints_TP_SMD_0_75MM
+#
+DEF antmicroTestPoints_TP_SMD_0_75MM TP 0 0 N Y 1 F N
+F0 "TP" -100 50 50 H V R CNN
+F1 "antmicroTestPoints_TP_SMD_0_75MM" 0 -100 50 H I C CNN
+F2 "antmicro-footprints:Testpoint_smd_0_75mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroTransistorsBipolarSingle_DTC014TEBTL
 #
 DEF antmicroTransistorsBipolarSingle_DTC014TEBTL Q 0 0 Y N 1 F N

@@ -487,8 +487,6 @@ F1 "i2c.sch" 50
 F2 "MIO24_I2C_SCK" I L 9850 8500 50 
 F3 "MIO24_I2C_SDA" I L 9850 8600 50 
 F4 "~EEPROM_WC" I L 9850 8750 50 
-F5 "I2C_SDA_3V3" I R 11550 8500 50 
-F6 "I2C_SCK_3V3" I R 11550 8600 50 
 $EndSheet
 Wire Wire Line
 	3950 3050 4350 3050
@@ -497,14 +495,14 @@ Wire Wire Line
 Wire Wire Line
 	9850 8600 8750 8600
 $Comp
-L antmicroMechanicalParts:oshw_logo N1
+L antmicroMechanicalParts:oshw_logo N2
 U 1 1 63FCC534
-P 700 11000
-F 0 "N1" H 894 11003 50  0000 L CNN
-F 1 "oshw_logo" H 894 10912 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 720 10760 50  0001 C CNN
-F 3 "" H 700 11000 50  0001 C CNN
-	1    700  11000
+P 2200 10850
+F 0 "N2" H 2394 10853 50  0000 L CNN
+F 1 "oshw_logo" H 2394 10762 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 2220 10610 50  0001 C CNN
+F 3 "" H 2200 10850 50  0001 C CNN
+	1    2200 10850
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -566,6 +564,8 @@ F5 "GTR_DP2_M2C_P" I L 9850 2000 50
 F6 "GTR_DP2_M2C_N" I L 9850 2150 50 
 F7 "~USB_PHY_RESET" I R 11550 2000 50 
 F8 "~USB_HUB_RESET" I R 11550 2150 50 
+F9 "USB5_P" I R 11550 2750 50 
+F10 "USB5_N" I R 11550 2600 50 
 $EndSheet
 $Sheet
 S 9850 650  1700 650 
@@ -976,14 +976,14 @@ Wire Wire Line
 Wire Wire Line
 	4150 9200 4350 9200
 $Comp
-L antmicroMechanicalParts:antmicro_logo N2
+L antmicroMechanicalParts:antmicro_logo N1
 U 1 1 6B81F324
-P 650 10850
-F 0 "N2" H 864 10943 50  0000 L CNN
-F 1 "antmicro_logo" H 864 10852 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_30mm" H 550 11100 50  0001 C CNN
-F 3 "" H 650 11200 50  0001 C CNN
-	1    650  10850
+P 950 10950
+F 0 "N1" H 1164 11043 50  0000 L CNN
+F 1 "antmicro_logo" H 1164 10952 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_30mm" H 850 11200 50  0001 C CNN
+F 3 "" H 950 11300 50  0001 C CNN
+	1    950  10950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1000,8 +1000,8 @@ P 1000 10000
 AR Path="/63CADD16/62A3B8DC" Ref="R?"  Part="1" 
 AR Path="/625B0244/62A3B8DC" Ref="R?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62A3B8DC" Ref="R?"  Part="1" 
-AR Path="/62A3B8DC" Ref="R12"  Part="1" 
-F 0 "R12" V 955 10070 60  0000 L CNN
+AR Path="/62A3B8DC" Ref="R1"  Part="1" 
+F 0 "R1" V 955 10070 60  0000 L CNN
 F 1 "R_330R_0402" H 1000 9850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 1200 10200 60  0001 L CNN
 F 3 "" H 1000 10000 50  0001 C CNN
@@ -1018,8 +1018,8 @@ P 1300 10000
 AR Path="/63CADD16/62A3B8E5" Ref="C?"  Part="1" 
 AR Path="/625B0244/62A3B8E5" Ref="C?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62A3B8E5" Ref="C?"  Part="1" 
-AR Path="/62A3B8E5" Ref="C62"  Part="1" 
-F 0 "C62" H 1415 10045 60  0000 L CNN
+AR Path="/62A3B8E5" Ref="C1"  Part="1" 
+F 0 "C1" H 1415 10045 60  0000 L CNN
 F 1 "C_100n_0402" H 1300 9850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 1500 10200 60  0001 L CNN
 F 3 "" H 1300 10000 50  0001 C CNN
@@ -1047,8 +1047,8 @@ P 1150 10250
 AR Path="/63CADD16/62A3B8F1" Ref="#PWR?"  Part="1" 
 AR Path="/625B0244/62A3B8F1" Ref="#PWR?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62A3B8F1" Ref="#PWR?"  Part="1" 
-AR Path="/62A3B8F1" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 1150 10000 50  0001 C CNN
+AR Path="/62A3B8F1" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 1150 10000 50  0001 C CNN
 F 1 "GND" H 1155 10077 50  0000 C CNN
 F 2 "" H 1150 10250 50  0001 C CNN
 F 3 "" H 1150 10250 50  0001 C CNN
@@ -1077,8 +1077,8 @@ P 2050 10000
 AR Path="/63CADD16/62B170E5" Ref="R?"  Part="1" 
 AR Path="/625B0244/62B170E5" Ref="R?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62B170E5" Ref="R?"  Part="1" 
-AR Path="/62B170E5" Ref="R43"  Part="1" 
-F 0 "R43" V 2005 10070 60  0000 L CNN
+AR Path="/62B170E5" Ref="R2"  Part="1" 
+F 0 "R2" V 2005 10070 60  0000 L CNN
 F 1 "R_330R_0402" H 2050 9850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2250 10200 60  0001 L CNN
 F 3 "" H 2050 10000 50  0001 C CNN
@@ -1095,8 +1095,8 @@ P 2350 10000
 AR Path="/63CADD16/62B17134" Ref="C?"  Part="1" 
 AR Path="/625B0244/62B17134" Ref="C?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62B17134" Ref="C?"  Part="1" 
-AR Path="/62B17134" Ref="C72"  Part="1" 
-F 0 "C72" H 2465 10045 60  0000 L CNN
+AR Path="/62B17134" Ref="C2"  Part="1" 
+F 0 "C2" H 2465 10045 60  0000 L CNN
 F 1 "C_100n_0402" H 2350 9850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2550 10200 60  0001 L CNN
 F 3 "" H 2350 10000 50  0001 C CNN
@@ -1124,8 +1124,8 @@ P 2200 10250
 AR Path="/63CADD16/62B17144" Ref="#PWR?"  Part="1" 
 AR Path="/625B0244/62B17144" Ref="#PWR?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62B17144" Ref="#PWR?"  Part="1" 
-AR Path="/62B17144" Ref="#PWR0366"  Part="1" 
-F 0 "#PWR0366" H 2200 10000 50  0001 C CNN
+AR Path="/62B17144" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2200 10000 50  0001 C CNN
 F 1 "GND" H 2205 10077 50  0000 C CNN
 F 2 "" H 2200 10250 50  0001 C CNN
 F 3 "" H 2200 10250 50  0001 C CNN
@@ -1151,4 +1151,14 @@ Text GLabel 750  9850 3    50   Input ~ 0
 SH_DOWN
 Text GLabel 1800 9850 3    50   Input ~ 0
 SH_UP
+Wire Notes Line
+	500  9250 3050 9250
+Wire Notes Line
+	3050 9250 3050 11200
+Wire Notes Line
+	500  10550 3050 10550
+Text Notes 500  10700 0    50   ~ 10
+Logos
+Text Notes 500  9400 0    50   ~ 10
+Shield to GND connection
 $EndSCHEMATC
