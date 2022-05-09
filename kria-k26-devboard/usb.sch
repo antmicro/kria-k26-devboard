@@ -1855,47 +1855,34 @@ $EndComp
 NoConn ~ 3500 4200
 Wire Wire Line
 	2900 4400 2900 4500
-Wire Wire Line
-	7650 7400 7600 7400
-Wire Wire Line
-	7950 7400 8200 7400
 $Comp
 L antmicroResistors0402:R_200k_0402 R63
 U 1 1 64B39C27
-P 7800 7400
-F 0 "R63" H 7600 7450 60  0000 C CNN
-F 1 "R_200k_0402" H 7800 7250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8000 7600 60  0001 L CNN
-F 3 "" H 7800 7400 50  0001 C CNN
-F 4 "YAGEO_(PHYCOMP)" H 8000 7800 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-07200KL" H 8000 7700 60  0001 L CNN "MPN"
-F 6 "200k" H 7800 7400 50  0000 C CNN "Val"
-	1    7800 7400
-	-1   0    0    1   
+P 8450 7050
+F 0 "R63" H 8250 7100 60  0000 C CNN
+F 1 "R_200k_0402" H 8450 6900 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8650 7250 60  0001 L CNN
+F 3 "" H 8450 7050 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 8650 7450 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 8650 7350 60  0001 L CNN "MPN"
+F 6 "200k" H 8450 7050 50  0000 C CNN "Val"
+	1    8450 7050
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7650 7300 7600 7300
-Wire Wire Line
-	7950 7300 8200 7300
 $Comp
 L antmicroResistors0402:R_200k_0402 R62
 U 1 1 64B39C36
-P 7800 7300
-F 0 "R62" H 7600 7350 60  0000 C CNN
-F 1 "R_200k_0402" H 7800 7150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8000 7500 60  0001 L CNN
-F 3 "" H 7800 7300 50  0001 C CNN
-F 4 "YAGEO_(PHYCOMP)" H 8000 7700 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-07200KL" H 8000 7600 60  0001 L CNN "MPN"
-F 6 "200k" H 7800 7300 50  0000 C CNN "Val"
-	1    7800 7300
-	-1   0    0    1   
+P 8350 7050
+F 0 "R62" H 8150 7100 60  0000 C CNN
+F 1 "R_200k_0402" H 8350 6900 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8550 7250 60  0001 L CNN
+F 3 "" H 8350 7050 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 8550 7450 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 8550 7350 60  0001 L CNN "MPN"
+F 6 "200k" H 8350 7050 50  0000 C CNN "Val"
+	1    8350 7050
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8200 7300 8200 7400
-Wire Wire Line
-	8200 7600 8200 7400
-Connection ~ 8200 7400
 Wire Wire Line
 	8200 7700 8200 7600
 Connection ~ 8200 7600
@@ -2177,10 +2164,7 @@ $EndComp
 Wire Wire Line
 	8200 7800 8200 7700
 Connection ~ 8200 7700
-Wire Wire Line
-	8200 6100 8200 7300
 Connection ~ 8200 6100
-Connection ~ 8200 7300
 Wire Wire Line
 	7600 4950 7750 4950
 Wire Wire Line
@@ -3458,10 +3442,63 @@ Wire Wire Line
 Connection ~ 900  2200
 Wire Wire Line
 	900  2200 650  2200
-Wire Bus Line
-	10400 1100 10400 2350
 Text HLabel 7750 4950 2    50   Input ~ 0
 USB5_P
 Text HLabel 7750 5050 2    50   Input ~ 0
 USB5_N
+Text GLabel 8400 6650 1    50   Input ~ 0
+PS_3V3
+Wire Wire Line
+	8200 6100 8200 7600
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP50
+U 1 1 6293828A
+P 8650 7300
+F 0 "TP50" V 8750 7300 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 8650 7200 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8850 7500 60  0001 L CNN
+F 3 "" H 8850 7600 60  0001 L CNN
+	1    8650 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 7300 8350 7300
+Wire Wire Line
+	8350 7300 8350 7200
+Wire Wire Line
+	7600 7400 8450 7400
+Wire Wire Line
+	8450 7400 8450 7200
+Wire Wire Line
+	8350 6900 8350 6700
+Wire Wire Line
+	8350 6700 8400 6700
+Wire Wire Line
+	8450 6700 8450 6900
+Wire Wire Line
+	8400 6700 8400 6650
+Connection ~ 8400 6700
+Wire Wire Line
+	8400 6700 8450 6700
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP51
+U 1 1 62D35A30
+P 8650 7400
+F 0 "TP51" V 8550 7400 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 8650 7300 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8850 7600 60  0001 L CNN
+F 3 "" H 8850 7700 60  0001 L CNN
+	1    8650 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 7300 8550 7300
+Connection ~ 8350 7300
+Wire Wire Line
+	8450 7400 8550 7400
+Wire Bus Line
+	10400 1100 10400 2350
+Connection ~ 8450 7400
+Text Notes 8350 7650 0    50   ~ 0
+Slave SMBus
 $EndSCHEMATC
