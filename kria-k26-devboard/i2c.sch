@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 19
+Sheet 6 19
 Title ""
 Date ""
 Rev ""
@@ -407,4 +407,19 @@ Wire Wire Line
 Connection ~ 5050 3700
 Wire Wire Line
 	5050 3700 5400 3700
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 62876166
+P 10350 3900
+F 0 "R?" V 10305 3970 60  0000 L CNN
+F 1 "R_0R_0402" H 10350 3750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10550 4100 60  0001 L CNN
+F 3 "" H 10350 3900 50  0001 C CNN
+F 4 "PANASONIC" H 10550 4300 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 10550 4200 60  0001 L CNN "MPN"
+F 6 "0R" V 10403 3970 50  0000 L CNN "Val"
+F 7 "DNP" V 10350 3900 50  0001 C CNN "DNP"
+	1    10350 3900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 19
+Sheet 5 19
 Title ""
 Date "2022-03-10"
 Rev "1.0.0"
@@ -505,6 +505,7 @@ F 3 "" H 3800 4300 50  0001 C CNN
 F 4 "Multicomp Pro" H 4000 4700 60  0001 L CNN "Manufacturer"
 F 5 "MP000515" H 4000 4600 60  0001 L CNN "MPN"
 F 6 "1k5" V 3853 4230 50  0000 R CNN "Val"
+F 7 "DNP" H 3800 4300 50  0000 C CNN "DNP"
 	1    3800 4300
 	0    1    1    0   
 $EndComp

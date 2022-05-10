@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 19
+Sheet 19 19
 Title ""
 Date ""
 Rev ""
@@ -210,9 +210,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 3700 5100 3700
 Wire Wire Line
-	3650 4700 3850 4700
-Wire Wire Line
-	3650 4800 4100 4800
+	3000 4800 4100 4800
 Text GLabel 7550 1650 1    50   Input ~ 0
 PS_3V3
 $Comp
@@ -276,7 +274,7 @@ Wire Wire Line
 	4350 4600 4350 4700
 Wire Wire Line
 	4450 4600 4450 4800
-Text HLabel 3650 4800 0    50   Input ~ 0
+Text HLabel 3000 4800 0    50   Input ~ 0
 ~M2_PEWAKE
 $Comp
 L antmicroResistors0402:R_10k_0402 R5
@@ -462,7 +460,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 5500 6000 5450
 Connection ~ 6000 5450
-Text HLabel 3650 4700 0    50   Input ~ 0
+Text HLabel 3000 4700 0    50   Input ~ 0
 ~M2_CLKREQ
 $Comp
 L power:GND #PWR03
@@ -531,7 +529,6 @@ F 3 "" H 4050 4750 60  0001 L CNN
 $EndComp
 Wire Wire Line
 	3850 4550 3850 4700
-Connection ~ 3850 4700
 Wire Wire Line
 	3850 4700 4350 4700
 Wire Wire Line
@@ -539,4 +536,23 @@ Wire Wire Line
 Connection ~ 4100 4800
 Wire Wire Line
 	4100 4800 4450 4800
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 62B77B59
+P 3550 4700
+F 0 "R?" H 3550 4913 60  0000 C CNN
+F 1 "R_0R_0402" H 3550 4550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3750 4900 60  0001 L CNN
+F 3 "" H 3550 4700 50  0001 C CNN
+F 4 "PANASONIC" H 3750 5100 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3750 5000 60  0001 L CNN "MPN"
+F 6 "0R" H 3550 4815 50  0000 C CNN "Val"
+	1    3550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4700 3850 4700
+Connection ~ 3850 4700
+Wire Wire Line
+	3000 4700 3400 4700
 $EndSCHEMATC

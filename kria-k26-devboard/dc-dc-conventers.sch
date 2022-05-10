@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 16 19
+Sheet 15 19
 Title ""
 Date ""
 Rev ""
@@ -1530,8 +1530,6 @@ Connection ~ 6500 1500
 Wire Wire Line
 	6500 1300 6650 1300
 Connection ~ 6900 1300
-Text HLabel 6400 1500 0    50   Input ~ 0
-VCCOEN_PS_M2C
 Text HLabel 11800 1500 0    50   Input ~ 0
 VCCOEN_PL_M2C
 Wire Wire Line
@@ -2687,7 +2685,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3000 6350 3000
 Connection ~ 6350 3000
-Text HLabel 6300 3000 0    50   Input ~ 0
+Text HLabel 5950 3000 0    50   Input ~ 0
 PS_ETH_EN
 $Comp
 L antmicroTestPoints:TP_SMD_0_75MM TP35
@@ -2802,4 +2800,24 @@ F 3 "" H 4550 3200 60  0001 L CNN
 $EndComp
 Wire Wire Line
 	4350 3050 4350 3000
+Text Notes 650  4450 0    50   ~ 0
+Direct replacement: TI TPSM53604R
+Text HLabel 6400 1500 0    50   Input ~ 0
+VCCOEN_PS_M2C
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 62B23754
+P 6150 3000
+F 0 "R?" H 6150 3213 60  0000 C CNN
+F 1 "R_0R_0402" H 6150 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6350 3200 60  0001 L CNN
+F 3 "" H 6150 3000 50  0001 C CNN
+F 4 "PANASONIC" H 6350 3400 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6350 3300 60  0001 L CNN "MPN"
+F 6 "0R" H 6150 3115 50  0000 C CNN "Val"
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3000 6000 3000
 $EndSCHEMATC

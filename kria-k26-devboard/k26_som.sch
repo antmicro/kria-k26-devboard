@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 19
+Sheet 10 19
 Title "K26 SOM connnector"
 Date "2022-03-10"
 Rev "1.0.0"
@@ -1883,13 +1883,13 @@ Wire Wire Line
 Text Label 13100 2400 2    50   ~ 0
 HPB14_P
 Text Label 15100 7000 0    50   ~ 0
-VCCO_HDC
+VCCO_HDC_2
 Text Label 13100 7000 2    50   ~ 0
 HDC11
 Wire Wire Line
 	11300 7000 10900 7000
 Text Label 11300 7000 0    50   ~ 0
-VCCO_HDB
+VCCO_HDB_2
 Wire Wire Line
 	9300 7000 9700 7000
 Text Label 9300 7000 2    50   ~ 0
@@ -1897,7 +1897,7 @@ HDC23
 Wire Wire Line
 	15100 6900 14700 6900
 Text Label 15100 6900 0    50   ~ 0
-VCCO_HDC
+VCCO_HDC_1
 Wire Wire Line
 	13100 6900 13500 6900
 Text Label 13100 6900 2    50   ~ 0
@@ -1905,7 +1905,7 @@ HDC10
 Wire Wire Line
 	11300 6900 10900 6900
 Text Label 11300 6900 0    50   ~ 0
-VCCO_HDB
+VCCO_HDB_1
 Wire Wire Line
 	9300 6900 9700 6900
 Text Label 9300 6900 2    50   ~ 0
@@ -2083,7 +2083,7 @@ HDB00_CC
 Wire Wire Line
 	13100 5400 13500 5400
 Text Label 13100 5400 2    50   ~ 0
-VCCO_HPC
+VCCO_HPC_1
 Wire Wire Line
 	11300 5400 10900 5400
 Text Label 11300 5400 0    50   ~ 0
@@ -2091,7 +2091,7 @@ HDB12
 Wire Wire Line
 	15100 5200 14700 5200
 Text Label 15100 5200 0    50   ~ 0
-VCCO_HPC
+VCCO_HPC_2
 Wire Wire Line
 	13100 5200 13500 5200
 Text Label 13100 5200 2    50   ~ 0
@@ -2099,7 +2099,7 @@ HPC_CLK0_N
 Wire Wire Line
 	11300 5200 10900 5200
 Text Label 11300 5200 0    50   ~ 0
-VCCO_HPB
+VCCO_HPB_2
 Wire Wire Line
 	13100 5100 13500 5100
 Text Label 13100 5100 2    50   ~ 0
@@ -2419,7 +2419,7 @@ HPC14_P
 Text Label 9300 4600 2    50   ~ 0
 HPC14_N
 Text Label 9300 5400 2    50   ~ 0
-VCCO_HPB
+VCCO_HPB_1
 Wire Wire Line
 	9600 5500 9700 5500
 Text Label 9300 4200 2    50   ~ 0
@@ -4452,6 +4452,10 @@ Wire Wire Line
 	3750 8500 3900 8500
 Text GLabel 3650 7750 0    50   Input ~ 0
 USB_5V
+Text Notes 10650 850  0    50   ~ 0
+DNM
+Text Notes 14400 850  0    50   ~ 0
+DNM
 Wire Bus Line
 	3950 4350 3950 4500
 Wire Bus Line
