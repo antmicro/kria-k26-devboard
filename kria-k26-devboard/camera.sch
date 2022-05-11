@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 19
-Title ""
+Title "Camera interface"
 Date "2022-03-10"
 Rev "1.0.0"
 Comp ""
@@ -491,6 +491,7 @@ F 3 "" H 3950 4300 50  0001 C CNN
 F 4 "Multicomp Pro" H 4150 4700 60  0001 L CNN "Manufacturer"
 F 5 "MP000515" H 4150 4600 60  0001 L CNN "MPN"
 F 6 "1k5" V 4003 4370 50  0000 L CNN "Val"
+F 7 "DNP" H 3950 4300 50  0000 C CNN "DNP"
 	1    3950 4300
 	0    1    1    0   
 $EndComp
@@ -520,6 +521,7 @@ F 3 "" H 3900 4950 50  0001 C CNN
 F 4 "Multicomp Pro" H 4100 5350 60  0001 L CNN "Manufacturer"
 F 5 "MP000515" H 4100 5250 60  0001 L CNN "MPN"
 F 6 "1k5" V 3953 5020 50  0000 L CNN "Val"
+F 7 "DNP" H 3900 4950 50  0000 C CNN "DNP"
 	1    3900 4950
 	0    1    1    0   
 $EndComp
@@ -534,13 +536,12 @@ F 3 "" H 3750 4950 50  0001 C CNN
 F 4 "Multicomp Pro" H 3950 5350 60  0001 L CNN "Manufacturer"
 F 5 "MP000515" H 3950 5250 60  0001 L CNN "MPN"
 F 6 "1k5" V 3803 4880 50  0000 R CNN "Val"
+F 7 "DNP" H 3750 4950 50  0000 C CNN "DNP"
 	1    3750 4950
 	0    1    1    0   
 $EndComp
 Text GLabel 3950 4750 2    50   Input ~ 0
 PL_1V8
-Text Notes 3450 3800 0    50   ~ 10
-DNP
 $Comp
 L antmicroPMICVoltageRegulatorsLinear:AP7340-18FS4-7 U11
 U 1 1 62A4CE27
@@ -551,6 +552,7 @@ F 2 "antmicro-footprints:XDFN4" H 3150 5450 50  0001 L BNN
 F 3 "Diodes Incorporated" H 3600 6100 50  0001 L BNN
 F 4 "AP7340-18FS4-7" H 3500 5550 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 3550 5650 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 3600 6100 50  0000 C CNN "DNP"
 	1    3600 6100
 	1    0    0    -1  
 $EndComp
@@ -574,6 +576,7 @@ F 3 "" H 2550 6100 50  0001 C CNN
 F 4 "TDK" H 2750 6500 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 2750 6400 60  0001 L CNN "MPN"
 F 6 "470n" H 2665 6047 50  0000 L CNN "Val"
+F 7 "DNP" H 2750 5950 50  0000 C CNN "DNP"
 	1    2550 6100
 	1    0    0    -1  
 $EndComp
@@ -588,6 +591,7 @@ F 3 "" H 4400 6100 50  0001 C CNN
 F 4 "TDK" H 4600 6500 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 4600 6400 60  0001 L CNN "MPN"
 F 6 "470n" H 4515 6047 50  0000 L CNN "Val"
+F 7 "DNP" H 4600 5950 50  0000 C CNN "DNP"
 	1    4400 6100
 	1    0    0    -1  
 $EndComp
@@ -663,22 +667,6 @@ Wire Wire Line
 Connection ~ 4900 5250
 Wire Wire Line
 	4900 5250 5500 5250
-Wire Notes Line
-	3400 5550 2050 5550
-Wire Notes Line
-	2050 5550 2050 6850
-Wire Notes Line
-	2050 6850 4900 6850
-Wire Notes Line
-	4900 6850 4900 5600
-Wire Notes Line
-	4900 5600 4400 5600
-Wire Notes Line
-	4400 5600 4400 3650
-Wire Notes Line
-	4400 3650 3400 3650
-Wire Notes Line
-	3400 3650 3400 5550
 Wire Wire Line
 	4200 6300 4250 6300
 Wire Wire Line
@@ -795,4 +783,20 @@ Wire Wire Line
 Connection ~ 5500 4500
 Wire Wire Line
 	5500 4500 5700 4500
+Wire Notes Line
+	3500 3900 4450 3900
+Wire Notes Line
+	4450 3900 4450 5550
+Wire Notes Line
+	4450 5550 4950 5550
+Wire Notes Line
+	4950 5550 4950 6700
+Wire Notes Line
+	4950 6700 1950 6700
+Wire Notes Line
+	1950 6700 1950 5600
+Wire Notes Line
+	1950 5600 3500 5600
+Wire Notes Line
+	3500 5600 3500 3900
 $EndSCHEMATC

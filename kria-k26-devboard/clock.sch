@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 19
-Title ""
+Title "Clock distribution"
 Date ""
 Rev ""
 Comp ""

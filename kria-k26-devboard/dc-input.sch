@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 19
-Title ""
+Sheet 18 19
+Title "DC Jack "
 Date ""
 Rev ""
 Comp ""

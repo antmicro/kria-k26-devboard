@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 19
-Title ""
+Sheet 16 19
+Title "Supply ORing"
 Date ""
 Rev ""
 Comp ""
@@ -353,6 +353,7 @@ F 2 "antmicro-footprints:Nexperia_SOD128" H 5750 1150 60  0001 L CNN
 F 3 "https://www.mouser.pl/datasheet/2/916/PMEG3050EP-2938519.pdf" H 5750 1250 60  0001 L CNN
 F 4 "PMEG3050EP,115" H 5750 1450 60  0001 L CNN "MPN"
 F 5 "Nexperia" H 5750 2050 60  0001 L CNN "Manufacturer"
+F 6 "DNP" H 5500 850 50  0000 C CNN "DNP"
 	1    5550 950 
 	1    0    0    -1  
 $EndComp
@@ -366,6 +367,7 @@ F 2 "antmicro-footprints:Nexperia_SOD128" H 5750 3550 60  0001 L CNN
 F 3 "https://www.mouser.pl/datasheet/2/916/PMEG3050EP-2938519.pdf" H 5750 3650 60  0001 L CNN
 F 4 "PMEG3050EP,115" H 5750 3850 60  0001 L CNN "MPN"
 F 5 "Nexperia" H 5750 4450 60  0001 L CNN "Manufacturer"
+F 6 "DNP" H 5500 3250 50  0000 C CNN "DNP"
 	1    5550 3350
 	1    0    0    -1  
 $EndComp
@@ -379,6 +381,7 @@ F 2 "antmicro-footprints:Nexperia_SOD128" H 5650 6000 60  0001 L CNN
 F 3 "https://www.mouser.pl/datasheet/2/916/PMEG3050EP-2938519.pdf" H 5650 6100 60  0001 L CNN
 F 4 "PMEG3050EP,115" H 5650 6300 60  0001 L CNN "MPN"
 F 5 "Nexperia" H 5650 6900 60  0001 L CNN "Manufacturer"
+F 6 "DNP" H 5300 5750 50  0000 C CNN "DNP"
 	1    5450 5800
 	1    0    0    -1  
 $EndComp
@@ -418,12 +421,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 950  6050 1550
 Connection ~ 6050 1550
-Text Notes 5300 1050 0    50   ~ 0
-DNP
-Text Notes 5300 3450 0    50   ~ 0
-DNP
-Text Notes 5200 5900 0    50   ~ 0
-DNP
 $Comp
 L antmicroTestPoints:TP_SMD_0_75MM TP42
 U 1 1 6321A724

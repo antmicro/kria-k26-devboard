@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 12 19
-Title ""
+Title "Debug and JTAG"
 Date "2022-03-10"
 Rev "1.0.0"
 Comp ""

@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 19
-Title ""
+Title "Power supply"
 Date "2022-03-10"
 Rev "1.0.0"
 Comp ""
@@ -74,9 +74,9 @@ Wire Wire Line
 	4950 4600 4700 4600
 Text HLabel 3450 3150 0    50   Input ~ 0
 USBC_CC[1..2]
-Text HLabel 7750 3850 0    50   Input ~ 0
-VCCOEN_PS_M2C
 Text HLabel 7750 3950 0    50   Input ~ 0
+VCCOEN_PS_M2C
+Text HLabel 7750 3850 0    50   Input ~ 0
 VCCOEN_PL_M2C
 Wire Wire Line
 	7750 3850 7900 3850

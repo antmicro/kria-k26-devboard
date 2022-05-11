@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 15 19
-Title ""
+Title "DC-DC converters"
 Date ""
 Rev ""
 Comp ""
@@ -2805,10 +2805,10 @@ Direct replacement: TI TPSM53604R
 Text HLabel 6400 1500 0    50   Input ~ 0
 VCCOEN_PS_M2C
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R150
 U 1 1 62B23754
 P 6150 3000
-F 0 "R?" H 6150 3213 60  0000 C CNN
+F 0 "R150" H 6150 3213 60  0000 C CNN
 F 1 "R_0R_0402" H 6150 2850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 6350 3200 60  0001 L CNN
 F 3 "" H 6150 3000 50  0001 C CNN

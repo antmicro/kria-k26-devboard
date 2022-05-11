@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 9 19
-Title ""
+Title "ETH PHY"
 Date "2022-03-10"
 Rev "1.0.0"
 Comp ""
@@ -1071,14 +1071,8 @@ Wire Wire Line
 	8000 4700 8850 4700
 Wire Wire Line
 	8850 4700 8850 4850
-Wire Wire Line
-	7550 5500 7650 5500
-Text Label 7650 5500 0    50   ~ 0
-LED1
-Text Label 12950 4850 0    50   ~ 0
-LED1
-Text Label 11450 4800 2    50   ~ 0
-LED2
+Text Label 7650 5400 0    50   ~ 0
+LED0
 Wire Wire Line
 	11450 4800 11550 4800
 Wire Wire Line
@@ -1147,7 +1141,6 @@ F 5 "DP83867CRRGZR" H 6350 4400 50  0001 C CNN "MPN"
 	1    6350 4400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7550 5400
 NoConn ~ 7550 3200
 NoConn ~ 7550 3300
 $Comp
@@ -1478,10 +1471,17 @@ Wire Wire Line
 Connection ~ 10150 5250
 Text GLabel 10150 5400 3    50   Input ~ 0
 SH_UP
+Wire Wire Line
+	7550 5400 7650 5400
+NoConn ~ 7550 5500
+Text Label 12950 4850 0    50   ~ 0
+LED2
 Wire Bus Line
 	8500 5900 8500 6100
 Wire Bus Line
 	9800 4700 9800 5100
 Wire Bus Line
 	4600 3250 4600 4800
+Text Label 11450 4800 2    50   ~ 0
+LED0
 $EndSCHEMATC

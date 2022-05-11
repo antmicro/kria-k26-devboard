@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 19
-Title ""
+Sheet 17 19
+Title "USB-C PD input"
 Date ""
 Rev ""
 Comp ""
@@ -190,21 +190,21 @@ $EndComp
 $Comp
 L antmicroTVSDiodes:WE-TVS-82400152 U?
 U 1 1 62E99410
-P 5900 4400
+P 5800 4400
 AR Path="/625B0244/62E99410" Ref="U?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62E99410" Ref="U60"  Part="1" 
-F 0 "U60" H 5850 4600 50  0000 R CNN
-F 1 "WE-TVS-82400152" H 6300 4200 50  0000 R CNN
-F 2 "antmicro-footprints:SOT-563" H 5900 4200 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5900 4150 50  0001 C CNN
-F 4 "82400152" H 5550 4000 50  0001 C CNN "MPN"
-F 5 "Würth Elektronik" H 5650 4100 50  0001 C CNN "Manufacturer"
-	1    5900 4400
+F 0 "U60" H 5750 4600 50  0000 R CNN
+F 1 "WE-TVS-82400152" H 6200 4200 50  0000 R CNN
+F 2 "antmicro-footprints:SOT-563" H 5800 4200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5800 4150 50  0001 C CNN
+F 4 "82400152" H 5450 4000 50  0001 C CNN "MPN"
+F 5 "Würth Elektronik" H 5550 4100 50  0001 C CNN "Manufacturer"
+	1    5800 4400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4450 3800 4500 3800
-NoConn ~ 5600 4400
+NoConn ~ 5500 4400
 $Comp
 L power:GND #PWR?
 U 1 1 63812C2B
@@ -219,15 +219,15 @@ F 3 "" H 6600 4550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 4400 6200 4400
+	6600 4400 6100 4400
 Wire Wire Line
 	6600 4400 6600 4550
 Wire Wire Line
-	6200 4300 6750 4300
+	6100 4300 6750 4300
 Wire Wire Line
 	6750 4300 6750 4350
 Wire Wire Line
-	6200 4500 6750 4500
+	6100 4500 6750 4500
 Wire Wire Line
 	6750 4500 6750 4450
 Wire Wire Line
@@ -296,15 +296,15 @@ Wire Wire Line
 Wire Wire Line
 	4400 3450 5300 3450
 Wire Wire Line
-	5550 4450 5550 4500
+	5450 4450 5450 4500
 Wire Wire Line
-	5550 4500 5600 4500
+	5450 4500 5500 4500
 Wire Wire Line
-	5550 4300 5550 4350
+	5450 4300 5450 4350
 Wire Wire Line
-	5550 4300 5600 4300
+	5450 4300 5500 4300
 Wire Wire Line
-	5200 4350 5550 4350
+	5200 4350 5450 4350
 $Comp
 L antmicroTVSDiodes:SMF4L15CA D26
 U 1 1 626860F1
@@ -325,7 +325,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 3950 5150 4450
 Wire Wire Line
-	5150 4450 5550 4450
+	5150 4450 5450 4450
 Wire Wire Line
 	4400 3250 5000 3250
 $Comp

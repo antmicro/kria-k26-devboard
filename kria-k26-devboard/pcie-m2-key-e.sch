@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 19 19
-Title ""
+Title "M.2 Key E"
 Date ""
 Rev ""
 Comp ""
@@ -509,7 +509,7 @@ $Comp
 L antmicroTestPoints:TP_SMD_0_75MM TP46
 U 1 1 629413A9
 P 4100 4450
-F 0 "TP46" H 4150 4497 50  0000 L CNN
+F 0 "TP46" H 4100 4400 50  0000 L CNN
 F 1 "TP_SMD_0_75MM" H 4100 4350 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4300 4650 60  0001 L CNN
 F 3 "" H 4300 4750 60  0001 L CNN
@@ -520,7 +520,7 @@ $Comp
 L antmicroTestPoints:TP_SMD_0_75MM TP13
 U 1 1 62941C7A
 P 3850 4450
-F 0 "TP13" H 3800 4497 50  0000 R CNN
+F 0 "TP13" H 3850 4400 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 3850 4350 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 4050 4650 60  0001 L CNN
 F 3 "" H 4050 4750 60  0001 L CNN
@@ -537,10 +537,10 @@ Connection ~ 4100 4800
 Wire Wire Line
 	4100 4800 4450 4800
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R151
 U 1 1 62B77B59
 P 3550 4700
-F 0 "R?" H 3550 4913 60  0000 C CNN
+F 0 "R151" H 3550 4913 60  0000 C CNN
 F 1 "R_0R_0402" H 3550 4550 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 3750 4900 60  0001 L CNN
 F 3 "" H 3550 4700 50  0001 C CNN

@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 11 19
-Title ""
+Title "Reset logic"
 Date ""
 Rev ""
 Comp ""
