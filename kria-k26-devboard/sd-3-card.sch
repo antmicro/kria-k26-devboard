@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NVT4858HKZ U5
+L kria-k26-devboard:NVT4858HKZ U5
 U 1 1 630B0AC4
 P 3700 4550
 F 0 "U5" H 4600 4937 60  0000 C CNN
 F 1 "NVT4858HKZ" H 4600 4831 60  0000 C CNN
-F 2 "antmicro-footprints:SOT1161-2" H 4600 4790 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SOT1161-2" H 4600 4790 60  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/NVT4858DS.pdf" H 3700 4300 60  0001 C CNN
 F 4 "NXP" H 4100 3350 50  0001 C CNN "Manufacturer"
 F 5 "NVT4858HKZ" H 4300 3250 50  0001 C CNN "MNP"
@@ -27,12 +27,12 @@ F 5 "NVT4858HKZ" H 4300 3250 50  0001 C CNN "MNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:1140084168 J2
+L kria-k26-devboard:1140084168 J2
 U 1 1 630EE654
 P 9250 4850
 F 0 "J2" H 9217 5565 50  0000 C CNN
 F 1 "1140084168" H 9217 5474 50  0000 C CNN
-F 2 "antmicro-footprints:MicroSD_1140084168" H 9150 4200 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:MicroSD_1140084168" H 9150 4200 50  0001 C CNN
 F 3 "" H 8900 4850 50  0001 C CNN
 F 4 "1140084168" H 9250 5500 50  0001 C CNN "MPN"
 F 5 "Amphenol" H 9200 5600 50  0001 C CNN "Manufacturer"
@@ -79,7 +79,7 @@ Wire Wire Line
 	5650 3300 5650 3400
 Connection ~ 5650 3400
 $Comp
-L power:GND #PWR027
+L kria-k26-devboard:GND #PWR027
 U 1 1 631D2E7A
 P 5400 3900
 F 0 "#PWR027" H 5400 3650 50  0001 C CNN
@@ -100,12 +100,12 @@ Wire Wire Line
 Wire Wire Line
 	3200 3400 3250 3400
 $Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2116DRLR U6
+L kria-k26-devboard:TPS2116DRLR U6
 U 1 1 631CFC7A
 P 3850 3300
 F 0 "U6" H 4600 3638 60  0000 C CNN
 F 1 "TPS2116DRLR" H 4600 3532 60  0000 C CNN
-F 2 "antmicro-footprints:Texas_DRL0008A" H 4300 2600 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:Texas_DRL0008A" H 4300 2600 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps2116.pdf?ts=1647438832100&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2116" H 3950 3300 60  0001 C CNN
 F 4 "Texas Instruments" H 4300 2400 50  0001 C CNN "Manufacturer"
 F 5 "TPS2116DRLR" H 4200 2500 50  0001 C CNN "MPN"
@@ -125,12 +125,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 4500 3700 4500
 $Comp
-L antmicroResistors0402:R_33R_0402 R14
+L kria-k26-devboard:R_33R_0402 R14
 U 1 1 631DF31D
 P 3200 4800
 F 0 "R14" H 3000 4850 60  0000 C CNN
 F 1 "R_33R_0402" H 3200 4650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3400 5000 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 3400 5000 60  0001 L CNN
 F 3 "" H 3200 4800 50  0001 C CNN
 F 4 "Vishay" H 3400 5200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040233R0FKED" H 3400 5100 60  0001 L CNN "MPN"
@@ -139,12 +139,12 @@ F 6 "33R" H 3200 4800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_33R_0402 R13
+L kria-k26-devboard:R_33R_0402 R13
 U 1 1 631E087B
 P 3200 4700
 F 0 "R13" H 3000 4750 60  0000 C CNN
 F 1 "R_33R_0402" H 3200 4550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3400 4900 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 3400 4900 60  0001 L CNN
 F 3 "" H 3200 4700 50  0001 C CNN
 F 4 "Vishay" H 3400 5100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040233R0FKED" H 3400 5000 60  0001 L CNN "MPN"
@@ -163,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 4600 8750 4600
 $Comp
-L power:GND #PWR028
+L kria-k26-devboard:GND #PWR028
 U 1 1 631E6AA8
 P 5550 5600
 F 0 "#PWR028" H 5550 5350 50  0001 C CNN
@@ -183,12 +183,12 @@ PS_1V8
 Text GLabel 2900 2450 1    50   Input ~ 0
 PS_3V3
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C12
+L kria-k26-devboard:C_100n_0402 C12
 U 1 1 631F0D3B
 P 2900 2650
 F 0 "C12" H 3015 2695 60  0000 L CNN
 F 1 "C_100n_0402" H 2900 2500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3100 2850 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 3100 2850 60  0001 L CNN
 F 3 "" H 2900 2650 50  0001 C CNN
 F 4 "Murata" H 3100 3050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 3100 2950 60  0001 L CNN "MPN"
@@ -197,12 +197,12 @@ F 6 "100n" H 3015 2597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C13
+L kria-k26-devboard:C_100n_0402 C13
 U 1 1 631F1104
 P 3400 2650
 F 0 "C13" H 3515 2695 60  0000 L CNN
 F 1 "C_100n_0402" H 3400 2500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3600 2850 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 3600 2850 60  0001 L CNN
 F 3 "" H 3400 2650 50  0001 C CNN
 F 4 "Murata" H 3600 3050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 3600 2950 60  0001 L CNN "MPN"
@@ -211,12 +211,12 @@ F 6 "100n" H 3515 2597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C15
+L kria-k26-devboard:C_100n_0402 C15
 U 1 1 631F1457
 P 5950 2550
 F 0 "C15" H 6065 2595 60  0000 L CNN
 F 1 "C_100n_0402" H 5950 2400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6150 2750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 6150 2750 60  0001 L CNN
 F 3 "" H 5950 2550 50  0001 C CNN
 F 4 "Murata" H 6150 2950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 6150 2850 60  0001 L CNN "MPN"
@@ -229,7 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2500 3400 2450
 $Comp
-L power:GND #PWR024
+L kria-k26-devboard:GND #PWR024
 U 1 1 63200563
 P 2900 2850
 F 0 "#PWR024" H 2900 2600 50  0001 C CNN
@@ -286,12 +286,12 @@ MIO49
 Text HLabel 3700 3600 0    50   Input ~ 0
 MIO39
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C19
+L kria-k26-devboard:C_100n_0402 C19
 U 1 1 6323158C
 P 8900 3650
 F 0 "C19" H 9015 3695 60  0000 L CNN
 F 1 "C_100n_0402" H 8900 3500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9100 3850 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 9100 3850 60  0001 L CNN
 F 3 "" H 8900 3650 50  0001 C CNN
 F 4 "Murata" H 9100 4050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 9100 3950 60  0001 L CNN "MPN"
@@ -302,12 +302,12 @@ $EndComp
 Wire Wire Line
 	8900 3900 8900 3850
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C20
+L kria-k26-devboard:C_10u_0603 C20
 U 1 1 632347EF
 P 9350 3650
 F 0 "C20" H 9465 3695 60  0000 L CNN
 F 1 "C_10u_0603" H 9350 3500 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 9550 3850 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0603-cap" H 9550 3850 60  0001 L CNN
 F 3 "" H 9350 3650 50  0001 C CNN
 F 4 "Murata" H 9550 4050 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R61A106KE69D" H 9550 3950 60  0001 L CNN "MPN"
@@ -334,7 +334,7 @@ Wire Wire Line
 	8550 3350 8550 4700
 Connection ~ 8900 3350
 $Comp
-L power:GND #PWR032
+L kria-k26-devboard:GND #PWR032
 U 1 1 632316CE
 P 8900 3900
 F 0 "#PWR032" H 8900 3650 50  0001 C CNN
@@ -349,7 +349,7 @@ VCCB
 Wire Wire Line
 	5950 2400 5950 2300
 $Comp
-L power:GND #PWR025
+L kria-k26-devboard:GND #PWR025
 U 1 1 63203F42
 P 3400 2850
 F 0 "#PWR025" H 3400 2600 50  0001 C CNN
@@ -360,7 +360,7 @@ F 3 "" H 3400 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR029
+L kria-k26-devboard:GND #PWR029
 U 1 1 63278518
 P 5950 2850
 F 0 "#PWR029" H 5950 2600 50  0001 C CNN
@@ -384,7 +384,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 5500 9150 5500
 $Comp
-L power:GND #PWR033
+L kria-k26-devboard:GND #PWR033
 U 1 1 632822AB
 P 9150 5550
 F 0 "#PWR033" H 9150 5300 50  0001 C CNN
@@ -410,12 +410,12 @@ Wire Wire Line
 Wire Wire Line
 	8500 5200 8750 5200
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:AO3401A Q2
+L kria-k26-devboard:AO3401A Q2
 U 1 1 6678C047
 P 8550 2850
 F 0 "Q2" H 8658 2903 60  0000 L CNN
 F 1 "AO3401A" H 8658 2797 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 8750 3050 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:SOT-23-3" H 8750 3050 60  0001 L CNN
 F 3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 8750 3150 60  0001 L CNN
 F 4 "AO3401A" H 8750 3350 60  0001 L CNN "MPN"
 F 5 "Alpha & Omega Semiconductor Inc." H 8750 3950 60  0001 L CNN "Manufacturer"
@@ -423,12 +423,12 @@ F 5 "Alpha & Omega Semiconductor Inc." H 8750 3950 60  0001 L CNN "Manufacturer"
 	1    0    0    1   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS123 Q1
+L kria-k26-devboard:BSS123 Q1
 U 1 1 6678D115
 P 7700 3450
 F 0 "Q1" H 7808 3503 60  0000 L CNN
 F 1 "BSS123" H 7808 3397 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 7900 3650 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:SOT-23-3" H 7900 3650 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 7900 3750 60  0001 L CNN
 F 4 "BSS123" H 7900 3950 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7900 4550 60  0001 L CNN "Manufacturer"
@@ -436,7 +436,7 @@ F 5 "ON Semiconductor" H 7900 4550 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L kria-k26-devboard:GND #PWR031
 U 1 1 66661087
 P 7700 3750
 F 0 "#PWR031" H 7700 3500 50  0001 C CNN
@@ -456,12 +456,12 @@ PS_3V3
 Wire Wire Line
 	7700 2300 7700 2400
 $Comp
-L antmicroResistors0402:R_1k_0402 R17
+L kria-k26-devboard:R_1k_0402 R17
 U 1 1 66639BBE
 P 7700 3000
 F 0 "R17" H 7700 3100 60  0000 C CNN
 F 1 "R_1k_0402" H 7700 2850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7900 3200 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 7900 3200 60  0001 L CNN
 F 3 "" H 7700 3000 50  0001 C CNN
 F 4 "BOURNS" H 7900 3400 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 7900 3300 60  0001 L CNN "MPN"
@@ -470,12 +470,12 @@ F 6 "1k" H 7700 3000 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C17
+L kria-k26-devboard:C_470n_0402 C17
 U 1 1 666642E9
 P 7950 2550
 F 0 "C17" H 8065 2595 60  0000 L CNN
 F 1 "C_470n_0402" H 7950 2400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8150 2750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 8150 2750 60  0001 L CNN
 F 3 "" H 7950 2550 50  0001 C CNN
 F 4 "TDK" H 8150 2950 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 8150 2850 60  0001 L CNN "MPN"
@@ -484,12 +484,12 @@ F 6 "470n" H 8065 2497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R16
+L kria-k26-devboard:R_10k_0402 R16
 U 1 1 6667AA59
 P 7700 2550
 F 0 "R16" H 7650 2450 60  0000 L CNN
 F 1 "R_10k_0402" H 7700 2400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7900 2750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 7900 2750 60  0001 L CNN
 F 3 "" H 7700 2550 50  0001 C CNN
 F 4 "VISHAY" H 7900 2950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7900 2850 60  0001 L CNN "MPN"
@@ -516,12 +516,12 @@ Wire Wire Line
 Text HLabel 7350 3550 0    50   Input ~ 0
 ~SD_CARD_RESET
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C18
+L kria-k26-devboard:C_470n_0402 C18
 U 1 1 667B7A84
 P 7950 2950
 F 0 "C18" H 8065 2995 60  0000 L CNN
 F 1 "C_470n_0402" H 7950 2800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8150 3150 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 8150 3150 60  0001 L CNN
 F 3 "" H 7950 2950 50  0001 C CNN
 F 4 "TDK" H 8150 3350 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 8150 3250 60  0001 L CNN "MPN"
@@ -551,12 +551,12 @@ Wire Wire Line
 Wire Wire Line
 	8550 2300 8550 2650
 $Comp
-L antmicroResistors0402:R_10k_0402 R18
+L kria-k26-devboard:R_10k_0402 R18
 U 1 1 63286775
 P 8250 5800
 F 0 "R18" V 8205 5870 60  0000 L CNN
 F 1 "R_10k_0402" H 8250 5650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8450 6000 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 8450 6000 60  0001 L CNN
 F 3 "" H 8250 5800 50  0001 C CNN
 F 4 "VISHAY" H 8450 6200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8450 6100 60  0001 L CNN "MPN"
@@ -586,12 +586,12 @@ Wire Wire Line
 Text GLabel 3400 6450 1    50   Input ~ 0
 PS_1V8
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C14
+L kria-k26-devboard:C_100n_0402 C14
 U 1 1 6986927B
 P 3400 6650
 F 0 "C14" H 3515 6695 60  0000 L CNN
 F 1 "C_100n_0402" H 3400 6500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3600 6850 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 3600 6850 60  0001 L CNN
 F 3 "" H 3400 6650 50  0001 C CNN
 F 4 "Murata" H 3600 7050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 3600 6950 60  0001 L CNN "MPN"
@@ -604,7 +604,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 6850 3400 6800
 $Comp
-L power:GND #PWR026
+L kria-k26-devboard:GND #PWR026
 U 1 1 69869287
 P 3400 6850
 F 0 "#PWR026" H 3400 6600 50  0001 C CNN
@@ -615,12 +615,12 @@ F 3 "" H 3400 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C16
+L kria-k26-devboard:C_100n_0402 C16
 U 1 1 69871ED9
 P 5950 6600
 F 0 "C16" H 6065 6645 60  0000 L CNN
 F 1 "C_100n_0402" H 5950 6450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6150 6800 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 6150 6800 60  0001 L CNN
 F 3 "" H 5950 6600 50  0001 C CNN
 F 4 "Murata" H 6150 7000 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 6150 6900 60  0001 L CNN "MPN"
@@ -631,7 +631,7 @@ $EndComp
 Wire Wire Line
 	5950 6450 5950 6350
 $Comp
-L power:GND #PWR030
+L kria-k26-devboard:GND #PWR030
 U 1 1 6987213A
 P 5950 6800
 F 0 "#PWR030" H 5950 6550 50  0001 C CNN
@@ -658,12 +658,12 @@ SD_CMD
 Text Label 5700 4800 0    50   ~ 0
 SD_CLK
 $Comp
-L antmicroResistorNetworksArrays:4x33R_0201_array R15
+L kria-k26-devboard:4x33R_0201_array R15
 U 1 1 632D3168
 P 3250 4900
 F 0 "R15" H 3150 5400 60  0000 C CNN
 F 1 "4x33R_0201_array" H 3250 5500 60  0000 C CNN
-F 2 "antmicro-footprints:EXB18V" H 3050 5650 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:EXB18V" H 3050 5650 60  0001 L CNN
 F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 3050 5650 60  0001 L CNN
 F 4 "EXB-18V330JX" H 3050 5850 60  0001 L CNN "MPN"
 F 5 "Panasonic" H 3050 5750 60  0001 L CNN "Manufacturer"

@@ -22,7 +22,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3950 4450 3950
 $Comp
-L power:GND #PWR?
+L kria-k26-devboard:GND #PWR?
 U 1 1 62AA368C
 P 5600 3150
 AR Path="/63C44BC2/62AA368C" Ref="#PWR?"  Part="1" 
@@ -41,14 +41,14 @@ Wire Bus Line
 NoConn ~ 4400 4350
 NoConn ~ 4400 4450
 $Comp
-L antmicroCapacitorsmisc:C_100n_0402_50V C?
+L kria-k26-devboard:C_100n_0402_50V C?
 U 1 1 62AA369D
 P 5250 2650
 AR Path="/63C44BC2/62AA369D" Ref="C?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62AA369D" Ref="C231"  Part="1" 
 F 0 "C231" V 5100 2600 50  0000 L CNN
 F 1 "C_100n_0402_50V" H 5250 2650 50  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5250 2650 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 5250 2650 50  0001 C CNN
 F 3 "" H 5250 2650 50  0001 C CNN
 F 4 "GRM155R71H104KE14D" H 5250 2650 50  0001 C CNN "MPN"
 F 5 "MURATA" H 5250 2650 50  0001 C CNN "Manufacturer"
@@ -104,12 +104,12 @@ Wire Wire Line
 	5000 2250 5000 3250
 Connection ~ 5250 2250
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:PJA3441 Q16
+L kria-k26-devboard:PJA3441 Q16
 U 1 1 661B0E3A
 P 6050 2300
 F 0 "Q16" V 6342 2550 50  0000 C CNN
 F 1 "PJA3441" V 6251 2550 50  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-3" H 6050 2300 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SOT-23-3" H 6050 2300 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/1057/PJA3441-1867252.pdf" H 6050 2300 50  0001 C CNN
 F 4 "Panjit" H 6350 2450 50  0001 C CNN "Manufacturer"
 F 5 "PJA3441_R1_00001" H 6600 2550 50  0001 C CNN "MPN"
@@ -124,12 +124,12 @@ PD_VBUS
 Wire Wire Line
 	6500 2250 6700 2250
 $Comp
-L antmicroResistors0402:R_100k_0402 R149
+L kria-k26-devboard:R_100k_0402 R149
 U 1 1 661C93B4
 P 5950 2450
 F 0 "R149" V 5905 2520 60  0000 L CNN
 F 1 "R_100k_0402" H 5950 2300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6150 2650 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 6150 2650 60  0001 L CNN
 F 3 "" H 5950 2450 50  0001 C CNN
 F 4 "VISHAY" H 6150 2850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 6150 2750 60  0001 L CNN "MPN"
@@ -156,7 +156,7 @@ Wire Wire Line
 	6300 2700 6300 2650
 Connection ~ 6300 2650
 $Comp
-L power:GND #PWR?
+L kria-k26-devboard:GND #PWR?
 U 1 1 661D24DA
 P 6300 3150
 AR Path="/63C44BC2/661D24DA" Ref="#PWR?"  Part="1" 
@@ -175,12 +175,12 @@ USBC_CC2
 Text Label 6550 3650 2    50   ~ 0
 USBC_CC1
 $Comp
-L antmicroTransistorsBipolarSingle:DTC014TEBTL Q17
+L kria-k26-devboard:DTC014TEBTL Q17
 U 1 1 631791E8
 P 6400 2900
 F 0 "Q17" H 6588 2946 50  0000 L CNN
 F 1 "DTC014TEBTL" H 5950 3100 50  0000 L CNN
-F 2 "antmicro-footprints:SOT-416" H 6600 2600 50  0001 L CNN
+F 2 "kria-k26-devboard-footprints:SOT-416" H 6600 2600 50  0001 L CNN
 F 3 "" H 6400 2900 50  0001 L CNN
 F 4 "ROHM Semiconductor" H 7000 2800 50  0001 C CNN "Manufacturer"
 F 5 "DTC014TEBTL" H 6850 2700 50  0001 C CNN "MPN"
@@ -188,14 +188,14 @@ F 5 "DTC014TEBTL" H 6850 2700 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroTVSDiodes:WE-TVS-82400152 U?
+L kria-k26-devboard:WE-TVS-82400152 U?
 U 1 1 62E99410
 P 5800 4400
 AR Path="/625B0244/62E99410" Ref="U?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/62E99410" Ref="U60"  Part="1" 
 F 0 "U60" H 5750 4600 50  0000 R CNN
 F 1 "WE-TVS-82400152" H 6200 4200 50  0000 R CNN
-F 2 "antmicro-footprints:SOT-563" H 5800 4200 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SOT-563" H 5800 4200 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5800 4150 50  0001 C CNN
 F 4 "82400152" H 5450 4000 50  0001 C CNN "MPN"
 F 5 "Würth Elektronik" H 5550 4100 50  0001 C CNN "Manufacturer"
@@ -206,7 +206,7 @@ Wire Wire Line
 	4450 3800 4500 3800
 NoConn ~ 5500 4400
 $Comp
-L power:GND #PWR?
+L kria-k26-devboard:GND #PWR?
 U 1 1 63812C2B
 P 6600 4550
 AR Path="/63C44BC2/63812C2B" Ref="#PWR?"  Part="1" 
@@ -247,14 +247,14 @@ USBC_TVS_CC1
 Text Label 5050 3550 2    50   ~ 0
 USBC_TVS_CC2
 $Comp
-L antmicroTVSDiodes:WE-TVS-82400152 U?
+L kria-k26-devboard:WE-TVS-82400152 U?
 U 1 1 6383DAA4
 P 5800 3750
 AR Path="/625B0244/6383DAA4" Ref="U?"  Part="1" 
 AR Path="/63C44BC2/62A9ECDC/6383DAA4" Ref="U59"  Part="1" 
 F 0 "U59" H 5750 3950 50  0000 R CNN
 F 1 "WE-TVS-82400152" H 6200 3550 50  0000 R CNN
-F 2 "antmicro-footprints:SOT-563" H 5800 3550 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SOT-563" H 5800 3550 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5800 3500 50  0001 C CNN
 F 4 "82400152" H 5450 3350 50  0001 C CNN "MPN"
 F 5 "Würth Elektronik" H 5550 3450 50  0001 C CNN "Manufacturer"
@@ -266,7 +266,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3650 6600 3650
 $Comp
-L power:GND #PWR?
+L kria-k26-devboard:GND #PWR?
 U 1 1 6386B45F
 P 6150 3900
 AR Path="/63C44BC2/6386B45F" Ref="#PWR?"  Part="1" 
@@ -306,12 +306,12 @@ Wire Wire Line
 Wire Wire Line
 	5200 4350 5450 4350
 $Comp
-L antmicroTVSDiodes:SMF4L15CA D26
+L kria-k26-devboard:SMF4L15CA D26
 U 1 1 626860F1
 P 5600 2650
 F 0 "D26" V 5554 2728 50  0000 L CNN
 F 1 "SMF4L15CA" V 5645 2728 50  0000 L CNN
-F 2 "antmicro-footprints:SOD-123FL" H 5600 2650 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SOD-123FL" H 5600 2650 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/240/Littelfuse_TVS_Diode_SMF4L_Datasheet_pdf-1665786.pdf" H 5600 2650 50  0001 C CNN
 F 4 "SMF4L15CA" H 5600 2650 50  0001 C CNN "MPN"
 F 5 "Infineon Technologies" H 5600 2650 50  0001 C CNN "Manufacturer"
@@ -329,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3250 5000 3250
 $Comp
-L power:GND #PWR?
+L kria-k26-devboard:GND #PWR?
 U 1 1 629B8553
 P 3800 4800
 AR Path="/63CADD16/629B8553" Ref="#PWR?"  Part="1" 
@@ -343,7 +343,7 @@ F 3 "" H 3800 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:USB4105-GF-A J?
+L kria-k26-devboard:USB4105-GF-A J?
 U 1 1 62AA367B
 P 3800 3850
 AR Path="/63C44BC2/62AA367B" Ref="J?"  Part="1" 
@@ -351,7 +351,7 @@ AR Path="/63C44BC2/62A9ECDC/62AA367B" Ref="J10"  Part="1"
 AR Path="/62AA367B" Ref="J?"  Part="1" 
 F 0 "J10" H 4207 5207 50  0000 C CNN
 F 1 "USB4105-GF-A" H 4207 5116 50  0000 C CNN
-F 2 "antmicro-footprints:GCT_USB4105-GF-A" H 3150 4100 50  0001 L BNN
+F 2 "kria-k26-devboard-footprints:GCT_USB4105-GF-A" H 3150 4100 50  0001 L BNN
 F 3 "https://gct.co/files/drawings/usb4105.pdf" H 3800 3850 50  0001 L BNN
 F 4 "GCT" H 3150 4200 50  0001 L BNN "Manufacturer"
 F 5 "USB4105-GF-A" H 4207 5025 50  0000 C CNN "MPN"
@@ -367,12 +367,12 @@ Wire Wire Line
 Text GLabel 3400 4850 0    50   Input ~ 0
 SH_UP
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP44
+L kria-k26-devboard:TP_SMD_0_75MM TP44
 U 1 1 63201A0B
 P 6700 2100
 F 0 "TP44" H 6650 2147 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 6700 2000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6900 2300 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 6900 2300 60  0001 L CNN
 F 3 "" H 6900 2400 60  0001 L CNN
 	1    6700 2100
 	-1   0    0    1   
@@ -383,12 +383,12 @@ Connection ~ 6700 2250
 Wire Wire Line
 	6700 2250 6950 2250
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP45
+L kria-k26-devboard:TP_SMD_0_75MM TP45
 U 1 1 6320BA28
 P 6700 3050
 F 0 "TP45" H 6750 3097 50  0000 L CNN
 F 1 "TP_SMD_0_75MM" H 6700 2950 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6900 3250 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 6900 3250 60  0001 L CNN
 F 3 "" H 6900 3350 60  0001 L CNN
 	1    6700 3050
 	1    0    0    -1  

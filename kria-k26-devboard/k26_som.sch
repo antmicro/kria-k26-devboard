@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroModules:XILINX-KRIA-K26 M1
+L kria-k26-devboard:XILINX-KRIA-K26 M1
 U 1 1 63C4E07E
 P 7050 10500
 F 0 "M1" H 7478 10671 50  0000 L CNN
 F 1 "XILINX-KRIA-K26" H 7478 10580 50  0000 L CNN
-F 2 "antmicro-footprints:XILINX-KRIA-K26" H 7500 10350 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:XILINX-KRIA-K26" H 7500 10350 50  0001 C CNN
 F 3 "" H 7050 10500 50  0001 C CNN
 F 4 "Xilinx" H 6900 10250 50  0001 C CNN "Manufacturer"
 F 5 "SM-K26-XCL2GC" H 7150 10150 50  0001 C CNN "MPN"
@@ -28,12 +28,12 @@ F 6 "System-On-Modules - SOM K26C SOM" H 7600 10050 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C115
+L kria-k26-devboard:C_47u_0805 C115
 U 1 1 622D55AE
 P 1050 10550
 F 0 "C115" H 1165 10595 60  0000 L CNN
 F 1 "C_47u_0805" H 1050 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 1250 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0805-cap" H 1250 10750 60  0001 L CNN
 F 3 "" H 1050 10550 50  0001 C CNN
 F 4 "KEMET" H 1250 10950 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 1250 10850 60  0001 L CNN "MPN"
@@ -42,12 +42,12 @@ F 6 "47u" H 1165 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C116
+L kria-k26-devboard:C_47u_0805 C116
 U 1 1 622E292B
 P 1450 10550
 F 0 "C116" H 1565 10595 60  0000 L CNN
 F 1 "C_47u_0805" H 1450 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 1650 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0805-cap" H 1650 10750 60  0001 L CNN
 F 3 "" H 1450 10550 50  0001 C CNN
 F 4 "KEMET" H 1650 10950 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 1650 10850 60  0001 L CNN "MPN"
@@ -56,12 +56,12 @@ F 6 "47u" H 1565 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C117
+L kria-k26-devboard:C_1u_0402 C117
 U 1 1 622E46CF
 P 1850 10550
 F 0 "C117" H 1965 10595 60  0000 L CNN
 F 1 "C_1u_0402" H 1850 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2050 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 2050 10750 60  0001 L CNN
 F 3 "" H 1850 10550 50  0001 C CNN
 F 4 "TDK" H 2050 10950 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 2050 10850 60  0001 L CNN "MPN"
@@ -70,12 +70,12 @@ F 6 "1u" H 1965 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C118
+L kria-k26-devboard:C_100n_0402 C118
 U 1 1 622E6C27
 P 2250 10550
 F 0 "C118" H 2365 10595 60  0000 L CNN
 F 1 "C_100n_0402" H 2250 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2450 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 2450 10750 60  0001 L CNN
 F 3 "" H 2250 10550 50  0001 C CNN
 F 4 "Murata" H 2450 10950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 2450 10850 60  0001 L CNN "MPN"
@@ -121,7 +121,7 @@ Wire Wire Line
 	950  10300 1050 10300
 Connection ~ 1050 10300
 $Comp
-L power:GND #PWR0125
+L kria-k26-devboard:GND #PWR0125
 U 1 1 6265C945
 P 1650 10900
 F 0 "#PWR0125" H 1650 10650 50  0001 C CNN
@@ -137,12 +137,12 @@ Connection ~ 1650 10800
 Wire Wire Line
 	1650 10800 1850 10800
 $Comp
-L antmicroMechanicalParts:JSOM-0515-01 SP2
+L kria-k26-devboard:JSOM-0515-01 SP2
 U 1 1 628AF44E
 P 9400 10100
 F 0 "SP2" V 9389 10170 50  0000 R CNN
 F 1 "JSOM-0515-01" V 9298 10170 50  0000 R CNN
-F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 9400 10100 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SAMTEC_JSOM-0515-01" H 9400 10100 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 9400 10100 50  0001 C CNN
 F 4 "Samtec" H 9400 10100 50  0001 C CNN "Manufacturer"
 F 5 "JSOM-0515-01" H 9400 10100 50  0001 C CNN "MPN"
@@ -150,12 +150,12 @@ F 5 "JSOM-0515-01" H 9400 10100 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroMechanicalParts:JSOM-0515-01 SP3
+L kria-k26-devboard:JSOM-0515-01 SP3
 U 1 1 62B58BCA
 P 10350 10100
 F 0 "SP3" V 10339 10170 50  0000 R CNN
 F 1 "JSOM-0515-01" V 10248 10170 50  0000 R CNN
-F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 10350 10100 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SAMTEC_JSOM-0515-01" H 10350 10100 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 10350 10100 50  0001 C CNN
 F 4 "Samtec" H 10350 10100 50  0001 C CNN "Manufacturer"
 F 5 "JSOM-0515-01" H 10350 10100 50  0001 C CNN "MPN"
@@ -163,12 +163,12 @@ F 5 "JSOM-0515-01" H 10350 10100 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroMechanicalParts:JSOM-0515-01 SP1
+L kria-k26-devboard:JSOM-0515-01 SP1
 U 1 1 62B59055
 P 8450 10100
 F 0 "SP1" V 8439 10170 50  0000 R CNN
 F 1 "JSOM-0515-01" V 8348 10170 50  0000 R CNN
-F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 8450 10100 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SAMTEC_JSOM-0515-01" H 8450 10100 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 8450 10100 50  0001 C CNN
 F 4 "Samtec" H 8450 10100 50  0001 C CNN "Manufacturer"
 F 5 "JSOM-0515-01" H 8450 10100 50  0001 C CNN "MPN"
@@ -176,12 +176,12 @@ F 5 "JSOM-0515-01" H 8450 10100 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroMechanicalParts:JSOM-0515-01 SP4
+L kria-k26-devboard:JSOM-0515-01 SP4
 U 1 1 62E38346
 P 11250 10100
 F 0 "SP4" V 11239 10170 50  0000 R CNN
 F 1 "JSOM-0515-01" V 11148 10170 50  0000 R CNN
-F 2 "antmicro-footprints:SAMTEC_JSOM-0515-01" H 11250 10100 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SAMTEC_JSOM-0515-01" H 11250 10100 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/527/jsom_xxxx_xx_mkt-2854595.pdf" H 11250 10100 50  0001 C CNN
 F 4 "Samtec" H 11250 10100 50  0001 C CNN "Manufacturer"
 F 5 "JSOM-0515-01" H 11250 10100 50  0001 C CNN "MPN"
@@ -205,7 +205,7 @@ Connection ~ 9200 10450
 Wire Wire Line
 	9200 10450 10150 10450
 $Comp
-L power:GND #PWR0252
+L kria-k26-devboard:GND #PWR0252
 U 1 1 62F65B5C
 P 11050 10550
 F 0 "#PWR0252" H 11050 10300 50  0001 C CNN
@@ -223,12 +223,12 @@ Standoffs
 Text Notes 7050 10150 0    50   ~ 0
 SOM 3D Model
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C119
+L kria-k26-devboard:C_47u_0805 C119
 U 1 1 6235AEE5
 P 2700 10550
 F 0 "C119" H 2815 10595 60  0000 L CNN
 F 1 "C_47u_0805" H 2700 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 2900 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0805-cap" H 2900 10750 60  0001 L CNN
 F 3 "" H 2700 10550 50  0001 C CNN
 F 4 "KEMET" H 2900 10950 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 2900 10850 60  0001 L CNN "MPN"
@@ -237,12 +237,12 @@ F 6 "47u" H 2815 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_0805 C120
+L kria-k26-devboard:C_47u_0805 C120
 U 1 1 6235AEEE
 P 3100 10550
 F 0 "C120" H 3215 10595 60  0000 L CNN
 F 1 "C_47u_0805" H 3100 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 3300 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0805-cap" H 3300 10750 60  0001 L CNN
 F 3 "" H 3100 10550 50  0001 C CNN
 F 4 "KEMET" H 3300 10950 60  0001 L CNN "Manufacturer"
 F 5 "C0805C476M9PACTU" H 3300 10850 60  0001 L CNN "MPN"
@@ -251,12 +251,12 @@ F 6 "47u" H 3215 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C121
+L kria-k26-devboard:C_1u_0402 C121
 U 1 1 6235AEF7
 P 3500 10550
 F 0 "C121" H 3615 10595 60  0000 L CNN
 F 1 "C_1u_0402" H 3500 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3700 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 3700 10750 60  0001 L CNN
 F 3 "" H 3500 10550 50  0001 C CNN
 F 4 "TDK" H 3700 10950 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 3700 10850 60  0001 L CNN "MPN"
@@ -301,7 +301,7 @@ SOM_5V0
 Wire Wire Line
 	2700 10250 2700 10300
 $Comp
-L power:GND #PWR0165
+L kria-k26-devboard:GND #PWR0165
 U 1 1 6235AF1B
 P 3300 10900
 F 0 "#PWR0165" H 3300 10650 50  0001 C CNN
@@ -319,12 +319,12 @@ Wire Wire Line
 Text Notes 500  9900 0    100  ~ 20
 SOM decoupling
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C122
+L kria-k26-devboard:C_100n_0402 C122
 U 1 1 6235AF00
 P 3900 10550
 F 0 "C122" H 4015 10595 60  0000 L CNN
 F 1 "C_100n_0402" H 3900 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4100 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 4100 10750 60  0001 L CNN
 F 3 "" H 3900 10550 50  0001 C CNN
 F 4 "Murata" H 4100 10950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 4100 10850 60  0001 L CNN "MPN"
@@ -333,12 +333,12 @@ F 6 "100n" H 4015 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C129
+L kria-k26-devboard:C_100n_0402 C129
 U 1 1 658981C2
 P 6600 10550
 F 0 "C129" H 6715 10595 60  0000 L CNN
 F 1 "C_100n_0402" H 6600 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6800 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 6800 10750 60  0001 L CNN
 F 3 "" H 6600 10550 50  0001 C CNN
 F 4 "Murata" H 6800 10950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 6800 10850 60  0001 L CNN "MPN"
@@ -349,7 +349,7 @@ $EndComp
 Text GLabel 6600 10300 1    50   Input ~ 0
 PL_3V3
 $Comp
-L power:GND #PWR0188
+L kria-k26-devboard:GND #PWR0188
 U 1 1 658B0818
 P 6600 10800
 F 0 "#PWR0188" H 6600 10550 50  0001 C CNN
@@ -364,12 +364,12 @@ Wire Wire Line
 Wire Wire Line
 	6600 10400 6600 10350
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C125
+L kria-k26-devboard:C_100n_0402 C125
 U 1 1 6392B9A7
 P 5200 10550
 F 0 "C125" H 5315 10595 60  0000 L CNN
 F 1 "C_100n_0402" H 5200 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5400 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 5400 10750 60  0001 L CNN
 F 3 "" H 5200 10550 50  0001 C CNN
 F 4 "Murata" H 5400 10950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 5400 10850 60  0001 L CNN "MPN"
@@ -380,7 +380,7 @@ $EndComp
 Text GLabel 5200 10300 1    50   Input ~ 0
 PL_1V2
 $Comp
-L power:GND #PWR0167
+L kria-k26-devboard:GND #PWR0167
 U 1 1 6392BD62
 P 5200 10800
 F 0 "#PWR0167" H 5200 10550 50  0001 C CNN
@@ -405,12 +405,12 @@ MODE2_C2M
 Text Label 1000 7850 2    50   ~ 0
 MODE3_C2M
 $Comp
-L antmicroResistors0402:R_470R_0402 R79
+L kria-k26-devboard:R_470R_0402 R79
 U 1 1 65AB0BA9
 P 1500 8100
 F 0 "R79" V 1455 8170 60  0000 L CNN
 F 1 "R_470R_0402" H 1500 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1700 8300 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 1700 8300 60  0001 L CNN
 F 3 "" H 1500 8100 50  0001 C CNN
 F 4 "VISHAY" H 1700 8500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 1700 8400 60  0001 L CNN "MPN"
@@ -419,12 +419,12 @@ F 6 "470R" V 1553 8170 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_470R_0402 R80
+L kria-k26-devboard:R_470R_0402 R80
 U 1 1 65AB18CD
 P 1850 8100
 F 0 "R80" V 1805 8170 60  0000 L CNN
 F 1 "R_470R_0402" H 1850 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2050 8300 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 2050 8300 60  0001 L CNN
 F 3 "" H 1850 8100 50  0001 C CNN
 F 4 "VISHAY" H 2050 8500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 2050 8400 60  0001 L CNN "MPN"
@@ -433,12 +433,12 @@ F 6 "470R" V 1903 8170 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_470R_0402 R81
+L kria-k26-devboard:R_470R_0402 R81
 U 1 1 65AB23E2
 P 2200 8100
 F 0 "R81" V 2155 8170 60  0000 L CNN
 F 1 "R_470R_0402" H 2200 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2400 8300 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 2400 8300 60  0001 L CNN
 F 3 "" H 2200 8100 50  0001 C CNN
 F 4 "VISHAY" H 2400 8500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 2400 8400 60  0001 L CNN "MPN"
@@ -447,12 +447,12 @@ F 6 "DNP" V 2253 8170 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_470R_0402 R82
+L kria-k26-devboard:R_470R_0402 R82
 U 1 1 65AB2F87
 P 2550 8100
 F 0 "R82" V 2505 8170 60  0000 L CNN
 F 1 "R_470R_0402" H 2550 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2750 8300 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 2750 8300 60  0001 L CNN
 F 3 "" H 2550 8100 50  0001 C CNN
 F 4 "VISHAY" H 2750 8500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 2750 8400 60  0001 L CNN "MPN"
@@ -477,7 +477,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 7550 2550 7550
 $Comp
-L power:GND #PWR0145
+L kria-k26-devboard:GND #PWR0145
 U 1 1 65C9E787
 P 2550 8450
 F 0 "#PWR0145" H 2550 8200 50  0001 C CNN
@@ -507,12 +507,12 @@ Connection ~ 2550 8350
 Wire Wire Line
 	1850 8350 2200 8350
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:PJA3441 Q6
+L kria-k26-devboard:PJA3441 Q6
 U 1 1 635AB375
 P 4000 7800
 F 0 "Q6" V 4292 8050 50  0000 C CNN
 F 1 "PJA3441" V 4201 8050 50  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-3" H 4000 7800 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:SOT-23-3" H 4000 7800 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/1057/PJA3441-1867252.pdf" H 4000 7800 50  0001 C CNN
 F 4 "Panjit" H 4300 7950 50  0001 C CNN "Manufacturer"
 F 5 "PJA3441_R1_00001" H 4550 8050 50  0001 C CNN "MPN"
@@ -520,12 +520,12 @@ F 5 "PJA3441_R1_00001" H 4550 8050 50  0001 C CNN "MPN"
 	0    1    -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_100k_0402 R83
+L kria-k26-devboard:R_100k_0402 R83
 U 1 1 635AEB19
 P 3800 8000
 F 0 "R83" V 3755 8070 60  0000 L CNN
 F 1 "R_100k_0402" H 3800 7850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4000 8200 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 4000 8200 60  0001 L CNN
 F 3 "" H 3800 8000 50  0001 C CNN
 F 4 "VISHAY" H 4000 8400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4000 8300 60  0001 L CNN "MPN"
@@ -552,7 +552,7 @@ Connection ~ 3800 7750
 Wire Wire Line
 	4250 8700 4250 8750
 $Comp
-L power:GND #PWR0166
+L kria-k26-devboard:GND #PWR0166
 U 1 1 638A6E7C
 P 4250 9050
 F 0 "#PWR0166" H 4250 8800 50  0001 C CNN
@@ -563,12 +563,12 @@ F 3 "" H 4250 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:1N4148WS D3
+L kria-k26-devboard:1N4148WS D3
 U 1 1 639B4756
 P 4750 8050
 F 0 "D3" V 4803 7972 60  0000 R CNN
 F 1 "1N4148WS" V 4697 7972 60  0000 R CNN
-F 2 "antmicro-footprints:SOD-323F" H 4950 8250 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:SOD-323F" H 4950 8250 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 4950 8350 60  0001 L CNN
 F 4 "1N4148WS" H 4950 8550 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 4950 9150 60  0001 L CNN "Manufacturer"
@@ -576,12 +576,12 @@ F 5 "ON Semiconductor" H 4950 9150 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB2
+L kria-k26-devboard:BLM15PD121SN1D FB2
 U 1 1 639FC1DD
 P 6200 8400
 F 0 "FB2" H 6200 8687 60  0000 C CNN
 F 1 "BLM15PD121SN1D" H 6200 8581 60  0000 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 8600 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 6400 8600 60  0001 L CNN
 F 3 "" H 6400 8700 60  0001 L CNN
 F 4 "BLM15PD121SN1D" H 6400 8900 60  0001 L CNN "MPN"
 F 5 "Murata" H 6400 9500 60  0001 L CNN "Manufacturer"
@@ -589,12 +589,12 @@ F 5 "Murata" H 6400 9500 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB1
+L kria-k26-devboard:BLM15PD121SN1D FB1
 U 1 1 639FD0B2
 P 6150 7750
 F 0 "FB1" H 6150 8037 60  0000 C CNN
 F 1 "BLM15PD121SN1D" H 6150 7931 60  0000 C CNN
-F 2 "antmicro-footprints:0402-res" H 6350 7950 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 6350 7950 60  0001 L CNN
 F 3 "" H 6350 8050 60  0001 L CNN
 F 4 "BLM15PD121SN1D" H 6350 8250 60  0001 L CNN "MPN"
 F 5 "Murata" H 6350 8850 60  0001 L CNN "Manufacturer"
@@ -613,12 +613,12 @@ Wire Wire Line
 Wire Wire Line
 	4750 8400 4750 8250
 $Comp
-L antmicroCapacitorsmisc:C_1u_1210_100V C126
+L kria-k26-devboard:C_1u_1210_100V C126
 U 1 1 63D12F0E
 P 5500 8050
 F 0 "C126" H 5615 8095 60  0000 L CNN
 F 1 "C_1u_1210_100V" H 5500 7900 60  0001 C CNN
-F 2 "antmicro-footprints:1210-cap" H 5700 8250 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:1210-cap" H 5700 8250 60  0001 L CNN
 F 3 "" H 5500 8050 50  0001 C CNN
 F 4 "AVX" H 5700 8450 60  0001 L CNN "Manufacturer"
 F 5 "12101C105K4Z2A" H 5700 8350 60  0001 L CNN "MPN"
@@ -642,12 +642,12 @@ Wire Wire Line
 	5500 8750 5500 8400
 Connection ~ 4250 8750
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:22-23-2021 J6
+L kria-k26-devboard:22-23-2021 J6
 U 1 1 63E996B5
 P 6850 8100
 F 0 "J6" V 6941 7972 50  0000 R CNN
 F 1 "22-23-2021" V 6850 7972 50  0000 R CNN
-F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 7050 8300 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 7050 8300 60  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 7050 8400 60  0001 L CNN
 F 4 "22-23-2021" H 7050 8600 60  0001 L CNN "MPN"
 F 5 "Molex" H 7050 9200 60  0001 L CNN "Manufacturer"
@@ -1195,7 +1195,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 1300 11000 1300
 $Comp
-L power:GND #PWR0273
+L kria-k26-devboard:GND #PWR0273
 U 1 1 62876583
 P 13400 6700
 F 0 "#PWR0273" H 13400 6450 50  0001 C CNN
@@ -1206,7 +1206,7 @@ F 3 "" H 13400 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0272
+L kria-k26-devboard:GND #PWR0272
 U 1 1 62875D0B
 P 13400 6300
 F 0 "#PWR0272" H 13400 6050 50  0001 C CNN
@@ -1217,7 +1217,7 @@ F 3 "" H 13400 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0271
+L kria-k26-devboard:GND #PWR0271
 U 1 1 6287534F
 P 13400 5900
 F 0 "#PWR0271" H 13400 5650 50  0001 C CNN
@@ -1228,7 +1228,7 @@ F 3 "" H 13400 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0270
+L kria-k26-devboard:GND #PWR0270
 U 1 1 6287326B
 P 13400 5500
 F 0 "#PWR0270" H 13400 5250 50  0001 C CNN
@@ -1239,7 +1239,7 @@ F 3 "" H 13400 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0269
+L kria-k26-devboard:GND #PWR0269
 U 1 1 62872B4A
 P 13400 5300
 F 0 "#PWR0269" H 13400 5050 50  0001 C CNN
@@ -1250,7 +1250,7 @@ F 3 "" H 13400 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0268
+L kria-k26-devboard:GND #PWR0268
 U 1 1 628724C4
 P 13400 5000
 F 0 "#PWR0268" H 13400 4750 50  0001 C CNN
@@ -1261,7 +1261,7 @@ F 3 "" H 13400 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0267
+L kria-k26-devboard:GND #PWR0267
 U 1 1 62871E1F
 P 13400 4700
 F 0 "#PWR0267" H 13400 4450 50  0001 C CNN
@@ -1272,7 +1272,7 @@ F 3 "" H 13400 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0266
+L kria-k26-devboard:GND #PWR0266
 U 1 1 628710A4
 P 13400 4400
 F 0 "#PWR0266" H 13400 4150 50  0001 C CNN
@@ -1283,7 +1283,7 @@ F 3 "" H 13400 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0265
+L kria-k26-devboard:GND #PWR0265
 U 1 1 6286CE92
 P 13400 4100
 F 0 "#PWR0265" H 13400 3850 50  0001 C CNN
@@ -1294,7 +1294,7 @@ F 3 "" H 13400 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0264
+L kria-k26-devboard:GND #PWR0264
 U 1 1 6286C77E
 P 13400 3800
 F 0 "#PWR0264" H 13400 3550 50  0001 C CNN
@@ -1305,7 +1305,7 @@ F 3 "" H 13400 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0263
+L kria-k26-devboard:GND #PWR0263
 U 1 1 6286C0F3
 P 13400 3500
 F 0 "#PWR0263" H 13400 3250 50  0001 C CNN
@@ -1316,7 +1316,7 @@ F 3 "" H 13400 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0262
+L kria-k26-devboard:GND #PWR0262
 U 1 1 6286BA22
 P 13400 3200
 F 0 "#PWR0262" H 13400 2950 50  0001 C CNN
@@ -1327,7 +1327,7 @@ F 3 "" H 13400 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0261
+L kria-k26-devboard:GND #PWR0261
 U 1 1 6286ADDB
 P 13400 2900
 F 0 "#PWR0261" H 13400 2650 50  0001 C CNN
@@ -1338,7 +1338,7 @@ F 3 "" H 13400 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0260
+L kria-k26-devboard:GND #PWR0260
 U 1 1 62869F04
 P 13400 2600
 F 0 "#PWR0260" H 13400 2350 50  0001 C CNN
@@ -1349,7 +1349,7 @@ F 3 "" H 13400 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0259
+L kria-k26-devboard:GND #PWR0259
 U 1 1 628698BD
 P 13400 2300
 F 0 "#PWR0259" H 13400 2050 50  0001 C CNN
@@ -1360,7 +1360,7 @@ F 3 "" H 13400 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0258
+L kria-k26-devboard:GND #PWR0258
 U 1 1 62869309
 P 13400 2000
 F 0 "#PWR0258" H 13400 1750 50  0001 C CNN
@@ -1371,7 +1371,7 @@ F 3 "" H 13400 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0257
+L kria-k26-devboard:GND #PWR0257
 U 1 1 62868D36
 P 13400 1900
 F 0 "#PWR0257" H 13400 1650 50  0001 C CNN
@@ -1382,7 +1382,7 @@ F 3 "" H 13400 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0256
+L kria-k26-devboard:GND #PWR0256
 U 1 1 628687E7
 P 13400 1600
 F 0 "#PWR0256" H 13400 1350 50  0001 C CNN
@@ -1393,7 +1393,7 @@ F 3 "" H 13400 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0255
+L kria-k26-devboard:GND #PWR0255
 U 1 1 62868252
 P 13400 1500
 F 0 "#PWR0255" H 13400 1250 50  0001 C CNN
@@ -1404,7 +1404,7 @@ F 3 "" H 13400 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0254
+L kria-k26-devboard:GND #PWR0254
 U 1 1 6286787F
 P 13400 1200
 F 0 "#PWR0254" H 13400 950 50  0001 C CNN
@@ -1415,7 +1415,7 @@ F 3 "" H 13400 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0253
+L kria-k26-devboard:GND #PWR0253
 U 1 1 6281DAC0
 P 13400 1100
 F 0 "#PWR0253" H 13400 850 50  0001 C CNN
@@ -1426,7 +1426,7 @@ F 3 "" H 13400 1100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0274
+L kria-k26-devboard:GND #PWR0274
 U 1 1 62816160
 P 14800 1300
 F 0 "#PWR0274" H 14800 1050 50  0001 C CNN
@@ -1437,7 +1437,7 @@ F 3 "" H 14800 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0275
+L kria-k26-devboard:GND #PWR0275
 U 1 1 62815AE2
 P 14800 1400
 F 0 "#PWR0275" H 14800 1150 50  0001 C CNN
@@ -1448,7 +1448,7 @@ F 3 "" H 14800 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0276
+L kria-k26-devboard:GND #PWR0276
 U 1 1 628155F2
 P 14800 1700
 F 0 "#PWR0276" H 14800 1450 50  0001 C CNN
@@ -1459,7 +1459,7 @@ F 3 "" H 14800 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0277
+L kria-k26-devboard:GND #PWR0277
 U 1 1 62814FC8
 P 14800 1800
 F 0 "#PWR0277" H 14800 1550 50  0001 C CNN
@@ -1470,7 +1470,7 @@ F 3 "" H 14800 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0278
+L kria-k26-devboard:GND #PWR0278
 U 1 1 62776193
 P 14800 2100
 F 0 "#PWR0278" H 14800 1850 50  0001 C CNN
@@ -1481,7 +1481,7 @@ F 3 "" H 14800 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0279
+L kria-k26-devboard:GND #PWR0279
 U 1 1 6277524F
 P 14800 2400
 F 0 "#PWR0279" H 14800 2150 50  0001 C CNN
@@ -1492,7 +1492,7 @@ F 3 "" H 14800 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0280
+L kria-k26-devboard:GND #PWR0280
 U 1 1 62773B92
 P 14800 2700
 F 0 "#PWR0280" H 14800 2450 50  0001 C CNN
@@ -1503,7 +1503,7 @@ F 3 "" H 14800 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0281
+L kria-k26-devboard:GND #PWR0281
 U 1 1 62773315
 P 14800 3000
 F 0 "#PWR0281" H 14800 2750 50  0001 C CNN
@@ -1514,7 +1514,7 @@ F 3 "" H 14800 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0282
+L kria-k26-devboard:GND #PWR0282
 U 1 1 627723FB
 P 14800 3300
 F 0 "#PWR0282" H 14800 3050 50  0001 C CNN
@@ -1525,7 +1525,7 @@ F 3 "" H 14800 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0283
+L kria-k26-devboard:GND #PWR0283
 U 1 1 62771975
 P 14800 3600
 F 0 "#PWR0283" H 14800 3350 50  0001 C CNN
@@ -1536,7 +1536,7 @@ F 3 "" H 14800 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0284
+L kria-k26-devboard:GND #PWR0284
 U 1 1 627709F2
 P 14800 3900
 F 0 "#PWR0284" H 14800 3650 50  0001 C CNN
@@ -1547,7 +1547,7 @@ F 3 "" H 14800 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0285
+L kria-k26-devboard:GND #PWR0285
 U 1 1 62770112
 P 14800 4200
 F 0 "#PWR0285" H 14800 3950 50  0001 C CNN
@@ -1558,7 +1558,7 @@ F 3 "" H 14800 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0286
+L kria-k26-devboard:GND #PWR0286
 U 1 1 6276F7E7
 P 14800 4500
 F 0 "#PWR0286" H 14800 4250 50  0001 C CNN
@@ -1569,7 +1569,7 @@ F 3 "" H 14800 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0287
+L kria-k26-devboard:GND #PWR0287
 U 1 1 6276E8A8
 P 14800 4800
 F 0 "#PWR0287" H 14800 4550 50  0001 C CNN
@@ -1580,7 +1580,7 @@ F 3 "" H 14800 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0288
+L kria-k26-devboard:GND #PWR0288
 U 1 1 6276E0E2
 P 14800 5100
 F 0 "#PWR0288" H 14800 4850 50  0001 C CNN
@@ -1591,7 +1591,7 @@ F 3 "" H 14800 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0289
+L kria-k26-devboard:GND #PWR0289
 U 1 1 6276D87B
 P 14800 5300
 F 0 "#PWR0289" H 14800 5050 50  0001 C CNN
@@ -1602,7 +1602,7 @@ F 3 "" H 14800 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0290
+L kria-k26-devboard:GND #PWR0290
 U 1 1 6276D03F
 P 14800 5700
 F 0 "#PWR0290" H 14800 5450 50  0001 C CNN
@@ -1613,7 +1613,7 @@ F 3 "" H 14800 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0291
+L kria-k26-devboard:GND #PWR0291
 U 1 1 6276C806
 P 14800 6100
 F 0 "#PWR0291" H 14800 5850 50  0001 C CNN
@@ -1624,7 +1624,7 @@ F 3 "" H 14800 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0292
+L kria-k26-devboard:GND #PWR0292
 U 1 1 6276BF78
 P 14800 6500
 F 0 "#PWR0292" H 14800 6250 50  0001 C CNN
@@ -1635,7 +1635,7 @@ F 3 "" H 14800 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0251
+L kria-k26-devboard:GND #PWR0251
 U 1 1 6276B75D
 P 11000 6500
 F 0 "#PWR0251" H 11000 6250 50  0001 C CNN
@@ -1646,7 +1646,7 @@ F 3 "" H 11000 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0250
+L kria-k26-devboard:GND #PWR0250
 U 1 1 6276AF8E
 P 11000 6100
 F 0 "#PWR0250" H 11000 5850 50  0001 C CNN
@@ -1657,7 +1657,7 @@ F 3 "" H 11000 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0249
+L kria-k26-devboard:GND #PWR0249
 U 1 1 62768308
 P 11000 5700
 F 0 "#PWR0249" H 11000 5450 50  0001 C CNN
@@ -1668,7 +1668,7 @@ F 3 "" H 11000 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0248
+L kria-k26-devboard:GND #PWR0248
 U 1 1 62767D93
 P 11000 5300
 F 0 "#PWR0248" H 11000 5050 50  0001 C CNN
@@ -1679,7 +1679,7 @@ F 3 "" H 11000 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0247
+L kria-k26-devboard:GND #PWR0247
 U 1 1 6276731B
 P 11000 5100
 F 0 "#PWR0247" H 11000 4850 50  0001 C CNN
@@ -1690,7 +1690,7 @@ F 3 "" H 11000 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0246
+L kria-k26-devboard:GND #PWR0246
 U 1 1 62766CAE
 P 11000 4800
 F 0 "#PWR0246" H 11000 4550 50  0001 C CNN
@@ -1701,7 +1701,7 @@ F 3 "" H 11000 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0245
+L kria-k26-devboard:GND #PWR0245
 U 1 1 627666A6
 P 11000 4500
 F 0 "#PWR0245" H 11000 4250 50  0001 C CNN
@@ -1712,7 +1712,7 @@ F 3 "" H 11000 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0244
+L kria-k26-devboard:GND #PWR0244
 U 1 1 627660B2
 P 11000 4200
 F 0 "#PWR0244" H 11000 3950 50  0001 C CNN
@@ -1723,7 +1723,7 @@ F 3 "" H 11000 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0243
+L kria-k26-devboard:GND #PWR0243
 U 1 1 627655BC
 P 11000 3900
 F 0 "#PWR0243" H 11000 3650 50  0001 C CNN
@@ -1734,7 +1734,7 @@ F 3 "" H 11000 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0242
+L kria-k26-devboard:GND #PWR0242
 U 1 1 62764ECD
 P 11000 3600
 F 0 "#PWR0242" H 11000 3350 50  0001 C CNN
@@ -1745,7 +1745,7 @@ F 3 "" H 11000 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0241
+L kria-k26-devboard:GND #PWR0241
 U 1 1 627647D9
 P 11000 3300
 F 0 "#PWR0241" H 11000 3050 50  0001 C CNN
@@ -1756,7 +1756,7 @@ F 3 "" H 11000 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0240
+L kria-k26-devboard:GND #PWR0240
 U 1 1 62764151
 P 11000 3000
 F 0 "#PWR0240" H 11000 2750 50  0001 C CNN
@@ -1767,7 +1767,7 @@ F 3 "" H 11000 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0239
+L kria-k26-devboard:GND #PWR0239
 U 1 1 62763083
 P 11000 2700
 F 0 "#PWR0239" H 11000 2450 50  0001 C CNN
@@ -1778,7 +1778,7 @@ F 3 "" H 11000 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0238
+L kria-k26-devboard:GND #PWR0238
 U 1 1 62762681
 P 11000 2400
 F 0 "#PWR0238" H 11000 2150 50  0001 C CNN
@@ -1789,7 +1789,7 @@ F 3 "" H 11000 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0237
+L kria-k26-devboard:GND #PWR0237
 U 1 1 6276207A
 P 11000 2100
 F 0 "#PWR0237" H 11000 1850 50  0001 C CNN
@@ -1800,7 +1800,7 @@ F 3 "" H 11000 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0236
+L kria-k26-devboard:GND #PWR0236
 U 1 1 62761AA0
 P 11000 1800
 F 0 "#PWR0236" H 11000 1550 50  0001 C CNN
@@ -1811,7 +1811,7 @@ F 3 "" H 11000 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0235
+L kria-k26-devboard:GND #PWR0235
 U 1 1 6276108C
 P 11000 1700
 F 0 "#PWR0235" H 11000 1450 50  0001 C CNN
@@ -1822,7 +1822,7 @@ F 3 "" H 11000 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0234
+L kria-k26-devboard:GND #PWR0234
 U 1 1 62760971
 P 11000 1400
 F 0 "#PWR0234" H 11000 1150 50  0001 C CNN
@@ -1833,7 +1833,7 @@ F 3 "" H 11000 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0233
+L kria-k26-devboard:GND #PWR0233
 U 1 1 6275CB55
 P 11000 1300
 F 0 "#PWR0233" H 11000 1050 50  0001 C CNN
@@ -1844,7 +1844,7 @@ F 3 "" H 11000 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0230
+L kria-k26-devboard:GND #PWR0230
 U 1 1 6275C35F
 P 9600 6700
 F 0 "#PWR0230" H 9600 6450 50  0001 C CNN
@@ -1855,7 +1855,7 @@ F 3 "" H 9600 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0229
+L kria-k26-devboard:GND #PWR0229
 U 1 1 6275B497
 P 9600 6300
 F 0 "#PWR0229" H 9600 6050 50  0001 C CNN
@@ -1868,7 +1868,7 @@ $EndComp
 Wire Wire Line
 	9600 5900 9700 5900
 $Comp
-L power:GND #PWR0228
+L kria-k26-devboard:GND #PWR0228
 U 1 1 627102AC
 P 9600 5900
 F 0 "#PWR0228" H 9600 5650 50  0001 C CNN
@@ -2433,7 +2433,7 @@ HPC08_N
 Wire Wire Line
 	9700 5400 9300 5400
 $Comp
-L power:GND #PWR0227
+L kria-k26-devboard:GND #PWR0227
 U 1 1 62693D20
 P 9600 5500
 F 0 "#PWR0227" H 9600 5250 50  0001 C CNN
@@ -2450,7 +2450,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 5100 9300 5100
 $Comp
-L power:GND #PWR0226
+L kria-k26-devboard:GND #PWR0226
 U 1 1 62693D11
 P 9600 5300
 F 0 "#PWR0226" H 9600 5050 50  0001 C CNN
@@ -2467,7 +2467,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 4800 9300 4800
 $Comp
-L power:GND #PWR0225
+L kria-k26-devboard:GND #PWR0225
 U 1 1 62693D02
 P 9600 5000
 F 0 "#PWR0225" H 9600 4750 50  0001 C CNN
@@ -2480,7 +2480,7 @@ $EndComp
 Wire Wire Line
 	9600 4700 9700 4700
 $Comp
-L power:GND #PWR0221
+L kria-k26-devboard:GND #PWR0221
 U 1 1 62693CF7
 P 9600 3800
 F 0 "#PWR0221" H 9600 3550 50  0001 C CNN
@@ -2505,7 +2505,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 4400 9700 4400
 $Comp
-L power:GND #PWR0223
+L kria-k26-devboard:GND #PWR0223
 U 1 1 62693CDF
 P 9600 4400
 F 0 "#PWR0223" H 9600 4150 50  0001 C CNN
@@ -2518,7 +2518,7 @@ $EndComp
 Wire Wire Line
 	9600 4100 9700 4100
 $Comp
-L power:GND #PWR0222
+L kria-k26-devboard:GND #PWR0222
 U 1 1 62693CD4
 P 9600 4100
 F 0 "#PWR0222" H 9600 3850 50  0001 C CNN
@@ -2529,7 +2529,7 @@ F 3 "" H 9600 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0224
+L kria-k26-devboard:GND #PWR0224
 U 1 1 6269346E
 P 9600 4700
 F 0 "#PWR0224" H 9600 4450 50  0001 C CNN
@@ -2560,7 +2560,7 @@ HPB16_P
 Wire Wire Line
 	9700 3300 9300 3300
 $Comp
-L power:GND #PWR0220
+L kria-k26-devboard:GND #PWR0220
 U 1 1 6264143A
 P 9600 3500
 F 0 "#PWR0220" H 9600 3250 50  0001 C CNN
@@ -2581,7 +2581,7 @@ HPB06_P
 Wire Wire Line
 	9700 3000 9300 3000
 $Comp
-L power:GND #PWR0219
+L kria-k26-devboard:GND #PWR0219
 U 1 1 62618EF1
 P 9600 3200
 F 0 "#PWR0219" H 9600 2950 50  0001 C CNN
@@ -2594,7 +2594,7 @@ $EndComp
 Wire Wire Line
 	9600 2900 9700 2900
 $Comp
-L power:GND #PWR0214
+L kria-k26-devboard:GND #PWR0214
 U 1 1 6259E68E
 P 9600 1900
 F 0 "#PWR0214" H 9600 1650 50  0001 C CNN
@@ -2607,7 +2607,7 @@ $EndComp
 Wire Wire Line
 	9600 2000 9700 2000
 $Comp
-L power:GND #PWR0213
+L kria-k26-devboard:GND #PWR0213
 U 1 1 6252E2F6
 P 9600 1600
 F 0 "#PWR0213" H 9600 1350 50  0001 C CNN
@@ -2662,7 +2662,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 2600 9700 2600
 $Comp
-L power:GND #PWR0217
+L kria-k26-devboard:GND #PWR0217
 U 1 1 624A9ABC
 P 9600 2600
 F 0 "#PWR0217" H 9600 2350 50  0001 C CNN
@@ -2675,7 +2675,7 @@ $EndComp
 Wire Wire Line
 	9600 2300 9700 2300
 $Comp
-L power:GND #PWR0216
+L kria-k26-devboard:GND #PWR0216
 U 1 1 624A9AB1
 P 9600 2300
 F 0 "#PWR0216" H 9600 2050 50  0001 C CNN
@@ -2686,7 +2686,7 @@ F 3 "" H 9600 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0215
+L kria-k26-devboard:GND #PWR0215
 U 1 1 624A9AA7
 P 9600 2000
 F 0 "#PWR0215" H 9600 1750 50  0001 C CNN
@@ -2699,7 +2699,7 @@ $EndComp
 Wire Wire Line
 	9700 1900 9600 1900
 $Comp
-L power:GND #PWR0212
+L kria-k26-devboard:GND #PWR0212
 U 1 1 624A9A9C
 P 9600 1500
 F 0 "#PWR0212" H 9600 1250 50  0001 C CNN
@@ -2712,7 +2712,7 @@ $EndComp
 Wire Wire Line
 	9700 1500 9600 1500
 $Comp
-L power:GND #PWR0211
+L kria-k26-devboard:GND #PWR0211
 U 1 1 624A9A91
 P 9600 1200
 F 0 "#PWR0211" H 9600 950 50  0001 C CNN
@@ -2725,7 +2725,7 @@ $EndComp
 Wire Wire Line
 	9700 1200 9600 1200
 $Comp
-L power:GND #PWR0218
+L kria-k26-devboard:GND #PWR0218
 U 1 1 624A9A86
 P 9600 2900
 F 0 "#PWR0218" H 9600 2650 50  0001 C CNN
@@ -2736,7 +2736,7 @@ F 3 "" H 9600 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0210
+L kria-k26-devboard:GND #PWR0210
 U 1 1 624A9A7C
 P 9600 1100
 F 0 "#PWR0210" H 9600 850 50  0001 C CNN
@@ -2775,7 +2775,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2400 5800 2400
 $Comp
-L power:GND #PWR0173
+L kria-k26-devboard:GND #PWR0173
 U 1 1 623AB855
 P 5700 2400
 F 0 "#PWR0173" H 5700 2150 50  0001 C CNN
@@ -2788,7 +2788,7 @@ $EndComp
 Wire Wire Line
 	5700 2100 5800 2100
 $Comp
-L power:GND #PWR0172
+L kria-k26-devboard:GND #PWR0172
 U 1 1 6236F480
 P 5700 2100
 F 0 "#PWR0172" H 5700 1850 50  0001 C CNN
@@ -2799,7 +2799,7 @@ F 3 "" H 5700 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0171
+L kria-k26-devboard:GND #PWR0171
 U 1 1 6234CDB0
 P 5700 1800
 F 0 "#PWR0171" H 5700 1550 50  0001 C CNN
@@ -2812,7 +2812,7 @@ $EndComp
 Wire Wire Line
 	5800 1800 5700 1800
 $Comp
-L power:GND #PWR0170
+L kria-k26-devboard:GND #PWR0170
 U 1 1 6232255F
 P 5700 1500
 F 0 "#PWR0170" H 5700 1250 50  0001 C CNN
@@ -2825,7 +2825,7 @@ $EndComp
 Wire Wire Line
 	5800 1500 5700 1500
 $Comp
-L power:GND #PWR0169
+L kria-k26-devboard:GND #PWR0169
 U 1 1 622FC615
 P 5700 1200
 F 0 "#PWR0169" H 5700 950 50  0001 C CNN
@@ -2838,7 +2838,7 @@ $EndComp
 Wire Wire Line
 	5800 1200 5700 1200
 $Comp
-L power:GND #PWR0187
+L kria-k26-devboard:GND #PWR0187
 U 1 1 622CC288
 P 5800 2700
 F 0 "#PWR0187" H 5800 2450 50  0001 C CNN
@@ -2849,12 +2849,12 @@ F 3 "" H 5800 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroB2bConnectors:ADM6-60-01.5-L-4-2-A-TR J_SOM240_2
+L kria-k26-devboard:ADM6-60-01.5-L-4-2-A-TR J_SOM240_2
 U 1 1 6230AD73
 P 10300 4000
 F 0 "J_SOM240_2" H 10300 7167 50  0000 C CNN
 F 1 "ADM6-60-01.5-L-4-2-A-TR" H 10300 7076 50  0000 C CNN
-F 2 "antmicro-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 10300 4000 50  0001 L BNN
+F 2 "kria-k26-devboard-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 10300 4000 50  0001 L BNN
 F 3 "" H 10300 4000 50  0001 L BNN
 F 4 "Samtec" H 10300 4000 50  0001 L BNN "Manufacturer"
 F 5 "ADM6-60-01.5-L-4-2-A-TR" H 10300 4000 50  0001 C CNN "MPN"
@@ -2862,12 +2862,12 @@ F 5 "ADM6-60-01.5-L-4-2-A-TR" H 10300 4000 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroB2bConnectors:ADM6-60-01.5-L-4-2-A-TR J_SOM240_2
+L kria-k26-devboard:ADM6-60-01.5-L-4-2-A-TR J_SOM240_2
 U 2 1 6230AD6B
 P 14100 4000
 F 0 "J_SOM240_2" H 14100 7167 50  0000 C CNN
 F 1 "ADM6-60-01.5-L-4-2-A-TR" H 14100 7076 50  0000 C CNN
-F 2 "antmicro-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 14100 4000 50  0001 L BNN
+F 2 "kria-k26-devboard-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 14100 4000 50  0001 L BNN
 F 3 "" H 14100 4000 50  0001 L BNN
 F 4 "Samtec" H 14100 4000 50  0001 L BNN "Manufacturer"
 F 5 "ADM6-60-01.5-L-4-2-A-TR" H 14100 4000 50  0001 C CNN "MPN"
@@ -2882,7 +2882,7 @@ MIO77
 Text Label 7400 5400 0    50   ~ 0
 MIO76
 $Comp
-L power:GND #PWR0200
+L kria-k26-devboard:GND #PWR0200
 U 1 1 62F23375
 P 7100 5300
 F 0 "#PWR0200" H 7100 5050 50  0001 C CNN
@@ -2901,7 +2901,7 @@ MIO65
 Text Label 7400 5000 0    50   ~ 0
 MIO64
 $Comp
-L power:GND #PWR0199
+L kria-k26-devboard:GND #PWR0199
 U 1 1 62F005E9
 P 7100 4900
 F 0 "#PWR0199" H 7100 4650 50  0001 C CNN
@@ -2922,7 +2922,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 6600 7000 6600
 $Comp
-L power:GND #PWR0206
+L kria-k26-devboard:GND #PWR0206
 U 1 1 62D96350
 P 7100 6600
 F 0 "#PWR0206" H 7100 6350 50  0001 C CNN
@@ -2937,7 +2937,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 6800 7400 6800
 $Comp
-L power:GND #PWR0207
+L kria-k26-devboard:GND #PWR0207
 U 1 1 62D96344
 P 7100 6900
 F 0 "#PWR0207" H 7100 6650 50  0001 C CNN
@@ -2952,7 +2952,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 6200 7000 6200
 $Comp
-L power:GND #PWR0204
+L kria-k26-devboard:GND #PWR0204
 U 1 1 62D12925
 P 7100 6200
 F 0 "#PWR0204" H 7100 5950 50  0001 C CNN
@@ -2967,7 +2967,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 6400 7400 6400
 $Comp
-L power:GND #PWR0205
+L kria-k26-devboard:GND #PWR0205
 U 1 1 62D120DF
 P 7100 6500
 F 0 "#PWR0205" H 7100 6250 50  0001 C CNN
@@ -2984,7 +2984,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 5700 7100 5700
 $Comp
-L power:GND #PWR0202
+L kria-k26-devboard:GND #PWR0202
 U 1 1 62CB7F6D
 P 7100 5800
 F 0 "#PWR0202" H 7100 5550 50  0001 C CNN
@@ -2995,7 +2995,7 @@ F 3 "" H 7100 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0201
+L kria-k26-devboard:GND #PWR0201
 U 1 1 62CB7F63
 P 7100 5700
 F 0 "#PWR0201" H 7100 5450 50  0001 C CNN
@@ -3010,7 +3010,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 6000 7400 6000
 $Comp
-L power:GND #PWR0203
+L kria-k26-devboard:GND #PWR0203
 U 1 1 62CB7751
 P 7100 6100
 F 0 "#PWR0203" H 7100 5850 50  0001 C CNN
@@ -3027,7 +3027,7 @@ MIO53
 Text Label 7400 4600 0    50   ~ 0
 MIO52
 $Comp
-L power:GND #PWR0198
+L kria-k26-devboard:GND #PWR0198
 U 1 1 62C70D58
 P 7100 4500
 F 0 "#PWR0198" H 7100 4250 50  0001 C CNN
@@ -3044,7 +3044,7 @@ MIO46
 Text Label 7400 4300 0    50   ~ 0
 MIO45
 $Comp
-L power:GND #PWR0197
+L kria-k26-devboard:GND #PWR0197
 U 1 1 62C706D1
 P 7100 4100
 F 0 "#PWR0197" H 7100 3850 50  0001 C CNN
@@ -3065,7 +3065,7 @@ MIO27
 Text Label 7400 3800 0    50   ~ 0
 MIO26
 $Comp
-L power:GND #PWR0196
+L kria-k26-devboard:GND #PWR0196
 U 1 1 62C4EEEA
 P 7100 3700
 F 0 "#PWR0196" H 7100 3450 50  0001 C CNN
@@ -3090,7 +3090,7 @@ PWRGD_LPD_M2C
 Text Label 7400 3400 0    50   ~ 0
 PWRGD_FPD_M2C
 $Comp
-L power:GND #PWR0195
+L kria-k26-devboard:GND #PWR0195
 U 1 1 62C12443
 P 7100 3300
 F 0 "#PWR0195" H 7100 3050 50  0001 C CNN
@@ -3109,7 +3109,7 @@ HDA12
 Wire Wire Line
 	7100 2900 7000 2900
 $Comp
-L power:GND #PWR0194
+L kria-k26-devboard:GND #PWR0194
 U 1 1 62BBAA71
 P 7100 2900
 F 0 "#PWR0194" H 7100 2650 50  0001 C CNN
@@ -3133,7 +3133,7 @@ VCC_HPA
 Wire Wire Line
 	7100 1300 7000 1300
 $Comp
-L power:GND #PWR0189
+L kria-k26-devboard:GND #PWR0189
 U 1 1 62A90FB6
 P 7100 1300
 F 0 "#PWR0189" H 7100 1050 50  0001 C CNN
@@ -3158,7 +3158,7 @@ Connection ~ 1900 6900
 Wire Wire Line
 	5700 6800 5800 6800
 $Comp
-L power:GND #PWR0186
+L kria-k26-devboard:GND #PWR0186
 U 1 1 629F49F7
 P 5700 6800
 F 0 "#PWR0186" H 5700 6550 50  0001 C CNN
@@ -3171,7 +3171,7 @@ $EndComp
 Wire Wire Line
 	5700 6700 5800 6700
 $Comp
-L power:GND #PWR0185
+L kria-k26-devboard:GND #PWR0185
 U 1 1 629AED38
 P 5700 6700
 F 0 "#PWR0185" H 5700 6450 50  0001 C CNN
@@ -3186,7 +3186,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 6000 5700 6000
 $Comp
-L power:GND #PWR0181
+L kria-k26-devboard:GND #PWR0181
 U 1 1 629AED2C
 P 5700 5900
 F 0 "#PWR0181" H 5700 5650 50  0001 C CNN
@@ -3197,7 +3197,7 @@ F 3 "" H 5700 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0182
+L kria-k26-devboard:GND #PWR0182
 U 1 1 629AED22
 P 5700 6000
 F 0 "#PWR0182" H 5700 5750 50  0001 C CNN
@@ -3210,7 +3210,7 @@ $EndComp
 Wire Wire Line
 	5800 6300 5700 6300
 $Comp
-L power:GND #PWR0184
+L kria-k26-devboard:GND #PWR0184
 U 1 1 629AED17
 P 5700 6400
 F 0 "#PWR0184" H 5700 6150 50  0001 C CNN
@@ -3221,7 +3221,7 @@ F 3 "" H 5700 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0183
+L kria-k26-devboard:GND #PWR0183
 U 1 1 629AED0D
 P 5700 6300
 F 0 "#PWR0183" H 5700 6050 50  0001 C CNN
@@ -3253,7 +3253,7 @@ NoConn ~ 5800 5500
 Wire Wire Line
 	5700 5600 5800 5600
 $Comp
-L power:GND #PWR0180
+L kria-k26-devboard:GND #PWR0180
 U 1 1 62929A26
 P 5700 5600
 F 0 "#PWR0180" H 5700 5350 50  0001 C CNN
@@ -3278,7 +3278,7 @@ MIO55
 Text Label 5400 5000 2    50   ~ 0
 MIO57
 $Comp
-L power:GND #PWR0179
+L kria-k26-devboard:GND #PWR0179
 U 1 1 62904EA0
 P 5700 5100
 F 0 "#PWR0179" H 5700 4850 50  0001 C CNN
@@ -3297,7 +3297,7 @@ MIO47
 Text Label 5400 4600 2    50   ~ 0
 MIO49
 $Comp
-L power:GND #PWR0178
+L kria-k26-devboard:GND #PWR0178
 U 1 1 628D5995
 P 5700 4700
 F 0 "#PWR0178" H 5700 4450 50  0001 C CNN
@@ -3318,7 +3318,7 @@ MIO31_SHUTDOWN
 Wire Wire Line
 	5800 4200 5400 4200
 $Comp
-L power:GND #PWR0177
+L kria-k26-devboard:GND #PWR0177
 U 1 1 62871CD4
 P 5700 4300
 F 0 "#PWR0177" H 5700 4050 50  0001 C CNN
@@ -3339,7 +3339,7 @@ MIO12_FWUEN_C2M_L
 Wire Wire Line
 	5800 3800 5400 3800
 $Comp
-L power:GND #PWR0176
+L kria-k26-devboard:GND #PWR0176
 U 1 1 62841900
 P 5700 3900
 F 0 "#PWR0176" H 5700 3650 50  0001 C CNN
@@ -3362,7 +3362,7 @@ HDA20
 Wire Wire Line
 	5800 3400 5400 3400
 $Comp
-L power:GND #PWR0175
+L kria-k26-devboard:GND #PWR0175
 U 1 1 628242BD
 P 5700 3500
 F 0 "#PWR0175" H 5700 3250 50  0001 C CNN
@@ -3387,7 +3387,7 @@ HDA08_CC
 Wire Wire Line
 	5800 3000 5400 3000
 $Comp
-L power:GND #PWR0174
+L kria-k26-devboard:GND #PWR0174
 U 1 1 627CEB1D
 P 5700 3100
 F 0 "#PWR0174" H 5700 2850 50  0001 C CNN
@@ -3404,7 +3404,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 1900 7000 1900
 $Comp
-L power:GND #PWR0191
+L kria-k26-devboard:GND #PWR0191
 U 1 1 627936C5
 P 7100 1900
 F 0 "#PWR0191" H 7100 1650 50  0001 C CNN
@@ -3417,7 +3417,7 @@ $EndComp
 Wire Wire Line
 	7100 1600 7000 1600
 $Comp
-L power:GND #PWR0190
+L kria-k26-devboard:GND #PWR0190
 U 1 1 627649FF
 P 7100 1600
 F 0 "#PWR0190" H 7100 1350 50  0001 C CNN
@@ -3434,7 +3434,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2500 7100 2500
 $Comp
-L power:GND #PWR0193
+L kria-k26-devboard:GND #PWR0193
 U 1 1 62576F06
 P 7100 2500
 F 0 "#PWR0193" H 7100 2250 50  0001 C CNN
@@ -3445,7 +3445,7 @@ F 3 "" H 7100 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0192
+L kria-k26-devboard:GND #PWR0192
 U 1 1 62576F3B
 P 7100 2200
 F 0 "#PWR0192" H 7100 1950 50  0001 C CNN
@@ -3470,7 +3470,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2600 7400 2600
 $Comp
-L power:GND #PWR0168
+L kria-k26-devboard:GND #PWR0168
 U 1 1 62576EF0
 P 5700 1100
 F 0 "#PWR0168" H 5700 850 50  0001 C CNN
@@ -3485,7 +3485,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 6900 3600 6900
 $Comp
-L power:GND #PWR0159
+L kria-k26-devboard:GND #PWR0159
 U 1 1 6249C4DB
 P 3300 5700
 F 0 "#PWR0159" H 3300 5450 50  0001 C CNN
@@ -3500,7 +3500,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 6800 3300 6800
 $Comp
-L power:GND #PWR0164
+L kria-k26-devboard:GND #PWR0164
 U 1 1 6249C4B0
 P 3300 6800
 F 0 "#PWR0164" H 3300 6550 50  0001 C CNN
@@ -3515,7 +3515,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 6400 3300 6400
 $Comp
-L power:GND #PWR0163
+L kria-k26-devboard:GND #PWR0163
 U 1 1 6249C4BC
 P 3300 6500
 F 0 "#PWR0163" H 3300 6250 50  0001 C CNN
@@ -3526,7 +3526,7 @@ F 3 "" H 3300 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0162
+L kria-k26-devboard:GND #PWR0162
 U 1 1 6249C4C6
 P 3300 6400
 F 0 "#PWR0162" H 3300 6150 50  0001 C CNN
@@ -3539,7 +3539,7 @@ $EndComp
 Wire Wire Line
 	3200 6100 3300 6100
 $Comp
-L power:GND #PWR0160
+L kria-k26-devboard:GND #PWR0160
 U 1 1 6249C4E7
 P 3300 6000
 F 0 "#PWR0160" H 3300 5750 50  0001 C CNN
@@ -3550,7 +3550,7 @@ F 3 "" H 3300 6000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0161
+L kria-k26-devboard:GND #PWR0161
 U 1 1 6249C4F1
 P 3300 6100
 F 0 "#PWR0161" H 3300 5850 50  0001 C CNN
@@ -3583,7 +3583,7 @@ MIO72
 Text Label 3600 5300 0    50   ~ 0
 MIO70
 $Comp
-L power:GND #PWR0158
+L kria-k26-devboard:GND #PWR0158
 U 1 1 624878D9
 P 3300 5600
 F 0 "#PWR0158" H 3300 5350 50  0001 C CNN
@@ -3602,7 +3602,7 @@ MIO60
 Text Label 3600 4900 0    50   ~ 0
 MIO58
 $Comp
-L power:GND #PWR0157
+L kria-k26-devboard:GND #PWR0157
 U 1 1 6248744C
 P 3300 5200
 F 0 "#PWR0157" H 3300 4950 50  0001 C CNN
@@ -3620,7 +3620,7 @@ MIO51
 Text Label 3600 4500 0    50   ~ 0
 MIO50
 $Comp
-L power:GND #PWR0156
+L kria-k26-devboard:GND #PWR0156
 U 1 1 624694DA
 P 3300 4800
 F 0 "#PWR0156" H 3300 4550 50  0001 C CNN
@@ -3639,7 +3639,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 4100 3600 4100
 $Comp
-L power:GND #PWR0155
+L kria-k26-devboard:GND #PWR0155
 U 1 1 6245AB02
 P 3300 4400
 F 0 "#PWR0155" H 3300 4150 50  0001 C CNN
@@ -3660,7 +3660,7 @@ MIO35_WD_OUT
 Wire Wire Line
 	3200 3700 3600 3700
 $Comp
-L power:GND #PWR0154
+L kria-k26-devboard:GND #PWR0154
 U 1 1 6245A601
 P 3300 4000
 F 0 "#PWR0154" H 3300 3750 50  0001 C CNN
@@ -3685,7 +3685,7 @@ PS_ERROR_OUT_M2C
 Wire Wire Line
 	3200 3300 3600 3300
 $Comp
-L power:GND #PWR0153
+L kria-k26-devboard:GND #PWR0153
 U 1 1 62445CB7
 P 3300 3600
 F 0 "#PWR0153" H 3300 3350 50  0001 C CNN
@@ -3704,7 +3704,7 @@ HDA17
 Text Label 3600 2900 0    50   ~ 0
 HDA15
 $Comp
-L power:GND #PWR0152
+L kria-k26-devboard:GND #PWR0152
 U 1 1 62432506
 P 3300 3200
 F 0 "#PWR0152" H 3300 2950 50  0001 C CNN
@@ -3727,7 +3727,7 @@ HDA03
 Wire Wire Line
 	3200 2500 3600 2500
 $Comp
-L power:GND #PWR0151
+L kria-k26-devboard:GND #PWR0151
 U 1 1 62402FD1
 P 3300 2800
 F 0 "#PWR0151" H 3300 2550 50  0001 C CNN
@@ -3747,7 +3747,7 @@ VCCO_HDA
 Wire Wire Line
 	3200 2200 3350 2200
 $Comp
-L power:GND #PWR0150
+L kria-k26-devboard:GND #PWR0150
 U 1 1 623D8A38
 P 3300 2400
 F 0 "#PWR0150" H 3300 2150 50  0001 C CNN
@@ -3760,7 +3760,7 @@ $EndComp
 Wire Wire Line
 	3200 2400 3300 2400
 $Comp
-L power:GND #PWR0146
+L kria-k26-devboard:GND #PWR0146
 U 1 1 623C01DA
 P 3300 1200
 F 0 "#PWR0146" H 3300 950 50  0001 C CNN
@@ -3771,7 +3771,7 @@ F 3 "" H 3300 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0147
+L kria-k26-devboard:GND #PWR0147
 U 1 1 623C01D0
 P 3300 1500
 F 0 "#PWR0147" H 3300 1250 50  0001 C CNN
@@ -3782,7 +3782,7 @@ F 3 "" H 3300 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0148
+L kria-k26-devboard:GND #PWR0148
 U 1 1 623C01C6
 P 3300 1800
 F 0 "#PWR0148" H 3300 1550 50  0001 C CNN
@@ -3793,7 +3793,7 @@ F 3 "" H 3300 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0149
+L kria-k26-devboard:GND #PWR0149
 U 1 1 623C01BC
 P 3300 2100
 F 0 "#PWR0149" H 3300 1850 50  0001 C CNN
@@ -3854,7 +3854,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 6300 1900 6300
 $Comp
-L power:GND #PWR0141
+L kria-k26-devboard:GND #PWR0141
 U 1 1 622F218A
 P 1900 6200
 F 0 "#PWR0141" H 1900 5950 50  0001 C CNN
@@ -3865,7 +3865,7 @@ F 3 "" H 1900 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0142
+L kria-k26-devboard:GND #PWR0142
 U 1 1 622F2194
 P 1900 6300
 F 0 "#PWR0142" H 1900 6050 50  0001 C CNN
@@ -3880,7 +3880,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 6700 1900 6700
 $Comp
-L power:GND #PWR0143
+L kria-k26-devboard:GND #PWR0143
 U 1 1 622F21A0
 P 1900 6600
 F 0 "#PWR0143" H 1900 6350 50  0001 C CNN
@@ -3891,7 +3891,7 @@ F 3 "" H 1900 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0144
+L kria-k26-devboard:GND #PWR0144
 U 1 1 622F21AA
 P 1900 6700
 F 0 "#PWR0144" H 1900 6450 50  0001 C CNN
@@ -3904,7 +3904,7 @@ $EndComp
 Wire Wire Line
 	2000 6200 1900 6200
 $Comp
-L power:GND #PWR0140
+L kria-k26-devboard:GND #PWR0140
 U 1 1 622D2F50
 P 1900 5900
 F 0 "#PWR0140" H 1900 5650 50  0001 C CNN
@@ -3915,7 +3915,7 @@ F 3 "" H 1900 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0139
+L kria-k26-devboard:GND #PWR0139
 U 1 1 622D2F46
 P 1900 5800
 F 0 "#PWR0139" H 1900 5550 50  0001 C CNN
@@ -3930,7 +3930,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 5800 1900 5800
 $Comp
-L power:GND #PWR0138
+L kria-k26-devboard:GND #PWR0138
 U 1 1 622CF247
 P 1900 5500
 F 0 "#PWR0138" H 1900 5250 50  0001 C CNN
@@ -3941,7 +3941,7 @@ F 3 "" H 1900 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0137
+L kria-k26-devboard:GND #PWR0137
 U 1 1 622CEB7A
 P 1900 5400
 F 0 "#PWR0137" H 1900 5150 50  0001 C CNN
@@ -3952,7 +3952,7 @@ F 3 "" H 1900 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0136
+L kria-k26-devboard:GND #PWR0136
 U 1 1 622CE58B
 P 1900 5000
 F 0 "#PWR0136" H 1900 4750 50  0001 C CNN
@@ -3963,7 +3963,7 @@ F 3 "" H 1900 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0135
+L kria-k26-devboard:GND #PWR0135
 U 1 1 622CDFC6
 P 1900 4600
 F 0 "#PWR0135" H 1900 4350 50  0001 C CNN
@@ -3974,7 +3974,7 @@ F 3 "" H 1900 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0134
+L kria-k26-devboard:GND #PWR0134
 U 1 1 622CD60F
 P 1900 4200
 F 0 "#PWR0134" H 1900 3950 50  0001 C CNN
@@ -3985,7 +3985,7 @@ F 3 "" H 1900 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0133
+L kria-k26-devboard:GND #PWR0133
 U 1 1 622CD030
 P 1900 3500
 F 0 "#PWR0133" H 1900 3250 50  0001 C CNN
@@ -3996,7 +3996,7 @@ F 3 "" H 1900 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0132
+L kria-k26-devboard:GND #PWR0132
 U 1 1 622CCADD
 P 1900 3000
 F 0 "#PWR0132" H 1900 2750 50  0001 C CNN
@@ -4007,7 +4007,7 @@ F 3 "" H 1900 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0131
+L kria-k26-devboard:GND #PWR0131
 U 1 1 622CC178
 P 1900 2700
 F 0 "#PWR0131" H 1900 2450 50  0001 C CNN
@@ -4018,7 +4018,7 @@ F 3 "" H 1900 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0130
+L kria-k26-devboard:GND #PWR0130
 U 1 1 622CBC1F
 P 1900 2300
 F 0 "#PWR0130" H 1900 2050 50  0001 C CNN
@@ -4029,7 +4029,7 @@ F 3 "" H 1900 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0129
+L kria-k26-devboard:GND #PWR0129
 U 1 1 622CB6B8
 P 1900 2000
 F 0 "#PWR0129" H 1900 1750 50  0001 C CNN
@@ -4040,7 +4040,7 @@ F 3 "" H 1900 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0128
+L kria-k26-devboard:GND #PWR0128
 U 1 1 622CB110
 P 1900 1700
 F 0 "#PWR0128" H 1900 1450 50  0001 C CNN
@@ -4051,7 +4051,7 @@ F 3 "" H 1900 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0127
+L kria-k26-devboard:GND #PWR0127
 U 1 1 622CAA1A
 P 1900 1400
 F 0 "#PWR0127" H 1900 1150 50  0001 C CNN
@@ -4062,7 +4062,7 @@ F 3 "" H 1900 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0126
+L kria-k26-devboard:GND #PWR0126
 U 1 1 622B564E
 P 1900 1100
 F 0 "#PWR0126" H 1900 850 50  0001 C CNN
@@ -4111,12 +4111,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 3500 2000 3500
 $Comp
-L antmicroB2bConnectors:ADM6-60-01.5-L-4-2-A-TR J_SOM240_1
+L kria-k26-devboard:ADM6-60-01.5-L-4-2-A-TR J_SOM240_1
 U 1 1 6230AD83
 P 2600 3900
 F 0 "J_SOM240_1" H 2600 7067 50  0000 C CNN
 F 1 "ADM6-60-01.5-L-4-2-A-TR" H 2600 6976 50  0000 C CNN
-F 2 "antmicro-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 2600 3900 50  0001 L BNN
+F 2 "kria-k26-devboard-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 2600 3900 50  0001 L BNN
 F 3 "" H 2600 3900 50  0001 L BNN
 F 4 "Samtec" H 2600 3900 50  0001 L BNN "Manufacturer"
 F 5 "ADM6-60-01.5-L-4-2-A-TR" H 2600 3900 50  0001 C CNN "MPN"
@@ -4198,12 +4198,12 @@ VCC_BATT
 Wire Wire Line
 	2000 1000 1600 1000
 $Comp
-L antmicroB2bConnectors:ADM6-60-01.5-L-4-2-A-TR J_SOM240_1
+L kria-k26-devboard:ADM6-60-01.5-L-4-2-A-TR J_SOM240_1
 U 2 1 6230AD7B
 P 6400 4000
 F 0 "J_SOM240_1" H 6400 7167 50  0000 C CNN
 F 1 "ADM6-60-01.5-L-4-2-A-TR" H 6400 7076 50  0000 C CNN
-F 2 "antmicro-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 6400 4000 50  0001 L BNN
+F 2 "kria-k26-devboard-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 6400 4000 50  0001 L BNN
 F 3 "" H 6400 4000 50  0001 L BNN
 F 4 "Samtec" H 6400 4000 50  0001 L BNN "Manufacturer"
 F 5 "ADM6-60-01.5-L-4-2-A-TR" H 6400 4000 50  0001 C CNN "MPN"
@@ -4223,51 +4223,51 @@ MIO42
 Text HLabel 5400 2600 0    50   Input ~ 0
 ~PS_SRST_C2M
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP2
+L kria-k26-devboard:PCB_Mount_Hole_3mm_6mm_pad MP2
 U 1 1 6A798350
 P 8550 10900
 F 0 "MP2" H 8618 11245 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 8618 11154 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 9350 11600 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:mounting-hole-3.2mm" H 9350 11600 50  0001 C CNN
 F 3 "" H 9500 11700 50  0001 C CNN
 	1    8550 10900
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP1
+L kria-k26-devboard:PCB_Mount_Hole_3mm_6mm_pad MP1
 U 1 1 6A6E6F9D
 P 7750 10900
 F 0 "MP1" H 7750 11150 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 7800 10700 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 8550 11600 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:mounting-hole-3.2mm" H 8550 11600 50  0001 C CNN
 F 3 "" H 8700 11700 50  0001 C CNN
 	1    7750 10900
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP4
+L kria-k26-devboard:PCB_Mount_Hole_3mm_6mm_pad MP4
 U 1 1 6B30D371
 P 10200 10900
 F 0 "MP4" H 10268 11245 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 10268 11154 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 11000 11600 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:mounting-hole-3.2mm" H 11000 11600 50  0001 C CNN
 F 3 "" H 11150 11700 50  0001 C CNN
 	1    10200 10900
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_3mm_6mm_pad MP3
+L kria-k26-devboard:PCB_Mount_Hole_3mm_6mm_pad MP3
 U 1 1 6B30D7E1
 P 9400 10900
 F 0 "MP3" H 9400 11150 50  0000 C CNN
 F 1 "PCB_Mount_Hole_3mm_6mm_pad" H 9450 10700 50  0000 C CNN
-F 2 "antmicro-footprints:mounting-hole-3.2mm" H 10200 11600 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:mounting-hole-3.2mm" H 10200 11600 50  0001 C CNN
 F 3 "" H 10350 11700 50  0001 C CNN
 	1    9400 10900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0208
+L kria-k26-devboard:GND #PWR0208
 U 1 1 6B3BA3BD
 P 8100 10900
 F 0 "#PWR0208" H 8100 10650 50  0001 C CNN
@@ -4280,7 +4280,7 @@ $EndComp
 Wire Wire Line
 	8100 10900 8050 10900
 $Comp
-L power:GND #PWR0209
+L kria-k26-devboard:GND #PWR0209
 U 1 1 6B4671FC
 P 8900 10900
 F 0 "#PWR0209" H 8900 10650 50  0001 C CNN
@@ -4293,7 +4293,7 @@ $EndComp
 Wire Wire Line
 	8900 10900 8850 10900
 $Comp
-L power:GND #PWR0231
+L kria-k26-devboard:GND #PWR0231
 U 1 1 6B5149BA
 P 9750 10900
 F 0 "#PWR0231" H 9750 10650 50  0001 C CNN
@@ -4306,7 +4306,7 @@ $EndComp
 Wire Wire Line
 	9750 10900 9700 10900
 $Comp
-L power:GND #PWR0232
+L kria-k26-devboard:GND #PWR0232
 U 1 1 6B5C2C82
 P 10550 10900
 F 0 "#PWR0232" H 10550 10650 50  0001 C CNN
@@ -4329,12 +4329,12 @@ Entry Wire Line
 Wire Wire Line
 	3200 4600 3850 4600
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C123
+L kria-k26-devboard:C_4u7_0402 C123
 U 1 1 6360E139
 P 4350 10550
 F 0 "C123" H 4465 10595 60  0000 L CNN
 F 1 "C_4u7_0402" H 4350 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4550 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 4550 10750 60  0001 L CNN
 F 3 "" H 4350 10550 50  0001 C CNN
 F 4 "MURATA" H 4550 10950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 4550 10850 60  0001 L CNN "MPN"
@@ -4343,12 +4343,12 @@ F 6 "4u7" H 4465 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C124
+L kria-k26-devboard:C_100n_0402 C124
 U 1 1 636BE9AD
 P 4750 10550
 F 0 "C124" H 4865 10595 60  0000 L CNN
 F 1 "C_100n_0402" H 4750 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4950 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 4950 10750 60  0001 L CNN
 F 3 "" H 4750 10550 50  0001 C CNN
 F 4 "Murata" H 4950 10950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 4950 10850 60  0001 L CNN "MPN"
@@ -4381,12 +4381,12 @@ Connection ~ 4750 10350
 Wire Wire Line
 	4750 10350 4350 10350
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C127
+L kria-k26-devboard:C_4u7_0402 C127
 U 1 1 63DD17FE
 P 5750 10550
 F 0 "C127" H 5865 10595 60  0000 L CNN
 F 1 "C_4u7_0402" H 5750 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5950 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 5950 10750 60  0001 L CNN
 F 3 "" H 5750 10550 50  0001 C CNN
 F 4 "MURATA" H 5950 10950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 5950 10850 60  0001 L CNN "MPN"
@@ -4395,12 +4395,12 @@ F 6 "4u7" H 5865 10497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C128
+L kria-k26-devboard:C_100n_0402 C128
 U 1 1 63DD1D67
 P 6150 10550
 F 0 "C128" H 6265 10595 60  0000 L CNN
 F 1 "C_100n_0402" H 6150 10400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6350 10750 60  0001 L CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 6350 10750 60  0001 L CNN
 F 3 "" H 6150 10550 50  0001 C CNN
 F 4 "Murata" H 6350 10950 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 6350 10850 60  0001 L CNN "MPN"
@@ -4434,12 +4434,12 @@ Wire Wire Line
 	6600 10750 6600 10700
 Connection ~ 2700 10300
 $Comp
-L antmicroTransistorsBipolarSingle:DTC014TEBTL Q7
+L kria-k26-devboard:DTC014TEBTL Q7
 U 1 1 6353A580
 P 4150 8500
 F 0 "Q7" H 4338 8546 50  0000 L CNN
 F 1 "DTC014TEBTL" H 4338 8455 50  0000 L CNN
-F 2 "antmicro-footprints:SOT-416" H 4350 8200 50  0001 L CNN
+F 2 "kria-k26-devboard-footprints:SOT-416" H 4350 8200 50  0001 L CNN
 F 3 "" H 4150 8500 50  0001 L CNN
 F 4 "ROHM Semiconductor" H 4750 8400 50  0001 C CNN "Manufacturer"
 F 5 "DTC014TEBTL" H 4600 8300 50  0001 C CNN "MPN"
