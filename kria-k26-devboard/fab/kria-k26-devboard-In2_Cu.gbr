@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,5.1.9+dfsg1-1*%
-%TF.CreationDate,2022-05-12T15:35:01+02:00*%
+%TF.CreationDate,2022-05-12T15:35:58+02:00*%
 %TF.ProjectId,kria-k26-devboard,6b726961-2d6b-4323-962d-646576626f61,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L3,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.9+dfsg1-1) date 2022-05-12 15:35:01 commit 3e03c6a*
+G04 Created by KiCad (PCBNEW 5.1.9+dfsg1-1) date 2022-05-12 15:35:58 commit cb2eeb5*
 %MOMM*%
 %LPD*%
 G01*
