@@ -2894,23 +2894,6 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroResistors0402_R_32k4_0402
-#
-DEF antmicroResistors0402_R_32k4_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_32k4_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERA-2ARB3242X" 200 300 60 H I L CNN "MPN"
-F6 "32k4" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # antmicroResistors0402_R_330R_0402
 #
 DEF antmicroResistors0402_R_330R_0402 R 0 0 Y Y 1 F N
@@ -3176,6 +3159,40 @@ F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJPA3F63R4V" 200 300 60 H I L CNN "MPN"
 F6 "63R4" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistorsmisc_R_15k_2010
+#
+DEF antmicroResistorsmisc_R_15k_2010 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistorsmisc_R_15k_2010" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:2010-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TE Connectivity Passive Product" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRGCQ2010F15K" 200 300 60 H I L CNN "MPN"
+F6 "15k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistorsmisc_R_32k4_0805
+#
+DEF antmicroResistorsmisc_R_32k4_0805 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistorsmisc_R_32k4_0805" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0805-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERA-6AEB3242V" 200 300 60 H I L CNN "MPN"
+F6 "32k4" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
