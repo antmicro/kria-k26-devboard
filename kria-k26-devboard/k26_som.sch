@@ -2858,6 +2858,7 @@ F 2 "kria-k26-devboard-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 10300 4000 5
 F 3 "" H 10300 4000 50  0001 L BNN
 F 4 "Samtec" H 10300 4000 50  0001 L BNN "Manufacturer"
 F 5 "ADM6-60-01.5-L-4-2-A-TR" H 10300 4000 50  0001 C CNN "MPN"
+F 6 "DNP" H 10300 4000 50  0000 C CNN "DNP"
 	1    10300 4000
 	1    0    0    -1  
 $EndComp
@@ -2871,6 +2872,7 @@ F 2 "kria-k26-devboard-footprints:SAMTEC_ADM6-60-01.5-L-4-2-A-TR" H 14100 4000 5
 F 3 "" H 14100 4000 50  0001 L BNN
 F 4 "Samtec" H 14100 4000 50  0001 L BNN "Manufacturer"
 F 5 "ADM6-60-01.5-L-4-2-A-TR" H 14100 4000 50  0001 C CNN "MPN"
+F 6 "DNP" H 14100 4000 50  0000 C CNN "DNP"
 	2    14100 4000
 	1    0    0    -1  
 $EndComp
@@ -4452,10 +4454,6 @@ Wire Wire Line
 	3750 8500 3900 8500
 Text GLabel 3650 7750 0    50   Input ~ 0
 USB_5V
-Text Notes 10650 850  0    50   ~ 0
-DNM
-Text Notes 14400 850  0    50   ~ 0
-DNM
 Wire Bus Line
 	3950 4350 3950 4500
 Wire Bus Line
