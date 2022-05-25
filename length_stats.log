@@ -1,0 +1,11 @@
+05-16 11:49:36 length_stats.action_length_stats 304:Plugin executed on: 'linux'
+05-16 11:49:36 length_stats.action_length_stats 305:Plugin executed with python version: '3.9.2 (default, Feb 28 2021, 17:03:44) \n[GCC 10.2.1 20210110]'
+05-16 11:49:36 length_stats.action_length_stats 306:KiCad build version: 5.1.9+dfsg1-1
+05-16 11:49:36 length_stats.action_length_stats 307:Length stats plugin version: 30 started
+05-16 11:49:37 length_stats.action_length_stats 207:Sorting list
+05-16 11:49:37 length_stats.action_length_stats 95:Length stats gui initialized
+05-16 11:49:37 length_stats.action_length_stats 96:Nets for stats are;
+['/USB/USB4_TX_P', '/USB/USB4_TX_N', '/USB/USB4_RX_P', '/USB/USB4_RX_N']
+05-16 11:49:40 length_stats.action_length_stats 108:Refreshing manually
+05-16 11:49:40 length_stats.action_length_stats 132:Refreshing net lengths
+05-16 11:49:45 length_stats.action_length_stats 121:Closing GUI

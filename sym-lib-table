@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kria-k26-devboard-rescue)(type Legacy)(uri ${KIPRJMOD}/kria-k26-devboard-rescue.lib)(options "")(descr ""))
+  (lib (name kria-k26-devboard)(type Legacy)(uri ${KIPRJMOD}/lib/kria-k26-devboard.lib)(options "")(descr ""))
+)

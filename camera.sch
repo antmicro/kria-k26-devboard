@@ -1,0 +1,802 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 19
+Title "Camera interface"
+Date "2022-03-10"
+Rev "1.0.0"
+Comp ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kria-k26-devboard:WE_68715014522 J3
+U 1 1 61A63D9B
+P 8700 2500
+F 0 "J3" H 8780 1692 50  0000 L CNN
+F 1 "WE_68715014522" H 8780 1601 50  0000 L CNN
+F 2 "kria-k26-devboard-footprints:WE_68715014522" H 8500 -1050 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" H 8700 -1150 50  0001 C CNN
+F 4 "68715014522 " H 9100 1900 60  0001 L CNN "MPN"
+F 5 "Wurth Elektronik " H 9350 700 60  0001 L CNN "Manufacturer"
+	1    8700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1700 8350 1700
+Wire Wire Line
+	8350 1700 8350 2000
+Wire Wire Line
+	8250 900  8500 900 
+Wire Wire Line
+	8250 1000 8500 1000
+Wire Wire Line
+	8250 2700 8500 2700
+Wire Wire Line
+	8250 2800 8500 2800
+Wire Wire Line
+	8250 1100 8500 1100
+Wire Wire Line
+	8250 1200 8500 1200
+Wire Wire Line
+	8250 2900 8500 2900
+Wire Wire Line
+	8250 3000 8500 3000
+Wire Wire Line
+	8500 1800 8250 1800
+Wire Wire Line
+	8250 1900 8500 1900
+Wire Wire Line
+	8500 2000 8350 2000
+Connection ~ 8350 2000
+Wire Wire Line
+	8350 2000 8350 2300
+NoConn ~ 8500 2100
+NoConn ~ 8500 2200
+Wire Wire Line
+	8500 2300 8350 2300
+Connection ~ 8350 2300
+Wire Wire Line
+	8350 2300 8350 2600
+NoConn ~ 8500 2400
+NoConn ~ 8500 2500
+Wire Wire Line
+	8500 2600 8350 2600
+Connection ~ 8350 2600
+Wire Wire Line
+	8350 2600 8350 3500
+Wire Wire Line
+	8500 1300 8250 1300
+Wire Wire Line
+	8500 1400 8250 1400
+Wire Wire Line
+	8250 3400 8500 3400
+Wire Wire Line
+	8250 3300 8500 3300
+Wire Wire Line
+	8500 3500 8350 3500
+Connection ~ 8350 3500
+Wire Wire Line
+	8350 3500 8350 3800
+Wire Wire Line
+	8250 3700 8500 3700
+Wire Wire Line
+	8250 3600 8500 3600
+Wire Wire Line
+	8500 3800 8350 3800
+Connection ~ 8350 3800
+Wire Wire Line
+	8350 3800 8350 5800
+NoConn ~ 8500 3900
+NoConn ~ 8500 4300
+NoConn ~ 8500 4400
+NoConn ~ 8500 4500
+NoConn ~ 8500 4600
+Wire Wire Line
+	7500 4900 8500 4900
+Wire Wire Line
+	7500 5000 8500 5000
+NoConn ~ 8500 5400
+NoConn ~ 8500 5300
+NoConn ~ 8500 5200
+NoConn ~ 8500 5100
+Text GLabel 8275 5700 0    50   Input ~ 0
+SOM_5V0
+Wire Wire Line
+	8500 5800 8450 5800
+Wire Wire Line
+	8450 5800 8450 5700
+Wire Wire Line
+	8450 5700 8500 5700
+Wire Wire Line
+	8275 5700 8450 5700
+Connection ~ 8450 5700
+Wire Wire Line
+	8300 5500 8450 5500
+Wire Wire Line
+	8500 5600 8450 5600
+Wire Wire Line
+	8450 5600 8450 5500
+Connection ~ 8450 5500
+Wire Wire Line
+	8450 5500 8500 5500
+Wire Wire Line
+	8250 3200 8500 3200
+Wire Wire Line
+	8250 3100 8500 3100
+Wire Wire Line
+	8250 1500 8500 1500
+Wire Wire Line
+	8250 1600 8500 1600
+Wire Wire Line
+	7500 4700 8500 4700
+Wire Wire Line
+	7500 4800 8500 4800
+Text Label 7500 4700 0    50   ~ 0
+CCI0_I2C_SDA_3V3
+Text Label 7500 4800 0    50   ~ 0
+CCI0_I2C_SCL_3V3
+Text Label 7500 4900 0    50   ~ 0
+CCI1_I2C_SDA_3V3
+Text Label 7500 5000 0    50   ~ 0
+CCI1_I2C_SCL_3V3
+Text HLabel 8250 1900 0    50   Input ~ 0
+HPA00_CC_P
+Text HLabel 8250 1800 0    50   Input ~ 0
+HPA00_CC_N
+Text HLabel 8250 1600 0    50   Input ~ 0
+HPA01_P
+Text HLabel 8250 1500 0    50   Input ~ 0
+HPA01_N
+Text HLabel 8250 1400 0    50   Input ~ 0
+HPA02_P
+Text HLabel 8250 1300 0    50   Input ~ 0
+HPA02_N
+Text HLabel 8250 1200 0    50   Input ~ 0
+HPA03_P
+Text HLabel 8250 1100 0    50   Input ~ 0
+HPA03_N
+Text HLabel 8250 1000 0    50   Input ~ 0
+HPA04_P
+Text HLabel 8250 900  0    50   Input ~ 0
+HPA04_N
+Text HLabel 8250 3700 0    50   Input ~ 0
+HPA05_CC_P
+Text HLabel 8250 3600 0    50   Input ~ 0
+HPA05_CC_N
+Text HLabel 8250 3400 0    50   Input ~ 0
+HPA06_P
+Text HLabel 8250 3300 0    50   Input ~ 0
+HPA06_N
+Text HLabel 8250 3200 0    50   Input ~ 0
+HPA07_P
+Text HLabel 8250 3000 0    50   Input ~ 0
+HPA08_P
+Text HLabel 8250 2900 0    50   Input ~ 0
+HPA08_N
+Text HLabel 8250 2800 0    50   Input ~ 0
+HPA09_P
+Text HLabel 8250 2700 0    50   Input ~ 0
+HPA09_N
+Text HLabel 8250 3100 0    50   Input ~ 0
+HPA07_N
+$Comp
+L kria-k26-devboard:PI4MSD5V9540BUEX U10
+U 1 1 64BDD501
+P 2750 4950
+F 0 "U10" H 2750 5517 50  0000 C CNN
+F 1 "PI4MSD5V9540BUEX" H 2750 5426 50  0000 C CNN
+F 2 "kria-k26-devboard-footprints:MSOP-8_W3mm_PITCH0.65mm" H 2600 5400 50  0001 L BNN
+F 3 "https://www.diodes.com/assets/Datasheets/PI4MSD5V9540B.pdf" H 2750 4950 50  0001 L BNN
+F 4 "Diodes Incorporated" H 2950 5600 50  0001 C CNN "Manufacturer"
+F 5 "PI4MSD5V9540BUEX" H 2950 5500 50  0001 C CNN "MPN"
+	1    2750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4950 3350 4950
+Wire Wire Line
+	3250 5050 3300 5050
+Wire Wire Line
+	2050 4500 2050 4450
+Wire Wire Line
+	2050 4150 2050 4100
+Wire Wire Line
+	2050 4100 2200 4100
+$Comp
+L kria-k26-devboard:GND #PWR051
+U 1 1 64C03362
+P 2050 4500
+F 0 "#PWR051" H 2050 4250 50  0001 C CNN
+F 1 "GND" H 2055 4327 50  0000 C CNN
+F 2 "" H 2050 4500 50  0001 C CNN
+F 3 "" H 2050 4500 50  0001 C CNN
+	1    2050 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4100 2200 4650
+Wire Wire Line
+	2200 4650 2250 4650
+$Comp
+L kria-k26-devboard:GND #PWR052
+U 1 1 64C26FC9
+P 2200 5150
+F 0 "#PWR052" H 2200 4900 50  0001 C CNN
+F 1 "GND" H 2205 4977 50  0000 C CNN
+F 2 "" H 2200 5150 50  0001 C CNN
+F 3 "" H 2200 5150 50  0001 C CNN
+	1    2200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5150 2200 5050
+Wire Wire Line
+	2200 5050 2250 5050
+Text HLabel 1200 4800 0    50   Input ~ 0
+HDA01
+Wire Wire Line
+	1200 4800 1500 4800
+Text HLabel 1200 4900 0    50   Input ~ 0
+HDA00_CC
+Wire Wire Line
+	1200 4900 1350 4900
+Wire Wire Line
+	1350 4600 1350 4900
+Wire Wire Line
+	1500 4800 1500 4600
+Connection ~ 1350 4900
+Wire Wire Line
+	1350 4900 1600 4900
+Connection ~ 1500 4800
+Wire Wire Line
+	1500 4800 1600 4800
+Connection ~ 1350 4100
+Wire Wire Line
+	1300 4100 1350 4100
+Wire Wire Line
+	1350 4100 1500 4100
+Wire Wire Line
+	1500 4300 1500 4100
+Wire Wire Line
+	1350 4100 1350 4300
+Connection ~ 4900 4750
+Wire Wire Line
+	4900 4750 4950 4750
+Text GLabel 4950 4750 2    50   Input ~ 0
+PL_3V3
+Wire Wire Line
+	4750 4800 4750 4750
+Wire Wire Line
+	4900 4750 4750 4750
+Wire Wire Line
+	4900 4750 4900 4800
+Wire Wire Line
+	4900 5100 4900 5250
+Wire Wire Line
+	4750 5100 4750 5150
+$Comp
+L kria-k26-devboard:R_2k2_0402 R32
+U 1 1 649B3ABE
+P 4900 4950
+F 0 "R32" V 4855 5020 60  0000 L CNN
+F 1 "R_2k2_0402" H 4900 4800 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 5100 5150 60  0001 L CNN
+F 3 "" H 4900 4950 50  0001 C CNN
+F 4 "YAGEO" H 5100 5350 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 5100 5250 60  0001 L CNN "MPN"
+F 6 "2k2" V 4953 5020 50  0000 L CNN "Val"
+	1    4900 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L kria-k26-devboard:R_2k2_0402 R30
+U 1 1 649A89C1
+P 4750 4950
+F 0 "R30" V 4705 5020 60  0000 L CNN
+F 1 "R_2k2_0402" H 4750 4800 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 4950 5150 60  0001 L CNN
+F 3 "" H 4750 4950 50  0001 C CNN
+F 4 "YAGEO" H 4950 5350 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 4950 5250 60  0001 L CNN "MPN"
+F 6 "2k2" V 4803 5020 50  0000 L CNN "Val"
+	1    4750 4950
+	0    -1   1    0   
+$EndComp
+Text Label 5700 5250 0    50   ~ 0
+CCI1_I2C_SDA_3V3
+Text Label 5700 5150 0    50   ~ 0
+CCI1_I2C_SCL_3V3
+Wire Wire Line
+	3250 4650 3300 4650
+Wire Wire Line
+	4900 4100 4950 4100
+Text Label 5700 4500 0    50   ~ 0
+CCI0_I2C_SCL_3V3
+Text Label 5700 4600 0    50   ~ 0
+CCI0_I2C_SDA_3V3
+Text GLabel 4950 4100 2    50   Input ~ 0
+PL_3V3
+Wire Wire Line
+	4750 4150 4750 4100
+Connection ~ 4900 4100
+Wire Wire Line
+	4900 4100 4750 4100
+Wire Wire Line
+	4900 4100 4900 4150
+Wire Wire Line
+	4900 4450 4900 4600
+Wire Wire Line
+	4750 4450 4750 4500
+$Comp
+L kria-k26-devboard:R_2k2_0402 R31
+U 1 1 64B09B58
+P 4900 4300
+F 0 "R31" V 4855 4370 60  0000 L CNN
+F 1 "R_2k2_0402" H 4900 4150 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 5100 4500 60  0001 L CNN
+F 3 "" H 4900 4300 50  0001 C CNN
+F 4 "YAGEO" H 5100 4700 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 5100 4600 60  0001 L CNN "MPN"
+F 6 "2k2" V 4953 4370 50  0000 L CNN "Val"
+	1    4900 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L kria-k26-devboard:R_2k2_0402 R29
+U 1 1 64B09B4B
+P 4750 4300
+F 0 "R29" V 4705 4370 60  0000 L CNN
+F 1 "R_2k2_0402" H 4750 4150 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 4950 4500 60  0001 L CNN
+F 3 "" H 4750 4300 50  0001 C CNN
+F 4 "YAGEO" H 4950 4700 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 4950 4600 60  0001 L CNN "MPN"
+F 6 "2k2" V 4803 4370 50  0000 L CNN "Val"
+	1    4750 4300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3300 4650 3300 4500
+Wire Wire Line
+	3350 4750 3350 4600
+Wire Wire Line
+	3350 4750 3250 4750
+Wire Wire Line
+	3300 5050 3300 5250
+Wire Wire Line
+	3350 4950 3350 5150
+Text GLabel 2000 4100 0    50   Input ~ 0
+PL_3V3
+Wire Wire Line
+	2000 4100 2050 4100
+Connection ~ 2050 4100
+Text GLabel 8300 5500 0    50   Input ~ 0
+PL_3V3
+$Comp
+L kria-k26-devboard:R_2k2_0402 R24
+U 1 1 64DE55BF
+P 1500 4450
+F 0 "R24" V 1455 4520 60  0000 L CNN
+F 1 "R_2k2_0402" H 1500 4300 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 1700 4650 60  0001 L CNN
+F 3 "" H 1500 4450 50  0001 C CNN
+F 4 "YAGEO" H 1700 4850 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 1700 4750 60  0001 L CNN "MPN"
+F 6 "2k2" V 1553 4520 50  0000 L CNN "Val"
+	1    1500 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L kria-k26-devboard:R_2k2_0402 R23
+U 1 1 64DE573E
+P 1350 4450
+F 0 "R23" V 1305 4520 60  0000 L CNN
+F 1 "R_2k2_0402" H 1350 4300 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 1550 4650 60  0001 L CNN
+F 3 "" H 1350 4450 50  0001 C CNN
+F 4 "YAGEO" H 1550 4850 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 1550 4750 60  0001 L CNN "MPN"
+F 6 "2k2" V 1403 4520 50  0000 L CNN "Val"
+	1    1350 4450
+	0    -1   1    0   
+$EndComp
+Text GLabel 1300 4100 0    50   Input ~ 0
+PL_3V3
+$Comp
+L kria-k26-devboard:C_100n_0402 C29
+U 1 1 65AE161E
+P 2050 4300
+F 0 "C29" H 2165 4345 60  0000 L CNN
+F 1 "C_100n_0402" H 2050 4150 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 2250 4500 60  0001 L CNN
+F 3 "" H 2050 4300 50  0001 C CNN
+F 4 "Murata" H 2250 4700 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 2250 4600 60  0001 L CNN "MPN"
+F 6 "100n" H 2165 4247 50  0000 L CNN "Val"
+	1    2050 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4000 8500 4000
+Wire Wire Line
+	8250 4200 8500 4200
+Text HLabel 8250 4100 0    50   Input ~ 0
+CAM0_RST
+Wire Wire Line
+	8250 4100 8500 4100
+Text HLabel 8250 4000 0    50   Input ~ 0
+CAM0_VSYNC
+Text HLabel 8250 4200 0    50   Input ~ 0
+CAM1_VSYNC
+Text Notes 550  700  0    100  ~ 20
+Camera interface
+$Comp
+L kria-k26-devboard:GND #PWR055
+U 1 1 6733CCE5
+P 8350 5800
+F 0 "#PWR055" H 8350 5550 50  0001 C CNN
+F 1 "GND" H 8355 5627 50  0000 C CNN
+F 2 "" H 8350 5800 50  0001 C CNN
+F 3 "" H 8350 5800 50  0001 C CNN
+	1    8350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4100 4000 4100
+Text GLabel 4000 4100 2    50   Input ~ 0
+PL_1V8
+Wire Wire Line
+	3800 4150 3800 4100
+Connection ~ 3950 4100
+Wire Wire Line
+	3950 4100 3800 4100
+Wire Wire Line
+	3950 4100 3950 4150
+Wire Wire Line
+	3800 4450 3800 4500
+Wire Wire Line
+	3800 4500 4750 4500
+Wire Wire Line
+	3950 4600 4900 4600
+Wire Wire Line
+	3900 4750 3950 4750
+Wire Wire Line
+	3750 4800 3750 4750
+Connection ~ 3900 4750
+Wire Wire Line
+	3900 4750 3750 4750
+Wire Wire Line
+	3900 4750 3900 4800
+Wire Wire Line
+	3900 5100 3900 5250
+Wire Wire Line
+	3750 5100 3750 5150
+Wire Wire Line
+	3750 5150 4750 5150
+Wire Wire Line
+	3900 5250 4900 5250
+$Comp
+L kria-k26-devboard:R_1k5_0402 R28
+U 1 1 62884B6D
+P 3950 4300
+F 0 "R28" V 3905 4370 60  0000 L CNN
+F 1 "R_1k5_0402" H 3950 4150 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 4150 4500 60  0001 L CNN
+F 3 "" H 3950 4300 50  0001 C CNN
+F 4 "Multicomp Pro" H 4150 4700 60  0001 L CNN "Manufacturer"
+F 5 "MP000515" H 4150 4600 60  0001 L CNN "MPN"
+F 6 "1k5" V 4003 4370 50  0000 L CNN "Val"
+F 7 "DNP" H 3950 4300 50  0000 C CNN "DNP"
+	1    3950 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L kria-k26-devboard:R_1k5_0402 R26
+U 1 1 6288E001
+P 3800 4300
+F 0 "R26" V 3755 4230 60  0000 R CNN
+F 1 "R_1k5_0402" H 3800 4150 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 4000 4500 60  0001 L CNN
+F 3 "" H 3800 4300 50  0001 C CNN
+F 4 "Multicomp Pro" H 4000 4700 60  0001 L CNN "Manufacturer"
+F 5 "MP000515" H 4000 4600 60  0001 L CNN "MPN"
+F 6 "1k5" V 3853 4230 50  0000 R CNN "Val"
+F 7 "DNP" H 3800 4300 50  0000 C CNN "DNP"
+	1    3800 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L kria-k26-devboard:R_1k5_0402 R27
+U 1 1 628A1FB5
+P 3900 4950
+F 0 "R27" V 3855 5020 60  0000 L CNN
+F 1 "R_1k5_0402" H 3900 4800 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 4100 5150 60  0001 L CNN
+F 3 "" H 3900 4950 50  0001 C CNN
+F 4 "Multicomp Pro" H 4100 5350 60  0001 L CNN "Manufacturer"
+F 5 "MP000515" H 4100 5250 60  0001 L CNN "MPN"
+F 6 "1k5" V 3953 5020 50  0000 L CNN "Val"
+F 7 "DNP" H 3900 4950 50  0000 C CNN "DNP"
+	1    3900 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L kria-k26-devboard:R_1k5_0402 R25
+U 1 1 628A2134
+P 3750 4950
+F 0 "R25" V 3705 4880 60  0000 R CNN
+F 1 "R_1k5_0402" H 3750 4800 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-res" H 3950 5150 60  0001 L CNN
+F 3 "" H 3750 4950 50  0001 C CNN
+F 4 "Multicomp Pro" H 3950 5350 60  0001 L CNN "Manufacturer"
+F 5 "MP000515" H 3950 5250 60  0001 L CNN "MPN"
+F 6 "1k5" V 3803 4880 50  0000 R CNN "Val"
+F 7 "DNP" H 3750 4950 50  0000 C CNN "DNP"
+	1    3750 4950
+	0    1    1    0   
+$EndComp
+Text GLabel 3950 4750 2    50   Input ~ 0
+PL_1V8
+$Comp
+L kria-k26-devboard:AP7340-18FS4-7 U11
+U 1 1 62A4CE27
+P 3600 6100
+F 0 "U11" H 3600 6567 50  0000 C CNN
+F 1 "AP7340-18FS4-7" H 3600 6476 50  0000 C CNN
+F 2 "kria-k26-devboard-footprints:XDFN4" H 3150 5450 50  0001 L BNN
+F 3 "Diodes Incorporated" H 3600 6100 50  0001 L BNN
+F 4 "AP7340-18FS4-7" H 3500 5550 50  0001 C CNN "MPN"
+F 5 "Diodes Incorporated" H 3550 5650 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 3600 6100 50  0000 C CNN "DNP"
+	1    3600 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 5900 0    50   Input ~ 0
+PL_3V3
+Wire Wire Line
+	3000 6100 2950 6100
+Wire Wire Line
+	2950 6100 2950 5900
+Wire Wire Line
+	2950 5900 3000 5900
+Connection ~ 2950 5900
+$Comp
+L kria-k26-devboard:C_470n_0402 C30
+U 1 1 62A54360
+P 2550 6100
+F 0 "C30" H 2665 6145 60  0000 L CNN
+F 1 "C_470n_0402" H 2550 5950 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 2750 6300 60  0001 L CNN
+F 3 "" H 2550 6100 50  0001 C CNN
+F 4 "TDK" H 2750 6500 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2750 6400 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 6047 50  0000 L CNN "Val"
+F 7 "DNP" H 2750 5950 50  0000 C CNN "DNP"
+	1    2550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kria-k26-devboard:C_470n_0402 C31
+U 1 1 62A6AE5F
+P 4400 6100
+F 0 "C31" H 4515 6145 60  0000 L CNN
+F 1 "C_470n_0402" H 4400 5950 60  0001 C CNN
+F 2 "kria-k26-devboard-footprints:0402-cap" H 4600 6300 60  0001 L CNN
+F 3 "" H 4400 6100 50  0001 C CNN
+F 4 "TDK" H 4600 6500 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 4600 6400 60  0001 L CNN "MPN"
+F 6 "470n" H 4515 6047 50  0000 L CNN "Val"
+F 7 "DNP" H 4600 5950 50  0000 C CNN "DNP"
+	1    4400 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5900 2550 5900
+Wire Wire Line
+	2550 5950 2550 5900
+Connection ~ 2550 5900
+Wire Wire Line
+	2550 5900 2950 5900
+Wire Wire Line
+	4400 5900 4400 5950
+Wire Wire Line
+	4200 5900 4400 5900
+$Comp
+L kria-k26-devboard:GND #PWR053
+U 1 1 62A87F4F
+P 2550 6300
+F 0 "#PWR053" H 2550 6050 50  0001 C CNN
+F 1 "GND" H 2555 6127 50  0000 C CNN
+F 2 "" H 2550 6300 50  0001 C CNN
+F 3 "" H 2550 6300 50  0001 C CNN
+	1    2550 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6300 2550 6250
+Wire Wire Line
+	4200 6200 4250 6200
+Wire Wire Line
+	4250 6200 4250 6300
+Wire Wire Line
+	4400 6300 4400 6250
+$Comp
+L kria-k26-devboard:GND #PWR054
+U 1 1 62A973E6
+P 4250 6350
+F 0 "#PWR054" H 4250 6100 50  0001 C CNN
+F 1 "GND" H 4255 6177 50  0000 C CNN
+F 2 "" H 4250 6350 50  0001 C CNN
+F 3 "" H 4250 6350 50  0001 C CNN
+	1    4250 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 5900 2    50   Input ~ 0
+PL_1V8
+Wire Wire Line
+	4400 5900 4450 5900
+Connection ~ 4400 5900
+Wire Wire Line
+	3950 4450 3950 4600
+Wire Wire Line
+	3300 4500 3800 4500
+Connection ~ 3800 4500
+Wire Wire Line
+	3950 4600 3350 4600
+Connection ~ 3950 4600
+Wire Wire Line
+	3350 5150 3750 5150
+Connection ~ 3750 5150
+Wire Wire Line
+	3300 5250 3900 5250
+Connection ~ 3900 5250
+Connection ~ 4750 4500
+Wire Wire Line
+	4750 4500 5500 4500
+Connection ~ 4750 5150
+Wire Wire Line
+	4750 5150 5500 5150
+Connection ~ 4900 4600
+Wire Wire Line
+	4900 4600 5500 4600
+Connection ~ 4900 5250
+Wire Wire Line
+	4900 5250 5500 5250
+Wire Wire Line
+	4200 6300 4250 6300
+Wire Wire Line
+	4250 6300 4400 6300
+Connection ~ 4250 6300
+Wire Wire Line
+	4250 6350 4250 6300
+$Comp
+L kria-k26-devboard:TP_SMD_0_75MM TP4
+U 1 1 6367AE32
+P 5500 4350
+F 0 "TP4" H 5450 4397 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 5500 4250 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 5700 4550 60  0001 L CNN
+F 3 "" H 5700 4650 60  0001 L CNN
+	1    5500 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L kria-k26-devboard:TP_SMD_0_75MM TP5
+U 1 1 6367BC74
+P 5500 4750
+F 0 "TP5" H 5550 4797 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 5500 4650 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 5700 4950 60  0001 L CNN
+F 3 "" H 5700 5050 60  0001 L CNN
+	1    5500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L kria-k26-devboard:TP_SMD_0_75MM TP6
+U 1 1 6367C4DB
+P 5500 5000
+F 0 "TP6" H 5450 5047 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 5500 4900 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 5700 5200 60  0001 L CNN
+F 3 "" H 5700 5300 60  0001 L CNN
+	1    5500 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kria-k26-devboard:TP_SMD_0_75MM TP7
+U 1 1 6367C829
+P 5500 5400
+F 0 "TP7" H 5550 5447 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 5500 5300 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 5700 5600 60  0001 L CNN
+F 3 "" H 5700 5700 60  0001 L CNN
+	1    5500 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5300 5500 5250
+Connection ~ 5500 5250
+Wire Wire Line
+	5500 5250 5700 5250
+Wire Wire Line
+	5500 5100 5500 5150
+Connection ~ 5500 5150
+Wire Wire Line
+	5500 5150 5700 5150
+$Comp
+L kria-k26-devboard:TP_SMD_0_75MM TP3
+U 1 1 636882F0
+P 4400 5750
+F 0 "TP3" H 4350 5797 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 4400 5650 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 4600 5950 60  0001 L CNN
+F 3 "" H 4600 6050 60  0001 L CNN
+	1    4400 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 5900 4400 5850
+$Comp
+L kria-k26-devboard:TP_SMD_0_75MM TP2
+U 1 1 6368ED99
+P 1600 5050
+F 0 "TP2" H 1650 5097 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 1600 4950 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 1800 5250 60  0001 L CNN
+F 3 "" H 1800 5350 60  0001 L CNN
+	1    1600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kria-k26-devboard:TP_SMD_0_75MM TP1
+U 1 1 6368F55D
+P 1600 4650
+F 0 "TP1" H 1550 4697 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 1600 4550 50  0001 C CNN
+F 2 "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" H 1800 4850 60  0001 L CNN
+F 3 "" H 1800 4950 60  0001 L CNN
+	1    1600 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 4750 1600 4800
+Connection ~ 1600 4800
+Wire Wire Line
+	1600 4800 2250 4800
+Wire Wire Line
+	1600 4950 1600 4900
+Connection ~ 1600 4900
+Wire Wire Line
+	1600 4900 2250 4900
+Wire Wire Line
+	5500 4600 5500 4650
+Connection ~ 5500 4600
+Wire Wire Line
+	5500 4600 5700 4600
+Wire Wire Line
+	5500 4500 5500 4450
+Connection ~ 5500 4500
+Wire Wire Line
+	5500 4500 5700 4500
+Wire Notes Line
+	3500 3900 4450 3900
+Wire Notes Line
+	4450 3900 4450 5550
+Wire Notes Line
+	4450 5550 4950 5550
+Wire Notes Line
+	4950 5550 4950 6700
+Wire Notes Line
+	4950 6700 1950 6700
+Wire Notes Line
+	1950 6700 1950 5600
+Wire Notes Line
+	1950 5600 3500 5600
+Wire Notes Line
+	3500 5600 3500 3900
+$EndSCHEMATC

@@ -2,6 +2,8 @@
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
+![Kria K26 Devboard](/img/reset_logic.png)
+
 ## Overview
 
 This repository contains open hardware design files for a devkit created for Xilinx Kria K26 [

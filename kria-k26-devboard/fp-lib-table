@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name kria-k26-devboard-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/kria-k26-devboard-footprints)(options "")(descr ""))
-)
