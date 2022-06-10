@@ -1,6 +1,23 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroResistors0402_R_10k_0402
+#
+DEF antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_10k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # kria-k26-devboard_0878311420
 #
 DEF kria-k26-devboard_0878311420 J 0 40 Y Y 1 F N
