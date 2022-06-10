@@ -4454,6 +4454,43 @@ Wire Wire Line
 	3750 8500 3900 8500
 Text GLabel 3650 7750 0    50   Input ~ 0
 USB_5V
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 62B7DD1C
+P 8175 8225
+F 0 "R?" V 8130 8295 60  0000 L CNN
+F 1 "R_10k_0402" H 8175 8075 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8375 8425 60  0001 L CNN
+F 3 "" H 8175 8225 50  0001 C CNN
+F 4 "VISHAY" H 8375 8625 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 8375 8525 60  0001 L CNN "MPN"
+F 6 "10k" V 8228 8295 50  0000 L CNN "Val"
+	1    8175 8225
+	0    1    1    0   
+$EndComp
+$Comp
+L kria-k26-devboard:GND #PWR?
+U 1 1 62B8228F
+P 8175 8425
+F 0 "#PWR?" H 8175 8175 50  0001 C CNN
+F 1 "GND" V 8180 8297 50  0000 R CNN
+F 2 "" H 8175 8425 50  0001 C CNN
+F 3 "" H 8175 8425 50  0001 C CNN
+	1    8175 8425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 8425 8175 8375
+Text Label 8075 8025 2    50   ~ 0
+MIO31
+Wire Wire Line
+	8075 8025 8175 8025
+Wire Wire Line
+	8175 8025 8175 8075
+Text Notes 7650 7500 0    100  ~ 20
+SHUTDOWN \npull-down
+Wire Notes Line
+	8650 7150 8650 9700
 Wire Bus Line
 	3950 4350 3950 4500
 Wire Bus Line
