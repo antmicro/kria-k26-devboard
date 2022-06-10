@@ -237,11 +237,11 @@ Wire Wire Line
 	2200 5150 2200 5050
 Wire Wire Line
 	2200 5050 2250 5050
-Text HLabel 1200 4800 0    50   Input ~ 0
+Text HLabel 1200 4900 0    50   Input ~ 0
 HDA01
 Wire Wire Line
 	1200 4800 1500 4800
-Text HLabel 1200 4900 0    50   Input ~ 0
+Text HLabel 1200 4800 0    50   Input ~ 0
 HDA00_CC
 Wire Wire Line
 	1200 4900 1350 4900
