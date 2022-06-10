@@ -717,20 +717,6 @@ Wire Wire Line
 	3950 4100 4100 4100
 Wire Wire Line
 	4100 4200 4100 4100
-$Comp
-L kria-k26-devboard:R_475R_0402 R22
-U 1 1 63456ABB
-P 5200 3800
-F 0 "R22" V 5155 3870 60  0000 L CNN
-F 1 "R_475R_0402" H 5200 3650 60  0001 C CNN
-F 2 "kria-k26-devboard-footprints:0402-res" H 5400 4000 60  0001 L CNN
-F 3 "" H 5200 3800 50  0001 C CNN
-F 4 "Panasonic" H 5400 4200 60  0001 L CNN "Manufacturer"
-F 5 "ERJ-U02F4750X" H 5400 4100 60  0001 L CNN "MPN"
-F 6 "475R" V 5253 3870 50  0000 L CNN "Val"
-	1    5200 3800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5100 3550 5200 3550
 Wire Wire Line
@@ -777,4 +763,18 @@ Text HLabel 3150 3100 0    50   Input ~ 0
 ~M2_CLKREQ
 Wire Wire Line
 	3150 3200 3300 3200
+$Comp
+L antmicroResistors0402:R_475R_0402 R22
+U 1 1 6320B122
+P 5200 3800
+F 0 "R22" V 5155 3870 60  0000 L CNN
+F 1 "R_475R_0402" H 5200 3650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5400 4000 60  0001 L CNN
+F 3 "" H 5200 3800 50  0001 C CNN
+F 4 "Panasonic" H 5400 4200 60  0001 L CNN "Manufacturer"
+F 5 "ERJ-U02F4750X" H 5400 4100 60  0001 L CNN "MPN"
+F 6 "475R" V 5253 3870 50  0000 L CNN "Val"
+	1    5200 3800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

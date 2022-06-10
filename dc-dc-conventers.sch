@@ -2099,38 +2099,6 @@ F 8 "1u/2.6A" H 8850 4501 50  0000 C CNN "Val"
 	1    8850 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L kria-k26-devboard:TFM201208ALD-1R0MTCA L4
-U 1 1 62B2FA71
-P 8850 2800
-F 0 "L4" H 8850 3105 60  0000 C CNN
-F 1 "TFM201208ALD-1R0MTCA" H 8850 2999 60  0000 C CNN
-F 2 "kria-k26-devboard-footprints:0603-res" H 9475 3150 60  0001 C CNN
-F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_tfm201208ald_en.pdf" H 8905 2830 60  0001 C CNN
-F 4 "TDK" H 9000 3550 50  0001 C CNN "Manufacturer"
-F 5 "TFM201208ALD-1R0MTCA" H 9150 3450 50  0001 C CNN "MPN"
-F 6 "2.5A" H 8925 3350 50  0001 C CNN "MaxCur"
-F 7 "1.25x0.8" H 8975 3250 50  0001 C CNN "Size"
-F 8 "1u/2.5A" H 8850 2901 50  0000 C CNN "Val"
-	1    8850 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L kria-k26-devboard:TFM201208ALD-1R0MTCA L7
-U 1 1 62B31FDC
-P 8850 7550
-F 0 "L7" H 8850 7855 60  0000 C CNN
-F 1 "TFM201208ALD-1R0MTCA" H 8850 7749 60  0000 C CNN
-F 2 "kria-k26-devboard-footprints:0603-res" H 9475 7900 60  0001 C CNN
-F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_tfm201208ald_en.pdf" H 8905 7580 60  0001 C CNN
-F 4 "TDK" H 9000 8300 50  0001 C CNN "Manufacturer"
-F 5 "TFM201208ALD-1R0MTCA" H 9150 8200 50  0001 C CNN "MPN"
-F 6 "2.5A" H 8925 8100 50  0001 C CNN "MaxCur"
-F 7 "1.25x0.8" H 8975 8000 50  0001 C CNN "Size"
-F 8 "1u/2.5A" H 8850 7651 50  0000 C CNN "Val"
-	1    8850 7550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9400 8450 9400 8400
 Connection ~ 9400 8400
@@ -3110,4 +3078,36 @@ F 3 "" H 4950 3600 60  0001 L CNN
 $EndComp
 Wire Wire Line
 	4750 3450 4750 3400
+$Comp
+L antmicroFixedInductors:TFM201208ALD-1R0MTCA L4
+U 1 1 631602A4
+P 8850 2800
+F 0 "L4" H 8850 3105 60  0000 C CNN
+F 1 "TFM201208ALD-1R0MTCA" H 8850 2999 60  0000 C CNN
+F 2 "antmicro-footprints:0805-res" H 9475 3150 60  0001 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_tfm201208ald_en.pdf" H 8905 2830 60  0001 C CNN
+F 4 "TDK" H 9000 3550 50  0001 C CNN "Manufacturer"
+F 5 "TFM201208ALD-1R0MTCA" H 9150 3450 50  0001 C CNN "MPN"
+F 6 "2.5A" H 8925 3350 50  0001 C CNN "MaxCur"
+F 7 "1.25x0.8" H 8975 3250 50  0001 C CNN "Size"
+F 8 "1u/2.5A" H 8850 2901 50  0000 C CNN "Val"
+	1    8850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:TFM201208ALD-1R0MTCA L7
+U 1 1 63193D9E
+P 8850 7550
+F 0 "L7" H 8850 7855 60  0000 C CNN
+F 1 "TFM201208ALD-1R0MTCA" H 8850 7749 60  0000 C CNN
+F 2 "antmicro-footprints:0805-res" H 9475 7900 60  0001 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_tfm201208ald_en.pdf" H 8905 7580 60  0001 C CNN
+F 4 "TDK" H 9000 8300 50  0001 C CNN "Manufacturer"
+F 5 "TFM201208ALD-1R0MTCA" H 9150 8200 50  0001 C CNN "MPN"
+F 6 "2.5A" H 8925 8100 50  0001 C CNN "MaxCur"
+F 7 "1.25x0.8" H 8975 8000 50  0001 C CNN "Size"
+F 8 "1u/2.5A" H 8850 7651 50  0000 C CNN "Val"
+	1    8850 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
