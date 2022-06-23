@@ -2189,15 +2189,15 @@ USB1_VBUS
 Text Notes 525  9025 0    100  ~ 20
 USB power switches
 $Comp
-L kria-k26-devboard:ECS-2016MV-240-BN-TR3 Y5
+L antmicroCrystals:ECS-2016MV-240-BN-TR3 Y5
 U 1 1 63135142
 P 9800 3600
 F 0 "Y5" H 10000 3850 50  0000 L CNN
 F 1 "ECS-2016MV-240-BN-TR3" H 9950 3300 50  0000 L CNN
-F 2 "kria-k26-devboard-footprints:ECS-2016MV" H 10250 3250 50  0001 C CNN
+F 2 "antmicro-footprints:ECS-2016MV" H 10250 3250 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/122/ECS_2016MV-2529299.pdf" H 9625 3725 50  0001 C CNN
 F 4 "ECS" H 9950 3150 50  0001 C CNN "Manufacturer"
-F 5 "ECS-2520MVLC-260-CM-TR" H 10450 3050 50  0001 C CNN "MPN"
+F 5 "ECS-2016MV-240-BN-TR3" H 10450 3050 50  0001 C CNN "MPN"
 	1    9800 3600
 	1    0    0    -1  
 $EndComp
@@ -2210,15 +2210,15 @@ Wire Wire Line
 Text Notes 1900 3250 0    50   ~ 0
 All ports removable
 $Comp
-L kria-k26-devboard:ECS-2016MV-250-CN-TR3 Y4
+L antmicroCrystals:ECS-2016MV-250-CN-TR3 Y4
 U 1 1 632C5A2B
 P 1400 4200
 F 0 "Y4" H 1600 4500 50  0000 L CNN
 F 1 "ECS-2016MV-250-CN-TR3" H 1500 3950 50  0000 L CNN
-F 2 "kria-k26-devboard-footprints:ECS-2016MV" H 1850 3850 50  0001 C CNN
+F 2 "antmicro-footprints:ECS-2016MV" H 1850 3850 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/122/ECS_2016MV-2529299.pdf" H 1225 4325 50  0001 C CNN
 F 4 "ECS" H 1550 3750 50  0001 C CNN "Manufacturer"
-F 5 "ECS-2520MVLC-260-CM-TR" H 2050 3650 50  0001 C CNN "MPN"
+F 5 "ECS-2016MV-250-CN-TR3" H 2050 3650 50  0001 C CNN "MPN"
 	1    1400 4200
 	1    0    0    -1  
 $EndComp
