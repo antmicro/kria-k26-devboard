@@ -48,7 +48,13 @@
           "min_clearance": 0.131
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -58,7 +64,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -697,7 +703,6 @@
           "/USB/USB4_TX_N",
           "/USB/USB4_TX_P",
           "/USB/USB4_VBUS",
-          "/Xilinx K26 SOM/HDA00_C",
           "/Xilinx K26 SOM/HDA20",
           "/Xilinx K26 SOM/MODE0_C2M",
           "/Xilinx K26 SOM/MODE1_C2M",
