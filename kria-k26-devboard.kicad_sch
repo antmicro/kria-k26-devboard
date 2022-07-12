@@ -3749,7 +3749,7 @@
     (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-000065e2b5f7"
       (reference "#PWR0317") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-00006253ab9b"
+    (path "/00000000-0000-0000-0000-000065aaf1bf/094fffd6-9d33-4541-846a-9a828e828f02"
       (reference "#PWR0318") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-000062979e71"
@@ -4827,7 +4827,7 @@
       (reference "J1") (unit 1) (value "47272-0001") (footprint "kria-k26-devboard-footprints:MOLEX_47272-0001")
     )
     (path "/00000000-0000-0000-0000-0000630339ce/00000000-0000-0000-0000-0000630ee654"
-      (reference "J2") (unit 1) (value "1140084168") (footprint "kria-k26-devboard-footprints:MicroSD_1140084168")
+      (reference "J2") (unit 1) (value "1140084168") (footprint "antmicro-footprints:MicroSD_1140084168")
     )
     (path "/00000000-0000-0000-0000-000063cb76cf/00000000-0000-0000-0000-000061a63d9b"
       (reference "J3") (unit 1) (value "WE_68715014522") (footprint "kria-k26-devboard-footprints:WE_68715014522")
