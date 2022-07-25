@@ -1,1281 +1,2646 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 5d6b3fe0-35aa-432b-bec6-eff2b850cf5d)
-
-  (paper "A4")
-
-  (title_block
-    (title "I2C")
-    (comment 1 "www.antmicro.com")
-    (comment 2 "Antmicro Ltd.")
-  )
-
-  (lib_symbols
-    (symbol "kria-k26-devboard:C_100n_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "C_100n_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:0402-cap" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "Murata" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "GRM155R61H104KE14D" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "100n" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "C_100n_0402_1_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:C_100p_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "C_100p_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:0402-cap" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "WALSIN" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "0402N101J500CT" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "100p" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "C_100p_0402_1_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:M24C64-FMC6TG" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at 13.97 10.16 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "M24C64-FMC6TG" (id 1) (at 13.97 7.62 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:STM_UFDFPN8DFN8_2X3" (id 2) (at 13.97 6.096 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 30.48 -2.54 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Manufacturer" "STMicroelectronics" (id 4) (at 13.97 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "M24C64-FMC6TG" (id 5) (at 13.97 -15.24 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "UFDFPN8DFN8_2X3_STM UFDFPN8DFN8_2X3_STM-M UFDFPN8DFN8_2X3_STM-L" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "M24C64-FMC6TG_1_1"
-        (rectangle (start 7.62 5.08) (end 21.59 -11.43)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (pin input line (at 0 -3.81 0) (length 7.62)
-          (name "E0" (effects (font (size 1.4986 1.4986))))
-          (number "1" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin input line (at 0 -6.35 0) (length 7.62)
-          (name "E1" (effects (font (size 1.4986 1.4986))))
-          (number "2" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin input line (at 0 -8.89 0) (length 7.62)
-          (name "E2" (effects (font (size 1.4986 1.4986))))
-          (number "3" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin power_in line (at 29.21 -8.89 180) (length 7.62)
-          (name "VSS" (effects (font (size 1.4986 1.4986))))
-          (number "4" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin bidirectional line (at 0 0 0) (length 7.62)
-          (name "SDA" (effects (font (size 1.4986 1.4986))))
-          (number "5" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin input line (at 0 2.54 0) (length 7.62)
-          (name "SCL" (effects (font (size 1.4986 1.4986))))
-          (number "6" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin input line (at 29.21 -1.27 180) (length 7.62)
-          (name "*WC" (effects (font (size 1.4986 1.4986))))
-          (number "7" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin power_in line (at 29.21 2.54 180) (length 7.62)
-          (name "VCC" (effects (font (size 1.4986 1.4986))))
-          (number "8" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin power_in line (at 29.21 -6.35 180) (length 7.62)
-          (name "VSS" (effects (font (size 1.4986 1.4986))))
-          (number "9" (effects (font (size 1.4986 1.4986))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:PCA9306D_118" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at -7.62 10.16 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "PCA9306D_118" (id 1) (at 10.16 -11.43 0)
-        (effects (font (size 1.524 1.524)) (justify right))
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:SOIC-8_W3.9mm" (id 2) (at -20.32 -13.97 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 6.35 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "PCA9306D,118" (id 4) (at -8.89 -16.51 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Manufacturer" "NXP USA Inc." (id 5) (at -6.35 -19.05 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (symbol "PCA9306D_118_0_1"
-        (rectangle (start -7.62 8.89) (end 7.62 -10.16)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-      )
-      (symbol "PCA9306D_118_1_1"
-        (pin power_in line (at -10.16 -7.62 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -10.16 6.35 0) (length 2.54)
-          (name "VREF1" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.16 -1.27 0) (length 2.54)
-          (name "SCL1" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.16 -3.81 0) (length 2.54)
-          (name "SDA1" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 -3.81 180) (length 2.54)
-          (name "SDA2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 -1.27 180) (length 2.54)
-          (name "SCL2" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 10.16 6.35 180) (length 2.54)
-          (name "VREF2" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 10.16 2.54 180) (length 2.54)
-          (name "EN" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:R_0R_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "R_0R_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "PANASONIC" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "ERJ2GE0R00X" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "0R" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_0R_0402_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:R_1k_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "R_1k_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "BOURNS" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "CR0402-FX-1001GLF" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "1k" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_1k_0402_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:R_200k_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "R_200k_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "YAGEO_(PHYCOMP)" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "RC0402FR-07200KL" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "200k" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_200k_0402_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:R_2k2_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "R_2k2_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "YAGEO" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "RC0402FR-072K2L" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "2k2" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_2k2_0402_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "kria-k26-devboard:TP_SMD_0_75MM" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (id 0) (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "TP_SMD_0_75MM" (id 1) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (symbol "TP_SMD_0_75MM_0_1"
-        (circle (center 0 0) (radius 0.5588)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "TP_SMD_0_75MM_1_1"
-        (pin passive line (at 0 2.54 270) (length 1.905)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 113.03 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid 123bf1bd-f8ec-4fa9-a8df-34ca2c433360)
-  )
-  (junction (at 120.65 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 2c9b23eb-2658-47c8-9357-aed03d74b14d)
-  )
-  (junction (at 185.42 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 3eb98766-979d-4ca3-af21-10156f5c5603)
-  )
-  (junction (at 120.65 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid 47cfd35c-88e1-49c8-a6aa-435f7b413c32)
-  )
-  (junction (at 128.27 93.98) (diameter 0) (color 0 0 0 0)
-    (uuid 5e4c8b3d-f7e2-49b6-bec4-f80e940b3370)
-  )
-  (junction (at 113.03 93.98) (diameter 0) (color 0 0 0 0)
-    (uuid 5fac70bd-a495-4b78-a509-9821813953fe)
-  )
-  (junction (at 219.71 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 78d4e733-cb84-42f6-9e21-daa53c3f11af)
-  )
-  (junction (at 128.27 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 79835581-9d62-4895-b33b-853d6583044b)
-  )
-  (junction (at 92.71 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid 8af6611f-ca41-43f9-a853-02117b359fe1)
-  )
-  (junction (at 92.71 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 8b24560c-4bd8-48c5-b950-455cf738b5c7)
-  )
-  (junction (at 231.14 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid a366002f-d919-4138-b425-ae04ab466a15)
-  )
-  (junction (at 231.14 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid b2c9388a-8620-46c0-be5c-b0940349b7e8)
-  )
-  (junction (at 55.88 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid b709a2a9-663e-4592-8676-87410241612e)
-  )
-  (junction (at 101.6 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid c9d7af4d-3242-45d8-b3c2-e89a919f8958)
-  )
-  (junction (at 250.19 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid fe8e8c27-74c1-4d5f-82f6-1cde80cc4450)
-  )
-
-  (wire (pts (xy 92.71 86.36) (xy 92.71 90.17))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 14095895-2cb9-48fb-a504-56cbe000538c)
-  )
-  (wire (pts (xy 64.77 100.33) (xy 64.77 106.68))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 181ff1c8-a2e1-4292-9ed0-94df8e1a124f)
-  )
-  (wire (pts (xy 120.65 77.47) (xy 120.65 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1887882c-8897-47cd-96fd-db056a58d131)
-  )
-  (wire (pts (xy 219.71 97.79) (xy 219.71 100.33))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1a767ed6-3d75-4f2a-85f6-e32170b6203d)
-  )
-  (wire (pts (xy 128.27 93.98) (xy 137.16 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1c12ef68-6757-48bc-b234-c543c5a5149d)
-  )
-  (wire (pts (xy 128.27 96.52) (xy 137.16 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1e026076-d22c-4fed-b7b6-d8e61241c489)
-  )
-  (wire (pts (xy 218.44 86.36) (xy 217.17 86.36))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 216448ba-beb2-44ae-af42-109bef326364)
-  )
-  (wire (pts (xy 64.77 86.36) (xy 66.04 86.36))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2930158b-8c77-47d0-afda-8cff4f55c1b2)
-  )
-  (wire (pts (xy 184.15 86.36) (xy 187.96 86.36))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 3236d617-1d22-4ed6-9601-5471be76e942)
-  )
-  (wire (pts (xy 86.36 93.98) (xy 113.03 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 36002d37-185f-4679-b68c-7563a799144f)
-  )
-  (wire (pts (xy 218.44 86.36) (xy 218.44 80.01))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 39cd76fe-fc59-49aa-946c-c99edad1dbb1)
-  )
-  (wire (pts (xy 113.03 74.93) (xy 101.6 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 3d863937-3365-42be-a565-800f6c40ad8f)
-  )
-  (wire (pts (xy 231.14 90.17) (xy 231.14 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 44c8535b-a14e-4499-9cf5-19b848b202c5)
-  )
-  (wire (pts (xy 92.71 106.68) (xy 92.71 105.41))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4d395df9-e163-4a24-8042-3c6e88a32f5b)
-  )
-  (wire (pts (xy 185.42 95.25) (xy 185.42 97.79))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4f969c0c-dff2-454d-8e21-44d3865f10d8)
-  )
-  (wire (pts (xy 54.61 93.98) (xy 66.04 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 50039b63-44b2-4112-95e7-72527b1ea141)
-  )
-  (wire (pts (xy 217.17 90.17) (xy 231.14 90.17))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 518e1fad-ad52-4f69-8c56-299b0f25797a)
-  )
-  (wire (pts (xy 55.88 74.93) (xy 55.88 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 59a2c0c8-e33d-40ef-b23d-5391fed923d0)
-  )
-  (wire (pts (xy 128.27 97.79) (xy 128.27 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 59c4ec56-89be-471e-a0ba-2525b7be1cd1)
-  )
-  (wire (pts (xy 219.71 95.25) (xy 219.71 97.79))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5aa424d7-37c9-4685-9d59-a47c9457cbda)
-  )
-  (wire (pts (xy 231.14 80.01) (xy 250.19 80.01))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5b174e4e-1a42-40a4-be18-b6a793cba8db)
-  )
-  (wire (pts (xy 184.15 88.9) (xy 187.96 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5e5bb8ae-4936-4156-9b38-93907b1f3a7d)
-  )
-  (wire (pts (xy 86.36 96.52) (xy 120.65 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 60a00f60-8738-48e7-8859-855336ace2d2)
-  )
-  (wire (pts (xy 250.19 80.01) (xy 252.73 80.01))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6a11b4d4-df66-4745-b3ec-0ef60db37cce)
-  )
-  (wire (pts (xy 120.65 85.09) (xy 120.65 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6ed5ce23-8bc0-4893-aff7-e4213c98ad0d)
-  )
-  (wire (pts (xy 92.71 86.36) (xy 92.71 85.09))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 77658a80-555f-4cb7-83d5-30d3f4c580a4)
-  )
-  (wire (pts (xy 66.04 100.33) (xy 64.77 100.33))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 884912d8-b76c-45aa-a0f0-b43957a79449)
-  )
-  (wire (pts (xy 92.71 97.79) (xy 92.71 90.17))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8900b8a4-fbeb-44eb-82d7-3a950d8fbcc1)
-  )
-  (wire (pts (xy 64.77 74.93) (xy 64.77 86.36))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 903cf1a4-63a4-45b2-8f93-d83d2292ce08)
-  )
-  (wire (pts (xy 250.19 81.28) (xy 250.19 80.01))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9738dffc-060e-44ed-90a6-1b93e782c5db)
-  )
-  (wire (pts (xy 218.44 80.01) (xy 231.14 80.01))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 99869808-900a-4f9a-a578-b6033b6817db)
-  )
-  (wire (pts (xy 250.19 90.17) (xy 250.19 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9e27a54b-f157-40b6-ba43-e31b868dae54)
-  )
-  (wire (pts (xy 113.03 85.09) (xy 113.03 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a17ec0d4-4c6a-48ca-9510-2da9ce1eb5a9)
-  )
-  (wire (pts (xy 92.71 74.93) (xy 101.6 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a9751b6d-4076-410b-abc9-a79c7a2932e3)
-  )
-  (wire (pts (xy 219.71 97.79) (xy 217.17 97.79))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a9939574-146e-41b9-92dc-ba1cdfe2404b)
-  )
-  (wire (pts (xy 92.71 90.17) (xy 86.36 90.17))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ab008999-e837-495c-bc29-dccd5a7160c4)
-  )
-  (wire (pts (xy 185.42 97.79) (xy 187.96 97.79))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ab9887ab-729d-498e-866d-609a19384d88)
-  )
-  (wire (pts (xy 66.04 96.52) (xy 54.61 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid aea10113-12a5-404b-8fb3-fdd0df4a5d40)
-  )
-  (wire (pts (xy 231.14 100.33) (xy 231.14 99.06))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b8d0e86a-c551-4d89-9921-502386a56bdf)
-  )
-  (wire (pts (xy 86.36 86.36) (xy 92.71 86.36))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b945ea4e-6c4a-4d53-bfd1-5ca229ce5c00)
-  )
-  (wire (pts (xy 101.6 85.09) (xy 101.6 83.82))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c0652ff1-dcdb-4d62-82fd-2469ba079217)
-  )
-  (wire (pts (xy 55.88 85.09) (xy 55.88 83.82))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c15153b5-13cf-4a7f-9274-a37545c2cd76)
-  )
-  (wire (pts (xy 101.6 74.93) (xy 101.6 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c161cda2-8f50-437d-9eff-420cf7ad8ab6)
-  )
-  (wire (pts (xy 120.65 96.52) (xy 128.27 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c1d94461-5d8e-4eab-9ddd-98e07868140b)
-  )
-  (wire (pts (xy 185.42 97.79) (xy 185.42 100.33))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c92b8d7f-6e3d-4cff-bd18-0ccab5656837)
-  )
-  (wire (pts (xy 127 74.93) (xy 120.65 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c9d063dc-bd5c-43ef-b9f6-8729db4b2fa8)
-  )
-  (wire (pts (xy 217.17 95.25) (xy 219.71 95.25))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d57f0618-bd84-481f-b2e0-759fab8ca04d)
-  )
-  (wire (pts (xy 185.42 92.71) (xy 187.96 92.71))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d6aa479f-697f-4f4c-8633-83c9d8522124)
-  )
-  (wire (pts (xy 128.27 92.71) (xy 128.27 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d855c83a-bf6d-4a21-be6b-bc7e01968c30)
-  )
-  (wire (pts (xy 187.96 95.25) (xy 185.42 95.25))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid dd017bf5-0cec-417a-9ae1-a5de18004a4c)
-  )
-  (wire (pts (xy 231.14 80.01) (xy 231.14 81.28))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid de41e679-5481-4335-a1d2-1cdcddb20e73)
-  )
-  (wire (pts (xy 52.07 74.93) (xy 55.88 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid df0c8f60-5157-40ff-bc18-03e64e6a31ee)
-  )
-  (wire (pts (xy 120.65 74.93) (xy 113.03 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e534cf72-ad06-417a-9185-f2735427aca0)
-  )
-  (wire (pts (xy 55.88 74.93) (xy 64.77 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e563a3a5-edf8-4d2f-b933-f13bee6a9f02)
-  )
-  (wire (pts (xy 231.14 90.17) (xy 232.41 90.17))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e5730eb7-c7a9-45bc-a493-a2a501bad38b)
-  )
-  (wire (pts (xy 113.03 93.98) (xy 128.27 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e8467bdc-c38f-4dee-8a1c-e59982f291c1)
-  )
-  (wire (pts (xy 92.71 77.47) (xy 92.71 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ec8aa6e9-0155-4792-beab-584cab9a2f0c)
-  )
-  (wire (pts (xy 231.14 91.44) (xy 231.14 90.17))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f63b67a9-14d3-4bcd-ac7b-cd6702c79dbe)
-  )
-  (wire (pts (xy 113.03 77.47) (xy 113.03 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ff2b3fbd-251f-4e72-a1d6-9a3b995ea803)
-  )
-
-  (text "I2C" (at 15.24 17.78 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid d03dc097-6068-4ab6-895d-dcc1d6dfda03)
-  )
-
-  (label "I2C_SCK_3V3" (at 184.15 86.36 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 4268aea5-69d8-4803-bead-33440580f92d)
-  )
-  (label "I2C_SDA_3V3" (at 184.15 88.9 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 9f39987d-e320-4b52-8e6f-d856f45b9f81)
-  )
-  (label "I2C_SDA_3V3" (at 99.06 96.52 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ad773817-d36a-495f-8664-627e4ddfd478)
-  )
-  (label "I2C_SCK_3V3" (at 99.06 93.98 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d0becc6b-4370-4610-961c-2d39ac467f8c)
-  )
-
-  (global_label "PS_3V3" (shape input) (at 252.73 80.01 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0acef5d1-4f17-41ca-ba4b-a7fa60cadc87)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "PS_1V8" (shape input) (at 52.07 74.93 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6dee87b4-1ca2-4542-af54-8d7865598688)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "PS_3V3" (shape input) (at 185.42 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid af3b1696-8730-4e87-8e66-60814956ff61)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "PS_3V3" (shape input) (at 127 74.93 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f5a97b51-6e05-495f-810a-9ea77633b1b8)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (hierarchical_label "~{EEPROM_WC}" (shape input) (at 232.41 90.17 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2882fa97-ca11-4f91-8ee7-09c693a9db0a)
-  )
-  (hierarchical_label "I2C_SCK_3V3" (shape input) (at 137.16 93.98 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 30a96080-d17b-4ea6-a553-063f623263bb)
-  )
-  (hierarchical_label "MIO24_I2C_SCK" (shape input) (at 54.61 93.98 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6ba8bb9c-8a43-4589-a51a-77b785732751)
-  )
-  (hierarchical_label "MIO24_I2C_SDA" (shape input) (at 54.61 96.52 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 867d2d6e-f662-4ac5-b877-9597e40970bc)
-  )
-  (hierarchical_label "I2C_SDA_3V3" (shape input) (at 137.16 96.52 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b191cbd4-0443-4893-a9ce-6b4b289e189a)
-  )
-
-  (symbol (lib_id "kria-k26-devboard:R_0R_0402") (at 231.14 95.25 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000062876166)
-    (property "Reference" "R37" (id 0) (at 232.918 94.107 90)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "R_0R_0402" (id 1) (at 227.33 95.25 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 236.22 100.33 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 231.14 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "PANASONIC" (id 4) (at 241.3 100.33 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "ERJ2GE0R00X" (id 5) (at 238.76 100.33 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "0R" (id 6) (at 232.918 96.5962 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "DNP" "DNP" (id 7) (at 231.14 95.25 0))
-    (pin "1" (uuid 733e5566-f809-4da6-89f3-0b0d9d3ef724))
-    (pin "2" (uuid a955ac4f-9161-43be-9d61-712dbd9356b0))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:TP_SMD_0_75MM") (at 128.27 90.17 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00006292c3a1)
-    (property "Reference" "TP8" (id 0) (at 129.54 91.3638 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "TP_SMD_0_75MM" (id 1) (at 128.27 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" (id 2) (at 123.19 95.25 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 123.19 97.79 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (pin "1" (uuid 548a5daf-061b-4b4a-8eff-be8d0aed3bf8))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:TP_SMD_0_75MM") (at 128.27 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00006292cce4)
-    (property "Reference" "TP9" (id 0) (at 129.54 99.1362 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TP_SMD_0_75MM" (id 1) (at 128.27 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" (id 2) (at 133.35 95.25 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 133.35 92.71 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (pin "1" (uuid 5dae3210-5a68-440c-bd20-93f50cc38724))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:GND") (at 231.14 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000062aeb7b0)
-    (property "Reference" "#PWR062" (id 0) (at 231.14 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 231.267 104.7242 0))
-    (property "Footprint" "" (id 2) (at 231.14 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 231.14 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e5bf8ec4-e5d4-4ef3-81c0-b28820132ab3))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:M24C64-FMC6TG") (at 187.96 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063aa3244)
-    (property "Reference" "U13" (id 0) (at 202.565 79.0702 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "M24C64-FMC6TG" (id 1) (at 202.565 81.7626 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:STM_UFDFPN8DFN8_2X3" (id 2) (at 201.93 82.804 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/389/cd00259166-1797197.pdf" (id 3) (at 218.44 91.44 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Manufacturer" "STMicroelectronics" (id 4) (at 201.93 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "M24C64-FMC6TG" (id 5) (at 201.93 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0e174b90-3ad3-49a0-a2c3-a375d958e1f4))
-    (pin "2" (uuid 9cfa5edf-b4d0-4740-b4af-82844841dedb))
-    (pin "3" (uuid 89880783-da30-4a4f-b630-d6af7e18fd3a))
-    (pin "4" (uuid 6ef4f7f3-bd9a-4c2f-8d4a-86525e06b308))
-    (pin "5" (uuid a2b7d30c-5e21-4c01-98cf-51ce5757a247))
-    (pin "6" (uuid 88c0470f-83a0-4dbb-a01c-66892f66f9e4))
-    (pin "7" (uuid 546d28b6-a179-4b0d-a5a7-0a33e1a12209))
-    (pin "8" (uuid 7f7913dd-aacd-4d2a-8c6a-4ce9245e6e54))
-    (pin "9" (uuid a6247ca2-a201-42bc-9bd8-5032d6ae214e))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:PCA9306D_118") (at 76.2 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063aa40dc)
-    (property "Reference" "U12" (id 0) (at 76.2 79.0702 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "PCA9306D_118" (id 1) (at 76.2 81.7626 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:SOIC-8_W3.9mm" (id 2) (at 55.88 106.68 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" (id 3) (at 82.55 87.63 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "PCA9306D,118" (id 4) (at 67.31 109.22 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Manufacturer" "NXP USA Inc." (id 5) (at 69.85 111.76 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (pin "1" (uuid 9d58058d-78c2-4b26-973e-2375194c8815))
-    (pin "2" (uuid 502dae25-66e0-4a31-9b5f-ddd0bcbc8672))
-    (pin "3" (uuid 65a5cc46-5759-458b-80d2-eea6f040380a))
-    (pin "4" (uuid 909af0a1-0da3-42b1-ba25-67fbd267c0f5))
-    (pin "5" (uuid 0370773d-91b6-4734-b805-9281bd75ecc9))
-    (pin "6" (uuid e0e19224-1f4f-476c-8faf-4df75a2acaeb))
-    (pin "7" (uuid 6916a8ce-d12e-4f0b-bd71-32fbd621864d))
-    (pin "8" (uuid 46ec6adb-1e6a-4c44-9171-554c285e82a4))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:C_100n_0402") (at 55.88 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063aa8fcc)
-    (property "Reference" "C32" (id 0) (at 58.801 78.867 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "C_100n_0402" (id 1) (at 55.88 83.82 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-cap" (id 2) (at 60.96 74.93 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 55.88 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Murata" (id 4) (at 60.96 69.85 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "GRM155R61H104KE14D" (id 5) (at 60.96 72.39 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "100n" (id 6) (at 58.801 81.3562 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "1" (uuid 5501b5d2-6acc-4e70-b241-b7170b3cdba0))
-    (pin "2" (uuid bc86a9e1-5f20-4798-b828-7b8a38f4ce38))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:GND") (at 55.88 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063aaaa5a)
-    (property "Reference" "#PWR056" (id 0) (at 55.88 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 56.007 89.4842 0))
-    (property "Footprint" "" (id 2) (at 55.88 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 55.88 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1b318517-6ea6-48ec-b8e7-ece04ae0d7a3))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:C_100n_0402") (at 101.6 80.01 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063aacd61)
-    (property "Reference" "C34" (id 0) (at 98.679 78.867 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "C_100n_0402" (id 1) (at 101.6 83.82 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-cap" (id 2) (at 96.52 74.93 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 101.6 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Murata" (id 4) (at 96.52 69.85 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "GRM155R61H104KE14D" (id 5) (at 96.52 72.39 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "100n" (id 6) (at 98.679 81.3562 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "1" (uuid ea8371ee-7f22-4178-8f43-b67459b4c65c))
-    (pin "2" (uuid 56bcb47e-a10e-4e7b-8b32-9b8c75c35d97))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:GND") (at 101.6 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063aaf48d)
-    (property "Reference" "#PWR059" (id 0) (at 101.6 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 101.727 89.4842 0))
-    (property "Footprint" "" (id 2) (at 101.6 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 101.6 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b19a92a5-b7f2-4d20-8ad2-80648c2a8448))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:R_200k_0402") (at 92.71 81.28 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ab0e0e)
-    (property "Reference" "R33" (id 0) (at 90.932 80.137 90)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "R_200k_0402" (id 1) (at 96.52 81.28 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 87.63 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 92.71 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "YAGEO_(PHYCOMP)" (id 4) (at 82.55 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "RC0402FR-07200KL" (id 5) (at 85.09 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "200k" (id 6) (at 90.932 82.6262 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "1" (uuid 8ea394fc-94bf-4b3b-af7f-1805ffafa4a6))
-    (pin "2" (uuid 9288d8ed-e4a3-4390-8b0b-28d8df664096))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:GND") (at 64.77 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ab6e2c)
-    (property "Reference" "#PWR057" (id 0) (at 64.77 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 64.897 111.0742 0))
-    (property "Footprint" "" (id 2) (at 64.77 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 64.77 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 32b6d895-8312-4675-b79d-9b114cb03aef))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:C_100p_0402") (at 92.71 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ab8096)
-    (property "Reference" "C33" (id 0) (at 95.631 100.457 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "C_100p_0402" (id 1) (at 92.71 105.41 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-cap" (id 2) (at 97.79 96.52 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 92.71 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "WALSIN" (id 4) (at 97.79 91.44 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "0402N101J500CT" (id 5) (at 97.79 93.98 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "100p" (id 6) (at 95.631 102.9462 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "1" (uuid e63d08c5-bb79-483c-9375-15d4eff49c6e))
-    (pin "2" (uuid f14c3c45-9536-4cad-a5bd-9e7b0f115cfa))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:GND") (at 92.71 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ab8856)
-    (property "Reference" "#PWR058" (id 0) (at 92.71 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 92.837 111.0742 0))
-    (property "Footprint" "" (id 2) (at 92.71 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 92.71 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5c918b1b-71cc-4adb-968a-a1edc9a2ca96))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:R_2k2_0402") (at 113.03 81.28 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ac2df3)
-    (property "Reference" "R34" (id 0) (at 114.808 80.137 90)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "R_2k2_0402" (id 1) (at 109.22 81.28 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 118.11 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 113.03 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "YAGEO" (id 4) (at 123.19 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "RC0402FR-072K2L" (id 5) (at 120.65 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "2k2" (id 6) (at 114.808 82.6262 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "1" (uuid 2a772326-b648-46de-9e4a-3857a6f262f7))
-    (pin "2" (uuid f80622f2-c0c0-4939-bfef-b9bf8f233753))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:R_2k2_0402") (at 120.65 81.28 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ac330f)
-    (property "Reference" "R35" (id 0) (at 122.428 80.137 90)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "R_2k2_0402" (id 1) (at 116.84 81.28 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 125.73 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 120.65 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "YAGEO" (id 4) (at 130.81 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "RC0402FR-072K2L" (id 5) (at 128.27 86.36 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "2k2" (id 6) (at 122.428 82.6262 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "1" (uuid 8435a357-510c-4f1a-90fc-9332bfac5ee7))
-    (pin "2" (uuid b8bf26b5-3fc1-4877-9f25-be3afe4aeaa5))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:GND") (at 219.71 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ad94e4)
-    (property "Reference" "#PWR061" (id 0) (at 219.71 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 219.837 104.7242 0))
-    (property "Footprint" "" (id 2) (at 219.71 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 219.71 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9caed1d3-44d7-484f-b2a4-7f9d4d274107))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:GND") (at 185.42 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063adadb2)
-    (property "Reference" "#PWR060" (id 0) (at 185.42 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 185.547 104.7242 0))
-    (property "Footprint" "" (id 2) (at 185.42 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 185.42 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9ed1c568-3ae0-4d06-8fa4-4282915a440c))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:R_1k_0402") (at 231.14 85.09 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063adc97d)
-    (property "Reference" "R36" (id 0) (at 232.918 83.947 90)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "R_1k_0402" (id 1) (at 227.33 85.09 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-res" (id 2) (at 236.22 90.17 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 231.14 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "BOURNS" (id 4) (at 241.3 90.17 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "CR0402-FX-1001GLF" (id 5) (at 238.76 90.17 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "1k" (id 6) (at 232.918 86.4362 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "1" (uuid 3cc3c0ff-d3f2-429b-914a-e6a06677ceec))
-    (pin "2" (uuid 51f2c7cb-97c4-4071-8864-649cb11b95b9))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:C_100n_0402") (at 250.19 85.09 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ae0e22)
-    (property "Reference" "C35" (id 0) (at 253.111 83.947 0)
-      (effects (font (size 1.524 1.524)) (justify right))
-    )
-    (property "Value" "C_100n_0402" (id 1) (at 250.19 81.28 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "kria-k26-devboard-footprints:0402-cap" (id 2) (at 245.11 90.17 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 250.19 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Murata" (id 4) (at 245.11 95.25 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "GRM155R61H104KE14D" (id 5) (at 245.11 92.71 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "100n" (id 6) (at 253.111 86.4362 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (pin "1" (uuid 88ffca2e-c31a-4170-89a8-6a150c478c4b))
-    (pin "2" (uuid bce01c0c-7acc-4513-b489-605afa7db8fa))
-  )
-
-  (symbol (lib_id "kria-k26-devboard:GND") (at 250.19 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063ae2afc)
-    (property "Reference" "#PWR063" (id 0) (at 250.19 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 250.317 94.5642 0))
-    (property "Footprint" "" (id 2) (at 250.19 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 250.19 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 01c0d419-dd16-44e4-af58-9fba81479d41))
-  )
-)
+(kicad_sch 
+    (version 20211123) 
+    (generator eeschema) 
+    (uuid 5d6b3fe0-35aa-432b-bec6-eff2b850cf5d) 
+    (paper "A4") 
+    (title_block 
+        (title "I2C") 
+        (comment 1 "www.antmicro.com") 
+        (comment 2 "Antmicro Ltd.")) 
+    (lib_symbols 
+        (symbol "kria-k26-devboard:C_100n_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "C" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "C_100n_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "Murata" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "GRM155R61H104KE14D" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "100n" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "C_100n_0402_1_1" 
+                (polyline 
+                    (pts 
+                        (xy -2.032 -0.762) 
+                        (xy 2.032 -0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -2.032 0.762) 
+                        (xy 2.032 0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at 0 3.81 270) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 0 -3.81 90) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "kria-k26-devboard:C_100p_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "C" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "C_100p_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "WALSIN" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "0402N101J500CT" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "100p" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "C_100p_0402_1_1" 
+                (polyline 
+                    (pts 
+                        (xy -2.032 -0.762) 
+                        (xy 2.032 -0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -2.032 0.762) 
+                        (xy 2.032 0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at 0 3.81 270) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 0 -3.81 90) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "kria-k26-devboard:GND" 
+            (power) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "#PWR" 
+                (id 0) 
+                (at 0 -6.35 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Value" "GND" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "kria-k26-devboard-footprints:" 
+                (id 2) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "GND_0_1" 
+                (polyline 
+                    (pts 
+                        (xy 0 0) 
+                        (xy 0 -1.27) 
+                        (xy 1.27 -1.27) 
+                        (xy 0 -2.54) 
+                        (xy -1.27 -1.27) 
+                        (xy 0 -1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "GND_1_1" 
+                (pin power_in line 
+                    (at 0 0 270) 
+                    (length 0) hide 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "kria-k26-devboard:M24C64-FMC6TG" 
+            (pin_names 
+                (offset 0.254)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "U" 
+                (id 0) 
+                (at 13.97 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)))) 
+            (property "Value" "M24C64-FMC6TG" 
+                (id 1) 
+                (at 13.97 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)))) 
+            (property "Footprint" "kria-k26-devboard-footprints:STM_UFDFPN8DFN8_2X3" 
+                (id 2) 
+                (at 13.97 6.096 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 30.48 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Manufacturer" "STMicroelectronics" 
+                (id 4) 
+                (at 13.97 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "MPN" "M24C64-FMC6TG" 
+                (id 5) 
+                (at 13.97 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_fp_filters" "UFDFPN8DFN8_2X3_STM UFDFPN8DFN8_2X3_STM-M UFDFPN8DFN8_2X3_STM-L" 
+                (id 6) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "M24C64-FMC6TG_1_1" 
+                (rectangle 
+                    (start 7.62 5.08) 
+                    (end 21.59 -11.43) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (pin input line 
+                    (at 0 -3.81 0) 
+                    (length 7.62) 
+                    (name "E0" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin input line 
+                    (at 0 -6.35 0) 
+                    (length 7.62) 
+                    (name "E1" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin input line 
+                    (at 0 -8.89 0) 
+                    (length 7.62) 
+                    (name "E2" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin power_in line 
+                    (at 29.21 -8.89 180) 
+                    (length 7.62) 
+                    (name "VSS" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin bidirectional line 
+                    (at 0 0 0) 
+                    (length 7.62) 
+                    (name "SDA" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin input line 
+                    (at 0 2.54 0) 
+                    (length 7.62) 
+                    (name "SCL" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin input line 
+                    (at 29.21 -1.27 180) 
+                    (length 7.62) 
+                    (name "*WC" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "7" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin power_in line 
+                    (at 29.21 2.54 180) 
+                    (length 7.62) 
+                    (name "VCC" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "8" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin power_in line 
+                    (at 29.21 -6.35 180) 
+                    (length 7.62) 
+                    (name "VSS" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "9" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))))) 
+        (symbol "kria-k26-devboard:PCA9306D_118" 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "U" 
+                (id 0) 
+                (at -7.62 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)))) 
+            (property "Value" "PCA9306D_118" 
+                (id 1) 
+                (at 10.16 -11.43 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify right))) 
+            (property "Footprint" "kria-k26-devboard-footprints:SOIC-8_W3.9mm" 
+                (id 2) 
+                (at -20.32 -13.97 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 6.35 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "PCA9306D,118" 
+                (id 4) 
+                (at -8.89 -16.51 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Manufacturer" "NXP USA Inc." 
+                (id 5) 
+                (at -6.35 -19.05 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (symbol "PCA9306D_118_0_1" 
+                (rectangle 
+                    (start -7.62 8.89) 
+                    (end 7.62 -10.16) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background)))) 
+            (symbol "PCA9306D_118_1_1" 
+                (pin power_in line 
+                    (at -10.16 -7.62 0) 
+                    (length 2.54) 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin power_in line 
+                    (at -10.16 6.35 0) 
+                    (length 2.54) 
+                    (name "VREF1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at -10.16 -1.27 0) 
+                    (length 2.54) 
+                    (name "SCL1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at -10.16 -3.81 0) 
+                    (length 2.54) 
+                    (name "SDA1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 -3.81 180) 
+                    (length 2.54) 
+                    (name "SDA2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 -1.27 180) 
+                    (length 2.54) 
+                    (name "SCL2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin power_in line 
+                    (at 10.16 6.35 180) 
+                    (length 2.54) 
+                    (name "VREF2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "7" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin input line 
+                    (at 10.16 2.54 180) 
+                    (length 2.54) 
+                    (name "EN" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "8" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "kria-k26-devboard:R_0R_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "R_0R_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "PANASONIC" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "ERJ2GE0R00X" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "0R" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "R_0R_0402_1_1" 
+                (rectangle 
+                    (start 2.54 -1.016) 
+                    (end -2.54 1.016) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "kria-k26-devboard:R_1k_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "R_1k_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "BOURNS" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "CR0402-FX-1001GLF" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "1k" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "R_1k_0402_1_1" 
+                (rectangle 
+                    (start 2.54 -1.016) 
+                    (end -2.54 1.016) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "kria-k26-devboard:R_200k_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "R_200k_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "YAGEO_(PHYCOMP)" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "RC0402FR-07200KL" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "200k" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "R_200k_0402_1_1" 
+                (rectangle 
+                    (start 2.54 -1.016) 
+                    (end -2.54 1.016) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "kria-k26-devboard:R_2k2_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "R_2k2_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "YAGEO" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "RC0402FR-072K2L" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "2k2" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "R_2k2_0402_1_1" 
+                (rectangle 
+                    (start 2.54 -1.016) 
+                    (end -2.54 1.016) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "kria-k26-devboard:TP_SMD_0_75MM" 
+            (pin_numbers hide) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "TP" 
+                (id 0) 
+                (at -2.54 1.27 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify right))) 
+            (property "Value" "TP_SMD_0_75MM" 
+                (id 1) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Footprint" "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (symbol "TP_SMD_0_75MM_0_1" 
+                (circle 
+                    (center 0 0) 
+                    (radius 0.5588) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "TP_SMD_0_75MM_1_1" 
+                (pin passive line 
+                    (at 0 2.54 270) 
+                    (length 1.905) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))))))) 
+    (junction 
+        (at 113.03 74.93) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 123bf1bd-f8ec-4fa9-a8df-34ca2c433360)) 
+    (junction 
+        (at 120.65 96.52) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 2c9b23eb-2658-47c8-9357-aed03d74b14d)) 
+    (junction 
+        (at 185.42 97.79) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 3eb98766-979d-4ca3-af21-10156f5c5603)) 
+    (junction 
+        (at 120.65 74.93) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 47cfd35c-88e1-49c8-a6aa-435f7b413c32)) 
+    (junction 
+        (at 128.27 93.98) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 5e4c8b3d-f7e2-49b6-bec4-f80e940b3370)) 
+    (junction 
+        (at 113.03 93.98) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 5fac70bd-a495-4b78-a509-9821813953fe)) 
+    (junction 
+        (at 219.71 97.79) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 78d4e733-cb84-42f6-9e21-daa53c3f11af)) 
+    (junction 
+        (at 128.27 96.52) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 79835581-9d62-4895-b33b-853d6583044b)) 
+    (junction 
+        (at 92.71 86.36) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 8af6611f-ca41-43f9-a853-02117b359fe1)) 
+    (junction 
+        (at 92.71 90.17) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 8b24560c-4bd8-48c5-b950-455cf738b5c7)) 
+    (junction 
+        (at 231.14 90.17) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid a366002f-d919-4138-b425-ae04ab466a15)) 
+    (junction 
+        (at 231.14 80.01) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid b2c9388a-8620-46c0-be5c-b0940349b7e8)) 
+    (junction 
+        (at 55.88 74.93) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid b709a2a9-663e-4592-8676-87410241612e)) 
+    (junction 
+        (at 101.6 74.93) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid c9d7af4d-3242-45d8-b3c2-e89a919f8958)) 
+    (junction 
+        (at 250.19 80.01) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid fe8e8c27-74c1-4d5f-82f6-1cde80cc4450)) 
+    (wire 
+        (pts 
+            (xy 92.71 86.36) 
+            (xy 92.71 90.17)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 14095895-2cb9-48fb-a504-56cbe000538c)) 
+    (wire 
+        (pts 
+            (xy 64.77 100.33) 
+            (xy 64.77 106.68)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 181ff1c8-a2e1-4292-9ed0-94df8e1a124f)) 
+    (wire 
+        (pts 
+            (xy 120.65 77.47) 
+            (xy 120.65 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1887882c-8897-47cd-96fd-db056a58d131)) 
+    (wire 
+        (pts 
+            (xy 219.71 97.79) 
+            (xy 219.71 100.33)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1a767ed6-3d75-4f2a-85f6-e32170b6203d)) 
+    (wire 
+        (pts 
+            (xy 128.27 93.98) 
+            (xy 137.16 93.98)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1c12ef68-6757-48bc-b234-c543c5a5149d)) 
+    (wire 
+        (pts 
+            (xy 128.27 96.52) 
+            (xy 137.16 96.52)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1e026076-d22c-4fed-b7b6-d8e61241c489)) 
+    (wire 
+        (pts 
+            (xy 218.44 86.36) 
+            (xy 217.17 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 216448ba-beb2-44ae-af42-109bef326364)) 
+    (wire 
+        (pts 
+            (xy 64.77 86.36) 
+            (xy 66.04 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 2930158b-8c77-47d0-afda-8cff4f55c1b2)) 
+    (wire 
+        (pts 
+            (xy 184.15 86.36) 
+            (xy 187.96 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3236d617-1d22-4ed6-9601-5471be76e942)) 
+    (wire 
+        (pts 
+            (xy 86.36 93.98) 
+            (xy 113.03 93.98)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 36002d37-185f-4679-b68c-7563a799144f)) 
+    (wire 
+        (pts 
+            (xy 218.44 86.36) 
+            (xy 218.44 80.01)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 39cd76fe-fc59-49aa-946c-c99edad1dbb1)) 
+    (wire 
+        (pts 
+            (xy 113.03 74.93) 
+            (xy 101.6 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3d863937-3365-42be-a565-800f6c40ad8f)) 
+    (wire 
+        (pts 
+            (xy 231.14 90.17) 
+            (xy 231.14 88.9)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 44c8535b-a14e-4499-9cf5-19b848b202c5)) 
+    (wire 
+        (pts 
+            (xy 92.71 106.68) 
+            (xy 92.71 105.41)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 4d395df9-e163-4a24-8042-3c6e88a32f5b)) 
+    (wire 
+        (pts 
+            (xy 185.42 95.25) 
+            (xy 185.42 97.79)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 4f969c0c-dff2-454d-8e21-44d3865f10d8)) 
+    (wire 
+        (pts 
+            (xy 54.61 93.98) 
+            (xy 66.04 93.98)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 50039b63-44b2-4112-95e7-72527b1ea141)) 
+    (wire 
+        (pts 
+            (xy 217.17 90.17) 
+            (xy 231.14 90.17)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 518e1fad-ad52-4f69-8c56-299b0f25797a)) 
+    (wire 
+        (pts 
+            (xy 55.88 74.93) 
+            (xy 55.88 76.2)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 59a2c0c8-e33d-40ef-b23d-5391fed923d0)) 
+    (wire 
+        (pts 
+            (xy 128.27 97.79) 
+            (xy 128.27 96.52)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 59c4ec56-89be-471e-a0ba-2525b7be1cd1)) 
+    (wire 
+        (pts 
+            (xy 219.71 95.25) 
+            (xy 219.71 97.79)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 5aa424d7-37c9-4685-9d59-a47c9457cbda)) 
+    (wire 
+        (pts 
+            (xy 231.14 80.01) 
+            (xy 250.19 80.01)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 5b174e4e-1a42-40a4-be18-b6a793cba8db)) 
+    (wire 
+        (pts 
+            (xy 184.15 88.9) 
+            (xy 187.96 88.9)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 5e5bb8ae-4936-4156-9b38-93907b1f3a7d)) 
+    (wire 
+        (pts 
+            (xy 86.36 96.52) 
+            (xy 120.65 96.52)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 60a00f60-8738-48e7-8859-855336ace2d2)) 
+    (wire 
+        (pts 
+            (xy 250.19 80.01) 
+            (xy 252.73 80.01)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 6a11b4d4-df66-4745-b3ec-0ef60db37cce)) 
+    (wire 
+        (pts 
+            (xy 120.65 85.09) 
+            (xy 120.65 96.52)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 6ed5ce23-8bc0-4893-aff7-e4213c98ad0d)) 
+    (wire 
+        (pts 
+            (xy 92.71 86.36) 
+            (xy 92.71 85.09)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 77658a80-555f-4cb7-83d5-30d3f4c580a4)) 
+    (wire 
+        (pts 
+            (xy 66.04 100.33) 
+            (xy 64.77 100.33)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 884912d8-b76c-45aa-a0f0-b43957a79449)) 
+    (wire 
+        (pts 
+            (xy 92.71 97.79) 
+            (xy 92.71 90.17)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 8900b8a4-fbeb-44eb-82d7-3a950d8fbcc1)) 
+    (wire 
+        (pts 
+            (xy 64.77 74.93) 
+            (xy 64.77 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 903cf1a4-63a4-45b2-8f93-d83d2292ce08)) 
+    (wire 
+        (pts 
+            (xy 250.19 81.28) 
+            (xy 250.19 80.01)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 9738dffc-060e-44ed-90a6-1b93e782c5db)) 
+    (wire 
+        (pts 
+            (xy 218.44 80.01) 
+            (xy 231.14 80.01)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 99869808-900a-4f9a-a578-b6033b6817db)) 
+    (wire 
+        (pts 
+            (xy 250.19 90.17) 
+            (xy 250.19 88.9)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 9e27a54b-f157-40b6-ba43-e31b868dae54)) 
+    (wire 
+        (pts 
+            (xy 113.03 85.09) 
+            (xy 113.03 93.98)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a17ec0d4-4c6a-48ca-9510-2da9ce1eb5a9)) 
+    (wire 
+        (pts 
+            (xy 92.71 74.93) 
+            (xy 101.6 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a9751b6d-4076-410b-abc9-a79c7a2932e3)) 
+    (wire 
+        (pts 
+            (xy 219.71 97.79) 
+            (xy 217.17 97.79)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a9939574-146e-41b9-92dc-ba1cdfe2404b)) 
+    (wire 
+        (pts 
+            (xy 92.71 90.17) 
+            (xy 86.36 90.17)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid ab008999-e837-495c-bc29-dccd5a7160c4)) 
+    (wire 
+        (pts 
+            (xy 185.42 97.79) 
+            (xy 187.96 97.79)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid ab9887ab-729d-498e-866d-609a19384d88)) 
+    (wire 
+        (pts 
+            (xy 66.04 96.52) 
+            (xy 54.61 96.52)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid aea10113-12a5-404b-8fb3-fdd0df4a5d40)) 
+    (wire 
+        (pts 
+            (xy 231.14 100.33) 
+            (xy 231.14 99.06)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid b8d0e86a-c551-4d89-9921-502386a56bdf)) 
+    (wire 
+        (pts 
+            (xy 86.36 86.36) 
+            (xy 92.71 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid b945ea4e-6c4a-4d53-bfd1-5ca229ce5c00)) 
+    (wire 
+        (pts 
+            (xy 101.6 85.09) 
+            (xy 101.6 83.82)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c0652ff1-dcdb-4d62-82fd-2469ba079217)) 
+    (wire 
+        (pts 
+            (xy 55.88 85.09) 
+            (xy 55.88 83.82)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c15153b5-13cf-4a7f-9274-a37545c2cd76)) 
+    (wire 
+        (pts 
+            (xy 101.6 74.93) 
+            (xy 101.6 76.2)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c161cda2-8f50-437d-9eff-420cf7ad8ab6)) 
+    (wire 
+        (pts 
+            (xy 120.65 96.52) 
+            (xy 128.27 96.52)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c1d94461-5d8e-4eab-9ddd-98e07868140b)) 
+    (wire 
+        (pts 
+            (xy 185.42 97.79) 
+            (xy 185.42 100.33)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c92b8d7f-6e3d-4cff-bd18-0ccab5656837)) 
+    (wire 
+        (pts 
+            (xy 127 74.93) 
+            (xy 120.65 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c9d063dc-bd5c-43ef-b9f6-8729db4b2fa8)) 
+    (wire 
+        (pts 
+            (xy 217.17 95.25) 
+            (xy 219.71 95.25)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d57f0618-bd84-481f-b2e0-759fab8ca04d)) 
+    (wire 
+        (pts 
+            (xy 185.42 92.71) 
+            (xy 187.96 92.71)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d6aa479f-697f-4f4c-8633-83c9d8522124)) 
+    (wire 
+        (pts 
+            (xy 128.27 92.71) 
+            (xy 128.27 93.98)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d855c83a-bf6d-4a21-be6b-bc7e01968c30)) 
+    (wire 
+        (pts 
+            (xy 187.96 95.25) 
+            (xy 185.42 95.25)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid dd017bf5-0cec-417a-9ae1-a5de18004a4c)) 
+    (wire 
+        (pts 
+            (xy 231.14 80.01) 
+            (xy 231.14 81.28)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid de41e679-5481-4335-a1d2-1cdcddb20e73)) 
+    (wire 
+        (pts 
+            (xy 52.07 74.93) 
+            (xy 55.88 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid df0c8f60-5157-40ff-bc18-03e64e6a31ee)) 
+    (wire 
+        (pts 
+            (xy 120.65 74.93) 
+            (xy 113.03 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid e534cf72-ad06-417a-9185-f2735427aca0)) 
+    (wire 
+        (pts 
+            (xy 55.88 74.93) 
+            (xy 64.77 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid e563a3a5-edf8-4d2f-b933-f13bee6a9f02)) 
+    (wire 
+        (pts 
+            (xy 231.14 90.17) 
+            (xy 232.41 90.17)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid e5730eb7-c7a9-45bc-a493-a2a501bad38b)) 
+    (wire 
+        (pts 
+            (xy 113.03 93.98) 
+            (xy 128.27 93.98)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid e8467bdc-c38f-4dee-8a1c-e59982f291c1)) 
+    (wire 
+        (pts 
+            (xy 92.71 77.47) 
+            (xy 92.71 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid ec8aa6e9-0155-4792-beab-584cab9a2f0c)) 
+    (wire 
+        (pts 
+            (xy 231.14 91.44) 
+            (xy 231.14 90.17)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid f63b67a9-14d3-4bcd-ac7b-cd6702c79dbe)) 
+    (wire 
+        (pts 
+            (xy 113.03 77.47) 
+            (xy 113.03 74.93)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid ff2b3fbd-251f-4e72-a1d6-9a3b995ea803)) 
+    (text "I2C" 
+        (at 15.24 17.78 0) 
+        (effects 
+            (font 
+                (size 2.54 2.54) 
+                (thickness 0.508) bold) 
+            (justify left bottom)) 
+        (uuid d03dc097-6068-4ab6-895d-dcc1d6dfda03)) 
+    (label "I2C_SCK_3V3" 
+        (at 184.15 86.36 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid 4268aea5-69d8-4803-bead-33440580f92d)) 
+    (label "I2C_SDA_3V3" 
+        (at 184.15 88.9 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid 9f39987d-e320-4b52-8e6f-d856f45b9f81)) 
+    (label "I2C_SDA_3V3" 
+        (at 99.06 96.52 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid ad773817-d36a-495f-8664-627e4ddfd478)) 
+    (label "I2C_SCK_3V3" 
+        (at 99.06 93.98 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid d0becc6b-4370-4610-961c-2d39ac467f8c)) 
+    (global_label "PS_3V3" 
+        (shape input) 
+        (at 252.73 80.01 0) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 0acef5d1-4f17-41ca-ba4b-a7fa60cadc87) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "PS_1V8" 
+        (shape input) 
+        (at 52.07 74.93 180) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid 6dee87b4-1ca2-4542-af54-8d7865598688) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "PS_3V3" 
+        (shape input) 
+        (at 185.42 92.71 180) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid af3b1696-8730-4e87-8e66-60814956ff61) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "PS_3V3" 
+        (shape input) 
+        (at 127 74.93 0) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid f5a97b51-6e05-495f-810a-9ea77633b1b8) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (hierarchical_label "~{EEPROM_WC}" 
+        (shape input) 
+        (at 232.41 90.17 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 2882fa97-ca11-4f91-8ee7-09c693a9db0a)) 
+    (hierarchical_label "I2C_SCK_3V3" 
+        (shape input) 
+        (at 137.16 93.98 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 30a96080-d17b-4ea6-a553-063f623263bb)) 
+    (hierarchical_label "MIO24_I2C_SCK" 
+        (shape input) 
+        (at 54.61 93.98 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid 6ba8bb9c-8a43-4589-a51a-77b785732751)) 
+    (hierarchical_label "MIO24_I2C_SDA" 
+        (shape input) 
+        (at 54.61 96.52 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid 867d2d6e-f662-4ac5-b877-9597e40970bc)) 
+    (hierarchical_label "I2C_SDA_3V3" 
+        (shape input) 
+        (at 137.16 96.52 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid b191cbd4-0443-4893-a9ce-6b4b289e189a)) 
+    (symbol 
+        (lib_id "kria-k26-devboard:R_0R_0402") 
+        (at 231.14 95.25 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000062876166) 
+        (property "Reference" "R37" 
+            (id 0) 
+            (at 232.918 94.107 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_0R_0402" 
+            (id 1) 
+            (at 227.33 95.25 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+            (id 2) 
+            (at 236.22 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 231.14 95.25 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "PANASONIC" 
+            (id 4) 
+            (at 241.3 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERJ2GE0R00X" 
+            (id 5) 
+            (at 238.76 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "0R" 
+            (id 6) 
+            (at 232.918 96.5962 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "DNP" "DNP" 
+            (id 7) 
+            (at 231.14 95.25 0)) 
+        (pin "1" 
+            (uuid 733e5566-f809-4da6-89f3-0b0d9d3ef724)) 
+        (pin "2" 
+            (uuid a955ac4f-9161-43be-9d61-712dbd9356b0))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:TP_SMD_0_75MM") 
+        (at 128.27 90.17 180) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006292c3a1) 
+        (property "Reference" "TP8" 
+            (id 0) 
+            (at 129.54 91.3638 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify right))) 
+        (property "Value" "TP_SMD_0_75MM" 
+            (id 1) 
+            (at 128.27 87.63 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" 
+            (id 2) 
+            (at 123.19 95.25 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 123.19 97.79 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid 548a5daf-061b-4b4a-8eff-be8d0aed3bf8))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:TP_SMD_0_75MM") 
+        (at 128.27 100.33 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006292cce4) 
+        (property "Reference" "TP9" 
+            (id 0) 
+            (at 129.54 99.1362 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Value" "TP_SMD_0_75MM" 
+            (id 1) 
+            (at 128.27 102.87 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" 
+            (id 2) 
+            (at 133.35 95.25 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 133.35 92.71 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid 5dae3210-5a68-440c-bd20-93f50cc38724))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:GND") 
+        (at 231.14 100.33 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000062aeb7b0) 
+        (property "Reference" "#PWR062" 
+            (id 0) 
+            (at 231.14 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 231.267 104.7242 0)) 
+        (property "Footprint" "kria-k26-devboard-footprints:" 
+            (id 2) 
+            (at 231.14 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 231.14 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid e5bf8ec4-e5d4-4ef3-81c0-b28820132ab3))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:M24C64-FMC6TG") 
+        (at 187.96 88.9 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063aa3244) 
+        (property "Reference" "U13" 
+            (id 0) 
+            (at 202.565 79.0702 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "M24C64-FMC6TG" 
+            (id 1) 
+            (at 202.565 81.7626 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "kria-k26-devboard-footprints:STM_UFDFPN8DFN8_2X3" 
+            (id 2) 
+            (at 201.93 82.804 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Datasheet" "https://eu.mouser.com/datasheet/2/389/cd00259166-1797197.pdf" 
+            (id 3) 
+            (at 218.44 91.44 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Manufacturer" "STMicroelectronics" 
+            (id 4) 
+            (at 201.93 101.6 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "M24C64-FMC6TG" 
+            (id 5) 
+            (at 201.93 104.14 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 0e174b90-3ad3-49a0-a2c3-a375d958e1f4)) 
+        (pin "2" 
+            (uuid 9cfa5edf-b4d0-4740-b4af-82844841dedb)) 
+        (pin "3" 
+            (uuid 89880783-da30-4a4f-b630-d6af7e18fd3a)) 
+        (pin "4" 
+            (uuid 6ef4f7f3-bd9a-4c2f-8d4a-86525e06b308)) 
+        (pin "5" 
+            (uuid a2b7d30c-5e21-4c01-98cf-51ce5757a247)) 
+        (pin "6" 
+            (uuid 88c0470f-83a0-4dbb-a01c-66892f66f9e4)) 
+        (pin "7" 
+            (uuid 546d28b6-a179-4b0d-a5a7-0a33e1a12209)) 
+        (pin "8" 
+            (uuid 7f7913dd-aacd-4d2a-8c6a-4ce9245e6e54)) 
+        (pin "9" 
+            (uuid a6247ca2-a201-42bc-9bd8-5032d6ae214e))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:PCA9306D_118") 
+        (at 76.2 92.71 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063aa40dc) 
+        (property "Reference" "U12" 
+            (id 0) 
+            (at 76.2 79.0702 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "PCA9306D_118" 
+            (id 1) 
+            (at 76.2 81.7626 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "kria-k26-devboard-footprints:SOIC-8_W3.9mm" 
+            (id 2) 
+            (at 55.88 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" 
+            (id 3) 
+            (at 82.55 87.63 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "PCA9306D,118" 
+            (id 4) 
+            (at 67.31 109.22 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "NXP USA Inc." 
+            (id 5) 
+            (at 69.85 111.76 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid 9d58058d-78c2-4b26-973e-2375194c8815)) 
+        (pin "2" 
+            (uuid 502dae25-66e0-4a31-9b5f-ddd0bcbc8672)) 
+        (pin "3" 
+            (uuid 65a5cc46-5759-458b-80d2-eea6f040380a)) 
+        (pin "4" 
+            (uuid 909af0a1-0da3-42b1-ba25-67fbd267c0f5)) 
+        (pin "5" 
+            (uuid 0370773d-91b6-4734-b805-9281bd75ecc9)) 
+        (pin "6" 
+            (uuid e0e19224-1f4f-476c-8faf-4df75a2acaeb)) 
+        (pin "7" 
+            (uuid 6916a8ce-d12e-4f0b-bd71-32fbd621864d)) 
+        (pin "8" 
+            (uuid 46ec6adb-1e6a-4c44-9171-554c285e82a4))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:C_100n_0402") 
+        (at 55.88 80.01 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063aa8fcc) 
+        (property "Reference" "C32" 
+            (id 0) 
+            (at 58.801 78.867 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_100n_0402" 
+            (id 1) 
+            (at 55.88 83.82 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
+            (id 2) 
+            (at 60.96 74.93 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 55.88 80.01 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Murata" 
+            (id 4) 
+            (at 60.96 69.85 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "GRM155R61H104KE14D" 
+            (id 5) 
+            (at 60.96 72.39 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "100n" 
+            (id 6) 
+            (at 58.801 81.3562 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 5501b5d2-6acc-4e70-b241-b7170b3cdba0)) 
+        (pin "2" 
+            (uuid bc86a9e1-5f20-4798-b828-7b8a38f4ce38))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:GND") 
+        (at 55.88 85.09 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063aaaa5a) 
+        (property "Reference" "#PWR056" 
+            (id 0) 
+            (at 55.88 91.44 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 56.007 89.4842 0)) 
+        (property "Footprint" "kria-k26-devboard-footprints:" 
+            (id 2) 
+            (at 55.88 85.09 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 55.88 85.09 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 1b318517-6ea6-48ec-b8e7-ece04ae0d7a3))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:C_100n_0402") 
+        (at 101.6 80.01 0) 
+        (mirror y) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063aacd61) 
+        (property "Reference" "C34" 
+            (id 0) 
+            (at 98.679 78.867 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_100n_0402" 
+            (id 1) 
+            (at 101.6 83.82 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
+            (id 2) 
+            (at 96.52 74.93 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 101.6 80.01 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Murata" 
+            (id 4) 
+            (at 96.52 69.85 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "GRM155R61H104KE14D" 
+            (id 5) 
+            (at 96.52 72.39 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "100n" 
+            (id 6) 
+            (at 98.679 81.3562 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid ea8371ee-7f22-4178-8f43-b67459b4c65c)) 
+        (pin "2" 
+            (uuid 56bcb47e-a10e-4e7b-8b32-9b8c75c35d97))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:GND") 
+        (at 101.6 85.09 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063aaf48d) 
+        (property "Reference" "#PWR059" 
+            (id 0) 
+            (at 101.6 91.44 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 101.727 89.4842 0)) 
+        (property "Footprint" "kria-k26-devboard-footprints:" 
+            (id 2) 
+            (at 101.6 85.09 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 101.6 85.09 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid b19a92a5-b7f2-4d20-8ad2-80648c2a8448))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:R_200k_0402") 
+        (at 92.71 81.28 90) 
+        (mirror x) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ab0e0e) 
+        (property "Reference" "R33" 
+            (id 0) 
+            (at 90.932 80.137 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_200k_0402" 
+            (id 1) 
+            (at 96.52 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+            (id 2) 
+            (at 87.63 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 92.71 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "YAGEO_(PHYCOMP)" 
+            (id 4) 
+            (at 82.55 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "RC0402FR-07200KL" 
+            (id 5) 
+            (at 85.09 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "200k" 
+            (id 6) 
+            (at 90.932 82.6262 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 8ea394fc-94bf-4b3b-af7f-1805ffafa4a6)) 
+        (pin "2" 
+            (uuid 9288d8ed-e4a3-4390-8b0b-28d8df664096))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:GND") 
+        (at 64.77 106.68 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ab6e2c) 
+        (property "Reference" "#PWR057" 
+            (id 0) 
+            (at 64.77 113.03 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 64.897 111.0742 0)) 
+        (property "Footprint" "kria-k26-devboard-footprints:" 
+            (id 2) 
+            (at 64.77 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 64.77 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 32b6d895-8312-4675-b79d-9b114cb03aef))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:C_100p_0402") 
+        (at 92.71 101.6 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ab8096) 
+        (property "Reference" "C33" 
+            (id 0) 
+            (at 95.631 100.457 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_100p_0402" 
+            (id 1) 
+            (at 92.71 105.41 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
+            (id 2) 
+            (at 97.79 96.52 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 92.71 101.6 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "WALSIN" 
+            (id 4) 
+            (at 97.79 91.44 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "0402N101J500CT" 
+            (id 5) 
+            (at 97.79 93.98 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "100p" 
+            (id 6) 
+            (at 95.631 102.9462 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid e63d08c5-bb79-483c-9375-15d4eff49c6e)) 
+        (pin "2" 
+            (uuid f14c3c45-9536-4cad-a5bd-9e7b0f115cfa))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:GND") 
+        (at 92.71 106.68 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ab8856) 
+        (property "Reference" "#PWR058" 
+            (id 0) 
+            (at 92.71 113.03 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 92.837 111.0742 0)) 
+        (property "Footprint" "kria-k26-devboard-footprints:" 
+            (id 2) 
+            (at 92.71 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 92.71 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 5c918b1b-71cc-4adb-968a-a1edc9a2ca96))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:R_2k2_0402") 
+        (at 113.03 81.28 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ac2df3) 
+        (property "Reference" "R34" 
+            (id 0) 
+            (at 114.808 80.137 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_2k2_0402" 
+            (id 1) 
+            (at 109.22 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+            (id 2) 
+            (at 118.11 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 113.03 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "YAGEO" 
+            (id 4) 
+            (at 123.19 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "RC0402FR-072K2L" 
+            (id 5) 
+            (at 120.65 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "2k2" 
+            (id 6) 
+            (at 114.808 82.6262 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 2a772326-b648-46de-9e4a-3857a6f262f7)) 
+        (pin "2" 
+            (uuid f80622f2-c0c0-4939-bfef-b9bf8f233753))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:R_2k2_0402") 
+        (at 120.65 81.28 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ac330f) 
+        (property "Reference" "R35" 
+            (id 0) 
+            (at 122.428 80.137 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_2k2_0402" 
+            (id 1) 
+            (at 116.84 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+            (id 2) 
+            (at 125.73 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 120.65 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "YAGEO" 
+            (id 4) 
+            (at 130.81 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "RC0402FR-072K2L" 
+            (id 5) 
+            (at 128.27 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "2k2" 
+            (id 6) 
+            (at 122.428 82.6262 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 8435a357-510c-4f1a-90fc-9332bfac5ee7)) 
+        (pin "2" 
+            (uuid b8bf26b5-3fc1-4877-9f25-be3afe4aeaa5))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:GND") 
+        (at 219.71 100.33 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ad94e4) 
+        (property "Reference" "#PWR061" 
+            (id 0) 
+            (at 219.71 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 219.837 104.7242 0)) 
+        (property "Footprint" "kria-k26-devboard-footprints:" 
+            (id 2) 
+            (at 219.71 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 219.71 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 9caed1d3-44d7-484f-b2a4-7f9d4d274107))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:GND") 
+        (at 185.42 100.33 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063adadb2) 
+        (property "Reference" "#PWR060" 
+            (id 0) 
+            (at 185.42 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 185.547 104.7242 0)) 
+        (property "Footprint" "kria-k26-devboard-footprints:" 
+            (id 2) 
+            (at 185.42 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 185.42 100.33 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 9ed1c568-3ae0-4d06-8fa4-4282915a440c))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:R_1k_0402") 
+        (at 231.14 85.09 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063adc97d) 
+        (property "Reference" "R36" 
+            (id 0) 
+            (at 232.918 83.947 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_1k_0402" 
+            (id 1) 
+            (at 227.33 85.09 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+            (id 2) 
+            (at 236.22 90.17 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 231.14 85.09 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "BOURNS" 
+            (id 4) 
+            (at 241.3 90.17 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CR0402-FX-1001GLF" 
+            (id 5) 
+            (at 238.76 90.17 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "1k" 
+            (id 6) 
+            (at 232.918 86.4362 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 3cc3c0ff-d3f2-429b-914a-e6a06677ceec)) 
+        (pin "2" 
+            (uuid 51f2c7cb-97c4-4071-8864-649cb11b95b9))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:C_100n_0402") 
+        (at 250.19 85.09 180) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ae0e22) 
+        (property "Reference" "C35" 
+            (id 0) 
+            (at 253.111 83.947 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify right))) 
+        (property "Value" "C_100n_0402" 
+            (id 1) 
+            (at 250.19 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
+            (id 2) 
+            (at 245.11 90.17 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 250.19 85.09 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Murata" 
+            (id 4) 
+            (at 245.11 95.25 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "GRM155R61H104KE14D" 
+            (id 5) 
+            (at 245.11 92.71 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "100n" 
+            (id 6) 
+            (at 253.111 86.4362 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify right))) 
+        (pin "1" 
+            (uuid 88ffca2e-c31a-4170-89a8-6a150c478c4b)) 
+        (pin "2" 
+            (uuid bce01c0c-7acc-4513-b489-605afa7db8fa))) 
+    (symbol 
+        (lib_id "kria-k26-devboard:GND") 
+        (at 250.19 90.17 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000063ae2afc) 
+        (property "Reference" "#PWR063" 
+            (id 0) 
+            (at 250.19 96.52 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 250.317 94.5642 0)) 
+        (property "Footprint" "kria-k26-devboard-footprints:" 
+            (id 2) 
+            (at 250.19 90.17 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 250.19 90.17 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 01c0d419-dd16-44e4-af58-9fba81479d41))))
