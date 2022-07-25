@@ -437,6 +437,7 @@
     (uuid f6d24033-816c-4051-9c8e-932ea421e521)
   )
 
+  (no_connect (at 128.27 163.83) (uuid 48ec665f-84d4-466a-9f30-62d9c8611039))
   (no_connect (at 130.81 104.14) (uuid b18f79b0-2911-4cd9-83cf-81f86c51f73c))
   (no_connect (at 130.81 44.45) (uuid fe9f7257-8fbd-4729-88b8-6fcc6de8845a))
 
