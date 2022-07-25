@@ -1,6 +1,89 @@
 (kicad_symbol_lib 
     (version 20211014) 
     (generator kicad_symbol_editor) 
+    (symbol "R_10k_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_10k_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "VISHAY" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CRCW040210K0FKEDHP" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "10k" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_10k_0402_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
     (symbol "SN74AVC2T245RSWR" 
         (pin_names 
             (offset 1.016)) 
@@ -20,7 +103,7 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:Texas_RSW0010A" 
+        (property "Footprint" "kria-k26-devboard-footprints:Texas_RSW0010A" 
             (id 2) 
             (at 0 0 0) 
             (effects 
@@ -4392,7 +4475,7 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left))) 
-        (property "Footprint" "antmicro-footprints:DFN-8_2x3mm" 
+        (property "Footprint" "kria-k26-devboard-footprints:DFN-8_2x3mm" 
             (id 2) 
             (at -10.16 3.81 0) 
             (effects 
@@ -9988,7 +10071,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "antmicro-footprints:MicroSD_1140084168" 
+        (property "Footprint" "kria-k26-devboard-footprints:MicroSD_1140084168" 
             (id 2) 
             (at -2.54 -16.51 0) 
             (effects 
@@ -12821,6 +12904,89 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
+    (symbol "R_32k4_0805" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_32k4_0805" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0805-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Panasonic" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERA-6AEB3242V" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "32k4" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_32k4_0805_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
     (symbol "SMF4L15CA" 
         (pin_names 
             (offset 1.016)) 
@@ -15382,7 +15548,7 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left))) 
-        (property "Footprint" "antmicro-footprints:ECS-2016MV" 
+        (property "Footprint" "kria-k26-devboard-footprints:ECS-2016MV" 
             (id 2) 
             (at 11.43 -8.89 0) 
             (effects 
@@ -15507,7 +15673,7 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left))) 
-        (property "Footprint" "antmicro-footprints:ECS-2016MV" 
+        (property "Footprint" "kria-k26-devboard-footprints:ECS-2016MV" 
             (id 2) 
             (at 11.43 -8.89 0) 
             (effects 
@@ -16911,7 +17077,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "antmicro-footprints:0402-res" 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -19127,89 +19293,6 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
-    (symbol "R_68_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "R" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "R_68_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "TE" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "CRGCQ0402F68R" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "68" 
-            (id 6) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (symbol "R_68_0402_1_1" 
-            (rectangle 
-                (start 2.54 -1.016) 
-                (end -2.54 1.016) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -3.81 0 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 3.81 0 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 0 0))))))) 
     (symbol "AP62301WU-7" 
         (pin_names 
             (offset 1.016)) 
@@ -20968,7 +21051,7 @@
                 (font 
                     (size 1.524 1.524)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:0805-res" 
+        (property "Footprint" "kria-k26-devboard-footprints:0805-res" 
             (id 2) 
             (at 15.875 8.89 0) 
             (effects 
@@ -21154,6 +21237,89 @@
                     (color 0 0 0 0)) 
                 (fill 
                     (type none))))) 
+    (symbol "R_147k_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_147k_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0402-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Panasonic" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERJ-2RKF1473X" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "147k" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_147k_0402_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
     (symbol "DC_SOCKET" 
         (pin_names 
             (offset 1.016)) 
@@ -27563,89 +27729,6 @@
                     (effects 
                         (font 
                             (size 0.0254 0.0254))))))) 
-    (symbol "R_10k_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "R" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "R_10k_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "antmicro-footprints:0402-res" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "VISHAY" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "CRCW040210K0FKEDHP" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "10k" 
-            (id 6) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (symbol "R_10k_0402_1_1" 
-            (rectangle 
-                (start 2.54 -1.016) 
-                (end -2.54 1.016) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -3.81 0 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 3.81 0 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 0 0))))))) 
     (symbol "XILINX-KRIA-K26" 
         (pin_names 
             (offset 1.016)) 
