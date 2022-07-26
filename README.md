@@ -9,15 +9,16 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 This repository contains open hardware design files for a devkit created for Xilinx Kria K26 [
 Kria K26](https://www.xilinx.com/products/som/kria.html) System on Module (SoM).
 This development board routes the I/O interfaces from the SoM and provides necessery power buses. 
-The design files were prepared in KiCad.
+The design files were prepared in KiCad 6.
 
 ## Repository structure
 
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries
+* `lib` - contains the component libraries for KiCad 6
 * `img` - contains graphics for this README
+* `fab` - contains GERBER files for board production
 
 ## Key Features
 
