@@ -18,7 +18,6 @@ The remaining files are stored in the following directories:
 
 * `lib` - contains the KiCad 6 component libraries,
 * `img` - contains graphics for this README,
-* `fab` - contains GERBER files for board production.
 
 ## Key Features
 
@@ -29,7 +28,7 @@ The remaining files are stored in the following directories:
 * USB Type-C connector for FTDI JTAG and debug,
 * M.2 connector (key E) for optional WiFi and Bluetooth connectivity,
 * 2x 4-lane MIPI CSI-2 camera interface,
-* PMOD,
+* PMOD
 * SD 3.0 (MicroSD UHS-1).
 
 The board supports multiple power supply scenarios, including:
