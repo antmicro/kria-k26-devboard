@@ -6,7 +6,7 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This repository contains open hardware design files for a devkit created for Xilinx [Kria K26](https://www.xilinx.com/products/som/kria.html) System on Module (SoM).
+This repository contains open hardware design files for a devkit created for AMD-Xilinx [Kria K26](https://www.xilinx.com/products/som/kria.html) System on Module (SoM).
 
 This development board routes the I/O interfaces from the SoM and provides the necessary power buses.
 The design files were prepared in KiCad 6.
@@ -21,7 +21,7 @@ The remaining files are stored in the following directories:
 
 ## Key Features
 
-* Xilinx Kria K26 SOM
+* AMD-Xilinx Kria K26 SOM connectors
 * Gigabit Ethernet
 * DisplayPort output
 * 4x USB 3.2 Gen 1 connector
