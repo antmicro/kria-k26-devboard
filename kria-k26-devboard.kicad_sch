@@ -7828,10 +7828,10 @@
       (reference "U46") (unit 1) (value "NC7WZ07P6X") (footprint "kria-k26-devboard-footprints:SOT-363")
     )
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/00000000-0000-0000-0000-00006294576c"
-      (reference "U47") (unit 1) (value "RT6236AHGQUF") (footprint "kria-k26-devboard-footprints:RICHTEK_13-UFQFN")
+      (reference "U47") (unit 1) (value "RT6236AHGQUF") (footprint "antmicro-footprints:RT6236A")
     )
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/00000000-0000-0000-0000-0000635a65be"
-      (reference "U48") (unit 1) (value "RT6236AHGQUF") (footprint "kria-k26-devboard-footprints:RICHTEK_13-UFQFN")
+      (reference "U48") (unit 1) (value "RT6236AHGQUF") (footprint "antmicro-footprints:RT6236A")
     )
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/00000000-0000-0000-0000-0000627de809"
       (reference "U49") (unit 1) (value "AP62301WU-7") (footprint "kria-k26-devboard-footprints:TSOT23-6")
