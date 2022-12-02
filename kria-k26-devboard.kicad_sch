@@ -6057,6 +6057,9 @@
     (path "/00000000-0000-0000-0000-0000622b7dc8/00000000-0000-0000-0000-000062b8228f"
       (reference "#PWR0404") (unit 1) (value "GND") (footprint "kria-k26-devboard-footprints:")
     )
+    (path "/00000000-0000-0000-0000-000063c3fa95/3f4a511f-c033-4b5d-8de2-493cce1cdac8"
+      (reference "#PWR0405") (unit 1) (value "GND") (footprint "kria-k26-devboard-footprints:")
+    )
     (path "/00000000-0000-0000-0000-000062a3b8e5"
       (reference "C1") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
@@ -6771,6 +6774,12 @@
     (path "/00000000-0000-0000-0000-000062c5a15f/00000000-0000-0000-0000-0000656dbdbc"
       (reference "C238") (unit 1) (value "C_10u_0603") (footprint "kria-k26-devboard-footprints:0603-cap")
     )
+    (path "/00000000-0000-0000-0000-000063c3fa95/7da6b60c-fc9e-43b6-8cf3-643f2315cf58"
+      (reference "C239") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000063c3fa95/d63a58d9-4ab7-4057-992a-4a9ca9ac35dc"
+      (reference "C240") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+    )
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-0000647d55c5"
       (reference "D1") (unit 1) (value "PMEG3010CEJ") (footprint "kria-k26-devboard-footprints:SOD-323F")
     )
@@ -7275,8 +7284,8 @@
     (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-000062627e6d"
       (reference "R84") (unit 1) (value "R_10k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-0000625cf94d"
-      (reference "R85") (unit 1) (value "R_10k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-000065aaf1bf/5d84aa2d-4f81-41ad-bd7c-def46cec4325"
+      (reference "R85") (unit 1) (value "R_1k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-00006949cb20"
       (reference "R86") (unit 1) (value "R_0R_0402") (footprint "kria-k26-devboard-footprints:0402-res")
