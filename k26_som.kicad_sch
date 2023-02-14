@@ -12988,7 +12988,7 @@
   )
 
   (symbol (lib_id "kria-k26-devboard:XILINX-KRIA-K26") (at 78.74 266.954 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid 00000000-0000-0000-0000-000063c4e07e)
     (property "Reference" "M1" (id 0) (at 89.6112 262.6106 0)
       (effects (font (size 1.27 1.27)) (justify left))

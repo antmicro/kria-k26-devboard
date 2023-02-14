@@ -7524,6 +7524,12 @@
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/4f0de7e8-2521-48b7-bc6a-68658dcfe9f8"
       (reference "R164") (unit 1) (value "R_0R_0603_HPWR") (footprint "antmicro-footprints:0603-res")
     )
+    (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/a9873341-bf53-4246-b746-a9e8231fc5bc"
+      (reference "R165") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/621c35bf-67d2-462d-890b-7884412d14ea"
+      (reference "R166") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-000065caccc2"
       (reference "S1") (unit 1) (value "KMR2") (footprint "kria-k26-devboard-footprints:SW_SPST_4.2x2.8")
     )
