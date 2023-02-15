@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "USB PHY and HUB")
-    (date "2022-07-25")
-    (rev "1.1.0")
+    (title "Kria K26 Devboard")
+    (date "2023-02-15")
+    (rev "1.1.1")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
