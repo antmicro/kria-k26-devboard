@@ -6786,6 +6786,9 @@
     (path "/00000000-0000-0000-0000-0000622b7dc8/8ce7fbad-e118-491a-a737-42872c6ac8a0"
       (reference "C241") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
+    (path "/00000000-0000-0000-0000-0000625b0244/9e8bff1e-2694-4f30-a2c3-aba4324d96f2"
+      (reference "C?") (unit 1) (value "C_4u7_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+    )
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-0000647d55c5"
       (reference "D1") (unit 1) (value "PMEG3010CEJ") (footprint "kria-k26-devboard-footprints:SOD-323F")
     )
