@@ -2852,7 +2852,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6ba8bb9c-8a43-4589-a51a-77b785732751)
   )
-  (hierarchical_label "MIO24_I2C_SDA" (shape input) (at 54.61 96.52 180)
+  (hierarchical_label "MIO25_I2C_SDA" (shape input) (at 54.61 96.52 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 867d2d6e-f662-4ac5-b877-9597e40970bc)
   )

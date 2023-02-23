@@ -4404,13 +4404,13 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 4b92ea36-724e-4315-b921-0a7b91a58ad2)
     )
-    (pin "MIO24_I2C_SDA" input (at 250.19 218.44 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 3ff459ca-d3e1-4d92-a9ce-81488167ad16)
-    )
     (pin "~{EEPROM_WC}" input (at 250.19 222.25 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0a118306-8439-4be1-ae1a-3723f6259039)
+    )
+    (pin "MIO25_I2C_SDA" input (at 250.19 218.44 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4331ec86-a828-41b7-a5d7-1f0acdb8b2da)
     )
   )
 
@@ -7536,6 +7536,9 @@
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/621c35bf-67d2-462d-890b-7884412d14ea"
       (reference "R166") (unit 1) (value "R_0R_0402") (footprint "kria-k26-devboard-footprints:0402-res")
     )
+    (path "/00000000-0000-0000-0000-0000630339ce/4fd6095f-7fce-4ff6-b43b-c3e4465fc7ad"
+      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-000065caccc2"
       (reference "S1") (unit 1) (value "KMR2") (footprint "kria-k26-devboard-footprints:SW_SPST_4.2x2.8")
     )
@@ -7733,6 +7736,9 @@
     )
     (path "/00000000-0000-0000-0000-0000622b7dc8/a248ed2f-7560-4537-93f1-2efac76c3195"
       (reference "TP59") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/00000000-0000-0000-0000-0000630339ce/ccfb62c9-3663-4ef3-918a-99d1f243469c"
+      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-000063aa2bfe/d0a380e6-f6c0-4eee-a45e-c7058832611c"
       (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
