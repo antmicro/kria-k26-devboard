@@ -5729,7 +5729,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2b1b5235-8383-4c42-9e88-86bb7db1e8db)
   )
-  (text "Optional PL bypass \n(when using DNM other PL reset circuitry)"
+  (text "Optional PL bypass \n(when using DNP other PL reset circuitry)"
     (at 158.75 236.22 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 2fcbeb4b-59f5-49e1-afd1-93e4c8afda38)
@@ -7795,6 +7795,7 @@
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Val" "0R" (id 6) (at 198.12 256.159 0))
+    (property "DNP" "DNP" (id 7) (at 198.12 259.08 0))
     (pin "1" (uuid a8c2b2f3-69fb-4c04-ab3a-fed5fc53d0e1))
     (pin "2" (uuid 003f17df-2fd4-43c1-bb36-6b4c24871767))
   )

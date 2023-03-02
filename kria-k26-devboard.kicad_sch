@@ -6063,6 +6063,15 @@
     (path "/00000000-0000-0000-0000-0000622b7dc8/364a5e98-2d5f-4083-9ce6-b6cfd3a9ba6c"
       (reference "#PWR0406") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000622b7dc8/6ed621df-be9b-4981-a653-eb618559603d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063cb76cf/bf61e4d8-9ed5-4b57-9ed4-316eb16ff84f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063cb76cf/c106b51f-d1a7-4f87-8c4e-4b1498058866"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062a3b8e5"
       (reference "C1") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
@@ -6787,7 +6796,19 @@
       (reference "C241") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/9e8bff1e-2694-4f30-a2c3-aba4324d96f2"
-      (reference "C?") (unit 1) (value "C_4u7_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+      (reference "C242") (unit 1) (value "C_4u7_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000063cb76cf/122b63d4-330b-4a9a-9895-244917a1b813"
+      (reference "C?") (unit 1) (value "C_10u_0603") (footprint "kria-k26-devboard-footprints:0603-cap")
+    )
+    (path "/00000000-0000-0000-0000-000063cb76cf/547d5756-7087-4e0a-b38d-e16b181b25bc"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000063cb76cf/5a266dcc-0056-4c10-9954-201f48c38347"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000063cb76cf/a50bd42c-c52b-4f9f-91e2-1fea5a95cc8f"
+      (reference "C?") (unit 1) (value "C_10u_0603") (footprint "kria-k26-devboard-footprints:0603-cap")
     )
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-0000647d55c5"
       (reference "D1") (unit 1) (value "PMEG3010CEJ") (footprint "kria-k26-devboard-footprints:SOD-323F")
@@ -7540,10 +7561,13 @@
       (reference "R166") (unit 1) (value "R_0R_0402") (footprint "kria-k26-devboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/26c5ae0d-fbc0-4768-93dd-988619e09847"
-      (reference "R?") (unit 1) (value "R_5k11_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+      (reference "R167") (unit 1) (value "R_5k11_0402") (footprint "kria-k26-devboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000630339ce/4fd6095f-7fce-4ff6-b43b-c3e4465fc7ad"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R168") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622b7dc8/e206d95e-d55b-4813-9356-07b506f8084c"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-000065caccc2"
       (reference "S1") (unit 1) (value "KMR2") (footprint "kria-k26-devboard-footprints:SW_SPST_4.2x2.8")
@@ -7744,13 +7768,13 @@
       (reference "TP59") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-0000630339ce/ccfb62c9-3663-4ef3-918a-99d1f243469c"
-      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
-    )
-    (path "/00000000-0000-0000-0000-000063aa2bfe/d0a380e6-f6c0-4eee-a45e-c7058832611c"
-      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
+      (reference "TP60") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-000063aa2bfe/ef693e87-49a5-4497-8e85-0f0e48f10537"
-      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
+      (reference "TP61") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/00000000-0000-0000-0000-000063aa2bfe/d0a380e6-f6c0-4eee-a45e-c7058832611c"
+      (reference "TP62") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-0000635038ed"
       (reference "U1") (unit 1) (value "74AVC4T245RSVRG4") (footprint "kria-k26-devboard-footprints:Texas_16-UFQFN")
