@@ -590,7 +590,6 @@
           "/I2C /I2C_SCK_3V3",
           "/I2C /I2C_SDA_3V3",
           "/I2C /MIO24_I2C_SCK",
-          "/I2C /MIO24_I2C_SDA",
           "/PCIE M2 key E /GTR_DP3_C2M_N",
           "/PCIE M2 key E /GTR_DP3_C2M_P",
           "/PCIE M2 key E /GTR_DP3_M2C_C_N",

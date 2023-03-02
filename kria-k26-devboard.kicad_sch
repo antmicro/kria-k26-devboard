@@ -7083,8 +7083,8 @@
     (path "/00000000-0000-0000-0000-0000630339ce/00000000-0000-0000-0000-0000631df31d"
       (reference "R14") (unit 1) (value "R_33R_0402") (footprint "kria-k26-devboard-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-0000630339ce/00000000-0000-0000-0000-0000632d3168"
-      (reference "R15") (unit 1) (value "4x33R_0201_array") (footprint "kria-k26-devboard-footprints:EXB18V")
+    (path "/00000000-0000-0000-0000-0000630339ce/b3b2fa16-bb95-41bd-9ef8-6df7780c0cab"
+      (reference "R15") (unit 1) (value "4x33R_0201_array") (footprint "antmicro-footprints:EXB18V")
     )
     (path "/00000000-0000-0000-0000-0000630339ce/00000000-0000-0000-0000-00006667aa59"
       (reference "R16") (unit 1) (value "R_10k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
