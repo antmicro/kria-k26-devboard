@@ -7587,6 +7587,9 @@
     (path "/00000000-0000-0000-0000-0000630339ce/4fd6095f-7fce-4ff6-b43b-c3e4465fc7ad"
       (reference "R168") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
+    (path "/00000000-0000-0000-0000-000063cadd16/2307fd6d-a057-4ec5-837f-13e7a61c04e1"
+      (reference "R?") (unit 1) (value "R_200k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-000063cadd16/23a6f7c2-5752-416e-8dd3-87f151f555b8"
       (reference "R?") (unit 1) (value "R_43k_0402") (footprint "antmicro-footprints:0402-res")
     )
@@ -7601,6 +7604,9 @@
     )
     (path "/00000000-0000-0000-0000-0000625b0244/b9ac366f-f032-4e1f-909a-f9f176356eaa"
       (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063cadd16/d3883458-15d1-423f-bb74-4c603efcaede"
+      (reference "R?") (unit 1) (value "R_200k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000622b7dc8/e206d95e-d55b-4813-9356-07b506f8084c"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
@@ -7866,14 +7872,14 @@
     (path "/00000000-0000-0000-0000-000063fe614f/00000000-0000-0000-0000-000068df9ef9"
       (reference "U15") (unit 1) (value "TPD4E05U06QDQARQ1_PASS") (footprint "kria-k26-devboard-footprints:TPD4E05U06QDQARQ1")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062808342"
-      (reference "U16") (unit 1) (value "TPS2066TDGNRQ1") (footprint "kria-k26-devboard-footprints:SOP65P490X110-9N")
+    (path "/00000000-0000-0000-0000-000063cadd16/fdcfc9ea-7f73-4773-ae52-9934314e51b3"
+      (reference "U16") (unit 1) (value "TPS2066TDGNRQ1") (footprint "antmicro-footprints:SOP65P490X110-9N")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-00006268fa7c"
       (reference "U17") (unit 1) (value "USB7016_KDX") (footprint "kria-k26-devboard-footprints:Microchip_VQFN100_EP")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000066265dd4"
-      (reference "U18") (unit 1) (value "TPS2066TDGNRQ1") (footprint "kria-k26-devboard-footprints:SOP65P490X110-9N")
+    (path "/00000000-0000-0000-0000-000063cadd16/bde7320a-c1e5-4b6f-816d-e177fbd27a36"
+      (reference "U18") (unit 1) (value "TPS2066TDGNRQ1") (footprint "antmicro-footprints:SOP65P490X110-9N")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-0000630f6f68"
       (reference "U19") (unit 1) (value "TPD4E05U06QDQARQ1_PASS") (footprint "kria-k26-devboard-footprints:TPD4E05U06QDQARQ1")
