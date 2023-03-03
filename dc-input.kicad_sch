@@ -2446,6 +2446,11 @@
     )
   )
 
+  (text "6-15V" (at 130.81 97.79 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8ad86bc5-d423-4fbb-bbb8-702e8b48fdd7)
+  )
+
   (hierarchical_label "DC_IN" (shape input) (at 180.594 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 565fe3ad-7dbf-49c7-8841-035b8c90bc85)

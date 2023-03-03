@@ -13864,7 +13864,7 @@
   (symbol (lib_id "kria-k26-devboard:GND") (at 19.685 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6ed621df-be9b-4981-a653-eb618559603d)
-    (property "Reference" "#PWR?" (id 0) (at 19.685 41.91 0)
+    (property "Reference" "#PWR0409" (id 0) (at 19.685 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 19.812 39.9542 0))
