@@ -6069,6 +6069,9 @@
     (path "/00000000-0000-0000-0000-0000625b0244/27976bd6-eb87-4330-80ff-87104d3f21b8"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000063c2dc7f/6faa0c29-dc83-4930-95f3-606ae24c754f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000625b0244/b1faf546-9570-458a-8d5c-e62c921ab262"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -7589,6 +7592,9 @@
     )
     (path "/00000000-0000-0000-0000-000063cadd16/32499352-3e53-46dc-812a-c5f0133de7a6"
       (reference "R?") (unit 1) (value "R_5k11_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063c2dc7f/6567c39f-e076-44a3-a92a-2021e638ff0a"
+      (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/687cde43-3ad5-4cf9-9ec1-5640cd5da154"
       (reference "R?") (unit 1) (value "R_49k9_0402") (footprint "antmicro-footprints:0402-res")
