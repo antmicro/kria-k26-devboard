@@ -7887,8 +7887,8 @@
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000065d92c4b"
       (reference "U22") (unit 1) (value "TPD4E05U06QDQARQ1_PASS") (footprint "kria-k26-devboard-footprints:TPD4E05U06QDQARQ1")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000063783ffe"
-      (reference "U23") (unit 1) (value "USB3310C-CP") (footprint "kria-k26-devboard-footprints:Microchip_QFN24_4X4")
+    (path "/00000000-0000-0000-0000-000063cadd16/78e9f6c9-66be-4b5a-b8d8-474b7e2af3ab"
+      (reference "U23") (unit 1) (value "USB3310C-CP") (footprint "antmicro-footprints:Microchip_QFN24_4X4")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-00006283702d"
       (reference "U24") (unit 1) (value "GSB3112311HR") (footprint "kria-k26-devboard-footprints:GSB3112311HR")
