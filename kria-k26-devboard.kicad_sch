@@ -7023,8 +7023,8 @@
     (path "/00000000-0000-0000-0000-000063fcc534"
       (reference "N2") (unit 1) (value "oshw_logo") (footprint "kria-k26-devboard-footprints:oshw-logo")
     )
-    (path "/00000000-0000-0000-0000-000062c5a15f/00000000-0000-0000-0000-0000630b351c"
-      (reference "P1") (unit 1) (value "2199119-6") (footprint "kria-k26-devboard-footprints:TE_1-2199119-6")
+    (path "/00000000-0000-0000-0000-000062c5a15f/9207b16c-82c8-4a49-a131-a90c65ad6ee4"
+      (reference "P?") (unit 1) (value "2199119-6") (footprint "antmicro-footprints:TE_1-2199119-6")
     )
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-000062525be1/00000000-0000-0000-0000-00006253a61e"
       (reference "PS1") (unit 1) (value "PDQE30-Q48-S12-D") (footprint "kria-k26-devboard-footprints:PDQE30-Q48")
