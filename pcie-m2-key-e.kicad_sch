@@ -6,7 +6,7 @@
 
   (title_block
     (title "Kria K26 Devboard")
-    (date "2023-02-15")
+    (date "2023-03-03")
     (rev "1.1.1")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
@@ -3646,7 +3646,7 @@
   (symbol (lib_id "antmicroPciConnectors:2199119-6") (at 152.4 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9207b16c-82c8-4a49-a131-a90c65ad6ee4)
-    (property "Reference" "P?" (id 0) (at 152.4 37.0672 0))
+    (property "Reference" "P1" (id 0) (at 152.4 37.0672 0))
     (property "Value" "2199119-6" (id 1) (at 152.4 39.6041 0))
     (property "Footprint" "antmicro-footprints:TE_1-2199119-6" (id 2) (at 152.4 59.69 0)
       (effects (font (size 1.27 1.27)) hide)

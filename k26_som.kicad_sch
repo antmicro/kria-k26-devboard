@@ -6,7 +6,7 @@
 
   (title_block
     (title "Kria K26 Devboard")
-    (date "2023-02-15")
+    (date "2023-03-03")
     (rev "1.1.1")
     (company "Antmicro")
     (comment 1 "www.antmicro.com")
@@ -13967,7 +13967,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 19.685 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e206d95e-d55b-4813-9356-07b506f8084c)
-    (property "Reference" "R?" (id 0) (at 21.463 29.6454 90)
+    (property "Reference" "R170" (id 0) (at 21.463 29.6454 90)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_0R_0402" (id 1) (at 23.495 30.48 0)

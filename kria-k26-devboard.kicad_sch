@@ -6,7 +6,7 @@
 
   (title_block
     (title "Kria K26 Devboard")
-    (date "2023-02-15")
+    (date "2023-03-03")
     (rev "1.1.1")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
@@ -5826,14 +5826,26 @@
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-00006286ce5b"
       (reference "#PWR0327") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000625b0244/c524aa51-8f15-43f6-af2f-fe8357276ca0"
+      (reference "#PWR0328") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-00006286ce4d"
       (reference "#PWR0329") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-000062bc3faa"
       (reference "#PWR0330") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000625b0244/27976bd6-eb87-4330-80ff-87104d3f21b8"
+      (reference "#PWR0331") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-0000628d4004"
       (reference "#PWR0332") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000625b0244/d860326f-24a7-42c6-aa1b-c5b908895d23"
+      (reference "#PWR0333") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000625b0244/c78cb209-e815-4aff-ab28-77f81e9249ea"
+      (reference "#PWR0334") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-00006281fbf9"
       (reference "#PWR0335") (unit 1) (value "GND") (footprint "")
@@ -6066,23 +6078,11 @@
     (path "/00000000-0000-0000-0000-000063cae093/f7ab3f2f-9a73-4261-bc4a-b859620a0264"
       (reference "#PWR0411") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000625b0244/27976bd6-eb87-4330-80ff-87104d3f21b8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-0000625b0244/b1faf546-9570-458a-8d5c-e62c921ab262"
+      (reference "#PWR0412") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063c2dc7f/6faa0c29-dc83-4930-95f3-606ae24c754f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000625b0244/b1faf546-9570-458a-8d5c-e62c921ab262"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000625b0244/c524aa51-8f15-43f6-af2f-fe8357276ca0"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000625b0244/c78cb209-e815-4aff-ab28-77f81e9249ea"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000625b0244/d860326f-24a7-42c6-aa1b-c5b908895d23"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0413") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062a3b8e5"
       (reference "C1") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
@@ -6546,11 +6546,20 @@
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-00006286ce3a"
       (reference "C154") (unit 1) (value "C_18p_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
+    (path "/00000000-0000-0000-0000-0000625b0244/7302b5df-d785-4d59-af31-f949e0b8f728"
+      (reference "C155") (unit 1) (value "C_1u_0603_25V") (footprint "antmicro-footprints:0603-cap")
+    )
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-00006286ce43"
       (reference "C156") (unit 1) (value "C_18p_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-0000628d3d92"
       (reference "C157") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000625b0244/f69bed7e-8cf1-43b1-a313-3941cf2c2ddb"
+      (reference "C158") (unit 1) (value "C_1u_0603_25V") (footprint "antmicro-footprints:0603-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000625b0244/b8aefce5-fbff-4a70-8223-a3cf70542442"
+      (reference "C159") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-000062b95b76"
       (reference "C160") (unit 1) (value "C_33n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
@@ -6801,35 +6810,26 @@
     (path "/00000000-0000-0000-0000-0000625b0244/9e8bff1e-2694-4f30-a2c3-aba4324d96f2"
       (reference "C242") (unit 1) (value "C_4u7_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
-    (path "/00000000-0000-0000-0000-000063cb76cf/122b63d4-330b-4a9a-9895-244917a1b813"
-      (reference "C?") (unit 1) (value "C_10u_0603") (footprint "kria-k26-devboard-footprints:0603-cap")
-    )
-    (path "/00000000-0000-0000-0000-000063cae093/1b618693-8246-47d1-b4f2-6de555ef369a"
-      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
-    )
     (path "/00000000-0000-0000-0000-0000625b0244/2593ee71-9d1d-4eb4-9199-c577cad15ff4"
-      (reference "C?") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C243") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000063cb76cf/547d5756-7087-4e0a-b38d-e16b181b25bc"
-      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+      (reference "C244") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000063cb76cf/122b63d4-330b-4a9a-9895-244917a1b813"
+      (reference "C245") (unit 1) (value "C_10u_0603") (footprint "kria-k26-devboard-footprints:0603-cap")
     )
     (path "/00000000-0000-0000-0000-000063cb76cf/5a266dcc-0056-4c10-9954-201f48c38347"
-      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
-    )
-    (path "/00000000-0000-0000-0000-000063cae093/6923ee9b-6dac-4087-a3a9-fd8e17c36593"
-      (reference "C?") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:0402-cap")
-    )
-    (path "/00000000-0000-0000-0000-0000625b0244/7302b5df-d785-4d59-af31-f949e0b8f728"
-      (reference "C?") (unit 1) (value "C_1u_0603_25V") (footprint "antmicro-footprints:0603-cap")
+      (reference "C246") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000063cb76cf/a50bd42c-c52b-4f9f-91e2-1fea5a95cc8f"
-      (reference "C?") (unit 1) (value "C_10u_0603") (footprint "kria-k26-devboard-footprints:0603-cap")
+      (reference "C247") (unit 1) (value "C_10u_0603") (footprint "kria-k26-devboard-footprints:0603-cap")
     )
-    (path "/00000000-0000-0000-0000-0000625b0244/b8aefce5-fbff-4a70-8223-a3cf70542442"
-      (reference "C?") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+    (path "/00000000-0000-0000-0000-000063cae093/1b618693-8246-47d1-b4f2-6de555ef369a"
+      (reference "C248") (unit 1) (value "C_100n_0402") (footprint "kria-k26-devboard-footprints:0402-cap")
     )
-    (path "/00000000-0000-0000-0000-0000625b0244/f69bed7e-8cf1-43b1-a313-3941cf2c2ddb"
-      (reference "C?") (unit 1) (value "C_1u_0603_25V") (footprint "antmicro-footprints:0603-cap")
+    (path "/00000000-0000-0000-0000-000063cae093/6923ee9b-6dac-4087-a3a9-fd8e17c36593"
+      (reference "C249") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-0000647d55c5"
       (reference "D1") (unit 1) (value "PMEG3010CEJ") (footprint "kria-k26-devboard-footprints:SOD-323F")
@@ -7024,7 +7024,7 @@
       (reference "N2") (unit 1) (value "oshw_logo") (footprint "kria-k26-devboard-footprints:oshw-logo")
     )
     (path "/00000000-0000-0000-0000-000062c5a15f/9207b16c-82c8-4a49-a131-a90c65ad6ee4"
-      (reference "P?") (unit 1) (value "2199119-6") (footprint "antmicro-footprints:TE_1-2199119-6")
+      (reference "P1") (unit 1) (value "2199119-6") (footprint "antmicro-footprints:TE_1-2199119-6")
     )
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-000062525be1/00000000-0000-0000-0000-00006253a61e"
       (reference "PS1") (unit 1) (value "PDQE30-Q48-S12-D") (footprint "kria-k26-devboard-footprints:PDQE30-Q48")
@@ -7587,29 +7587,29 @@
     (path "/00000000-0000-0000-0000-0000630339ce/4fd6095f-7fce-4ff6-b43b-c3e4465fc7ad"
       (reference "R168") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/2307fd6d-a057-4ec5-837f-13e7a61c04e1"
-      (reference "R?") (unit 1) (value "R_200k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
-    )
-    (path "/00000000-0000-0000-0000-000063cadd16/23a6f7c2-5752-416e-8dd3-87f151f555b8"
-      (reference "R?") (unit 1) (value "R_43k_0402") (footprint "antmicro-footprints:0402-res")
-    )
-    (path "/00000000-0000-0000-0000-000063cadd16/32499352-3e53-46dc-812a-c5f0133de7a6"
-      (reference "R?") (unit 1) (value "R_5k11_0402") (footprint "kria-k26-devboard-footprints:0402-res")
-    )
-    (path "/00000000-0000-0000-0000-000063c2dc7f/6567c39f-e076-44a3-a92a-2021e638ff0a"
-      (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
-    )
-    (path "/00000000-0000-0000-0000-000063cadd16/687cde43-3ad5-4cf9-9ec1-5640cd5da154"
-      (reference "R?") (unit 1) (value "R_49k9_0402") (footprint "antmicro-footprints:0402-res")
-    )
     (path "/00000000-0000-0000-0000-0000625b0244/b9ac366f-f032-4e1f-909a-f9f176356eaa"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
-    )
-    (path "/00000000-0000-0000-0000-000063cadd16/d3883458-15d1-423f-bb74-4c603efcaede"
-      (reference "R?") (unit 1) (value "R_200k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+      (reference "R169") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000622b7dc8/e206d95e-d55b-4813-9356-07b506f8084c"
-      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R170") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063cadd16/32499352-3e53-46dc-812a-c5f0133de7a6"
+      (reference "R171") (unit 1) (value "R_5k11_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063cadd16/d3883458-15d1-423f-bb74-4c603efcaede"
+      (reference "R172") (unit 1) (value "R_200k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063cadd16/2307fd6d-a057-4ec5-837f-13e7a61c04e1"
+      (reference "R173") (unit 1) (value "R_200k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063cadd16/23a6f7c2-5752-416e-8dd3-87f151f555b8"
+      (reference "R174") (unit 1) (value "R_43k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063cadd16/687cde43-3ad5-4cf9-9ec1-5640cd5da154"
+      (reference "R175") (unit 1) (value "R_49k9_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000063c2dc7f/6567c39f-e076-44a3-a92a-2021e638ff0a"
+      (reference "R176") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-000065caccc2"
       (reference "S1") (unit 1) (value "KMR2") (footprint "kria-k26-devboard-footprints:SW_SPST_4.2x2.8")
@@ -7819,13 +7819,13 @@
       (reference "TP62") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/53380a5a-4cdc-4f82-a1ff-99e7993c88d0"
-      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+      (reference "TP63") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/ddeaa298-f311-4349-b1ff-e3aee81bbba0"
-      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+      (reference "TP64") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-0000625b0244/feefaf2c-bb9b-4da5-bcbc-98c9ea4f16cf"
-      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+      (reference "TP65") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-0000635038ed"
       (reference "U1") (unit 1) (value "74AVC4T245RSVRG4") (footprint "kria-k26-devboard-footprints:Texas_16-UFQFN")
@@ -7959,6 +7959,9 @@
     (path "/00000000-0000-0000-0000-0000625b0244/00000000-0000-0000-0000-000062b05fe1"
       (reference "U37") (unit 1) (value "WE-TVS-82400152") (footprint "kria-k26-devboard-footprints:SOT-563")
     )
+    (path "/00000000-0000-0000-0000-0000625b0244/7746d006-d7c9-4acb-91eb-b6b557f3640c"
+      (reference "U38") (unit 1) (value "NCP730BMT330TBG") (footprint "antmicro-footprints:WSON6_TI_2x2mm")
+    )
     (path "/00000000-0000-0000-0000-0000625b0244/73240461-6fe7-4c31-a381-83bfbbd5c6b5"
       (reference "U39") (unit 1) (value "93LC66BT-IMC") (footprint "kria-k26-devboard-footprints:DFN-8_2x3mm")
     )
@@ -8025,11 +8028,8 @@
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-000062a9ecdc/00000000-0000-0000-0000-000062e99410"
       (reference "U60") (unit 1) (value "WE-TVS-82400152") (footprint "kria-k26-devboard-footprints:SOT-563")
     )
-    (path "/00000000-0000-0000-0000-0000625b0244/7746d006-d7c9-4acb-91eb-b6b557f3640c"
-      (reference "U?") (unit 1) (value "NCP730BMT330TBG") (footprint "antmicro-footprints:WSON6_TI_2x2mm")
-    )
     (path "/00000000-0000-0000-0000-0000625b0244/b1cabf7e-590d-45a2-b50d-3ab8c037b44b"
-      (reference "U?") (unit 1) (value "NCP730BMT330TBG") (footprint "antmicro-footprints:WSON6_TI_2x2mm")
+      (reference "U61") (unit 1) (value "NCP730BMT330TBG") (footprint "antmicro-footprints:WSON6_TI_2x2mm")
     )
     (path "/00000000-0000-0000-0000-000063c2dc7f/00000000-0000-0000-0000-0000632b339b"
       (reference "Y1") (unit 1) (value "NX3241E0100.000000") (footprint "kria-k26-devboard-footprints:AX3DAF1")

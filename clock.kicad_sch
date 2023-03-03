@@ -6,7 +6,7 @@
 
   (title_block
     (title "Kria K26 Devboard")
-    (date "2023-02-15")
+    (date "2023-03-03")
     (rev "1.1.1")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
@@ -4351,7 +4351,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 99.695 167.005 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6567c39f-e076-44a3-a92a-2021e638ff0a)
-    (property "Reference" "R?" (id 0) (at 101.473 166.1704 90)
+    (property "Reference" "R176" (id 0) (at 101.473 166.1704 90)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "R_100k_0402" (id 1) (at 103.505 167.005 0)
@@ -4380,7 +4380,7 @@
   (symbol (lib_id "kria-k26-devboard:GND") (at 99.695 172.085 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6faa0c29-dc83-4930-95f3-606ae24c754f)
-    (property "Reference" "#PWR?" (id 0) (at 99.695 178.435 0)
+    (property "Reference" "#PWR0413" (id 0) (at 99.695 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 99.822 176.4792 0))

@@ -6,7 +6,7 @@
 
   (title_block
     (title "Kria K26 Devboard")
-    (date "2023-02-15")
+    (date "2023-03-03")
     (rev "1.1.1")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
@@ -7315,7 +7315,7 @@
   (symbol (lib_id "kria-k26-devboard:C_100n_0402") (at 234.95 127.635 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1b618693-8246-47d1-b4f2-6de555ef369a)
-    (property "Reference" "C?" (id 0) (at 237.871 126.492 0)
+    (property "Reference" "C248" (id 0) (at 237.871 126.492 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "C_100n_0402" (id 1) (at 234.95 131.445 0)
@@ -7343,7 +7343,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_10u_0402") (at 245.745 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6923ee9b-6dac-4087-a3a9-fd8e17c36593)
-    (property "Reference" "C?" (id 0) (at 248.666 126.8004 0)
+    (property "Reference" "C249" (id 0) (at 248.666 126.8004 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "C_10u_0402" (id 1) (at 245.745 131.445 0)
