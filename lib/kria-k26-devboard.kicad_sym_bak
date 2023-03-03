@@ -1629,100 +1629,6 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
-    (symbol "C_1u_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "C" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "C_1u_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "TDK" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "C1005X6S1A105K050BC" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "1u" 
-            (id 6) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (symbol "C_1u_0402_1_1" 
-            (polyline 
-                (pts 
-                    (xy -2.032 -0.762) 
-                    (xy 2.032 -0.762)) 
-                (stroke 
-                    (width 0.508) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 0.762) 
-                    (xy 2.032 0.762)) 
-                (stroke 
-                    (width 0.508) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at 0 3.81 270) 
-                (length 2.794) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 0 -3.81 90) 
-                (length 2.794) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 0 0))))))) 
     (symbol "R_2k2_0402" 
         (pin_names 
             (offset 0)) 
@@ -2319,89 +2225,6 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "R_10k_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "R" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "R_10k_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "VISHAY" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "CRCW040210K0FKEDHP" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "10k" 
-            (id 6) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (symbol "R_10k_0402_1_1" 
-            (rectangle 
-                (start 2.54 -1.016) 
-                (end -2.54 1.016) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -3.81 0 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 3.81 0 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 0 0))))))) 
     (symbol "1N4148WS" 
         (pin_numbers hide) 
         (pin_names 
@@ -2917,234 +2740,6 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
-    (symbol "TP_SMD_0_75MM" 
-        (pin_numbers hide) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "TP" 
-            (id 0) 
-            (at -2.54 1.27 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify right))) 
-        (property "Value" "TP_SMD_0_75MM" 
-            (id 1) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:Testpoint_smd_0_75mm" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (symbol "TP_SMD_0_75MM_0_1" 
-            (circle 
-                (center 0 0) 
-                (radius 0.5588) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "TP_SMD_0_75MM_1_1" 
-            (pin passive line 
-                (at 0 2.54 270) 
-                (length 1.905) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "SN74AVC2T245RSWR" 
-        (pin_names 
-            (offset 1.016)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "U" 
-            (id 0) 
-            (at -12.7 16.2306 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Value" "SN74AVC2T245RSWR" 
-            (id 1) 
-            (at -12.7 -6.5278 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Footprint" "kria-k26-devboard-footprints:Texas_RSW0010A" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "Manufacturer" "Texas Instruments" 
-            (id 4) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "MPN" "SN74AVC2T245RSWR" 
-            (id 5) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "ki_description" "Dual-Bit, 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation, 3-State Output 10-UQFN" 
-            (id 6) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "SN74AVC2T245RSWR_0_0" 
-            (rectangle 
-                (start -12.7 -3.81) 
-                (end 12.7 15.24) 
-                (stroke 
-                    (width 0.4064) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin input line 
-                (at 17.78 0 180) 
-                (length 5.08) 
-                (name "DIR2" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin input line 
-                (at 17.78 2.54 180) 
-                (length 5.08) 
-                (name "DIR1" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "10" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin input line 
-                (at -17.78 2.54 0) 
-                (length 5.08) 
-                (name "~{OE}" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin power_in line 
-                (at -17.78 -1.27 0) 
-                (length 5.08) 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin bidirectional line 
-                (at 17.78 6.35 180) 
-                (length 5.08) 
-                (name "B2" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin bidirectional line 
-                (at 17.78 8.89 180) 
-                (length 5.08) 
-                (name "B1" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin power_in line 
-                (at 17.78 12.7 180) 
-                (length 5.08) 
-                (name "VCCB" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "6" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin power_in line 
-                (at -17.78 12.7 0) 
-                (length 5.08) 
-                (name "VCCA" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "7" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin bidirectional line 
-                (at -17.78 8.89 0) 
-                (length 5.08) 
-                (name "A1" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "8" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))) 
-            (pin bidirectional line 
-                (at -17.78 6.35 0) 
-                (length 5.08) 
-                (name "A2" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016)))) 
-                (number "9" 
-                    (effects 
-                        (font 
-                            (size 1.016 1.016))))))) 
     (symbol "FT4232HPQ" 
         (pin_names 
             (offset 1.016)) 
@@ -4760,89 +4355,6 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "R_100k_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "R" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "R_100k_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "VISHAY" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "CRCW0402100KFKEDHP" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "100k" 
-            (id 6) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (symbol "R_100k_0402_1_1" 
-            (rectangle 
-                (start 2.54 -1.016) 
-                (end -2.54 1.016) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -3.81 0 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 3.81 0 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 0 0))))))) 
     (symbol "R_15k_0603" 
         (pin_names 
             (offset 0)) 
@@ -5523,125 +5035,6 @@
                         (font 
                             (size 1.27 1.27)))) 
                 (number "9" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "MIC5211-3.3YM6-TR" 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "U" 
-            (id 0) 
-            (at 1.27 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)))) 
-        (property "Value" "MIC5211-3.3YM6-TR" 
-            (id 1) 
-            (at 1.27 6.35 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)))) 
-        (property "Footprint" "kria-k26-devboard-footprints:SOT-23-6" 
-            (id 2) 
-            (at 3.81 -20.32 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "MIC5211-3.3YM6-TR" 
-            (id 4) 
-            (at 3.81 -17.78 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Manufacturer" "Microchip" 
-            (id 5) 
-            (at 3.81 -15.24 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (symbol "MIC5211-3.3YM6-TR_1_1" 
-            (rectangle 
-                (start -5.08 2.54) 
-                (end 7.62 -12.7) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin power_out line 
-                (at -7.62 -3.81 0) 
-                (length 2.54) 
-                (name "EnA" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at 1.27 -15.24 90) 
-                (length 2.54) 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_out line 
-                (at -7.62 -6.35 0) 
-                (length 2.54) 
-                (name "EnB" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_out line 
-                (at 10.16 -6.35 180) 
-                (length 2.54) 
-                (name "VOUTB" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at -7.62 0 0) 
-                (length 2.54) 
-                (name "VIN" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_out line 
-                (at 10.16 -3.81 180) 
-                (length 2.54) 
-                (name "VOUTA" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "6" 
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
@@ -6800,138 +6193,6 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "93LC66BT-IMC" 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "U" 
-            (id 0) 
-            (at -7.62 6.35 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Value" "93LC66BT-IMC" 
-            (id 1) 
-            (at -7.62 -8.89 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Footprint" "kria-k26-devboard-footprints:DFN-8_2x3mm" 
-            (id 2) 
-            (at -10.16 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*" 
-            (id 4) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "93LC66BT-IMC_1_1" 
-            (rectangle 
-                (start -7.62 5.08) 
-                (end 7.62 -7.62) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin input line 
-                (at 10.16 2.54 180) 
-                (length 2.54) 
-                (name "CS" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at 10.16 0 180) 
-                (length 2.54) 
-                (name "SCLK" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at 10.16 -2.54 180) 
-                (length 2.54) 
-                (name "DI" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin tri_state line 
-                (at 10.16 -5.08 180) 
-                (length 2.54) 
-                (name "DO" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at -10.16 -5.08 0) 
-                (length 2.54) 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -10.16 -2.54 0) 
-                (length 2.54) 
-                (name "ORG" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "6" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -10.16 0 0) 
-                (length 2.54) 
-                (name "NC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "7" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at -10.16 2.54 0) 
-                (length 2.54) 
-                (name "VCC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "8" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "TPD4E05U06QDQARQ1_PASS" 
         (pin_names 
             (offset 0.9906)) 
@@ -7954,6 +7215,798 @@
                     (effects 
                         (font 
                             (size 1.016 1.016))))))) 
+    (symbol "SN74AVC2T245RSWR" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "U" 
+            (id 0) 
+            (at -12.7 16.2306 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom))) 
+        (property "Value" "SN74AVC2T245RSWR" 
+            (id 1) 
+            (at -12.7 -6.5278 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom))) 
+        (property "Footprint" "antmicro-footprints:Texas_RSW0010A" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "Manufacturer" "Texas Instruments" 
+            (id 4) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "MPN" "SN74AVC2T245RSWR" 
+            (id 5) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "ki_description" "Dual-Bit, 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation, 3-State Output 10-UQFN" 
+            (id 6) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "SN74AVC2T245RSWR_0_0" 
+            (rectangle 
+                (start -12.7 -3.81) 
+                (end 12.7 15.24) 
+                (stroke 
+                    (width 0.4064) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (pin input line 
+                (at 17.78 0 180) 
+                (length 5.08) 
+                (name "DIR2" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin input line 
+                (at 17.78 2.54 180) 
+                (length 5.08) 
+                (name "DIR1" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "10" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin input line 
+                (at -17.78 2.54 0) 
+                (length 5.08) 
+                (name "~{OE}" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin power_in line 
+                (at -17.78 -1.27 0) 
+                (length 5.08) 
+                (name "GND" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin bidirectional line 
+                (at 17.78 6.35 180) 
+                (length 5.08) 
+                (name "B2" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "4" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin bidirectional line 
+                (at 17.78 8.89 180) 
+                (length 5.08) 
+                (name "B1" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "5" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin power_in line 
+                (at 17.78 12.7 180) 
+                (length 5.08) 
+                (name "VCCB" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "6" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin power_in line 
+                (at -17.78 12.7 0) 
+                (length 5.08) 
+                (name "VCCA" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "7" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin bidirectional line 
+                (at -17.78 8.89 0) 
+                (length 5.08) 
+                (name "A1" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "8" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))) 
+            (pin bidirectional line 
+                (at -17.78 6.35 0) 
+                (length 5.08) 
+                (name "A2" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016)))) 
+                (number "9" 
+                    (effects 
+                        (font 
+                            (size 1.016 1.016))))))) 
+    (symbol "C_1u_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "C" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_1u_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0402-cap" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "TDK" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "C1005X6S1A105K050BC" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "1u" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "C_1u_0402_1_1" 
+            (polyline 
+                (pts 
+                    (xy -2.032 -0.762) 
+                    (xy 2.032 -0.762)) 
+                (stroke 
+                    (width 0.508) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 0.762) 
+                    (xy 2.032 0.762)) 
+                (stroke 
+                    (width 0.508) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at 0 3.81 270) 
+                (length 2.794) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 0 -3.81 90) 
+                (length 2.794) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
+    (symbol "TP_SMD_0_75MM" 
+        (pin_numbers hide) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "TP" 
+            (id 0) 
+            (at -2.54 1.27 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify right))) 
+        (property "Value" "TP_SMD_0_75MM" 
+            (id 1) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Footprint" "antmicro-footprints:Testpoint_smd_0_75mm" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (symbol "TP_SMD_0_75MM_0_1" 
+            (circle 
+                (center 0 0) 
+                (radius 0.5588) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "TP_SMD_0_75MM_1_1" 
+            (pin passive line 
+                (at 0 2.54 270) 
+                (length 1.905) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "C_1u_0603_25V" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "C" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_1u_0603_25V" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0603-cap" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Samsung" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CL10A105KA8NNNC" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "1u/25V" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "C_1u_0603_25V_1_1" 
+            (polyline 
+                (pts 
+                    (xy -2.032 -0.762) 
+                    (xy 2.032 -0.762)) 
+                (stroke 
+                    (width 0.508) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 0.762) 
+                    (xy 2.032 0.762)) 
+                (stroke 
+                    (width 0.508) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at 0 3.81 270) 
+                (length 2.794) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 0 -3.81 90) 
+                (length 2.794) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
+    (symbol "93LC66BT-IMC" 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "U" 
+            (id 0) 
+            (at -7.62 6.35 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Value" "93LC66BT-IMC" 
+            (id 1) 
+            (at -7.62 -8.89 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Footprint" "kria-k26-devboard-footprints:DFN-8_2x3mm" 
+            (id 2) 
+            (at -10.16 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "https://www.mouser.pl/datasheet/2/268/21795C-64371.pdf" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "93LC66BT-I/MC" 
+            (id 4) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Microchip Technology" 
+            (id 5) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "EEPROM 4K 256X16 SER EE IND" 
+            (id 6) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*" 
+            (id 7) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "93LC66BT-IMC_1_1" 
+            (rectangle 
+                (start -7.62 5.08) 
+                (end 7.62 -7.62) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (pin input line 
+                (at 10.16 2.54 180) 
+                (length 2.54) 
+                (name "CS" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at 10.16 0 180) 
+                (length 2.54) 
+                (name "SCLK" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at 10.16 -2.54 180) 
+                (length 2.54) 
+                (name "DI" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin tri_state line 
+                (at 10.16 -5.08 180) 
+                (length 2.54) 
+                (name "DO" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "4" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_in line 
+                (at -10.16 -5.08 0) 
+                (length 2.54) 
+                (name "GND" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "5" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -10.16 -2.54 0) 
+                (length 2.54) 
+                (name "ORG" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "6" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -10.16 0 0) 
+                (length 2.54) 
+                (name "NC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "7" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_in line 
+                (at -10.16 2.54 0) 
+                (length 2.54) 
+                (name "VCC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "8" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "NCP730BMT330TBG" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "U" 
+            (id 0) 
+            (at -5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Value" "NCP730BMT330TBG" 
+            (id 1) 
+            (at 0 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Footprint" "antmicro-footprints:WSON6_TI_2x2mm" 
+            (id 2) 
+            (at -1.27 -16.51 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp730-d.pdf" 
+            (id 3) 
+            (at -1.27 -8.89 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "NCP730BMT330TBG" 
+            (id 4) 
+            (at -1.27 -13.97 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Onsemi" 
+            (id 5) 
+            (at -1.27 -11.43 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_keywords" "3v3 LDO wson6 wdfn6" 
+            (id 6) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Linear Voltage Regulator IC Positive Fixed 3.3V 1 Output 150mA 6-WDFN (2x2mm)" 
+            (id 7) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "NCP730BMT330TBG_0_1" 
+            (rectangle 
+                (start -5.08 5.08) 
+                (end 5.08 -5.08) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background)))) 
+        (symbol "NCP730BMT330TBG_1_1" 
+            (pin power_out line 
+                (at 7.62 2.54 180) 
+                (length 2.54) 
+                (name "OUT" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin no_connect line 
+                (at -5.08 -2.54 0) 
+                (length 2.54) hide 
+                (name "NC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_in line 
+                (at 7.62 -2.54 180) 
+                (length 2.54) 
+                (name "GND" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -7.62 0 0) 
+                (length 2.54) 
+                (name "EN" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "4" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin open_collector line 
+                (at 7.62 0 180) 
+                (length 2.54) 
+                (name "PG" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "5" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_out line 
+                (at -7.62 2.54 0) 
+                (length 2.54) 
+                (name "IN" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "6" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 7.62 -2.54 180) 
+                (length 2.54) hide 
+                (name "EP" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "7" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "R_10k_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_10k_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0402-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "VISHAY" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CRCW040210K0FKEDHP" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "10k" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_10k_0402_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
     (symbol "C_47u_0805" 
         (pin_names 
             (offset 0)) 
@@ -11659,6 +11712,89 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
+    (symbol "R_0R_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_0R_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0402-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "PANASONIC" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERJ2GE0R00X" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "0R" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_0R_0402_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
     (symbol "WE_68715014522" 
         (pin_names 
             (offset 1.016) hide) 
@@ -14500,6 +14636,201 @@
                     (color 0 0 0 0)) 
                 (fill 
                     (type none))))) 
+    (symbol "RT6236AHGQUF" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "U" 
+            (id 0) 
+            (at -8.89 16.51 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Value" "RT6236AHGQUF" 
+            (id 1) 
+            (at 2.54 16.51 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "kria-k26-devboard-footprints:RICHTEK_13-UFQFN" 
+            (id 2) 
+            (at -10.16 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "https://www.richtek.com/assets/product_file/RT6236A=RT6236B/DS6236AB-02.pdf" 
+            (id 3) 
+            (at -10.16 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "RT6236AHGQUF" 
+            (id 4) 
+            (at -11.43 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Richtek USA Inc." 
+            (id 5) 
+            (at -11.43 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "RT6236AHGQUF_0_1" 
+            (rectangle 
+                (start -10.16 15.24) 
+                (end 8.89 -12.7) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background)))) 
+        (symbol "RT6236AHGQUF_1_1" 
+            (pin power_in line 
+                (at 0 -15.24 90) 
+                (length 2.54) 
+                (name "GND" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_in line 
+                (at -12.7 10.16 0) 
+                (length 2.54) 
+                (name "VIN" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "10" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin output line 
+                (at 11.43 7.62 180) 
+                (length 2.54) 
+                (name "BOOT" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "11" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_out line 
+                (at 11.43 12.7 180) 
+                (length 2.54) 
+                (name "SW" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "12" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_in line 
+                (at 2.54 -15.24 90) 
+                (length 2.54) 
+                (name "GND" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "13" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -12.7 5.08 0) 
+                (length 2.54) 
+                (name "EN" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at 11.43 -3.81 180) 
+                (length 2.54) 
+                (name "FB" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin no_connect line 
+                (at 5.08 -15.24 90) 
+                (length 2.54) hide 
+                (name "NC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "4" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -12.7 -11.43 0) 
+                (length 2.54) 
+                (name "SS" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "5" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin output line 
+                (at -12.7 1.27 0) 
+                (length 2.54) 
+                (name "PVCC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "6" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin no_connect line 
+                (at 7.62 -15.24 90) 
+                (length 2.54) hide 
+                (name "NC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "7" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin output line 
+                (at -12.7 -6.35 0) 
+                (length 2.54) 
+                (name "PGOOD" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "8" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_in line 
+                (at -12.7 12.7 0) 
+                (length 2.54) 
+                (name "VIN" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "9" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "C_3n9_0402" 
         (pin_names 
             (offset 0)) 
@@ -15208,7 +15539,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "antmicro-footprints:0603-res" 
+        (property "Footprint" "kria-k26-devboard-footprints:0603-res" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -15303,7 +15634,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "antmicro-footprints:0603-cap" 
+        (property "Footprint" "kria-k26-devboard-footprints:0603-cap" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -15462,284 +15793,6 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
-    (symbol "R_0R_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "R" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "R_0R_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "antmicro-footprints:0402-res" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "PANASONIC" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "ERJ2GE0R00X" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "0R" 
-            (id 6) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (symbol "R_0R_0402_1_1" 
-            (rectangle 
-                (start 2.54 -1.016) 
-                (end -2.54 1.016) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -3.81 0 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 3.81 0 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 0 0))))))) 
-    (symbol "RT6236AHGQUF" 
-        (pin_names 
-            (offset 1.016)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "U" 
-            (id 0) 
-            (at -8.89 16.51 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Value" "RT6236AHGQUF" 
-            (id 1) 
-            (at 2.54 16.51 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "antmicro-footprints:RICHTEK_13-UFQFN" 
-            (id 2) 
-            (at -10.16 -12.7 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "https://www.richtek.com/assets/product_file/RT6236A=RT6236B/DS6236AB-02.pdf" 
-            (id 3) 
-            (at -10.16 -12.7 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "MPN" "RT6236AHGQUF" 
-            (id 4) 
-            (at -11.43 -17.78 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "Richtek USA Inc." 
-            (id 5) 
-            (at -11.43 -15.24 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "RT6236AHGQUF_0_1" 
-            (rectangle 
-                (start -10.16 15.24) 
-                (end 8.89 -12.7) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background)))) 
-        (symbol "RT6236AHGQUF_1_1" 
-            (pin power_in line 
-                (at 0 -15.24 90) 
-                (length 2.54) 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at -12.7 10.16 0) 
-                (length 2.54) 
-                (name "VIN" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "10" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin output line 
-                (at 11.43 7.62 180) 
-                (length 2.54) 
-                (name "BOOT" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "11" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_out line 
-                (at 11.43 12.7 180) 
-                (length 2.54) 
-                (name "SW" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "12" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at 2.54 -15.24 90) 
-                (length 2.54) 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "13" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -12.7 5.08 0) 
-                (length 2.54) 
-                (name "EN" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at 11.43 -3.81 180) 
-                (length 2.54) 
-                (name "FB" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin no_connect line 
-                (at 5.08 -15.24 90) 
-                (length 2.54) hide 
-                (name "NC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -12.7 -11.43 0) 
-                (length 2.54) 
-                (name "SS" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin output line 
-                (at -12.7 1.27 0) 
-                (length 2.54) 
-                (name "PVCC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "6" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin no_connect line 
-                (at 7.62 -15.24 90) 
-                (length 2.54) hide 
-                (name "NC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "7" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin output line 
-                (at -12.7 -6.35 0) 
-                (length 2.54) 
-                (name "PGOOD" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "8" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at -12.7 12.7 0) 
-                (length 2.54) 
-                (name "VIN" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "9" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "oshw_logo" 
         (pin_names 
             (offset 1.016)) 
@@ -15901,13 +15954,13 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "kria-k26-devboard-footprints:TE_1-2199119-6" 
+        (property "Footprint" "antmicro-footprints:TE_1-2199119-6" 
             (id 2) 
             (at 0 13.97 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
+        (property "Datasheet" "https://www.te.com/usa-en/product-1-2199119-6.datasheet.pdf" 
             (id 3) 
             (at 0 13.97 0) 
             (effects 
@@ -15921,6 +15974,12 @@
                     (size 1.27 1.27)) hide)) 
         (property "Manufacturer" "TE Connectivity " 
             (id 5) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "PCI Express/PCI Connectors .5PITCH 3.2H KEY E EMBOSS NGFF MINICARD" 
+            (id 6) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -16159,7 +16218,7 @@
             (pin input line 
                 (at -22.86 -5.08 0) 
                 (length 5.08) 
-                (name "PER0+" 
+                (name "PET0+" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
@@ -16181,7 +16240,7 @@
             (pin input line 
                 (at -22.86 -7.62 0) 
                 (length 5.08) 
-                (name "PER0-" 
+                (name "PET0-" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
@@ -16236,7 +16295,7 @@
             (pin output line 
                 (at -22.86 -12.7 0) 
                 (length 5.08) 
-                (name "PET0+" 
+                (name "PER0+" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
@@ -16258,7 +16317,7 @@
             (pin output line 
                 (at -22.86 -15.24 0) 
                 (length 5.08) 
-                (name "PET0-" 
+                (name "PER0-" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
@@ -16445,7 +16504,7 @@
             (pin input line 
                 (at -22.86 -35.56 0) 
                 (length 5.08) 
-                (name "PER1+" 
+                (name "PET1+" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
@@ -16478,7 +16537,7 @@
             (pin input line 
                 (at -22.86 -38.1 0) 
                 (length 5.08) 
-                (name "PER1-" 
+                (name "PET1-" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
@@ -16522,7 +16581,7 @@
             (pin output line 
                 (at -22.86 -43.18 0) 
                 (length 5.08) 
-                (name "PET1+" 
+                (name "PER1+" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
@@ -16544,7 +16603,7 @@
             (pin output line 
                 (at -22.86 -45.72 0) 
                 (length 5.08) 
-                (name "PET1-" 
+                (name "PER1-" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
@@ -17367,236 +17426,6 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
-    (symbol "4x33R_0201_array" 
-        (pin_names 
-            (offset 1.016)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "R" 
-            (id 0) 
-            (at -5.08 13.97 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "4x33R_0201_array" 
-            (id 1) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)))) 
-        (property "Footprint" "kria-k26-devboard-footprints:EXB18V" 
-            (id 2) 
-            (at -5.08 19.05 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at -5.08 19.05 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "EXB-18V330JX" 
-            (id 4) 
-            (at -5.08 24.13 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Manufacturer" "Panasonic" 
-            (id 5) 
-            (at -5.08 21.59 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (symbol "4x33R_0201_array_0_1" 
-            (rectangle 
-                (start -3.81 11.43) 
-                (end 2.54 1.27) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start -1.27 8.89) 
-                (end -1.27 8.89) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -3.81 7.62) 
-                    (xy -3.175 7.62) 
-                    (xy -2.794 8.255) 
-                    (xy -2.159 7.112) 
-                    (xy -1.524 8.255) 
-                    (xy -0.889 7.112) 
-                    (xy -0.254 8.255) 
-                    (xy 0.381 7.112) 
-                    (xy 1.016 8.255) 
-                    (xy 1.397 7.62) 
-                    (xy 2.413 7.62)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "4x33R_0201_array_1_1" 
-            (polyline 
-                (pts 
-                    (xy -3.81 2.54) 
-                    (xy -3.175 2.54) 
-                    (xy -2.794 3.175) 
-                    (xy -2.159 2.032) 
-                    (xy -1.524 3.175) 
-                    (xy -0.889 2.032) 
-                    (xy -0.254 3.175) 
-                    (xy 0.381 2.032) 
-                    (xy 1.016 3.175) 
-                    (xy 1.397 2.54) 
-                    (xy 2.413 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -3.81 5.08) 
-                    (xy -3.175 5.08) 
-                    (xy -2.794 5.715) 
-                    (xy -2.159 4.572) 
-                    (xy -1.524 5.715) 
-                    (xy -0.889 4.572) 
-                    (xy -0.254 5.715) 
-                    (xy 0.381 4.572) 
-                    (xy 1.016 5.715) 
-                    (xy 1.397 5.08) 
-                    (xy 2.413 5.08)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -3.81 10.16) 
-                    (xy -3.175 10.16) 
-                    (xy -2.794 10.795) 
-                    (xy -2.159 9.652) 
-                    (xy -1.524 10.795) 
-                    (xy -0.889 9.652) 
-                    (xy -0.254 10.795) 
-                    (xy 0.381 9.652) 
-                    (xy 1.016 10.795) 
-                    (xy 1.397 10.16) 
-                    (xy 2.413 10.16)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -5.08 10.16 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at -5.08 7.62 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at -5.08 5.08 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at -5.08 2.54 0) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 3.81 2.54 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 3.81 5.08 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "6" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 3.81 7.62 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "7" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 3.81 10.16 180) 
-                (length 1.27) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "8" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "AO3401A" 
         (pin_names 
             (offset 0)) 
@@ -18108,6 +17937,236 @@
                         (font 
                             (size 1.27 1.27)))) 
                 (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "4x33R_0201_array" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -5.08 13.97 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "4x33R_0201_array" 
+            (id 1) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "antmicro-footprints:EXB18V" 
+            (id 2) 
+            (at -5.08 19.05 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
+            (id 3) 
+            (at -5.08 16.51 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "EXB-18V330JX" 
+            (id 4) 
+            (at -5.08 24.13 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "Panasonic" 
+            (id 5) 
+            (at -5.08 21.59 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (symbol "4x33R_0201_array_0_1" 
+            (rectangle 
+                (start -3.81 11.43) 
+                (end 2.54 1.27) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start -1.27 8.89) 
+                (end -1.27 8.89) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -3.81 7.62) 
+                    (xy -3.175 7.62) 
+                    (xy -2.794 8.255) 
+                    (xy -2.159 7.112) 
+                    (xy -1.524 8.255) 
+                    (xy -0.889 7.112) 
+                    (xy -0.254 8.255) 
+                    (xy 0.381 7.112) 
+                    (xy 1.016 8.255) 
+                    (xy 1.397 7.62) 
+                    (xy 2.413 7.62)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "4x33R_0201_array_1_1" 
+            (polyline 
+                (pts 
+                    (xy -3.81 2.54) 
+                    (xy -3.175 2.54) 
+                    (xy -2.794 3.175) 
+                    (xy -2.159 2.032) 
+                    (xy -1.524 3.175) 
+                    (xy -0.889 2.032) 
+                    (xy -0.254 3.175) 
+                    (xy 0.381 2.032) 
+                    (xy 1.016 3.175) 
+                    (xy 1.397 2.54) 
+                    (xy 2.413 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -3.81 5.08) 
+                    (xy -3.175 5.08) 
+                    (xy -2.794 5.715) 
+                    (xy -2.159 4.572) 
+                    (xy -1.524 5.715) 
+                    (xy -0.889 4.572) 
+                    (xy -0.254 5.715) 
+                    (xy 0.381 4.572) 
+                    (xy 1.016 5.715) 
+                    (xy 1.397 5.08) 
+                    (xy 2.413 5.08)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -3.81 10.16) 
+                    (xy -3.175 10.16) 
+                    (xy -2.794 10.795) 
+                    (xy -2.159 9.652) 
+                    (xy -1.524 10.795) 
+                    (xy -0.889 9.652) 
+                    (xy -0.254 10.795) 
+                    (xy 0.381 9.652) 
+                    (xy 1.016 10.795) 
+                    (xy 1.397 10.16) 
+                    (xy 2.413 10.16)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -5.08 10.16 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at -5.08 7.62 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at -5.08 5.08 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at -5.08 2.54 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "4" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 3.81 2.54 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "5" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 3.81 5.08 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "6" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 3.81 7.62 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "7" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 3.81 10.16 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "8" 
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
@@ -19655,6 +19714,89 @@
                 (font 
                     (size 1.27 1.27)))) 
         (symbol "R_50R_0402_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
+    (symbol "R_100k_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_100k_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0402-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "VISHAY" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CRCW0402100KFKEDHP" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "100k" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_100k_0402_1_1" 
             (rectangle 
                 (start 2.54 -1.016) 
                 (end -2.54 1.016) 
@@ -22715,134 +22857,6 @@
                     (effects 
                         (font 
                             (size 1.4986 1.4986))))))) 
-    (symbol "TPS2066TDGNRQ1" 
-        (pin_names 
-            (offset 1.016)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "U" 
-            (id 0) 
-            (at 1.27 1.27 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Value" "TPS2066TDGNRQ1" 
-            (id 1) 
-            (at 8.89 -25.4 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "kria-k26-devboard-footprints:SOP65P490X110-9N" 
-            (id 2) 
-            (at 0 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "TPS2066TDGNRQ1_0_1" 
-            (rectangle 
-                (start 0 0) 
-                (end 16.51 -24.13) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background)))) 
-        (symbol "TPS2066TDGNRQ1_1_1" 
-            (pin input line 
-                (at 19.05 -21.59 180) 
-                (length 2.54) 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -2.54 -2.54 0) 
-                (length 2.54) 
-                (name "IN" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -2.54 -10.16 0) 
-                (length 2.54) 
-                (name "EN1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -2.54 -15.24 0) 
-                (length 2.54) 
-                (name "EN2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -2.54 -12.7 0) 
-                (length 2.54) 
-                (name "~{OC2}" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at 19.05 -12.7 180) 
-                (length 2.54) 
-                (name "OUT2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "6" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at 19.05 -7.62 180) 
-                (length 2.54) 
-                (name "OUT1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "7" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -2.54 -7.62 0) 
-                (length 2.54) 
-                (name "~{OC1}" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "8" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "GSB3112311HR" 
         (pin_names 
             (offset 1.016)) 
@@ -23248,6 +23262,349 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
+    (symbol "C_2u2_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "C" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_2u2_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "TDK" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "C1005X5R1A225K050BC" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "2u2" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "C_2u2_0402_1_1" 
+            (polyline 
+                (pts 
+                    (xy -2.032 -0.762) 
+                    (xy 2.032 -0.762)) 
+                (stroke 
+                    (width 0.508) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 0.762) 
+                    (xy 2.032 0.762)) 
+                (stroke 
+                    (width 0.508) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at 0 3.81 270) 
+                (length 2.794) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 0 -3.81 90) 
+                (length 2.794) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
+    (symbol "R_8k06_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_8k06_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Vishay/Dale" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CRCW04028K06FKEDC" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "8k06" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_8k06_0402_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
+    (symbol "R_43k_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_43k_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0402-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "ROYAL_OHM" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "0402WGF4302TCE" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "43k" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_43k_0402_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
+    (symbol "R_49k9_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_49k9_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0402-res" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "VISHAY" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CRCW040249K9FKED" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "49k9" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "R_49k9_0402_1_1" 
+            (rectangle 
+                (start 2.54 -1.016) 
+                (end -2.54 1.016) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at -3.81 0 0) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 3.81 0 180) 
+                (length 1.27) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
     (symbol "USB3310C-CP" 
         (pin_names 
             (offset 0.254)) 
@@ -23265,18 +23622,36 @@
             (effects 
                 (font 
                     (size 1.524 1.524)))) 
-        (property "Footprint" "kria-k26-devboard-footprints:Microchip_QFN24_4X4" 
+        (property "Footprint" "antmicro-footprints:Microchip_QFN24_4X4" 
             (id 2) 
             (at 27.94 6.096 0) 
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Datasheet" "" 
+        (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/00002363A.pdf" 
             (id 3) 
             (at 55.88 -6.35 0) 
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
+        (property "MPN" "USB3310C-CP" 
+            (id 4) 
+            (at 38.1 -49.53 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Microchip Technology" 
+            (id 5) 
+            (at 41.91 -46.99 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Hi-Speed USB Transceiver with 1.8 V ULPI Interface - Multi-Frequency Reference Clock" 
+            (id 6) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
         (symbol "USB3310C-CP_0_1" 
             (rectangle 
                 (start 7.62 5.08) 
@@ -23607,360 +23982,146 @@
                     (effects 
                         (font 
                             (size 1.4986 1.4986))))))) 
-    (symbol "C_2u2_0402" 
+    (symbol "TPS2066TDGNRQ1" 
         (pin_names 
-            (offset 0)) 
+            (offset 1.016)) 
         (in_bom yes) 
         (on_board yes) 
-        (property "Reference" "C" 
+        (property "Reference" "U" 
             (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "C_2u2_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "TDK" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "C1005X5R1A225K050BC" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "2u2" 
-            (id 6) 
-            (at 0 -2.54 0) 
+            (at 1.27 1.27 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (symbol "C_2u2_0402_1_1" 
-            (polyline 
-                (pts 
-                    (xy -2.032 -0.762) 
-                    (xy 2.032 -0.762)) 
-                (stroke 
-                    (width 0.508) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 0.762) 
-                    (xy 2.032 0.762)) 
-                (stroke 
-                    (width 0.508) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at 0 3.81 270) 
-                (length 2.794) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 0 -3.81 90) 
-                (length 2.794) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 0 0)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 0 0))))))) 
-    (symbol "R_8k06_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "R" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "R_8k06_0402" 
+        (property "Value" "TPS2066TDGNRQ1" 
             (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "Vishay/Dale" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "CRCW04028K06FKEDC" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "8k06" 
-            (id 6) 
-            (at 0 -2.54 0) 
+            (at 8.89 -25.4 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (symbol "R_8k06_0402_1_1" 
+        (property "Footprint" "antmicro-footprints:SOP65P490X110-9N" 
+            (id 2) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "TPS2066TDGNRQ1" 
+            (id 4) 
+            (at 8.89 -30.48 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Texas Instruments" 
+            (id 5) 
+            (at 8.89 -27.94 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "TPS2066TDGNRQ1_0_1" 
             (rectangle 
-                (start 2.54 -1.016) 
-                (end -2.54 1.016) 
+                (start 0 0) 
+                (end 16.51 -24.13) 
                 (stroke 
-                    (width 0.254) 
+                    (width 0) 
                     (type default) 
                     (color 0 0 0 0)) 
                 (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -3.81 0 0) 
-                (length 1.27) 
-                (name "~" 
+                    (type background)))) 
+        (symbol "TPS2066TDGNRQ1_1_1" 
+            (pin input line 
+                (at 19.05 -21.59 180) 
+                (length 2.54) 
+                (name "GND" 
                     (effects 
                         (font 
-                            (size 0 0)))) 
+                            (size 1.27 1.27)))) 
                 (number "1" 
                     (effects 
                         (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 3.81 0 180) 
-                (length 1.27) 
-                (name "~" 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -2.54 -2.54 0) 
+                (length 2.54) 
+                (name "IN" 
                     (effects 
                         (font 
-                            (size 0 0)))) 
+                            (size 1.27 1.27)))) 
                 (number "2" 
                     (effects 
                         (font 
-                            (size 0 0))))))) 
-    (symbol "R_49k9_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "R" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "R_49k9_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:0402-res" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "VISHAY" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "CRCW040249K9FKED" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "49k9" 
-            (id 6) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (symbol "R_49k9_0402_1_1" 
-            (rectangle 
-                (start 2.54 -1.016) 
-                (end -2.54 1.016) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at -3.81 0 0) 
-                (length 1.27) 
-                (name "~" 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -2.54 -10.16 0) 
+                (length 2.54) 
+                (name "EN1" 
                     (effects 
                         (font 
-                            (size 0 0)))) 
-                (number "1" 
+                            (size 1.27 1.27)))) 
+                (number "3" 
                     (effects 
                         (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 3.81 0 180) 
-                (length 1.27) 
-                (name "~" 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -2.54 -15.24 0) 
+                (length 2.54) 
+                (name "EN2" 
                     (effects 
                         (font 
-                            (size 0 0)))) 
-                (number "2" 
+                            (size 1.27 1.27)))) 
+                (number "4" 
                     (effects 
                         (font 
-                            (size 0 0))))))) 
-    (symbol "C_10u_0402" 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "C" 
-            (id 0) 
-            (at -1.397 3.429 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left))) 
-        (property "Value" "C_10u_0402" 
-            (id 1) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Footprint" "kria-k26-devboard-footprints:0402-cap" 
-            (id 2) 
-            (at 5.08 5.08 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "YAGEO" 
-            (id 4) 
-            (at 5.08 10.16 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "MPN" "CC0402MRX5R5BB106" 
-            (id 5) 
-            (at 5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (property "Val" "10u" 
-            (id 6) 
-            (at 0 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (symbol "C_10u_0402_1_1" 
-            (polyline 
-                (pts 
-                    (xy -2.032 -0.762) 
-                    (xy 2.032 -0.762)) 
-                (stroke 
-                    (width 0.508) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy -2.032 0.762) 
-                    (xy 2.032 0.762)) 
-                (stroke 
-                    (width 0.508) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (pin passive line 
-                (at 0 3.81 270) 
-                (length 2.794) 
-                (name "~" 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -2.54 -12.7 0) 
+                (length 2.54) 
+                (name "~{OC2}" 
                     (effects 
                         (font 
-                            (size 0 0)))) 
-                (number "1" 
+                            (size 1.27 1.27)))) 
+                (number "5" 
                     (effects 
                         (font 
-                            (size 0 0))))) 
-            (pin passive line 
-                (at 0 -3.81 90) 
-                (length 2.794) 
-                (name "~" 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at 19.05 -12.7 180) 
+                (length 2.54) 
+                (name "OUT2" 
                     (effects 
                         (font 
-                            (size 0 0)))) 
-                (number "2" 
+                            (size 1.27 1.27)))) 
+                (number "6" 
                     (effects 
                         (font 
-                            (size 0 0))))))) 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at 19.05 -7.62 180) 
+                (length 2.54) 
+                (name "OUT1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "7" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -2.54 -7.62 0) 
+                (length 2.54) 
+                (name "~{OC1}" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "8" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "WE-TVS-824012823" 
         (in_bom yes) 
         (on_board yes) 
@@ -27267,6 +27428,100 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
+    (symbol "C_10u_0402" 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "C" 
+            (id 0) 
+            (at -1.397 3.429 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_10u_0402" 
+            (id 1) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "antmicro-footprints:0402-cap" 
+            (id 2) 
+            (at 5.08 5.08 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "YAGEO" 
+            (id 4) 
+            (at 5.08 10.16 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CC0402MRX5R5BB106" 
+            (id 5) 
+            (at 5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "10u" 
+            (id 6) 
+            (at 0 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (symbol "C_10u_0402_1_1" 
+            (polyline 
+                (pts 
+                    (xy -2.032 -0.762) 
+                    (xy 2.032 -0.762)) 
+                (stroke 
+                    (width 0.508) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy -2.032 0.762) 
+                    (xy 2.032 0.762)) 
+                (stroke 
+                    (width 0.508) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at 0 3.81 270) 
+                (length 2.794) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 0 0))))) 
+            (pin passive line 
+                (at 0 -3.81 90) 
+                (length 2.794) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 0 0)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 0 0))))))) 
     (symbol "SSW-106-02-G-D-RA" 
         (pin_names 
             (offset 1.016)) 
