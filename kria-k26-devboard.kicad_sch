@@ -6072,6 +6072,9 @@
     (path "/00000000-0000-0000-0000-0000625b0244/b1faf546-9570-458a-8d5c-e62c921ab262"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000625b0244/c524aa51-8f15-43f6-af2f-fe8357276ca0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000625b0244/c78cb209-e815-4aff-ab28-77f81e9249ea"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -7590,6 +7593,9 @@
     (path "/00000000-0000-0000-0000-000063cadd16/687cde43-3ad5-4cf9-9ec1-5640cd5da154"
       (reference "R?") (unit 1) (value "R_49k9_0402") (footprint "antmicro-footprints:0402-res")
     )
+    (path "/00000000-0000-0000-0000-0000625b0244/b9ac366f-f032-4e1f-909a-f9f176356eaa"
+      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-0000622b7dc8/e206d95e-d55b-4813-9356-07b506f8084c"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
@@ -7799,6 +7805,15 @@
     )
     (path "/00000000-0000-0000-0000-000063aa2bfe/d0a380e6-f6c0-4eee-a45e-c7058832611c"
       (reference "TP62") (unit 1) (value "TP_SMD_0_75MM") (footprint "kria-k26-devboard-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/00000000-0000-0000-0000-0000625b0244/53380a5a-4cdc-4f82-a1ff-99e7993c88d0"
+      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/00000000-0000-0000-0000-0000625b0244/ddeaa298-f311-4349-b1ff-e3aee81bbba0"
+      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/00000000-0000-0000-0000-0000625b0244/feefaf2c-bb9b-4da5-bcbc-98c9ea4f16cf"
+      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-0000635038ed"
       (reference "U1") (unit 1) (value "74AVC4T245RSVRG4") (footprint "kria-k26-devboard-footprints:Texas_16-UFQFN")
