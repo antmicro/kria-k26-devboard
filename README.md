@@ -45,7 +45,7 @@ The on-board camera connector is electrically compatible with several video acce
 
 ## Board diagram
 
-![Kria K26 Devboard block diagram](antmicro-kria-k26-devboard-block-diagram.png)
+![Kria K26 Devboard block diagram](doc/antmicro-kria-k26-devboard-block-diagram.png)
 
 ## License
 
