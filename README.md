@@ -43,6 +43,10 @@ The on-board camera connector is electrically compatible with several video acce
 * [SDI-MIPI bridge](https://github.com/antmicro/sdi-mipi-bridge)
 * [HDMI-MIPI bridge](https://github.com/antmicro/hdmi-mipi-bridge)
 
+## Board diagram
+
+![Kria K26 Devboard block diagram](antmicro-kria-k26-devboard-block-diagram.png)
+
 ## License
 
 [Apache-2.0](LICENSE)
