@@ -6,8 +6,8 @@
 
   (title_block
     (title "Kria K26 Devboard")
-    (date "2023-03-03")
-    (rev "1.2.0")
+    (date "2023-07-27")
+    (rev "1.2.1")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
