@@ -7095,6 +7095,9 @@
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/e70d5cb3-bba7-42c5-9f66-fe76ac2d161d"
       (reference "Q18") (unit 1) (value "DTC014TEBTL") (footprint "kria-k26-devboard-footprints:SOT-416")
     )
+    (path "/00000000-0000-0000-0000-0000622b7dc8/30046ee5-e33f-4ba6-a353-81ab6b3b7cca"
+      (reference "Q19") (unit 1) (value "DTC014TEBTL") (footprint "kria-k26-devboard-footprints:SOT-416")
+    )
     (path "/00000000-0000-0000-0000-000062a3b8dc"
       (reference "R1") (unit 1) (value "R_330R_0402") (footprint "kria-k26-devboard-footprints:0402-res")
     )
@@ -7622,6 +7625,12 @@
     )
     (path "/00000000-0000-0000-0000-000063c2dc7f/6567c39f-e076-44a3-a92a-2021e638ff0a"
       (reference "R176") (unit 1) (value "R_100k_0402") (footprint "kria-k26-devboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622b7dc8/6f91c1ca-e8c8-4a3f-9420-d6fb1b9338e6"
+      (reference "R177") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000622b7dc8/210341f2-15cf-4b3b-85c3-90a9bb6e481c"
+      (reference "R178") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000065aaf1bf/00000000-0000-0000-0000-000065caccc2"
       (reference "S1") (unit 1) (value "KMR2") (footprint "kria-k26-devboard-footprints:SW_SPST_4.2x2.8")
