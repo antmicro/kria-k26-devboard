@@ -4072,7 +4072,7 @@
     (property "Value" "antmicro_logo" (id 1) (at 31.75 263.1375 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "kria-k26-devboard-footprints:antmicro-logo" (id 2) (at 22.86 256.54 0)
+    (property "Footprint" "kria-k26-devboard-footprints:antmicro-logo_scaled_30mm" (id 2) (at 22.86 256.54 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 25.4 254 0)
@@ -7103,7 +7103,7 @@
       (reference "MP4") (unit 1) (value "PCB_Mount_Hole_3mm_6mm_pad") (footprint "kria-k26-devboard-footprints:mounting-hole-3.2mm")
     )
     (path "/00000000-0000-0000-0000-00006b81f324"
-      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "kria-k26-devboard-footprints:antmicro-logo")
+      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "kria-k26-devboard-footprints:antmicro-logo_scaled_30mm")
     )
     (path "/00000000-0000-0000-0000-000063fcc534"
       (reference "N2") (unit 1) (value "oshw_logo") (footprint "kria-k26-devboard-footprints:oshw-logo")
