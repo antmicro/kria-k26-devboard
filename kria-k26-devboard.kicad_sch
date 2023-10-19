@@ -7,7 +7,7 @@
   (title_block
     (title "Kria K26 Devboard")
     (date "2023-10-19")
-    (rev "1.2.2")
+    (rev "1.2.3")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -231,7 +231,6 @@
       )
     )
   )
-
 
   (junction (at 55.88 234.315) (diameter 0) (color 0 0 0 0)
     (uuid 4c3ffe98-7b16-4659-83f9-427cff53e760)
@@ -5200,9 +5199,6 @@
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-0000626fe418"
       (reference "#PWR087") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-00006351de04"
-      (reference "#PWR088") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000066c7be9d"
       (reference "#PWR089") (unit 1) (value "GND") (footprint "")
     )
@@ -5221,14 +5217,8 @@
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062872583"
       (reference "#PWR096") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062b244f8"
-      (reference "#PWR097") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-00006277df6e"
       (reference "#PWR098") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062b2445c"
-      (reference "#PWR099") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000066ab06a9"
       (reference "#PWR0100") (unit 1) (value "GND") (footprint "")
@@ -6067,6 +6057,12 @@
     (path "/00000000-0000-0000-0000-000063fe614f/6a9d906e-441c-4818-ba93-e8f60471d98c"
       (reference "#PWR0378") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000063cadd16/66beccd6-13a5-4452-b9c9-62d06889fdad"
+      (reference "#PWR0379") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063cadd16/36ac3f30-22c8-4099-9722-87cf1505ec39"
+      (reference "#PWR0380") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000063c44bc2/00000000-0000-0000-0000-00006244f9d5/00000000-0000-0000-0000-000062925ced"
       (reference "#PWR0381") (unit 1) (value "GND") (footprint "")
     )
@@ -6120,6 +6116,9 @@
     )
     (path "/00000000-0000-0000-0000-000062c5a15f/00000000-0000-0000-0000-000065600ffc"
       (reference "#PWR0398") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063cadd16/d80c0294-cb1d-4d06-a363-8095157f0acc"
+      (reference "#PWR0399") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062c5a15f/00000000-0000-0000-0000-0000656cb469"
       (reference "#PWR0400") (unit 1) (value "GND") (footprint "")
@@ -7927,8 +7926,8 @@
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-000063c499aa"
       (reference "U2") (unit 1) (value "FIN1019MTC") (footprint "kria-k26-devboard-footprints:TSSOP-14_4.4x5mm_P0.65mm")
     )
-    (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-000065a7fe9e"
-      (reference "U3") (unit 1) (value "TPD4E05U06QDQARQ1_ALT") (footprint "kria-k26-devboard-footprints:USON-10_2.5x1mm_P0.5mm")
+    (path "/00000000-0000-0000-0000-000063cae093/2503d86d-a61e-4377-ad42-b3797e7d5db6"
+      (reference "U3") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000063cae093/00000000-0000-0000-0000-000062c93ef8"
       (reference "U4") (unit 1) (value "824012823") (footprint "kria-k26-devboard-footprints:DFN1210-6")
@@ -7975,8 +7974,8 @@
     (path "/00000000-0000-0000-0000-000063cadd16/bde7320a-c1e5-4b6f-816d-e177fbd27a36"
       (reference "U18") (unit 1) (value "TPS2066TDGNRQ1") (footprint "kria-k26-devboard-footprints:VSSOP-8-1EP_3x3x1.1mm_P0.65mm")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-0000630f6f68"
-      (reference "U19") (unit 1) (value "TPD4E05U06QDQARQ1_ALT") (footprint "kria-k26-devboard-footprints:USON-10_2.5x1mm_P0.5mm")
+    (path "/00000000-0000-0000-0000-000063cadd16/28d00b7c-4aa8-4e54-bd1e-83dbdcea1f3c"
+      (reference "U19") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062cff69b"
       (reference "U20") (unit 1) (value "82400152") (footprint "kria-k26-devboard-footprints:SOT-563")
@@ -7984,8 +7983,8 @@
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062d0b2a5"
       (reference "U21") (unit 1) (value "82400152") (footprint "kria-k26-devboard-footprints:SOT-563")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000065d92c4b"
-      (reference "U22") (unit 1) (value "TPD4E05U06QDQARQ1_ALT") (footprint "kria-k26-devboard-footprints:USON-10_2.5x1mm_P0.5mm")
+    (path "/00000000-0000-0000-0000-000063cadd16/e1769646-ef17-44d1-a832-cf4b217b5ce5"
+      (reference "U22") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/78e9f6c9-66be-4b5a-b8d8-474b7e2af3ab"
       (reference "U23") (unit 1) (value "USB3310C-CP") (footprint "kria-k26-devboard-footprints:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
@@ -7996,8 +7995,8 @@
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062ab1516"
       (reference "U24") (unit 2) (value "USB-A_GSB3112311HR") (footprint "kria-k26-devboard-footprints:USB-3.1-Gen1_Type-A_x2_Amphenol_GSB3112311HR_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000064ccc6f9"
-      (reference "U25") (unit 1) (value "TPD4E05U06QDQARQ1_ALT") (footprint "kria-k26-devboard-footprints:USON-10_2.5x1mm_P0.5mm")
+    (path "/00000000-0000-0000-0000-000063cadd16/4073fc9b-34b5-4fcc-8e6e-cc770469e661"
+      (reference "U25") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062d03db6"
       (reference "U26") (unit 1) (value "82400152") (footprint "kria-k26-devboard-footprints:SOT-563")
@@ -8005,8 +8004,8 @@
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-00006277dc01"
       (reference "U27") (unit 1) (value "82400152") (footprint "kria-k26-devboard-footprints:SOT-563")
     )
-    (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000066d2c290"
-      (reference "U28") (unit 1) (value "TPD4E05U06QDQARQ1_ALT") (footprint "kria-k26-devboard-footprints:USON-10_2.5x1mm_P0.5mm")
+    (path "/00000000-0000-0000-0000-000063cadd16/f92c2384-f573-422a-999d-ad3719e0522b"
+      (reference "U28") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/00000000-0000-0000-0000-000062b24027"
       (reference "U29") (unit 1) (value "USB-A_GSB3112311HR") (footprint "kria-k26-devboard-footprints:USB-3.1-Gen1_Type-A_x2_Amphenol_GSB3112311HR_Horizontal")

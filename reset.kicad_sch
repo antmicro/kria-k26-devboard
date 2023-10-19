@@ -7,7 +7,7 @@
   (title_block
     (title "Kria K26 Devboard")
     (date "2023-10-19")
-    (rev "1.2.2")
+    (rev "1.2.3")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -1455,7 +1455,6 @@
       )
     )
   )
-
 
   (junction (at 357.505 142.24) (diameter 0) (color 0 0 0 0)
     (uuid 07121c96-b61a-4229-ad1a-328bfa253bf3)
