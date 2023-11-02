@@ -12,15 +12,15 @@
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp b72d8a24-3629-42b8-abdc-fb8f6adb2619)
   )
-  (fp_text user "${REFERENCE}" (at -2.503 5.4 0) (layer "F.Fab") hide
+  (fp_text user "${REFERENCE}" (at -2.503 5.4) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp bae98479-a266-4e9b-9674-e6d3bf5e9f88)
   )
-  (fp_text user "License: Apache-2.0" (at -2.503 6.6000000000000005 0) (layer "F.Fab") hide
+  (fp_text user "License: Apache-2.0" (at -2.503 6.6) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp c59a75bf-b3c4-46c8-be7f-208d1ffd8ae7)
   )
-  (fp_text user "Author: Antmicro" (at -2.503 7.800000000000001 0) (layer "F.Fab") hide
+  (fp_text user "Author: Antmicro" (at -2.503 7.8) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp ccd352c3-e546-4c28-ac82-9f5381d40824)
   )

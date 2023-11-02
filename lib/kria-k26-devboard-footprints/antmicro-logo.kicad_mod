@@ -3,11 +3,12 @@
   (tedit 5E4A93DE)
   (descr "Antmicro Logo")
   (tags "Antmicro Logo")
+  (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at -7.701 -10.301) (layer "F.SilkS") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 7af315de-f805-45e9-939e-9c6c5cdc88e5)
   )
-  (fp_text value "antmicro-logo" (at -5.3 10.099) (layer "F.SilkS") hide
+  (fp_text value "antmicro-logo" (at -5.3 10.099) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 96322bca-c9fb-4430-a5fb-f140d8016b5e)
   )
