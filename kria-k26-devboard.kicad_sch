@@ -6,8 +6,8 @@
 
   (title_block
     (title "Kria K26 Devboard")
-    (date "2023-10-19")
-    (rev "1.2.3")
+    (date "2023-11-02")
+    (rev "1.2.4")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -7710,17 +7710,17 @@
     (path "/00000000-0000-0000-0000-0000622b7dc8/9b89b6cf-3783-4174-868e-d76f281cf990"
       (reference "S2") (unit 1) (value "SW_SPST_KMR211NGLFS") (footprint "kria-k26-devboard-footprints:SW_SPST_4.2x2.8")
     )
-    (path "/00000000-0000-0000-0000-0000622b7dc8/00000000-0000-0000-0000-000062b59055"
-      (reference "SP1") (unit 1) (value "Spacer_H5.15mm_JSOM-0515-01") (footprint "kria-k26-devboard-footprints:Spacer_M5mm_H4.65mm_Samtec_JSOM-0515-01")
+    (path "/00000000-0000-0000-0000-0000622b7dc8/2f607958-abb9-4999-9c7d-fe7d482c1619"
+      (reference "SP1") (unit 1) (value "Spacer_Drill4.45mm_H5mm_9774050960R") (footprint "antmicro-footprints:Spacer_Drill4.45mm_H5mm_9774050960R")
     )
-    (path "/00000000-0000-0000-0000-0000622b7dc8/00000000-0000-0000-0000-0000628af44e"
-      (reference "SP2") (unit 1) (value "Spacer_H5.15mm_JSOM-0515-01") (footprint "kria-k26-devboard-footprints:Spacer_M5mm_H4.65mm_Samtec_JSOM-0515-01")
+    (path "/00000000-0000-0000-0000-0000622b7dc8/a34a9ab3-4aae-4749-8443-ddff734f6627"
+      (reference "SP2") (unit 1) (value "Spacer_Drill4.45mm_H5mm_9774050960R") (footprint "antmicro-footprints:Spacer_Drill4.45mm_H5mm_9774050960R")
     )
-    (path "/00000000-0000-0000-0000-0000622b7dc8/00000000-0000-0000-0000-000062b58bca"
-      (reference "SP3") (unit 1) (value "Spacer_H5.15mm_JSOM-0515-01") (footprint "kria-k26-devboard-footprints:Spacer_M5mm_H4.65mm_Samtec_JSOM-0515-01")
+    (path "/00000000-0000-0000-0000-0000622b7dc8/ad24d425-389d-4ef1-8e86-e065e6dd288d"
+      (reference "SP3") (unit 1) (value "Spacer_Drill4.45mm_H5mm_9774050960R") (footprint "antmicro-footprints:Spacer_Drill4.45mm_H5mm_9774050960R")
     )
-    (path "/00000000-0000-0000-0000-0000622b7dc8/00000000-0000-0000-0000-000062e38346"
-      (reference "SP4") (unit 1) (value "Spacer_H5.15mm_JSOM-0515-01") (footprint "kria-k26-devboard-footprints:Spacer_M5mm_H4.65mm_Samtec_JSOM-0515-01")
+    (path "/00000000-0000-0000-0000-0000622b7dc8/e16ab105-d600-4831-b609-af5cbae63e3c"
+      (reference "SP4") (unit 1) (value "Spacer_Drill4.45mm_H5mm_9774050960R") (footprint "antmicro-footprints:Spacer_Drill4.45mm_H5mm_9774050960R")
     )
     (path "/00000000-0000-0000-0000-000062c5a15f/00000000-0000-0000-0000-000062573850"
       (reference "SP5") (unit 1) (value "Spacer_H1.5mm_9774015243R") (footprint "kria-k26-devboard-footprints:Spacer_SMD_M2_H1.5mm_Wurth_9774015243R")
@@ -7959,11 +7959,11 @@
     (path "/00000000-0000-0000-0000-000063aa2bfe/00000000-0000-0000-0000-000063aa3244"
       (reference "U13") (unit 1) (value "M24C64-F_DFN8") (footprint "kria-k26-devboard-footprints:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm")
     )
-    (path "/00000000-0000-0000-0000-000063fe614f/00000000-0000-0000-0000-000068da8e80"
-      (reference "U14") (unit 1) (value "TPD4E05U06QDQARQ1_ALT") (footprint "kria-k26-devboard-footprints:USON-10_2.5x1mm_P0.5mm")
+    (path "/00000000-0000-0000-0000-000063fe614f/683c7ae1-bc14-46e7-b9b3-9ce6bb1d9687"
+      (reference "U14") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
-    (path "/00000000-0000-0000-0000-000063fe614f/00000000-0000-0000-0000-000068df9ef9"
-      (reference "U15") (unit 1) (value "TPD4E05U06QDQARQ1_ALT") (footprint "kria-k26-devboard-footprints:USON-10_2.5x1mm_P0.5mm")
+    (path "/00000000-0000-0000-0000-000063fe614f/1ae9571b-678d-4ad7-b405-02206d94f8fb"
+      (reference "U15") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000063cadd16/fdcfc9ea-7f73-4773-ae52-9934314e51b3"
       (reference "U16") (unit 1) (value "TPS2066TDGNRQ1") (footprint "kria-k26-devboard-footprints:VSSOP-8-1EP_3x3x1.1mm_P0.65mm")
