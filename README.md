@@ -11,7 +11,7 @@ Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
 This project contains open hardware design files for a devkit created for AMD-Xilinx [Kria K26](https://www.xilinx.com/products/som/kria.html) System on Module (SoM).
 
 This development board routes the I/O interfaces from the SoM and provides the necessary power buses.
-The design files were prepared in KiCad 6.
+The design files were prepared in KiCad 7.
 
 ## Project structure
 
