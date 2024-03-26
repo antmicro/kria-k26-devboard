@@ -63,7 +63,7 @@
   (pad "A" smd roundrect (at 1.05 0.001) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp d0c40112-4dd0-4aab-b0c9-ca71b0e437b8))
   (pad "K" smd roundrect (at -1.051 0.001) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 09bdbd97-e2c7-403c-82da-600f91d672a4))
   (model "${KIPRJMOD}/lib/3d-models/SOD323F.step"
-    (offset (xyz -0 -0.001 0))
+    (offset (xyz 0 -0.001 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

@@ -284,7 +284,7 @@
   (pad "8" smd rect (at 2.71 -1.905 90) (size 0.65 1.525) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 405e8198-dafa-423f-b1fc-d9a190db4f60))
   (pad "9" smd rect (at 0 0) (size 2.29 3.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bd84984c-5e56-4f2a-95c0-9561b8c14da8))
   (model "${KIPRJMOD}/lib/3d-models/TPS2378DDA.step"
-    (offset (xyz -0 -0.001 0))
+    (offset (xyz 0 -0.001 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

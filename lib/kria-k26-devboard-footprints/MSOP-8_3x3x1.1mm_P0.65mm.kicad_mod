@@ -529,7 +529,7 @@
   (pad "7" smd roundrect (at 2.201 -0.326 270) (size 0.45 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c484693f-8494-47ed-b901-7d476730b3d3))
   (pad "8" smd roundrect (at 2.201 -0.977 270) (size 0.45 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 76b68fdc-3254-454d-aeed-b4cc20a5c40a))
   (model "${KIPRJMOD}/lib/3d-models/MSOP8-3-0.65mm.step"
-    (offset (xyz -0 0 0))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
