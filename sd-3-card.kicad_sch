@@ -79,7 +79,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_470n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -146,7 +145,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0603:C_10u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -213,7 +211,6 @@
         )
       )
     )
-
     (symbol "antmicroLogicTranslatorsLevelShifters:NVT4858_XQFN" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 53.34 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -239,10 +236,10 @@
       (property "License" "Apache-2.0" (at 53.34 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_keywords" "SD, microSD, EMI filter, ESD protection" (at 0 0 0)
+      (property "ki_keywords" "SMT, LEVEL-SHIFTER, IC, LOGIC" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "SD, SDIO, mini SD, micro SD and SIM card voltage level translator with EMI filter and ESD protection" (at 0 0 0)
+      (property "ki_description" "Level Translator, 4 Input, 1.08 V to 1.98 V, xQFN-16" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "NVT4858_XQFN_1_1"
@@ -316,7 +313,6 @@
         )
       )
     )
-
     (symbol "antmicroMemoryConnectorsPCCardSockets:MicroSD_1140084168" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 38.1 -3.81 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -342,7 +338,10 @@
       (property "License" "Apache-2.0" (at 38.1 -21.59 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_description" "Micro SD Right Angle, PCB Mount" (at 0 0 0)
+      (property "ki_keywords" "HORIZONTAL, SMT, MEMORY, CONNECTOR, MICRO" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Memory Card Connector, MicroSD, Push-Pull, 8 Contacts, Copper Alloy, Gold Plated Contacts" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "MicroSD_1140084168_1_1"
@@ -410,7 +409,6 @@
         )
       )
     )
-
     (symbol "antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2116DRLR" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 34.29 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -436,7 +434,10 @@
       (property "License" "Apache-2.0" (at 34.29 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_description" " 1.6 V to 5.5 V, 2.5-A Low IQ Power Mux with Manual and Priority Switchover" (at 0 0 0)
+      (property "ki_keywords" "SMT, SWITCH, IC, POWER, DRIVER" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power switch" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "DRL0008A-MFG" (at 0 0 0)
@@ -481,7 +482,6 @@
         )
       )
     )
-
     (symbol "antmicroResistorNetworksArrays:R_4x33R_0201_array" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -631,7 +631,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -683,7 +682,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_1k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -735,7 +733,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_33R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -787,7 +784,6 @@
         )
       )
     )
-
     (symbol "antmicroTestPoints:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -827,7 +823,6 @@
         )
       )
     )
-
     (symbol "antmicroTransistorsFETsMOSFETsSingle:AO3401A" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 22.86 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -998,7 +993,6 @@
         )
       )
     )
-
     (symbol "antmicroTransistorsFETsMOSFETsSingle:BSS123" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 22.86 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1169,7 +1163,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1287,6 +1280,7 @@
     (stroke (width 0) (type default))
     (uuid 08226e8d-eb22-48f9-bf84-7ea2b2fa34ac)
   )
+
   (wire (pts (xy 198.12 189.23) (xy 192.405 189.23))
     (stroke (width 0) (type default))
     (uuid 0a7dc696-6b77-4f8f-922b-0c1a3ca6f766)
@@ -1311,6 +1305,7 @@
     (stroke (width 0) (type default))
     (uuid 0f492037-0960-4df8-8561-1e52dd221020)
   )
+
   (wire (pts (xy 135.89 110.49) (xy 137.16 110.49))
     (stroke (width 0) (type default))
     (uuid 11a70bb7-7fed-4f4e-b14f-32e7afa9c218)
@@ -1331,6 +1326,7 @@
     (stroke (width 0) (type default))
     (uuid 1aba5e52-a0bc-4163-a0f9-4e3c4b759f72)
   )
+
   (wire (pts (xy 249.555 85.725) (xy 249.555 91.44))
     (stroke (width 0) (type default))
     (uuid 1b649cb7-0d6d-4cc1-bb45-be199edd376a)
@@ -1367,6 +1363,7 @@
     (stroke (width 0) (type default))
     (uuid 2ebe526f-7075-4a07-9f8d-9f14cddc3e52)
   )
+
   (wire (pts (xy 142.875 182.88) (xy 217.805 182.88))
     (stroke (width 0) (type default))
     (uuid 30c9e1df-9004-431c-b94a-eae25fe853d1)
@@ -1439,6 +1436,7 @@
     (stroke (width 0) (type default))
     (uuid 5f0d1a78-a93d-4286-a3ee-3fdcf6ee8ea6)
   )
+
   (wire (pts (xy 135.89 107.95) (xy 152.4 107.95))
     (stroke (width 0) (type default))
     (uuid 6ecd01ca-b817-4fd9-a501-9c7611367666)
@@ -1467,6 +1465,7 @@
     (stroke (width 0) (type default))
     (uuid 7cf12193-7130-42a3-a72d-da70b11ddba8)
   )
+
   (wire (pts (xy 234.315 95.25) (xy 234.315 97.155))
     (stroke (width 0) (type default))
     (uuid 7d79a6d6-d336-4006-97f5-12461042d4ea)
@@ -1487,6 +1486,7 @@
     (stroke (width 0) (type default))
     (uuid 8298f100-5f92-40d6-8b25-896118c8c857)
   )
+
   (wire (pts (xy 234.315 95.25) (xy 241.935 95.25))
     (stroke (width 0) (type default))
     (uuid 84131428-291f-43e2-93ee-b3d69f673a59)
@@ -1607,6 +1607,7 @@
     (stroke (width 0) (type default))
     (uuid d3726596-1119-4b3b-8163-a7e316f46a88)
   )
+
   (wire (pts (xy 196.215 144.78) (xy 205.105 144.78))
     (stroke (width 0) (type default))
     (uuid d535d94d-23e2-4bbe-8c06-7b9ade8e0bc1)

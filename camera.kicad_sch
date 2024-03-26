@@ -79,7 +79,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_470n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -146,7 +145,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0603:C_10u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -213,7 +211,6 @@
         )
       )
     )
-
     (symbol "antmicroFCCConnectors:Conn_FFC_WE_68715014522_CUSTOM_TWO-SIDES" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 19.05 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -663,7 +660,6 @@
         )
       )
     )
-
     (symbol "antmicroLogicSignalSwitchesMultiplexersDecoders:PI4MSD5V9540B_MSOP" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 35.56 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -689,7 +685,10 @@
       (property "License" "Apache-2.0" (at 35.56 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_description" "2 Channel I2C Bus Multiplexer" (at 0 0 0)
+      (property "ki_keywords" "SMT, MUX, IC, I2C" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Multiplexer, 2 Channels, 1:2, 1.65 V to 5.5 V, MSOP-8" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PI4MSD5V9540B_MSOP_1_1"
@@ -731,7 +730,6 @@
         )
       )
     )
-
     (symbol "antmicroPMICVoltageRegulatorsLinear:AP7340-18FS4-7" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 30.48 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -757,7 +755,10 @@
       (property "License" "Apache-2.0" (at 30.48 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_description" "LDO Voltage Regulators 150mA HIGH PSRR LDO 75dB 1.7 to 5.25V" (at 0 0 0)
+      (property "ki_keywords" "SMT, PMIC, IC, VOLTAGE, LDO" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Linear voltage regulator" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "AP7340-18FS4-7_1_1"
@@ -787,7 +788,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_1k5_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -839,7 +839,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_2k2_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -891,7 +890,6 @@
         )
       )
     )
-
     (symbol "antmicroTestPoints:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -931,7 +929,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1343,6 +1340,7 @@
     (stroke (width 0) (type default))
     (uuid 70062206-3ec6-4fb8-a662-a2a625ca5ae2)
   )
+
   (wire (pts (xy 148.463 149.86) (xy 149.733 149.86))
     (stroke (width 0) (type default))
     (uuid 706eb719-c7bd-4009-8a2b-1078dc7f6012)
@@ -1459,6 +1457,7 @@
     (stroke (width 0) (type default))
     (uuid 9ca9b187-1c10-44fd-8ddf-eb2baaad9858)
   )
+
   (wire (pts (xy 157.988 100.965) (xy 156.083 100.965))
     (stroke (width 0) (type default))
     (uuid 9d7fe387-fae8-4551-86eb-4732890b298c)
@@ -1479,6 +1478,7 @@
     (stroke (width 0) (type default))
     (uuid a2a92c7a-58e6-411e-8162-308fc6394126)
   )
+
   (wire (pts (xy 273.05 114.935) (xy 269.24 114.935))
     (stroke (width 0) (type default))
     (uuid a2be8e03-5706-4523-a42a-f5af9538ba11)
@@ -1503,6 +1503,7 @@
     (stroke (width 0) (type default))
     (uuid a87e7c56-50cc-4105-914c-3c33442441e4)
   )
+
   (wire (pts (xy 139.573 121.92) (xy 142.113 121.92))
     (stroke (width 0) (type default))
     (uuid aad6118f-1790-48a4-a57d-5af606d7dfd4)
@@ -1523,6 +1524,7 @@
     (stroke (width 0) (type default))
     (uuid b36fb634-4365-422c-83cc-a76aed146e2e)
   )
+
   (wire (pts (xy 142.113 127) (xy 157.988 127))
     (stroke (width 0) (type default))
     (uuid b435e4f4-dd43-4ad9-993f-0ac271d9961f)
@@ -1575,6 +1577,7 @@
     (stroke (width 0) (type default))
     (uuid cad98ebc-dcfb-4680-a3a4-216f5c52cd9a)
   )
+
   (wire (pts (xy 157.988 125.095) (xy 157.988 127))
     (stroke (width 0) (type default))
     (uuid cc8d0548-f48f-40b0-8a73-a198f46b5145)
@@ -3989,7 +3992,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_FFC_WE_68715014522_CUSTOM_TWO-SIDES" (at 281.94 146.05 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
     )
     (property "Footprint" "antmicro-footprints:Conn_FFC_WE_68715014x22_ALT" (at 292.1 86.995 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -3997,7 +4000,7 @@
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/68715014522.pdf" (at 292.1 89.535 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "68715014522" (at 292.1 92.075 0)
+    (property "MPN" "68715014522" (at 281.94 146.05 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Würth Elektronik" (at 292.1 94.615 0)
@@ -4262,13 +4265,13 @@
   )
 
   (symbol (lib_id "antmicroPMICVoltageRegulatorsLinear:AP7340-18FS4-7") (at 149.733 144.78 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-000062a4ce27)
     (property "Reference" "U11" (at 157.353 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP7340-18FS4-7" (at 157.353 138.43 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
     )
     (property "Footprint" "antmicro-footprints:XDFN4" (at 138.303 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -4281,9 +4284,6 @@
     )
     (property "Manufacturer" "Diodes Incorporated" (at 148.463 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "DNP" "DNP" (at 157.353 140.97 0)
-      (effects (font (size 1.27 1.27)))
     )
     (property "Author" "Antmicro" (at 178.943 162.56 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -4909,7 +4909,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PI4MSD5V9540B_MSOP" (at 129.413 109.22 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) hide)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
     )
     (property "Footprint" "antmicro-footprints:MSOP-8-1EP_3x3x1.1mm_P0.65mm" (at 115.443 102.87 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -4921,7 +4921,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "PI4MSD5V9540BUEX" (at 129.413 109.22 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Author" "Antmicro" (at 154.813 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)

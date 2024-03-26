@@ -79,7 +79,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0603:C_10u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -146,7 +145,6 @@
         )
       )
     )
-
     (symbol "antmicroMechanicalParts:Spacer_Drill3mm_H1.5mm_9774015243R" (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 22.86 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -187,9 +185,8 @@
         )
       )
     )
-
     (symbol "antmicroPciConnectors:Bus_M.2_2199119-6" (in_bom yes) (on_board yes)
-      (property "Reference" "A" (at 48.26 -2.54 0)
+      (property "Reference" "J" (at 48.26 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "Bus_M.2_2199119-6" (at 48.26 -5.08 0)
@@ -204,7 +201,7 @@
       (property "MPN" "2199119-6" (at 48.26 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Manufacturer" "TE Connectivity " (at 48.26 -15.24 0)
+      (property "Manufacturer" "TE Connectivity" (at 48.26 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Author" "Antmicro" (at 48.26 -17.78 0)
@@ -213,7 +210,10 @@
       (property "License" "Apache-2.0" (at 48.26 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_description" "PCI Express/PCI Connectors .5PITCH 3.2H KEY E EMBOSS NGFF MINICARD" (at 0 0 0)
+      (property "ki_keywords" "HORIZONTAL, SMT, PCIE, CONNECTOR" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Key E, PCI connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Bus_M.2_2199119-6_1_1"
@@ -495,7 +495,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -550,7 +549,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -602,7 +600,6 @@
         )
       )
     )
-
     (symbol "antmicroTestPoints:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -642,7 +639,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3812,7 +3808,7 @@
   (symbol (lib_id "antmicroPciConnectors:Bus_M.2_2199119-6") (at 180.975 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9207b16c-82c8-4a49-a131-a90c65ad6ee4)
-    (property "Reference" "P1" (at 198.12 97.155 0)
+    (property "Reference" "J12" (at 198.12 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Bus_M.2_2199119-6" (at 229.235 110.49 0)
@@ -3824,10 +3820,10 @@
     (property "Datasheet" "https://www.te.com/usa-en/product-1-2199119-6.datasheet.pdf" (at 229.235 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "2199119-6" (at 198.12 99.695 0)
+    (property "MPN" "2199119-6" (at 198.12 100.33 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Manufacturer" "TE Connectivity " (at 229.235 120.65 0)
+    (property "Manufacturer" "TE Connectivity" (at 229.235 120.65 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Author" "Antmicro" (at 229.235 123.19 0)
@@ -3907,7 +3903,7 @@
     (instances
       (project "kria-k26-devboard"
         (path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-          (reference "P1") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )

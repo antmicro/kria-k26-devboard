@@ -11,7 +11,10 @@
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
-  (lib_symbols)
+
+  (lib_symbols
+  )
+
 
   (wire (pts (xy 87.63 69.85) (xy 91.44 69.85))
     (stroke (width 0) (type default))
@@ -21,6 +24,7 @@
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid 1824202e-67ad-48e6-80a7-20c6082d4226)
   )
+
   (wire (pts (xy 91.44 77.47) (xy 87.63 77.47))
     (stroke (width 0) (type default))
     (uuid 1866a3b3-6a78-4a1e-8e3a-063a156a5aa5)
@@ -33,6 +37,7 @@
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid 32436cb5-29fc-4e26-8657-9ac83b94f8b5)
   )
+
   (wire (pts (xy 125.73 68.58) (xy 125.73 88.9))
     (stroke (width 0) (type default))
     (uuid 3870e816-f2f3-4d48-8cb6-5efee31269ab)
@@ -45,6 +50,7 @@
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid 5d17741a-dc72-4736-833c-ffe25528fe09)
   )
+
   (wire (pts (xy 125.73 116.84) (xy 119.38 116.84))
     (stroke (width 0) (type default))
     (uuid 5e36392d-a9a8-42cb-b91e-ebe2610b504a)
@@ -53,6 +59,7 @@
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid 6136f111-49cf-4d5b-b770-1b8fc4d9af69)
   )
+
   (wire (pts (xy 87.63 72.39) (xy 91.44 72.39))
     (stroke (width 0) (type default))
     (uuid 63bb713e-0018-41fa-a1a9-3af3ed98de44)
@@ -61,10 +68,12 @@
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid 6f8cc00a-2c53-49ac-92ec-836e267f4fb3)
   )
+
   (bus (pts (xy 87.63 80.01) (xy 91.44 80.01))
     (stroke (width 0) (type default))
     (uuid 6faaf8f6-7e61-4769-8deb-15464af18f9e)
   )
+
   (polyline (pts (xy 151.13 87.63) (xy 153.67 88.9))
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid 82509f6f-6e4e-4239-bf0d-b4aee8bf68fa)
@@ -89,6 +98,7 @@
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid b6a61a2b-a6fb-45fd-a4d2-e76d184c682b)
   )
+
   (wire (pts (xy 125.73 88.9) (xy 137.16 88.9))
     (stroke (width 0) (type default))
     (uuid b8620c8c-036d-49ff-861d-53bd79910782)
@@ -105,6 +115,7 @@
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid bdef004b-736b-4b7b-a73b-eb968415d4d9)
   )
+
   (wire (pts (xy 125.73 99.06) (xy 125.73 116.84))
     (stroke (width 0) (type default))
     (uuid c031cf0e-ff03-4a4a-ae45-dbf1d9eaf217)
@@ -125,6 +136,7 @@
     (stroke (width 0) (type solid) (color 132 132 132 1))
     (uuid d55d8ed6-4116-487a-b315-e6d1da99da79)
   )
+
   (wire (pts (xy 173.99 93.98) (xy 200.66 93.98))
     (stroke (width 0) (type default))
     (uuid dbeb867c-50bc-456d-9a9a-6de24039582e)
@@ -141,6 +153,7 @@
     (stroke (width 0) (type default))
     (uuid e566d800-eaea-4779-86fb-34fd0d37b02a)
   )
+
   (wire (pts (xy 196.85 102.87) (xy 200.66 102.87))
     (stroke (width 0) (type default))
     (uuid e8adf06a-7243-4a70-b631-fb724deecc17)

@@ -79,7 +79,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_100p_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -146,7 +145,6 @@
         )
       )
     )
-
     (symbol "antmicroLogicTranslatorsLevelShifters:PCA9306D_SOIC" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 33.02 -3.81 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -172,10 +170,10 @@
       (property "License" "Apache-2.0" (at 33.02 -21.59 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_keywords" "Dual bidirectional I2C-bus and SMBus voltage-level translator" (at 0 0 0)
+      (property "ki_keywords" "SMT, LEVEL-SHIFTER, IC" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Dual bidirectional I2C-bus and SMBus voltage-level translator" (at 0 0 0)
+      (property "ki_description" "Specialized Interface, I2C, SMBus, I2C Bus & SMBus Systems Applications, 0 V, 5 V, SOIC, 8 Pins" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PCA9306D_SOIC_1_1"
@@ -217,7 +215,6 @@
         )
       )
     )
-
     (symbol "antmicroMemory:M24C64-F_DFN8" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 38.1 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -243,7 +240,10 @@
       (property "License" "Apache-2.0" (at 38.1 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_description" "EEPROM 65 Kbit Serial I2C 1.7V to 5.5V EEPROM" (at 0 0 0)
+      (property "ki_keywords" "SMT, MEMORY, IC, STORAGE, I2C" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "EEPROM, 8K x 8bit, Serial I2C (2-Wire), 1 MHz, UFDFPN, 8 Pins" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "UFDFPN8DFN8_2X3_STM UFDFPN8DFN8_2X3_STM-M UFDFPN8DFN8_2X3_STM-L" (at 0 0 0)
@@ -292,7 +292,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -347,7 +346,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_1k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -399,7 +397,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_200k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -451,7 +448,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_2k2_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -503,7 +499,6 @@
         )
       )
     )
-
     (symbol "antmicroTestPoints:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -543,7 +538,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))

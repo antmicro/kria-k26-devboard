@@ -79,7 +79,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_10u_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -146,7 +145,6 @@
         )
       )
     )
-
     (symbol "antmicroDiodesRectifiersSingle:PMEG3010CE_SOD323" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -225,7 +223,6 @@
         )
       )
     )
-
     (symbol "antmicroInterfaceDriversReceiversTransceivers:FIN1019MTC" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 55.88 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -397,7 +394,6 @@
         )
       )
     )
-
     (symbol "antmicroLogicTranslatorsLevelShifters:74AVC4T245_UQFN" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 38.1 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -500,7 +496,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -555,7 +550,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_100k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -607,7 +601,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_1M_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -659,7 +652,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_1k5_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -711,7 +703,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_2k49_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -763,7 +754,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_49R9_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -815,7 +805,6 @@
         )
       )
     )
-
     (symbol "antmicroTVSDiodes:824012823" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 30.48 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1197,7 +1186,6 @@
         )
       )
     )
-
     (symbol "antmicroTVSDiodes:TPD4E05U06QDQARQ1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 24.13 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1460,7 +1448,6 @@
         )
       )
     )
-
     (symbol "antmicroVideoConnectors:DisplayPort_Molex_472720001" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 40.64 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1662,7 +1649,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1828,6 +1814,7 @@
     (stroke (width 0) (type default))
     (uuid 18a47cf4-dc98-44b9-bb94-8000813b5977)
   )
+
   (wire (pts (xy 162.56 208.915) (xy 162.56 207.645))
     (stroke (width 0) (type default))
     (uuid 1a519651-fc54-489c-be78-f9db476c534a)
@@ -1972,6 +1959,7 @@
     (stroke (width 0) (type default))
     (uuid 5d23f1d2-0cb4-4b53-a673-b2d847eeb331)
   )
+
   (wire (pts (xy 208.28 163.195) (xy 208.28 161.925))
     (stroke (width 0) (type default))
     (uuid 5d5f5fbb-f691-4cea-91e4-d8374f640a67)
@@ -2280,6 +2268,7 @@
     (stroke (width 0) (type default))
     (uuid dfefae78-cab2-4adf-9f78-3531431ffe47)
   )
+
   (wire (pts (xy 208.28 122.555) (xy 206.375 122.555))
     (stroke (width 0) (type default))
     (uuid e039a3a1-7ce0-4339-a5f3-c99bd371ea0e)
@@ -2304,6 +2293,7 @@
     (stroke (width 0) (type default))
     (uuid e3d67b53-fa2e-4027-841a-46e67fb14f8e)
   )
+
   (wire (pts (xy 247.65 91.44) (xy 247.65 93.345))
     (stroke (width 0) (type default))
     (uuid e70a3a35-0507-4974-8283-64ff92160038)
