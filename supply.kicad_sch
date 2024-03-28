@@ -171,7 +171,7 @@
     (uuid fa1ac820-0ba4-4f13-84cb-d3d717ff4a65)
   )
 
-  (image (at 35.715 188.175) (scale 0.4)
+  (image (at 35.715 277.075) (scale 0.4)
     (uuid 2fa52846-6dab-4f36-b4f7-19e8b3acf685)
     (data
       iVBORw0KGgoAAAANSUhEUgAABPUAAAGUCAIAAADS1YD7AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
@@ -437,7 +437,7 @@
       AElFTkSuQmCC
     )
   )
-  (image (at 66.83 187.54) (scale 0.15)
+  (image (at 66.83 276.44) (scale 0.15)
     (uuid ff662a58-9a93-49a9-ad6b-7d81ee91eae3)
     (data
       iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAIAAABkQySYAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
