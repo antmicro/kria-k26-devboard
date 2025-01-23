@@ -1,18 +1,24 @@
-Name;Type;Material;Thickness[mm];Constant
-F.Mask;Top Solder Mask;;0.01;
-F.Cu;copper;;0.035;
-dielectric 1;prepreg;PR2116;0.12;4.3
-In1.Cu;copper;;0.018;
-dielectric 2;core;IS400;0.2;3.9
-In2.Cu;copper;;0.018;
-dielectric 3;prepreg;PR2116;0.12;4.3
-In3.Cu;copper;;0.018;
-dielectric 4;core;IS400;0.2;3.9
-In4.Cu;copper;;0.018;
-dielectric 5;prepreg;PR2116;0.12;4.3
-In5.Cu;copper;;0.018;
-dielectric 6;core;IS400;0.2;3.9
-In6.Cu;copper;;0.018;
-dielectric 7;prepreg;PR2116;0.12;4.3
-B.Cu;copper;;0.035;
-B.Mask;Bottom Solder Mask;;0.01;
+Name;Type;Material;Thickness[mm];Constant;User-Name
+F.SilkS;Top Silk Screen;;;;F_Silkscreen
+F.Paste;Top Solder Paste;;;;F_Paste
+F.Mask;Top Solder Mask;;0.01;;F_Mask
+F.Cu;copper;;0.035;;F_Cu
+dielectric 1;prepreg;PR2116;0.12;4.3;dielectric 1
+In1.Cu;copper;;0.018;;In1_Cu
+dielectric 2;core;IS400;0.2;3.9;dielectric 2
+In2.Cu;copper;;0.018;;In2_Cu
+dielectric 3 (1/2);prepreg;PR2116;0.12;4.3;dielectric 3 (1/2)
+dielectric 3 (2/2);prepreg;PR2116;0.12;4.3;dielectric 3 (2/2)
+In3.Cu;copper;;0.018;;In3_Cu
+dielectric 4;core;IS400;0.2;3.9;dielectric 4
+In4.Cu;copper;;0.018;;In4_Cu
+dielectric 5 (1/2);prepreg;PR2116;0.12;4.3;dielectric 5 (1/2)
+dielectric 5 (2/2);prepreg;PR2116;0.12;4.3;dielectric 5 (2/2)
+In5.Cu;copper;;0.018;;In5_Cu
+dielectric 6;core;IS400;0.2;3.9;dielectric 6
+In6.Cu;copper;;0.018;;In6_Cu
+dielectric 7;prepreg;PR2116;0.12;4.3;dielectric 7
+B.Cu;copper;;0.035;;B_Cu
+B.Mask;Bottom Solder Mask;;0.01;;B_Mask
+B.Paste;Bottom Solder Paste;;;;B_Paste
+B.SilkS;Bottom Silk Screen;;;;B_Silkscreen

@@ -42,8 +42,9 @@
         "te-connectivity-5-2337992-8",
         "molex-22-23-2021",
         "jst-bm08b-srss-tb-lf-sn",
+        "molex-878311420",
         "gct-usb4105-gf-a",
-        "molex-0878311420",
+        "gct-usb4105-gf-a",
         "multicomp-mj-179ph",
         "samtec-adm6-60-01-5-l-4-2-a-tr",
         "coilcraft-xel4030-332mec",
@@ -52,7 +53,7 @@
         "bourns-srp2010-1r0m",
         "xilinx-sm-k26-xcl2gc",
         "te-connectivity-2199119-6",
-        "cui-pdqe30-q48-s12-d",
+        "traco-power-thn-30-4812wi",
         "on-semiconductor-bss123",
         "alpha-omega-semiconductor-inc-ao3401a",
         "rohm-semiconductor-dtc014tebtl",
@@ -75,10 +76,10 @@
         "vishay-crcw040212k0fkedhp",
         "vishay-crcw040249k9fked",
         "walsin-wr04x5111ftl",
-        "vishay-mcs04020c4701fe000",
         "vishay-dale-crcw04028k06fkedc",
         "yageo-ac0402fr-075k76l",
         "yageo-ac0402fr-0711kl",
+        "vishay-mcs04020c4701fe000",
         "vishay-crcw0402470rfked",
         "bourns-cr0603-fx-1502elf",
         "vishay-crcw04022k00fked",
@@ -97,13 +98,13 @@
         "rohm-semiconductor-pmr03ezpj000",
         "royal-ohm-0402wgf4302tce",
         "c-k-components-kmr211nglfs",
-        "samtec-jsom-0515-01",
+        "wurth-elektronik-9774050960r",
         "wurth-elektronik-9774015243r",
         "texas-instruments-74avc4t245rsvrg4",
         "on-semiconductor-fin1019mtcx",
         "texas-instruments-tpd4e05u06qdqarq1",
         "wurth-elektronik-824012823",
-        "nxp",
+        "nxp-nvt4858hkz",
         "texas-instruments-tps2116drlr",
         "on-semiconductor-nb3l202kmntxg",
         "texas-instruments-sn65lvds1dr",
@@ -121,7 +122,7 @@
         "texas-instruments-sn74avc2t245rswr",
         "texas-instruments-sn74lvc1g125dbvr",
         "on-semiconductor-74lcx07bqx",
-        "on-semiconductor-ncp730bmt330tbg",
+        "onsemi-ncp730bmt330tbg",
         "microchip-technology-93lc66bt-i-mc",
         "ftdi-chip-ft4232hpq-tray",
         "on-semiconductor-nc7wz07p6x",
@@ -129,7 +130,7 @@
         "richtek-rt6236ahgquf",
         "diodes-incorporated-ap62301wu-7",
         "analog-devices-ltc4358cde-pbf",
-        "diodes-incorporated-nx3241e0100-000000",
+        "nx3241e0100-000000-diodes-incorporated",
         "ecs-ecs-2520mvlc-260-cm-tr",
         "abracon-ax3daf1-125-0000",
         "ecs-ecs-2016mv-250-cn-tr3",
@@ -137,7 +138,35 @@
         "abracon-abm8g-12-000mhz-18-d2y-t"
     ],
     "stackup": {
-        "layers": null
+        "layers": [
+            {
+                "fileName": "layer0.webp"
+            },
+            {
+                "fileName": "layer1.webp"
+            },
+            {
+                "fileName": "layer2.webp"
+            },
+            {
+                "fileName": "layer3.webp"
+            },
+            {
+                "fileName": "layer4.webp"
+            },
+            {
+                "fileName": "layer5.webp"
+            },
+            {
+                "fileName": "layer6.webp"
+            },
+            {
+                "fileName": "layer7.webp"
+            },
+            {
+                "fileName": "layer8.webp"
+            }
+        ]
     },
     "previews": [
         {
